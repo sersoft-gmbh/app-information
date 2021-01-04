@@ -6,7 +6,7 @@ import SwiftUI
 /// - SeeAlso: `AppIconView`
 @available(macOS 11.0, iOS 13.0, tvOS 13.0, watchOS 6.0, *)
 public struct ApplicationInfoView: View {
-    @Environment(\.applicationInfo)
+    @Environment(\.appInfo)
     private var appInfo
 
     private var iconHeight: CGFloat { 100 }
@@ -49,7 +49,7 @@ fileprivate extension Font {
 struct ApplicationInfoView_Previews: PreviewProvider {
     static var previews: some View {
         ApplicationInfoView()
-            .environment(\.applicationInfo,
+            .environment(\.appInfo,
                          .init(identifier: "de.sersoft.testapp",
                                names: .init(unlocalized: (base: "TestApp",
                                                           display: "Test App"),

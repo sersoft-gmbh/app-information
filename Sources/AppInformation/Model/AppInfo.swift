@@ -2,7 +2,7 @@ import class Foundation.Bundle
 import class Foundation.ProcessInfo
 
 /// Contains the information for an application (e.g. naming and versioning).
-public struct ApplicationInfo: Equatable, Identifiable {
+public struct AppInfo: Equatable, Identifiable {
     /// The naming information.
     public struct Naming: Equatable {
         /// The unlocalized set of names.
@@ -51,15 +51,20 @@ public struct ApplicationInfo: Equatable, Identifiable {
     /// The copyright information.
     public var copyright: String?
 
+    /// The appleID of the application.
+    public var appleID: AppleID?
+
     /// See `Identifiable.id`.
     @inlinable
     public var id: String { identifier }
 }
 
-extension ApplicationInfo {
+extension AppInfo {
     /// Creates a new information reading the infos from the given bundle.
     /// - Parameter bundle: The bundle to read the information from.
-    public init(bundle: Bundle) {
+    /// - Parameter appleID: The appleID to use. Defaults to `nil`, in which case it is attempted to read it
+    ///                      from the `AppInformationAppleID` key in the bundle's info dictionary.
+    public init(bundle: Bundle, appleID: AppleID? = nil) {
         let infoDict = bundle.infoDictionary ?? [:]
         identifier = bundle.bundleIdentifier ?? String(ProcessInfo.processInfo.processIdentifier)
         names = Naming(infoDict: infoDict, localizedInfoDict: bundle.localizedInfoDictionary)
@@ -69,10 +74,12 @@ extension ApplicationInfo {
             infoDict?["NSHumanReadableCopyright"] as? String
         }
         copyright = readCopyright(from: bundle.localizedInfoDictionary) ?? readCopyright(from: infoDict)
+
+        self.appleID = appleID ?? (infoDict["AppInformationAppleID"] as? String).map { AppleID(rawValue: $0) }
     }
 }
 
-extension ApplicationInfo.Naming {
+extension AppInfo.Naming {
     private static func readBaseName(from infoDict: Dictionary<String, Any>) -> String? {
         infoDict["CFBundleName"] as? String
     }
@@ -97,27 +104,28 @@ extension ApplicationInfo.Naming {
     }
 }
 
-extension ApplicationInfo.Versioning {
+extension AppInfo.Versioning {
     init(infoDict: Dictionary<String, Any>) {
         version = infoDict["CFBundleShortVersionString"] as? String ?? "1.0.0"
         build = infoDict["CFBundleVersion"] as? String ?? "1"
     }
 }
 
-extension ApplicationInfo {
-    public static let current = ApplicationInfo(bundle: .main)
+extension AppInfo {
+    /// The application info of the current application.
+    public static let current = AppInfo(bundle: .main)
 }
 
 #if canImport(SwiftUI) && canImport(Combine)
 import SwiftUI
 
 @available(macOS 10.15, iOS 13.0, tvOS 13.0, watchOS 6.0, *)
-extension ApplicationInfo {
+extension AppInfo {
     @frozen
     @usableFromInline
     enum EnvKey: EnvironmentKey {
         @usableFromInline
-        typealias Value = ApplicationInfo
+        typealias Value = AppInfo
 
         @usableFromInline
         static var defaultValue: Value { .current }
@@ -127,10 +135,12 @@ extension ApplicationInfo {
 @available(macOS 10.15, iOS 13.0, tvOS 13.0, watchOS 6.0, *)
 extension EnvironmentValues {
     /// The environment's application information. Defaults to the current application's information.
+    /// Note that if you want to specify the app's AppleID in code, you can use `View.transformEnvironment`
+    /// to be able to modify the current app info and set the `appleID` property.
     @inlinable
-    public var applicationInfo: ApplicationInfo {
-        get { self[ApplicationInfo.EnvKey.self] }
-        set { self[ApplicationInfo.EnvKey.self] = newValue }
+    public var appInfo: AppInfo {
+        get { self[AppInfo.EnvKey.self] }
+        set { self[AppInfo.EnvKey.self] = newValue }
     }
 }
 #endif
