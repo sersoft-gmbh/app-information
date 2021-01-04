@@ -28,9 +28,17 @@ final class AppInfoTests: XCTestCase {
 
     private var bundlePath: String!
 
+    private func tempDir() -> URL {
+        if #available(iOS 10, tvOS 10, watchOS 3.0, *) {
+            return FileManager.default.temporaryDirectory
+        } else {
+            return URL(fileURLWithPath: NSTemporaryDirectory())
+        }
+    }
+
     override func setUpWithError() throws {
         try super.setUpWithError()
-        bundlePath = FileManager.default.temporaryDirectory
+        bundlePath = tempDir()
             .appendingPathComponent(UUID().uuidString, isDirectory: true)
             .appendingPathExtension("bundle")
             .path
@@ -178,6 +186,9 @@ final class AppInfoTests: XCTestCase {
 
     func testSwiftUIEnvironment() throws {
         #if canImport(SwiftUI) && canImport(Combine)
+        guard #available(macOS 10.15, iOS 13.0, tvOS 13.0, watchOS 6.0, *) else {
+            throw XCTSkip()
+        }
         let info = AppInfo(bundle: FakeBundle(path: bundlePath))
         var env = EnvironmentValues()
         XCTAssertEqual(env.appInfo, .current)
