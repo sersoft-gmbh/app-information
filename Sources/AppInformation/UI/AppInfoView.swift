@@ -1,4 +1,5 @@
-#if canImport(SwiftUI) && canImport(Combine)
+#if arch(arm64) || arch(x86_64)
+#if canImport(Combine) && canImport(SwiftUI)
 import SwiftUI
 
 /// A view that shows an application icon next to the application details (name and version).
@@ -58,4 +59,5 @@ struct ApplicationInfoView_Previews: PreviewProvider {
                          ))
     }
 }
+#endif
 #endif

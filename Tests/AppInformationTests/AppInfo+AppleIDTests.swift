@@ -1,8 +1,5 @@
 import XCTest
 @testable import AppInformation
-#if canImport(SwiftUI) && canImport(Combine)
-import SwiftUI
-#endif
 
 final class AppInfo_AppleIDTests: XCTestCase {
     func testCreation() {

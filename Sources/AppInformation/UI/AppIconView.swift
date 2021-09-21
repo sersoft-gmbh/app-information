@@ -1,4 +1,5 @@
-#if canImport(SwiftUI) && canImport(Combine)
+#if arch(arm64) || arch(x86_64)
+#if canImport(Combine) && canImport(SwiftUI)
 import SwiftUI
 
 /// Describes the mode how the app icon should be displayed.
@@ -126,4 +127,5 @@ struct AppIconView_Previews: PreviewProvider {
         AppIconView()
     }
 }
+#endif
 #endif

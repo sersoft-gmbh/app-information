@@ -116,7 +116,8 @@ extension AppInfo {
     public static let current = AppInfo(bundle: .main)
 }
 
-#if canImport(SwiftUI) && canImport(Combine)
+#if arch(arm64) || arch(x86_64)
+#if canImport(Combine) && canImport(SwiftUI)
 import SwiftUI
 
 @available(macOS 10.15, iOS 13.0, tvOS 13.0, watchOS 6.0, *)
@@ -143,4 +144,5 @@ extension EnvironmentValues {
         set { self[AppInfo.EnvKey.self] = newValue }
     }
 }
+#endif
 #endif
