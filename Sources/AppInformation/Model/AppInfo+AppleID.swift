@@ -23,7 +23,7 @@ extension AppInfo {
 
         /// The review url for this AppleID.
         public var reviewURL: URL {
-            var comps = URLComponents(url: appStoreURL, resolvingAgainstBaseURL: true)!
+            var comps = URLComponents(url: appStoreURL, resolvingAgainstBaseURL: false)!
             comps.queryItems = (comps.queryItems ?? [])
                 + CollectionOfOne(URLQueryItem(name: "action", value: "write-review"))
             return comps.url!
