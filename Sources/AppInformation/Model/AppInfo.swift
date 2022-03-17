@@ -146,3 +146,9 @@ extension EnvironmentValues {
 }
 #endif
 #endif
+
+#if compiler(>=5.5.2) && canImport(_Concurrency)
+extension AppInfo: Sendable {}
+extension AppInfo.Naming: Sendable {}
+extension AppInfo.Versioning: Sendable {}
+#endif

@@ -43,3 +43,7 @@ extension AppInfo {
         }
     }
 }
+
+#if compiler(>=5.5.2) && canImport(_Concurrency)
+extension AppInfo.AppleID: Sendable {}
+#endif
