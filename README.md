@@ -4,7 +4,7 @@
 ![Tests](https://github.com/sersoft-gmbh/app-information/workflows/Tests/badge.svg)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/020ff9462b534d5fb12c128c7f547ebd)](https://www.codacy.com/gh/sersoft-gmbh/app-information/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=sersoft-gmbh/app-information&amp;utm_campaign=Badge_Grade)
 [![codecov](https://codecov.io/gh/sersoft-gmbh/app-information/branch/main/graph/badge.svg?token=YG42CV07HM)](https://codecov.io/gh/sersoft-gmbh/app-information)
-[![jazzy](https://raw.githubusercontent.com/sersoft-gmbh/app-information/gh-pages/badge.svg?sanitize=true)](https://sersoft-gmbh.github.io/app-information)
+[![Docs](https://img.shields.io/badge/-documentation-informational)](https://sersoft-gmbh.github.io/app-information)
 
 A simple package for storing as well as showing app infos.
 

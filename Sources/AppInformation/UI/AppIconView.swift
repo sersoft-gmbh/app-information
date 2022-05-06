@@ -42,7 +42,7 @@ extension AppIconMode {
 
 @available(macOS 11.0, iOS 13.0, tvOS 13.0, watchOS 6.0, *)
 extension EnvironmentValues {
-    /// The app icon mode. Defaults to `.template`.
+    /// The app icon mode. Defaults to ``AppIconMode/template``.
     @inlinable
     public var appIconMode: AppIconMode {
         get { self[AppIconMode.EnvKey.self] }
@@ -50,7 +50,7 @@ extension EnvironmentValues {
     }
 }
 
-/// A simple view showing the app icon using the `AppIconMode` of the environment.
+/// A simple view showing the app icon using the ``AppIconMode`` of the environment.
 @available(macOS 11.0, iOS 13.0, tvOS 13.0, watchOS 6.0, *)
 public struct AppIconView: View {
     @Environment(\.appIconMode)

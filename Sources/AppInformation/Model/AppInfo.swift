@@ -10,7 +10,7 @@ public struct AppInfo: Equatable, Identifiable {
         /// The localized set of names.
         public var localized: (base: String?, display: String?)
 
-        /// Returns the effective set of names, combining values from `unlocalized` and `localized`.
+        /// Returns the effective set of names, combining values from ``unlocalized`` and ``localized``.
         public var effective: (base: String, display: String?) {
             (base: localized.base ?? unlocalized.base,
              display: localized.display ?? unlocalized.display)
@@ -137,7 +137,7 @@ extension AppInfo {
 extension EnvironmentValues {
     /// The environment's application information. Defaults to the current application's information.
     /// Note that if you want to specify the app's AppleID in code, you can use `View.transformEnvironment`
-    /// to be able to modify the current app info and set the `appleID` property.
+    /// to be able to modify the current app info and for example set the ``AppInfo/appleID`` property.
     @inlinable
     public var appInfo: AppInfo {
         get { self[AppInfo.EnvKey.self] }

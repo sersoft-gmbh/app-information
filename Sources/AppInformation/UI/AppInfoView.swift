@@ -4,7 +4,7 @@ import SwiftUI
 
 /// A view that shows an application icon next to the application details (name and version).
 /// The application info is read from the environment.
-/// - SeeAlso: `AppIconView`
+/// - SeeAlso: ``AppIconView``
 @available(macOS 11.0, iOS 13.0, tvOS 13.0, watchOS 6.0, *)
 public struct ApplicationInfoView: View {
     @Environment(\.appInfo)
