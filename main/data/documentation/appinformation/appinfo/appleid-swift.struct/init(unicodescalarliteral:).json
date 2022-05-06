@@ -1,0 +1,349 @@
+{
+  "abstract" : [
+    {
+      "text" : "No overview available.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/AppInformation\/documentation\/AppInformation",
+        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo",
+        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/AppleID-swift.struct",
+        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/AppleID-swift.struct\/ExpressibleByUnicodeScalarLiteral-Implementations"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/AppleID-swift.struct\/init(unicodeScalarLiteral:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "conformance" : {
+      "availabilityPrefix" : [
+        {
+          "text" : "Available when",
+          "type" : "text"
+        }
+      ],
+      "conformancePrefix" : [
+        {
+          "text" : "Conforms when",
+          "type" : "text"
+        }
+      ],
+      "constraints" : [
+        {
+          "code" : "ExtendedGraphemeClusterLiteralType",
+          "type" : "codeVoice"
+        },
+        {
+          "text" : " is ",
+          "type" : "text"
+        },
+        {
+          "code" : "Self.UnicodeScalarLiteralType",
+          "type" : "codeVoice"
+        },
+        {
+          "text" : ".",
+          "type" : "text"
+        }
+      ]
+    },
+    "extendedModule" : "Swift",
+    "externalID" : "s:s43ExpressibleByExtendedGraphemeClusterLiteralPs013UnicodeScalarF4TypeQz0cdefI0RtzrlE07unicodehF0xAF_tcfc::SYNTHESIZED::s:14AppInformation0A4InfoV7AppleIDV",
+    "fragments" : [
+      {
+        "kind" : "identifier",
+        "text" : "init"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "unicodeScalarLiteral"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "text" : "Self"
+      },
+      {
+        "kind" : "text",
+        "text" : "."
+      },
+      {
+        "kind" : "typeIdentifier",
+        "text" : "ExtendedGraphemeClusterLiteralType"
+      },
+      {
+        "kind" : "text",
+        "text" : ")"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "AppInformation"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Initializer",
+    "symbolKind" : "init",
+    "title" : "init(unicodeScalarLiteral:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "init"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "unicodeScalarLiteral"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "internalParam",
+              "text" : "value"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "text" : "Self"
+            },
+            {
+              "kind" : "text",
+              "text" : "."
+            },
+            {
+              "kind" : "typeIdentifier",
+              "text" : "ExtendedGraphemeClusterLiteralType"
+            },
+            {
+              "kind" : "text",
+              "text" : ")"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/appinformation\/appinfo\/appleid-swift.struct\/init(unicodescalarliteral:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://AppInformation/documentation/AppInformation": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "AppInformation",
+  "type" : "topic",
+  "url" : "\/documentation\/appinformation"
+},
+"doc://AppInformation/documentation/AppInformation/AppInfo": {
+  "abstract" : [
+    {
+      "text" : "Contains the information for an application (e.g. naming and versioning).",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "AppInfo"
+    }
+  ],
+  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "AppInfo"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "AppInfo",
+  "type" : "topic",
+  "url" : "\/documentation\/appinformation\/appinfo"
+},
+"doc://AppInformation/documentation/AppInformation/AppInfo/AppleID-swift.struct": {
+  "abstract" : [
+    {
+      "text" : "Represents an AppleID of an application (usually a numerical value).",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "AppleID"
+    }
+  ],
+  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/AppleID-swift.struct",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "AppleID"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "AppInfo.AppleID",
+  "type" : "topic",
+  "url" : "\/documentation\/appinformation\/appinfo\/appleid-swift.struct"
+},
+"doc://AppInformation/documentation/AppInformation/AppInfo/AppleID-swift.struct/ExpressibleByUnicodeScalarLiteral-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/AppleID-swift.struct\/ExpressibleByUnicodeScalarLiteral-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "ExpressibleByUnicodeScalarLiteral Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/appinformation\/appinfo\/appleid-swift.struct\/expressiblebyunicodescalarliteral-implementations"
+},
+"doc://AppInformation/documentation/AppInformation/AppInfo/AppleID-swift.struct/init(unicodeScalarLiteral:)": {
+  "abstract" : [
+
+  ],
+  "conformance" : {
+    "availabilityPrefix" : [
+      {
+        "text" : "Available when",
+        "type" : "text"
+      }
+    ],
+    "conformancePrefix" : [
+      {
+        "text" : "Conforms when",
+        "type" : "text"
+      }
+    ],
+    "constraints" : [
+      {
+        "code" : "ExtendedGraphemeClusterLiteralType",
+        "type" : "codeVoice"
+      },
+      {
+        "text" : " is ",
+        "type" : "text"
+      },
+      {
+        "code" : "Self.UnicodeScalarLiteralType",
+        "type" : "codeVoice"
+      },
+      {
+        "text" : ".",
+        "type" : "text"
+      }
+    ]
+  },
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "unicodeScalarLiteral"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Self"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "ExtendedGraphemeClusterLiteralType"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/AppleID-swift.struct\/init(unicodeScalarLiteral:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(unicodeScalarLiteral:)",
+  "type" : "topic",
+  "url" : "\/documentation\/appinformation\/appinfo\/appleid-swift.struct\/init(unicodescalarliteral:)"
+}
+}
+}

@@ -1,0 +1,677 @@
+{
+  "abstract" : [
+    {
+      "text" : "Represents an AppleID of an application (usually a numerical value).",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/AppInformation\/documentation\/AppInformation",
+        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/AppleID-swift.struct"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "extendedModule" : "AppInformation",
+    "externalID" : "s:14AppInformation0A4InfoV7AppleIDV",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "struct"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "AppleID"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "AppInformation"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "AppleID"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Structure",
+    "symbolKind" : "struct",
+    "title" : "AppInfo.AppleID"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "attribute",
+              "text" : "@frozen"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "struct"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "AppleID"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/AppInformation\/Se",
+        "doc:\/\/AppInformation\/SE",
+        "doc:\/\/AppInformation\/SQ",
+        "doc:\/\/AppInformation\/s43ExpressibleByExtendedGraphemeClusterLiteralP",
+        "doc:\/\/AppInformation\/s26ExpressibleByStringLiteralP",
+        "doc:\/\/AppInformation\/s33ExpressibleByUnicodeScalarLiteralP",
+        "doc:\/\/AppInformation\/SH",
+        "doc:\/\/AppInformation\/SY",
+        "doc:\/\/AppInformation\/s8SendableP"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/AppleID-swift.struct\/init(rawValue:)",
+        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/AppleID-swift.struct\/init(stringLiteral:)"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/AppleID-swift.struct\/appStoreURL",
+        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/AppleID-swift.struct\/rawValue-swift.property",
+        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/AppleID-swift.struct\/reviewURL"
+      ],
+      "title" : "Instance Properties"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/AppleID-swift.struct\/RawValue-swift.typealias",
+        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/AppleID-swift.struct\/StringLiteralType"
+      ],
+      "title" : "Type Aliases"
+    },
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/AppleID-swift.struct\/Equatable-Implementations",
+        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/AppleID-swift.struct\/ExpressibleByExtendedGraphemeClusterLiteral-Implementations",
+        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/AppleID-swift.struct\/ExpressibleByUnicodeScalarLiteral-Implementations",
+        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/AppleID-swift.struct\/RawRepresentable-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/appinformation\/appinfo\/appleid-swift.struct"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://AppInformation/SE": {
+  "identifier" : "doc:\/\/AppInformation\/SE",
+  "title" : "Swift.Encodable",
+  "type" : "unresolvable"
+},
+"doc://AppInformation/SH": {
+  "identifier" : "doc:\/\/AppInformation\/SH",
+  "title" : "Swift.Hashable",
+  "type" : "unresolvable"
+},
+"doc://AppInformation/SQ": {
+  "identifier" : "doc:\/\/AppInformation\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://AppInformation/SY": {
+  "identifier" : "doc:\/\/AppInformation\/SY",
+  "title" : "Swift.RawRepresentable",
+  "type" : "unresolvable"
+},
+"doc://AppInformation/Se": {
+  "identifier" : "doc:\/\/AppInformation\/Se",
+  "title" : "Swift.Decodable",
+  "type" : "unresolvable"
+},
+"doc://AppInformation/documentation/AppInformation": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "AppInformation",
+  "type" : "topic",
+  "url" : "\/documentation\/appinformation"
+},
+"doc://AppInformation/documentation/AppInformation/AppInfo": {
+  "abstract" : [
+    {
+      "text" : "Contains the information for an application (e.g. naming and versioning).",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "AppInfo"
+    }
+  ],
+  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "AppInfo"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "AppInfo",
+  "type" : "topic",
+  "url" : "\/documentation\/appinformation\/appinfo"
+},
+"doc://AppInformation/documentation/AppInformation/AppInfo/AppleID-swift.struct": {
+  "abstract" : [
+    {
+      "text" : "Represents an AppleID of an application (usually a numerical value).",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "AppleID"
+    }
+  ],
+  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/AppleID-swift.struct",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "AppleID"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "AppInfo.AppleID",
+  "type" : "topic",
+  "url" : "\/documentation\/appinformation\/appinfo\/appleid-swift.struct"
+},
+"doc://AppInformation/documentation/AppInformation/AppInfo/AppleID-swift.struct/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/AppleID-swift.struct\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/appinformation\/appinfo\/appleid-swift.struct\/equatable-implementations"
+},
+"doc://AppInformation/documentation/AppInformation/AppInfo/AppleID-swift.struct/ExpressibleByExtendedGraphemeClusterLiteral-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/AppleID-swift.struct\/ExpressibleByExtendedGraphemeClusterLiteral-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "ExpressibleByExtendedGraphemeClusterLiteral Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/appinformation\/appinfo\/appleid-swift.struct\/expressiblebyextendedgraphemeclusterliteral-implementations"
+},
+"doc://AppInformation/documentation/AppInformation/AppInfo/AppleID-swift.struct/ExpressibleByUnicodeScalarLiteral-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/AppleID-swift.struct\/ExpressibleByUnicodeScalarLiteral-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "ExpressibleByUnicodeScalarLiteral Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/appinformation\/appinfo\/appleid-swift.struct\/expressiblebyunicodescalarliteral-implementations"
+},
+"doc://AppInformation/documentation/AppInformation/AppInfo/AppleID-swift.struct/RawRepresentable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/AppleID-swift.struct\/RawRepresentable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "RawRepresentable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/appinformation\/appinfo\/appleid-swift.struct\/rawrepresentable-implementations"
+},
+"doc://AppInformation/documentation/AppInformation/AppInfo/AppleID-swift.struct/RawValue-swift.typealias": {
+  "abstract" : [
+    {
+      "text" : "See ",
+      "type" : "text"
+    },
+    {
+      "code" : "RawRepresentable.RawValue",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "RawValue"
+    }
+  ],
+  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/AppleID-swift.struct\/RawValue-swift.typealias",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "RawValue"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "AppInfo.AppleID.RawValue",
+  "type" : "topic",
+  "url" : "\/documentation\/appinformation\/appinfo\/appleid-swift.struct\/rawvalue-swift.typealias"
+},
+"doc://AppInformation/documentation/AppInformation/AppInfo/AppleID-swift.struct/StringLiteralType": {
+  "abstract" : [
+    {
+      "text" : "See ",
+      "type" : "text"
+    },
+    {
+      "code" : "ExpressibleByStringLiteral.StringLiteralType",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "StringLiteralType"
+    }
+  ],
+  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/AppleID-swift.struct\/StringLiteralType",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "StringLiteralType"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "AppInfo.AppleID.StringLiteralType",
+  "type" : "topic",
+  "url" : "\/documentation\/appinformation\/appinfo\/appleid-swift.struct\/stringliteraltype"
+},
+"doc://AppInformation/documentation/AppInformation/AppInfo/AppleID-swift.struct/appStoreURL": {
+  "abstract" : [
+    {
+      "text" : "The app store url for this AppleID.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "appStoreURL"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation3URLV",
+      "text" : "URL"
+    }
+  ],
+  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/AppleID-swift.struct\/appStoreURL",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "appStoreURL",
+  "type" : "topic",
+  "url" : "\/documentation\/appinformation\/appinfo\/appleid-swift.struct\/appstoreurl"
+},
+"doc://AppInformation/documentation/AppInformation/AppInfo/AppleID-swift.struct/init(rawValue:)": {
+  "abstract" : [
+    {
+      "text" : "See ",
+      "type" : "text"
+    },
+    {
+      "code" : "RawRepresentable.init(rawValue:)",
+      "type" : "codeVoice"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "rawValue"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14AppInformation0A4InfoV",
+      "text" : "AppInfo"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14AppInformation0A4InfoV7AppleIDV",
+      "text" : "AppleID"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14AppInformation0A4InfoV7AppleIDV8RawValuea",
+      "text" : "RawValue"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/AppleID-swift.struct\/init(rawValue:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(rawValue:)",
+  "type" : "topic",
+  "url" : "\/documentation\/appinformation\/appinfo\/appleid-swift.struct\/init(rawvalue:)"
+},
+"doc://AppInformation/documentation/AppInformation/AppInfo/AppleID-swift.struct/init(stringLiteral:)": {
+  "abstract" : [
+    {
+      "text" : "See ",
+      "type" : "text"
+    },
+    {
+      "code" : "ExpressibleByStringLiteral.init(stringLiteral:)",
+      "type" : "codeVoice"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "stringLiteral"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14AppInformation0A4InfoV",
+      "text" : "AppInfo"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14AppInformation0A4InfoV7AppleIDV",
+      "text" : "AppleID"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14AppInformation0A4InfoV7AppleIDV17StringLiteralTypea",
+      "text" : "StringLiteralType"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/AppleID-swift.struct\/init(stringLiteral:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(stringLiteral:)",
+  "type" : "topic",
+  "url" : "\/documentation\/appinformation\/appinfo\/appleid-swift.struct\/init(stringliteral:)"
+},
+"doc://AppInformation/documentation/AppInformation/AppInfo/AppleID-swift.struct/rawValue-swift.property": {
+  "abstract" : [
+    {
+      "text" : "See ",
+      "type" : "text"
+    },
+    {
+      "code" : "RawRepresentable.rawValue",
+      "type" : "codeVoice"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "rawValue"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14AppInformation0A4InfoV",
+      "text" : "AppInfo"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14AppInformation0A4InfoV7AppleIDV",
+      "text" : "AppleID"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14AppInformation0A4InfoV7AppleIDV8RawValuea",
+      "text" : "RawValue"
+    }
+  ],
+  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/AppleID-swift.struct\/rawValue-swift.property",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "rawValue",
+  "type" : "topic",
+  "url" : "\/documentation\/appinformation\/appinfo\/appleid-swift.struct\/rawvalue-swift.property"
+},
+"doc://AppInformation/documentation/AppInformation/AppInfo/AppleID-swift.struct/reviewURL": {
+  "abstract" : [
+    {
+      "text" : "The review url for this AppleID.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "reviewURL"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation3URLV",
+      "text" : "URL"
+    }
+  ],
+  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/AppleID-swift.struct\/reviewURL",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "reviewURL",
+  "type" : "topic",
+  "url" : "\/documentation\/appinformation\/appinfo\/appleid-swift.struct\/reviewurl"
+},
+"doc://AppInformation/s26ExpressibleByStringLiteralP": {
+  "identifier" : "doc:\/\/AppInformation\/s26ExpressibleByStringLiteralP",
+  "title" : "Swift.ExpressibleByStringLiteral",
+  "type" : "unresolvable"
+},
+"doc://AppInformation/s33ExpressibleByUnicodeScalarLiteralP": {
+  "identifier" : "doc:\/\/AppInformation\/s33ExpressibleByUnicodeScalarLiteralP",
+  "title" : "Swift.ExpressibleByUnicodeScalarLiteral",
+  "type" : "unresolvable"
+},
+"doc://AppInformation/s43ExpressibleByExtendedGraphemeClusterLiteralP": {
+  "identifier" : "doc:\/\/AppInformation\/s43ExpressibleByExtendedGraphemeClusterLiteralP",
+  "title" : "Swift.ExpressibleByExtendedGraphemeClusterLiteral",
+  "type" : "unresolvable"
+},
+"doc://AppInformation/s8SendableP": {
+  "identifier" : "doc:\/\/AppInformation\/s8SendableP",
+  "title" : "Swift.Sendable",
+  "type" : "unresolvable"
+}
+}
+}

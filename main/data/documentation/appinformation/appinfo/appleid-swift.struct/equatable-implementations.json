@@ -1,0 +1,204 @@
+{
+  "abstract" : [
+    {
+      "text" : "No overview available.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/AppInformation\/documentation\/AppInformation",
+        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo",
+        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/AppleID-swift.struct"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/AppleID-swift.struct\/Equatable-Implementations"
+  },
+  "kind" : "article",
+  "metadata" : {
+    "modules" : [
+      {
+        "name" : "AppInformation"
+      }
+    ],
+    "role" : "collectionGroup",
+    "title" : "Equatable Implementations"
+  },
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/AppleID-swift.struct\/!=(_:_:)"
+      ],
+      "title" : "Operators"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/appinformation\/appinfo\/appleid-swift.struct\/equatable-implementations"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://AppInformation/documentation/AppInformation": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "AppInformation",
+  "type" : "topic",
+  "url" : "\/documentation\/appinformation"
+},
+"doc://AppInformation/documentation/AppInformation/AppInfo": {
+  "abstract" : [
+    {
+      "text" : "Contains the information for an application (e.g. naming and versioning).",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "AppInfo"
+    }
+  ],
+  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "AppInfo"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "AppInfo",
+  "type" : "topic",
+  "url" : "\/documentation\/appinformation\/appinfo"
+},
+"doc://AppInformation/documentation/AppInformation/AppInfo/AppleID-swift.struct": {
+  "abstract" : [
+    {
+      "text" : "Represents an AppleID of an application (usually a numerical value).",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "AppleID"
+    }
+  ],
+  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/AppleID-swift.struct",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "AppleID"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "AppInfo.AppleID",
+  "type" : "topic",
+  "url" : "\/documentation\/appinformation\/appinfo\/appleid-swift.struct"
+},
+"doc://AppInformation/documentation/AppInformation/AppInfo/AppleID-swift.struct/!=(_:_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "!="
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Self"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Self"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/AppleID-swift.struct\/!=(_:_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "!=(_:_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/appinformation\/appinfo\/appleid-swift.struct\/!=(_:_:)"
+}
+}
+}

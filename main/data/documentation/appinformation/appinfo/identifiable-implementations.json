@@ -1,0 +1,141 @@
+{
+  "abstract" : [
+    {
+      "text" : "No overview available.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/AppInformation\/documentation\/AppInformation",
+        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/Identifiable-Implementations"
+  },
+  "kind" : "article",
+  "metadata" : {
+    "modules" : [
+      {
+        "name" : "AppInformation"
+      }
+    ],
+    "role" : "collectionGroup",
+    "title" : "Identifiable Implementations"
+  },
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/id-5zalr"
+      ],
+      "title" : "Instance Properties"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/appinformation\/appinfo\/identifiable-implementations"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://AppInformation/documentation/AppInformation": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "AppInformation",
+  "type" : "topic",
+  "url" : "\/documentation\/appinformation"
+},
+"doc://AppInformation/documentation/AppInformation/AppInfo": {
+  "abstract" : [
+    {
+      "text" : "Contains the information for an application (e.g. naming and versioning).",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "AppInfo"
+    }
+  ],
+  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "AppInfo"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "AppInfo",
+  "type" : "topic",
+  "url" : "\/documentation\/appinformation\/appinfo"
+},
+"doc://AppInformation/documentation/AppInformation/AppInfo/id-5zalr": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "id"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SO",
+      "text" : "ObjectIdentifier"
+    }
+  ],
+  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/id-5zalr",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "id",
+  "type" : "topic",
+  "url" : "\/documentation\/appinformation\/appinfo\/id-5zalr"
+}
+}
+}

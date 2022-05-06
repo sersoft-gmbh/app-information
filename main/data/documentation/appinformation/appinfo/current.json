@@ -1,0 +1,225 @@
+{
+  "abstract" : [
+    {
+      "text" : "The application info of the current application.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/AppInformation\/documentation\/AppInformation",
+        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/current"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "extendedModule" : "AppInformation",
+    "externalID" : "s:14AppInformation0A4InfoV7currentACvpZ",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "static"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "let"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "current"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:14AppInformation0A4InfoV",
+        "text" : "AppInfo"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "AppInformation"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Type Property",
+    "symbolKind" : "property",
+    "title" : "current"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "static"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "let"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "current"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:14AppInformation0A4InfoV",
+              "text" : "AppInfo"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/appinformation\/appinfo\/current"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://AppInformation/documentation/AppInformation": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "AppInformation",
+  "type" : "topic",
+  "url" : "\/documentation\/appinformation"
+},
+"doc://AppInformation/documentation/AppInformation/AppInfo": {
+  "abstract" : [
+    {
+      "text" : "Contains the information for an application (e.g. naming and versioning).",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "AppInfo"
+    }
+  ],
+  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "AppInfo"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "AppInfo",
+  "type" : "topic",
+  "url" : "\/documentation\/appinformation\/appinfo"
+},
+"doc://AppInformation/documentation/AppInformation/AppInfo/current": {
+  "abstract" : [
+    {
+      "text" : "The application info of the current application.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "current"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14AppInformation0A4InfoV",
+      "text" : "AppInfo"
+    }
+  ],
+  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/current",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "current",
+  "type" : "topic",
+  "url" : "\/documentation\/appinformation\/appinfo\/current"
+}
+}
+}
