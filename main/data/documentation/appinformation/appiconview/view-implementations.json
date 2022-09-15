@@ -1,10 +1,4 @@
 {
-  "abstract" : [
-    {
-      "text" : "No overview available.",
-      "type" : "text"
-    }
-  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -29,7 +23,7 @@
   },
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -246,7 +240,8 @@
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/importsItemProviders(_:onImport:)",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/interactiveDismissDisabled(_:)",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/itemProvider(_:)",
-        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/keyboardShortcut(_:)",
+        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/keyboardShortcut(_:)-3mofi",
+        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/keyboardShortcut(_:)-6o0qu",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/keyboardShortcut(_:modifiers:)",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/keyboardShortcut(_:modifiers:localization:)",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/labelStyle(_:)",
@@ -19584,7 +19579,61 @@
   "type" : "topic",
   "url" : "\/documentation\/appinformation\/appiconview\/itemprovider(_:)"
 },
-"doc://AppInformation/documentation/AppInformation/AppIconView/keyboardShortcut(_:)": {
+"doc://AppInformation/documentation/AppInformation/AppIconView/keyboardShortcut(_:)-3mofi": {
+  "abstract" : [
+    {
+      "text" : "Assigns an optional keyboard shortcut to the modified control.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "keyboardShortcut"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI16KeyboardShortcutV",
+      "text" : "KeyboardShortcut"
+    },
+    {
+      "kind" : "text",
+      "text" : "?) -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/keyboardShortcut(_:)-3mofi",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "keyboardShortcut(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/appinformation\/appiconview\/keyboardshortcut(_:)-3mofi"
+},
+"doc://AppInformation/documentation/AppInformation/AppIconView/keyboardShortcut(_:)-6o0qu": {
   "abstract" : [
     {
       "text" : "Assigns a keyboard shortcut to the modified control.",
@@ -19631,12 +19680,12 @@
       "text" : "View"
     }
   ],
-  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/keyboardShortcut(_:)",
+  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/keyboardShortcut(_:)-6o0qu",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "keyboardShortcut(_:)",
   "type" : "topic",
-  "url" : "\/documentation\/appinformation\/appiconview\/keyboardshortcut(_:)"
+  "url" : "\/documentation\/appinformation\/appiconview\/keyboardshortcut(_:)-6o0qu"
 },
 "doc://AppInformation/documentation/AppInformation/AppIconView/keyboardShortcut(_:modifiers:)": {
   "abstract" : [
@@ -21020,7 +21069,15 @@
 "doc://AppInformation/documentation/AppInformation/AppIconView/monospacedDigit()": {
   "abstract" : [
     {
-      "text" : "Applies monospaced digits to the font for text in this view.",
+      "text" : "Modifies the fonts of all child views to use fixed-width digits, if",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "possible, while leaving other characters proportionally spaced.",
       "type" : "text"
     }
   ],
@@ -25384,7 +25441,7 @@
 "doc://AppInformation/documentation/AppInformation/AppIconView/padding(_:)-3v0ey": {
   "abstract" : [
     {
-      "text" : "Pads the view along all edges by the specified amount.",
+      "text" : "Adds a specific padding amount to each edge of this view.",
       "type" : "text"
     }
   ],
@@ -25438,7 +25495,7 @@
 "doc://AppInformation/documentation/AppInformation/AppIconView/padding(_:)-5cby1": {
   "abstract" : [
     {
-      "text" : "Pads this view using the edges and padding amount you specify.",
+      "text" : "Adds a different padding amount to each edge of this view.",
       "type" : "text"
     }
   ],
@@ -25492,15 +25549,7 @@
 "doc://AppInformation/documentation/AppInformation/AppIconView/padding(_:_:)": {
   "abstract" : [
     {
-      "text" : "A view that pads this view inside the specified edge insets with a",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "system-calculated amount of padding.",
+      "text" : "Adds an equal padding amount to specific edges of this view.",
       "type" : "text"
     }
   ],
@@ -28010,7 +28059,7 @@
 "doc://AppInformation/documentation/AppInformation/AppIconView/scenePadding(_:)": {
   "abstract" : [
     {
-      "text" : "A view that pads this view inside the specified edge insets with a",
+      "text" : "Adds padding to the specified edges of this view using an amount that’s",
       "type" : "text"
     },
     {
@@ -28018,15 +28067,7 @@
       "type" : "text"
     },
     {
-      "text" : "system-calculated amount of padding relative to the application’s",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "scene.",
+      "text" : "appropriate for the current scene.",
       "type" : "text"
     }
   ],
