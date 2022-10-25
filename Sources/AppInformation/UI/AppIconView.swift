@@ -63,7 +63,10 @@ public struct AppIconView: View {
             img
                 .resizable()
                 .aspectRatio(contentMode: .fit)
-        case .composed(let logoImage, let logoColor, let logoPadding, let logoBackgroundColor):
+        case .composed(let logoImage,
+                       let logoColor,
+                       let logoPadding,
+                       let logoBackgroundColor):
             logoImage
                 .resizable()
                 .aspectRatio(contentMode: .fit)

@@ -5,7 +5,7 @@ import struct Foundation.URLQueryItem
 extension AppInfo {
     /// Represents an AppleID of an application (usually a numerical value).
     @frozen
-    public struct AppleID: RawRepresentable, ExpressibleByStringLiteral, Hashable, Codable {
+    public struct AppleID: RawRepresentable, ExpressibleByStringLiteral, Hashable, Codable, Sendable {
         /// See `RawRepresentable.RawValue`.
         public typealias RawValue = String
         /// See `ExpressibleByStringLiteral.StringLiteralType`.
@@ -18,7 +18,12 @@ extension AppInfo {
 
         /// The app store url for this AppleID.
         public var appStoreURL: URL {
-            Self.appStoreBaseURL.appendingPathComponent("id\(rawValue)")
+            let component = "id\(rawValue)"
+            if #available(macOS 13, iOS 16, tvOS 16, watchOS 9, *) {
+                return Self.appStoreBaseURL.appending(component: component)
+            } else {
+                return Self.appStoreBaseURL.appendingPathComponent(component)
+            }
         }
 
         /// The review url for this AppleID.
@@ -43,7 +48,3 @@ extension AppInfo {
         }
     }
 }
-
-#if compiler(>=5.5.2) && canImport(_Concurrency)
-extension AppInfo.AppleID: Sendable {}
-#endif

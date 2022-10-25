@@ -2,9 +2,9 @@ import class Foundation.Bundle
 import class Foundation.ProcessInfo
 
 /// Contains the information for an application (e.g. naming and versioning).
-public struct AppInfo: Equatable, Identifiable {
+public struct AppInfo: Equatable, Identifiable, Sendable {
     /// The naming information.
-    public struct Naming: Equatable {
+    public struct Naming: Equatable, Sendable {
         /// The unlocalized set of names.
         public let unlocalized: (base: String, display: String?)
         /// The localized set of names.
@@ -22,7 +22,9 @@ public struct AppInfo: Equatable, Identifiable {
         /// - localized base name
         /// - unlocalized display name
         /// - unlocalized base name
-        public var effectiveName: String { localized.display ?? localized.base ?? unlocalized.display ?? unlocalized.base }
+        public var effectiveName: String {
+            localized.display ?? localized.base ?? unlocalized.display ?? unlocalized.base
+        }
 
         /// See `Equatable.==`
         public static func ==(lhs: Self, rhs: Self) -> Bool {
@@ -31,7 +33,7 @@ public struct AppInfo: Equatable, Identifiable {
     }
 
     /// The versioning information.
-    public struct Versioning: Equatable {
+    public struct Versioning: Equatable, Sendable {
         /// The version, e.g. 1.0.0.
         public let version: String
         /// The build, e.g. 42.
@@ -136,7 +138,7 @@ extension AppInfo {
 @available(macOS 10.15, iOS 13.0, tvOS 13.0, watchOS 6.0, *)
 extension EnvironmentValues {
     /// The environment's application information. Defaults to the current application's information.
-    /// Note that if you want to specify the app's AppleID in code, you can use `View.transformEnvironment`
+    /// Note that if you want to specify the app's AppleID in code, you can use ``View/transformEnvironment``
     /// to be able to modify the current app info and for example set the ``AppInfo/appleID`` property.
     @inlinable
     public var appInfo: AppInfo {
@@ -145,10 +147,4 @@ extension EnvironmentValues {
     }
 }
 #endif
-#endif
-
-#if compiler(>=5.5.2) && canImport(_Concurrency)
-extension AppInfo: Sendable {}
-extension AppInfo.Naming: Sendable {}
-extension AppInfo.Versioning: Sendable {}
 #endif
