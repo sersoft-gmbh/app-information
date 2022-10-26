@@ -240,18 +240,7 @@
 },
 "doc://AppInformation/documentation/AppInformation/ApplicationInfoView/body": {
   "abstract" : [
-    {
-      "text" : "See ",
-      "type" : "text"
-    },
-    {
-      "code" : "View.body",
-      "type" : "codeVoice"
-    },
-    {
-      "text" : ".",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {
@@ -298,8 +287,9 @@
       "type" : "text"
     },
     {
-      "code" : "ApplicationInfoView",
-      "type" : "codeVoice"
+      "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/ApplicationInfoView",
+      "isActive" : true,
+      "type" : "reference"
     },
     {
       "text" : ".",

@@ -5,8 +5,9 @@
       "type" : "text"
     },
     {
-      "code" : "ApplicationInfoView",
-      "type" : "codeVoice"
+      "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/ApplicationInfoView",
+      "isActive" : true,
+      "type" : "reference"
     },
     {
       "text" : ".",
@@ -185,8 +186,9 @@
       "type" : "text"
     },
     {
-      "code" : "ApplicationInfoView",
-      "type" : "codeVoice"
+      "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/ApplicationInfoView",
+      "isActive" : true,
+      "type" : "reference"
     },
     {
       "text" : ".",

@@ -1,14 +1,4 @@
 {
-  "abstract" : [
-    {
-      "text" : "See ",
-      "type" : "text"
-    },
-    {
-      "code" : "ExpressibleByStringLiteral.init(stringLiteral:)",
-      "type" : "codeVoice"
-    }
-  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -149,25 +139,6 @@
         }
       ],
       "kind" : "declarations"
-    },
-    {
-      "kind" : "parameters",
-      "parameters" : [
-        {
-          "content" : [
-            {
-              "inlineContent" : [
-                {
-                  "text" : "The string literal value.",
-                  "type" : "text"
-                }
-              ],
-              "type" : "paragraph"
-            }
-          ],
-          "name" : "value"
-        }
-      ]
     }
   ],
   "schemaVersion" : {
@@ -273,18 +244,7 @@
 },
 "doc://AppInformation/documentation/AppInformation/AppInfo/AppleID-swift.struct/StringLiteralType": {
   "abstract" : [
-    {
-      "text" : "See ",
-      "type" : "text"
-    },
-    {
-      "code" : "ExpressibleByStringLiteral.StringLiteralType",
-      "type" : "codeVoice"
-    },
-    {
-      "text" : ".",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {
@@ -315,14 +275,7 @@
 },
 "doc://AppInformation/documentation/AppInformation/AppInfo/AppleID-swift.struct/init(stringLiteral:)": {
   "abstract" : [
-    {
-      "text" : "See ",
-      "type" : "text"
-    },
-    {
-      "code" : "ExpressibleByStringLiteral.init(stringLiteral:)",
-      "type" : "codeVoice"
-    }
+
   ],
   "fragments" : [
     {

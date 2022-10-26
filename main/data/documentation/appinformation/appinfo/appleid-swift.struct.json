@@ -312,18 +312,7 @@
 },
 "doc://AppInformation/documentation/AppInformation/AppInfo/AppleID-swift.struct/RawValue-swift.typealias": {
   "abstract" : [
-    {
-      "text" : "See ",
-      "type" : "text"
-    },
-    {
-      "code" : "RawRepresentable.RawValue",
-      "type" : "codeVoice"
-    },
-    {
-      "text" : ".",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {
@@ -354,18 +343,7 @@
 },
 "doc://AppInformation/documentation/AppInformation/AppInfo/AppleID-swift.struct/StringLiteralType": {
   "abstract" : [
-    {
-      "text" : "See ",
-      "type" : "text"
-    },
-    {
-      "code" : "ExpressibleByStringLiteral.StringLiteralType",
-      "type" : "codeVoice"
-    },
-    {
-      "text" : ".",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {
@@ -433,14 +411,7 @@
 },
 "doc://AppInformation/documentation/AppInformation/AppInfo/AppleID-swift.struct/init(rawValue:)": {
   "abstract" : [
-    {
-      "text" : "See ",
-      "type" : "text"
-    },
-    {
-      "code" : "RawRepresentable.init(rawValue:)",
-      "type" : "codeVoice"
-    }
+
   ],
   "fragments" : [
     {
@@ -496,14 +467,7 @@
 },
 "doc://AppInformation/documentation/AppInformation/AppInfo/AppleID-swift.struct/init(stringLiteral:)": {
   "abstract" : [
-    {
-      "text" : "See ",
-      "type" : "text"
-    },
-    {
-      "code" : "ExpressibleByStringLiteral.init(stringLiteral:)",
-      "type" : "codeVoice"
-    }
+
   ],
   "fragments" : [
     {
@@ -559,14 +523,7 @@
 },
 "doc://AppInformation/documentation/AppInformation/AppInfo/AppleID-swift.struct/rawValue-swift.property": {
   "abstract" : [
-    {
-      "text" : "See ",
-      "type" : "text"
-    },
-    {
-      "code" : "RawRepresentable.rawValue",
-      "type" : "codeVoice"
-    }
+
   ],
   "fragments" : [
     {

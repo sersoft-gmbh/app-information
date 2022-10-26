@@ -1,14 +1,4 @@
 {
-  "abstract" : [
-    {
-      "text" : "See ",
-      "type" : "text"
-    },
-    {
-      "code" : "RawRepresentable.rawValue",
-      "type" : "codeVoice"
-    }
-  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -238,18 +228,7 @@
 },
 "doc://AppInformation/documentation/AppInformation/AppInfo/AppleID-swift.struct/RawValue-swift.typealias": {
   "abstract" : [
-    {
-      "text" : "See ",
-      "type" : "text"
-    },
-    {
-      "code" : "RawRepresentable.RawValue",
-      "type" : "codeVoice"
-    },
-    {
-      "text" : ".",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {
@@ -280,14 +259,7 @@
 },
 "doc://AppInformation/documentation/AppInformation/AppInfo/AppleID-swift.struct/rawValue-swift.property": {
   "abstract" : [
-    {
-      "text" : "See ",
-      "type" : "text"
-    },
-    {
-      "code" : "RawRepresentable.rawValue",
-      "type" : "codeVoice"
-    }
+
   ],
   "fragments" : [
     {
