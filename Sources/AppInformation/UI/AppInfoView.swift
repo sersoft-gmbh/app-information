@@ -12,7 +12,6 @@ public struct ApplicationInfoView: View {
 
     private var iconHeight: CGFloat { 100 }
 
-    /// See `View.body`.
     public var body: some View {
         HStack {
             Spacer()
@@ -29,7 +28,7 @@ public struct ApplicationInfoView: View {
         }
     }
 
-    /// Creates a new `ApplicationInfoView`.
+    /// Creates a new ``ApplicationInfoView``.
     public init() {}
 }
 

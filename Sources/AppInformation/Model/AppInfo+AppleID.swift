@@ -1,47 +1,55 @@
 import struct Foundation.URL
-import struct Foundation.URLComponents
 import struct Foundation.URLQueryItem
+import struct Foundation.URLComponents
 
 extension AppInfo {
     /// Represents an AppleID of an application (usually a numerical value).
     @frozen
     public struct AppleID: RawRepresentable, ExpressibleByStringLiteral, Hashable, Codable, Sendable {
-        /// See `RawRepresentable.RawValue`.
         public typealias RawValue = String
-        /// See `ExpressibleByStringLiteral.StringLiteralType`.
         public typealias StringLiteralType = RawValue.StringLiteralType
 
         private static let appStoreBaseURL = URL(string: "https://apps.apple.com/app/")!
 
-        /// See `RawRepresentable.rawValue`
         public let rawValue: RawValue
 
         /// The app store url for this AppleID.
         public var appStoreURL: URL {
             let component = "id\(rawValue)"
+#if canImport(Darwin) && compiler(>=5.7.1)
             if #available(macOS 13, iOS 16, tvOS 16, watchOS 9, *) {
                 return Self.appStoreBaseURL.appending(component: component)
             } else {
                 return Self.appStoreBaseURL.appendingPathComponent(component)
             }
+#else
+            return Self.appStoreBaseURL.appendingPathComponent(component)
+#endif
         }
 
         /// The review url for this AppleID.
         public var reviewURL: URL {
-            var comps = URLComponents(url: appStoreURL, resolvingAgainstBaseURL: false)!
-            comps.queryItems = (comps.queryItems ?? [])
-                + CollectionOfOne(URLQueryItem(name: "action", value: "write-review"))
-            return comps.url!
+            let queryItem = URLQueryItem(name: "action", value: "write-review")
+            func _legacy() -> URL {
+                var comps = URLComponents(url: appStoreURL, resolvingAgainstBaseURL: false)!
+                comps.queryItems = (comps.queryItems ?? []) + CollectionOfOne(queryItem)
+                return comps.url!
+            }
+#if canImport(Darwin) && compiler(>=5.7.1)
+            if #available(macOS 13, iOS 16, tvOS 16, watchOS 9, *) {
+                return appStoreURL.appending(queryItems: [queryItem])
+            } else {
+                return _legacy()
+            }
+#else
+            return _legacy()
+#endif
         }
 
-        /// See `RawRepresentable.init(rawValue:)`
-        /// - Parameter rawValue: The raw apple id.
         public init(rawValue: RawValue) {
             self.rawValue = rawValue
         }
 
-        /// See `ExpressibleByStringLiteral.init(stringLiteral:)`
-        /// - Parameter value: The string literal value.
         @inlinable
         public init(stringLiteral value: StringLiteralType) {
             self.init(rawValue: value)

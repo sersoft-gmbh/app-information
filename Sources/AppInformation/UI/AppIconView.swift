@@ -56,7 +56,6 @@ public struct AppIconView: View {
     @Environment(\.appIconMode)
     private var mode
 
-    /// See `View.body`.
     public var body: some View {
         switch mode {
         case .prerendered(let img):
