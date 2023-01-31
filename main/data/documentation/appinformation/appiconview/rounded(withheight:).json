@@ -35,7 +35,7 @@
   },
   "kind" : "symbol",
   "metadata" : {
-    "externalID" : "s:14AppInformation0A8IconViewV7rounded10withHeightQr12CoreGraphics7CGFloatV_tF",
+    "externalID" : "s:14AppInformation0A8IconViewV7rounded10withHeightQr14CoreFoundation7CGFloatV_tF",
     "fragments" : [
       {
         "kind" : "keyword",
@@ -63,7 +63,7 @@
       },
       {
         "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:12CoreGraphics7CGFloatV",
+        "preciseIdentifier" : "s:14CoreFoundation7CGFloatV",
         "text" : "CGFloat"
       },
       {
@@ -169,7 +169,7 @@
             },
             {
               "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:12CoreGraphics7CGFloatV",
+              "preciseIdentifier" : "s:14CoreFoundation7CGFloatV",
               "text" : "CGFloat"
             },
             {
@@ -378,7 +378,7 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:12CoreGraphics7CGFloatV",
+      "preciseIdentifier" : "s:14CoreFoundation7CGFloatV",
       "text" : "CGFloat"
     },
     {

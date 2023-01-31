@@ -29,7 +29,7 @@
   "kind" : "symbol",
   "metadata" : {
     "extendedModule" : "SwiftUI",
-    "externalID" : "s:7SwiftUI4ViewPAAE8position1x1yQr12CoreGraphics7CGFloatV_AItF::SYNTHESIZED::s:14AppInformation0A8IconViewV",
+    "externalID" : "s:7SwiftUI4ViewPAAE8position1x1yQr14CoreFoundation7CGFloatV_AItF::SYNTHESIZED::s:14AppInformation0A8IconViewV",
     "fragments" : [
       {
         "kind" : "keyword",
@@ -57,7 +57,7 @@
       },
       {
         "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:12CoreGraphics7CGFloatV",
+        "preciseIdentifier" : "s:14CoreFoundation7CGFloatV",
         "text" : "CGFloat"
       },
       {
@@ -74,7 +74,7 @@
       },
       {
         "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:12CoreGraphics7CGFloatV",
+        "preciseIdentifier" : "s:14CoreFoundation7CGFloatV",
         "text" : "CGFloat"
       },
       {
@@ -172,7 +172,7 @@
             },
             {
               "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:12CoreGraphics7CGFloatV",
+              "preciseIdentifier" : "s:14CoreFoundation7CGFloatV",
               "text" : "CGFloat"
             },
             {
@@ -189,7 +189,7 @@
             },
             {
               "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:12CoreGraphics7CGFloatV",
+              "preciseIdentifier" : "s:14CoreFoundation7CGFloatV",
               "text" : "CGFloat"
             },
             {
@@ -512,7 +512,7 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:12CoreGraphics7CGFloatV",
+      "preciseIdentifier" : "s:14CoreFoundation7CGFloatV",
       "text" : "CGFloat"
     },
     {
@@ -529,7 +529,7 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:12CoreGraphics7CGFloatV",
+      "preciseIdentifier" : "s:14CoreFoundation7CGFloatV",
       "text" : "CGFloat"
     },
     {

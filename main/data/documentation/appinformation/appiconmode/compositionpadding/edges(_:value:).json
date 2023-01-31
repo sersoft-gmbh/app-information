@@ -24,7 +24,7 @@
   },
   "kind" : "symbol",
   "metadata" : {
-    "externalID" : "s:14AppInformation0A8IconModeO18CompositionPaddingO5edgesyAE7SwiftUI4EdgeO3SetV_12CoreGraphics7CGFloatVSgtcAEmF",
+    "externalID" : "s:14AppInformation0A8IconModeO18CompositionPaddingO5edgesyAE7SwiftUI4EdgeO3SetV_14CoreFoundation7CGFloatVSgtcAEmF",
     "fragments" : [
       {
         "kind" : "keyword",
@@ -70,7 +70,7 @@
       },
       {
         "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:12CoreGraphics7CGFloatV",
+        "preciseIdentifier" : "s:14CoreFoundation7CGFloatV",
         "text" : "CGFloat"
       },
       {
@@ -173,7 +173,7 @@
             },
             {
               "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:12CoreGraphics7CGFloatV",
+              "preciseIdentifier" : "s:14CoreFoundation7CGFloatV",
               "text" : "CGFloat"
             },
             {
@@ -343,7 +343,7 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:12CoreGraphics7CGFloatV",
+      "preciseIdentifier" : "s:14CoreFoundation7CGFloatV",
       "text" : "CGFloat"
     },
     {
