@@ -465,18 +465,7 @@
 },
 "doc://AppInformation/documentation/AppInformation/AppInfo/id-7m57p": {
   "abstract" : [
-    {
-      "text" : "See ",
-      "type" : "text"
-    },
-    {
-      "code" : "Identifiable.id",
-      "type" : "codeVoice"
-    },
-    {
-      "text" : ".",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {

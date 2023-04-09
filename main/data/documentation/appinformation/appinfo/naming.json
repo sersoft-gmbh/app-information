@@ -222,14 +222,7 @@
 },
 "doc://AppInformation/documentation/AppInformation/AppInfo/Naming/==(_:_:)": {
   "abstract" : [
-    {
-      "text" : "See ",
-      "type" : "text"
-    },
-    {
-      "code" : "Equatable.==",
-      "type" : "codeVoice"
-    }
+
   ],
   "fragments" : [
     {
