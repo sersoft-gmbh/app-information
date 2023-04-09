@@ -26,7 +26,6 @@ public struct AppInfo: Equatable, Identifiable, Sendable {
             localized.display ?? localized.base ?? unlocalized.display ?? unlocalized.base
         }
 
-        /// See `Equatable.==`
         public static func ==(lhs: Self, rhs: Self) -> Bool {
             lhs.unlocalized == rhs.unlocalized && lhs.localized == rhs.localized
         }
@@ -56,7 +55,6 @@ public struct AppInfo: Equatable, Identifiable, Sendable {
     /// The appleID of the application.
     public var appleID: AppleID?
 
-    /// See `Identifiable.id`.
     @inlinable
     public var id: String { identifier }
 }
