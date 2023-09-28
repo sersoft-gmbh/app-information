@@ -1,0 +1,280 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/AppInformation\/documentation\/AppInformation",
+        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo",
+        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/AppleID-swift.struct"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/AppleID-swift.struct\/StringLiteralType"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:14AppInformation0A4InfoV7AppleIDV17StringLiteralTypea",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "typealias"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "StringLiteralType"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "AppInformation"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "StringLiteralType"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Type Alias",
+    "symbolKind" : "typealias",
+    "title" : "AppInfo.AppleID.StringLiteralType"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "typealias"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "StringLiteralType"
+            },
+            {
+              "kind" : "text",
+              "text" : " = "
+            },
+            {
+              "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:14AppInformation0A4InfoV",
+              "text" : "AppInfo"
+            },
+            {
+              "kind" : "text",
+              "text" : "."
+            },
+            {
+              "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/AppleID-swift.struct",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:14AppInformation0A4InfoV7AppleIDV",
+              "text" : "AppleID"
+            },
+            {
+              "kind" : "text",
+              "text" : "."
+            },
+            {
+              "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/AppleID-swift.struct\/RawValue-swift.typealias",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:14AppInformation0A4InfoV7AppleIDV8RawValuea",
+              "text" : "RawValue"
+            },
+            {
+              "kind" : "text",
+              "text" : "."
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:SS17StringLiteralTypea",
+              "text" : "StringLiteralType"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/appinformation\/appinfo\/appleid-swift.struct\/stringliteraltype"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://AppInformation/documentation/AppInformation": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "AppInformation",
+  "type" : "topic",
+  "url" : "\/documentation\/appinformation"
+},
+"doc://AppInformation/documentation/AppInformation/AppInfo": {
+  "abstract" : [
+    {
+      "text" : "Contains the information for an application (e.g. naming and versioning).",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "AppInfo"
+    }
+  ],
+  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "AppInfo"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "AppInfo",
+  "type" : "topic",
+  "url" : "\/documentation\/appinformation\/appinfo"
+},
+"doc://AppInformation/documentation/AppInformation/AppInfo/AppleID-swift.struct": {
+  "abstract" : [
+    {
+      "text" : "Represents an AppleID of an application (usually a numerical value).",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "AppleID"
+    }
+  ],
+  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/AppleID-swift.struct",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "AppleID"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "AppInfo.AppleID",
+  "type" : "topic",
+  "url" : "\/documentation\/appinformation\/appinfo\/appleid-swift.struct"
+},
+"doc://AppInformation/documentation/AppInformation/AppInfo/AppleID-swift.struct/RawValue-swift.typealias": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "RawValue"
+    }
+  ],
+  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/AppleID-swift.struct\/RawValue-swift.typealias",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "RawValue"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "AppInfo.AppleID.RawValue",
+  "type" : "topic",
+  "url" : "\/documentation\/appinformation\/appinfo\/appleid-swift.struct\/rawvalue-swift.typealias"
+},
+"doc://AppInformation/documentation/AppInformation/AppInfo/AppleID-swift.struct/StringLiteralType": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "StringLiteralType"
+    }
+  ],
+  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/AppleID-swift.struct\/StringLiteralType",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "StringLiteralType"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "AppInfo.AppleID.StringLiteralType",
+  "type" : "topic",
+  "url" : "\/documentation\/appinformation\/appinfo\/appleid-swift.struct\/stringliteraltype"
+}
+}
+}
