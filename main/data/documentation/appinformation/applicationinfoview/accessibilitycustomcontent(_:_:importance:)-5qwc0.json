@@ -112,7 +112,10 @@
     ],
     "modules" : [
       {
-        "name" : "AppInformation"
+        "name" : "AppInformation",
+        "relatedModules" : [
+          "SwiftUI"
+        ]
       }
     ],
     "platforms" : [

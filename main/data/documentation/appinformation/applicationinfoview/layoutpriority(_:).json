@@ -72,7 +72,10 @@
     ],
     "modules" : [
       {
-        "name" : "AppInformation"
+        "name" : "AppInformation",
+        "relatedModules" : [
+          "SwiftUI"
+        ]
       }
     ],
     "platforms" : [
@@ -337,10 +340,7 @@
         },
         {
           "inlineContent" : [
-            {
-              "identifier" : "SwiftUI-View-layoutPriority.png",
-              "type" : "image"
-            }
+
           ],
           "type" : "paragraph"
         },

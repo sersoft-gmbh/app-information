@@ -107,6 +107,7 @@
                     "type" : "method"
                   },
                   {
+                    "deprecated" : true,
                     "path" : "\/documentation\/appinformation\/appiconview\/accessibility(selectionidentifier:)",
                     "title" : "func accessibility(selectionIdentifier: AnyHashable) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
                     "type" : "method"
@@ -221,6 +222,11 @@
                   {
                     "path" : "\/documentation\/appinformation\/appiconview\/accessibilitycustomcontent(_:_:importance:)-9sxuf",
                     "title" : "func accessibilityCustomContent<L, V>(L, V, importance: AXCustomContent.Importance) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/accessibilitydirecttouch(_:options:)",
+                    "title" : "func accessibilityDirectTouch(Bool, options: AccessibilityDirectTouchOptions) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
                     "type" : "method"
                   },
                   {
@@ -454,6 +460,11 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/appiconview\/accessibilityzoomaction(_:)",
+                    "title" : "func accessibilityZoomAction((AccessibilityZoomGestureAction) -> Void) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/appinformation\/appiconview\/alert(_:ispresented:actions:)-5ahp8",
                     "title" : "func alert<S, A>(S, isPresented: Binding<Bool>, actions: () -> A) -> some View",
                     "type" : "method"
@@ -546,6 +557,11 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/appiconview\/alloweddynamicrange(_:)",
+                    "title" : "func allowedDynamicRange(Image.DynamicRange?) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/appinformation\/appiconview\/allowshittesting(_:)",
                     "title" : "func allowsHitTesting(Bool) -> some View",
                     "type" : "method"
@@ -553,6 +569,11 @@
                   {
                     "path" : "\/documentation\/appinformation\/appiconview\/allowstightening(_:)",
                     "title" : "func allowsTightening(Bool) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/alternatingrowbackgrounds(_:)",
+                    "title" : "func alternatingRowBackgrounds(AlternatingRowBackgroundBehavior) -> some View",
                     "type" : "method"
                   },
                   {
@@ -564,6 +585,11 @@
                     "deprecated" : true,
                     "path" : "\/documentation\/appinformation\/appiconview\/animation(_:)",
                     "title" : "func animation(Animation?) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/animation(_:body:)",
+                    "title" : "func animation<V>(Animation?, body: (PlaceholderContentView<Self>) -> V) -> some View",
                     "type" : "method"
                   },
                   {
@@ -663,6 +689,11 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/appiconview\/badgeprominence(_:)",
+                    "title" : "func badgeProminence(BadgeProminence) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/appinformation\/appiconview\/baselineoffset(_:)",
                     "title" : "func baselineOffset(CGFloat) -> some View",
                     "type" : "method"
@@ -698,6 +729,11 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/appiconview\/buttonrepeatbehavior(_:)",
+                    "title" : "func buttonRepeatBehavior(ButtonRepeatBehavior) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/appinformation\/appiconview\/buttonstyle(_:)-4uzw6",
                     "title" : "func buttonStyle<S>(S) -> some View",
                     "type" : "method"
@@ -715,6 +751,11 @@
                   {
                     "path" : "\/documentation\/appinformation\/appiconview\/clipped(antialiased:)",
                     "title" : "func clipped(antialiased: Bool) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/coloreffect(_:isenabled:)",
+                    "title" : "func colorEffect(Shader, isEnabled: Bool) -> some View",
                     "type" : "method"
                   },
                   {
@@ -799,8 +840,48 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/appiconview\/containerbackground(_:for:)",
+                    "title" : "func containerBackground<S>(S, for: ContainerBackgroundPlacement) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/containerbackground(for:alignment:content:)",
+                    "title" : "func containerBackground<V>(for: ContainerBackgroundPlacement, alignment: Alignment, content: () -> V) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/containerrelativeframe(_:alignment:)",
+                    "title" : "func containerRelativeFrame(Axis.Set, alignment: Alignment) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/containerrelativeframe(_:alignment:_:)",
+                    "title" : "func containerRelativeFrame(Axis.Set, alignment: Alignment, (CGFloat, Axis) -> CGFloat) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/containerrelativeframe(_:count:span:spacing:alignment:)",
+                    "title" : "func containerRelativeFrame(Axis.Set, count: Int, span: Int, spacing: CGFloat, alignment: Alignment) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/appinformation\/appiconview\/containershape(_:)",
                     "title" : "func containerShape<T>(T) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/contentmargins(_:_:for:)-3m1n0",
+                    "title" : "func contentMargins(Edge.Set, CGFloat?, for: ContentMarginPlacement) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/contentmargins(_:_:for:)-jlhe",
+                    "title" : "func contentMargins(Edge.Set, EdgeInsets, for: ContentMarginPlacement) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/contentmargins(_:for:)",
+                    "title" : "func contentMargins(CGFloat, for: ContentMarginPlacement) -> some View",
                     "type" : "method"
                   },
                   {
@@ -856,6 +937,12 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/appiconview\/coordinatespace(_:)",
+                    "title" : "func coordinateSpace(NamedCoordinateSpace) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "deprecated" : true,
                     "path" : "\/documentation\/appinformation\/appiconview\/coordinatespace(name:)",
                     "title" : "func coordinateSpace<T>(name: T) -> some View",
                     "type" : "method"
@@ -866,6 +953,7 @@
                     "type" : "method"
                   },
                   {
+                    "deprecated" : true,
                     "path" : "\/documentation\/appinformation\/appiconview\/cornerradius(_:antialiased:)",
                     "title" : "func cornerRadius(CGFloat, antialiased: Bool) -> some View",
                     "type" : "method"
@@ -891,8 +979,43 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/appiconview\/defaultscrollanchor(_:)",
+                    "title" : "func defaultScrollAnchor(UnitPoint?) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/appinformation\/appiconview\/deletedisabled(_:)",
                     "title" : "func deleteDisabled(Bool) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/dialogicon(_:)",
+                    "title" : "func dialogIcon(Image?) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/dialogseverity(_:)",
+                    "title" : "func dialogSeverity(DialogSeverity) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/dialogsuppressiontoggle(_:issuppressed:)-1vtvq",
+                    "title" : "func dialogSuppressionToggle(Text, isSuppressed: Binding<Bool>) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/dialogsuppressiontoggle(_:issuppressed:)-3bi3i",
+                    "title" : "func dialogSuppressionToggle(LocalizedStringKey, isSuppressed: Binding<Bool>) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/dialogsuppressiontoggle(_:issuppressed:)-8zmab",
+                    "title" : "func dialogSuppressionToggle<S>(S, isSuppressed: Binding<Bool>) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/dialogsuppressiontoggle(issuppressed:)",
+                    "title" : "func dialogSuppressionToggle(isSuppressed: Binding<Bool>) -> some View",
                     "type" : "method"
                   },
                   {
@@ -909,6 +1032,11 @@
                   {
                     "path" : "\/documentation\/appinformation\/appiconview\/disclosuregroupstyle(_:)",
                     "title" : "func disclosureGroupStyle<S>(S) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/distortioneffect(_:maxsampleoffset:isenabled:)",
+                    "title" : "func distortionEffect(Shader, maxSampleOffset: CGSize, isEnabled: Bool) -> some View",
                     "type" : "method"
                   },
                   {
@@ -943,6 +1071,11 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/appiconview\/environment(_:)",
+                    "title" : "func environment<T>(T?) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/appinformation\/appiconview\/environment(_:_:)",
                     "title" : "func environment<V>(WritableKeyPath<EnvironmentValues, V>, V) -> some View",
                     "type" : "method"
@@ -973,6 +1106,61 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/appiconview\/filedialogbrowseroptions(_:)",
+                    "title" : "func fileDialogBrowserOptions(FileDialogBrowserOptions) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/filedialogconfirmationlabel(_:)-2cbnd",
+                    "title" : "func fileDialogConfirmationLabel(Text?) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/filedialogconfirmationlabel(_:)-3x72o",
+                    "title" : "func fileDialogConfirmationLabel(LocalizedStringKey) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/filedialogconfirmationlabel(_:)-5ebwg",
+                    "title" : "func fileDialogConfirmationLabel<S>(S) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/filedialogcustomizationid(_:)",
+                    "title" : "func fileDialogCustomizationID(String) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/filedialogdefaultdirectory(_:)",
+                    "title" : "func fileDialogDefaultDirectory(URL?) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/filedialogimportsunresolvedaliases(_:)",
+                    "title" : "func fileDialogImportsUnresolvedAliases(Bool) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/filedialogmessage(_:)-2d1v8",
+                    "title" : "func fileDialogMessage<S>(S) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/filedialogmessage(_:)-3rjts",
+                    "title" : "func fileDialogMessage(LocalizedStringKey) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/filedialogmessage(_:)-794cx",
+                    "title" : "func fileDialogMessage(Text?) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/filedialogurlenabled(_:)",
+                    "title" : "func fileDialogURLEnabled(Predicate<URL>) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/appinformation\/appiconview\/fileexporter(ispresented:document:contenttype:defaultfilename:oncompletion:)-1vmrk",
                     "title" : "func fileExporter<D>(isPresented: Binding<Bool>, document: D?, contentType: UTType, defaultFilename: String?, onCompletion: (Result<URL, Error>) -> Void) -> some View",
                     "type" : "method"
@@ -980,6 +1168,16 @@
                   {
                     "path" : "\/documentation\/appinformation\/appiconview\/fileexporter(ispresented:document:contenttype:defaultfilename:oncompletion:)-77xka",
                     "title" : "func fileExporter<D>(isPresented: Binding<Bool>, document: D?, contentType: UTType, defaultFilename: String?, onCompletion: (Result<URL, Error>) -> Void) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/fileexporter(ispresented:document:contenttypes:defaultfilename:oncompletion:oncancellation:)-7qusv",
+                    "title" : "func fileExporter<D>(isPresented: Binding<Bool>, document: D?, contentTypes: [UTType], defaultFilename: String?, onCompletion: (Result<URL, Error>) -> Void, onCancellation: () -> Void) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/fileexporter(ispresented:document:contenttypes:defaultfilename:oncompletion:oncancellation:)-au9z",
+                    "title" : "func fileExporter<D>(isPresented: Binding<Bool>, document: D?, contentTypes: [UTType], defaultFilename: String?, onCompletion: (Result<URL, Error>) -> Void, onCancellation: () -> Void) -> some View",
                     "type" : "method"
                   },
                   {
@@ -993,8 +1191,48 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/appiconview\/fileexporter(ispresented:documents:contenttypes:oncompletion:oncancellation:)-68jdj",
+                    "title" : "func fileExporter<C>(isPresented: Binding<Bool>, documents: C, contentTypes: [UTType], onCompletion: (Result<[URL], Error>) -> Void, onCancellation: () -> Void) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/fileexporter(ispresented:documents:contenttypes:oncompletion:oncancellation:)-92qln",
+                    "title" : "func fileExporter<C>(isPresented: Binding<Bool>, documents: C, contentTypes: [UTType], onCompletion: (Result<[URL], Error>) -> Void, onCancellation: () -> Void) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/fileexporter(ispresented:item:contenttypes:defaultfilename:oncompletion:oncancellation:)",
+                    "title" : "func fileExporter<T>(isPresented: Binding<Bool>, item: T?, contentTypes: [UTType], defaultFilename: String?, onCompletion: (Result<URL, Error>) -> Void, onCancellation: () -> Void) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/fileexporter(ispresented:items:contenttypes:oncompletion:oncancellation:)",
+                    "title" : "func fileExporter<C, T>(isPresented: Binding<Bool>, items: C, contentTypes: [UTType], onCompletion: (Result<[URL], Error>) -> Void, onCancellation: () -> Void) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/fileexporterfilenamelabel(_:)-29afe",
+                    "title" : "func fileExporterFilenameLabel(LocalizedStringKey) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/fileexporterfilenamelabel(_:)-8okii",
+                    "title" : "func fileExporterFilenameLabel<S>(S) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/fileexporterfilenamelabel(_:)-94qp0",
+                    "title" : "func fileExporterFilenameLabel(Text?) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/appinformation\/appiconview\/fileimporter(ispresented:allowedcontenttypes:allowsmultipleselection:oncompletion:)",
                     "title" : "func fileImporter(isPresented: Binding<Bool>, allowedContentTypes: [UTType], allowsMultipleSelection: Bool, onCompletion: (Result<[URL], Error>) -> Void) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/fileimporter(ispresented:allowedcontenttypes:allowsmultipleselection:oncompletion:oncancellation:)",
+                    "title" : "func fileImporter(isPresented: Binding<Bool>, allowedContentTypes: [UTType], allowsMultipleSelection: Bool, onCompletion: (Result<[URL], Error>) -> Void, onCancellation: () -> Void) -> some View",
                     "type" : "method"
                   },
                   {
@@ -1008,8 +1246,18 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/appiconview\/filemover(ispresented:file:oncompletion:oncancellation:)",
+                    "title" : "func fileMover(isPresented: Binding<Bool>, file: URL?, onCompletion: (Result<URL, Error>) -> Void, onCancellation: () -> Void) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/appinformation\/appiconview\/filemover(ispresented:files:oncompletion:)",
                     "title" : "func fileMover<C>(isPresented: Binding<Bool>, files: C, onCompletion: (Result<[URL], Error>) -> Void) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/filemover(ispresented:files:oncompletion:oncancellation:)",
+                    "title" : "func fileMover<C>(isPresented: Binding<Bool>, files: C, onCompletion: (Result<[URL], Error>) -> Void, onCancellation: () -> Void) -> some View",
                     "type" : "method"
                   },
                   {
@@ -1028,6 +1276,11 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/appiconview\/focuseffectdisabled(_:)",
+                    "title" : "func focusEffectDisabled(Bool) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/appinformation\/appiconview\/focusscope(_:)",
                     "title" : "func focusScope(Namespace.ID) -> some View",
                     "type" : "method"
@@ -1040,6 +1293,11 @@
                   {
                     "path" : "\/documentation\/appinformation\/appiconview\/focusable(_:)",
                     "title" : "func focusable(Bool) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/focusable(_:interactions:)",
+                    "title" : "func focusable(Bool, interactions: FocusInteractions) -> some View",
                     "type" : "method"
                   },
                   {
@@ -1089,6 +1347,11 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/appiconview\/focusedvalue(_:)",
+                    "title" : "func focusedValue<T>(T?) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/appinformation\/appiconview\/focusedvalue(_:_:)-353hb",
                     "title" : "func focusedValue<Value>(WritableKeyPath<FocusedValues, Value?>, Value) -> some View",
                     "type" : "method"
@@ -1119,6 +1382,7 @@
                     "type" : "method"
                   },
                   {
+                    "deprecated" : true,
                     "path" : "\/documentation\/appinformation\/appiconview\/foregroundcolor(_:)",
                     "title" : "func foregroundColor(Color?) -> some View",
                     "type" : "method"
@@ -1161,6 +1425,11 @@
                   {
                     "path" : "\/documentation\/appinformation\/appiconview\/gaugestyle(_:)",
                     "title" : "func gaugeStyle<S>(S) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/geometrygroup()",
+                    "title" : "func geometryGroup() -> some View",
                     "type" : "method"
                   },
                   {
@@ -1269,6 +1538,21 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/appiconview\/inspector(ispresented:content:)",
+                    "title" : "func inspector<V>(isPresented: Binding<Bool>, content: () -> V) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/inspectorcolumnwidth(_:)",
+                    "title" : "func inspectorColumnWidth(CGFloat) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/inspectorcolumnwidth(min:ideal:max:)",
+                    "title" : "func inspectorColumnWidth(min: CGFloat?, ideal: CGFloat, max: CGFloat?) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/appinformation\/appiconview\/interactionactivitytrackingtag(_:)",
                     "title" : "func interactionActivityTrackingTag(String) -> some View",
                     "type" : "method"
@@ -1276,6 +1560,11 @@
                   {
                     "path" : "\/documentation\/appinformation\/appiconview\/interactivedismissdisabled(_:)",
                     "title" : "func interactiveDismissDisabled(Bool) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/invalidatablecontent(_:)",
+                    "title" : "func invalidatableContent(Bool) -> some View",
                     "type" : "method"
                   },
                   {
@@ -1314,6 +1603,16 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/appiconview\/keyframeanimator(initialvalue:repeating:content:keyframes:)",
+                    "title" : "func keyframeAnimator<Value>(initialValue: Value, repeating: Bool, content: (PlaceholderContentView<Self>, Value) -> some View, keyframes: (Value) -> some Keyframes) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/keyframeanimator(initialvalue:trigger:content:keyframes:)",
+                    "title" : "func keyframeAnimator<Value>(initialValue: Value, trigger: some Equatable, content: (PlaceholderContentView<Self>, Value) -> some View, keyframes: (Value) -> some Keyframes) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/appinformation\/appiconview\/labelstyle(_:)",
                     "title" : "func labelStyle<S>(S) -> some View",
                     "type" : "method"
@@ -1326,6 +1625,16 @@
                   {
                     "path" : "\/documentation\/appinformation\/appiconview\/labelshidden()",
                     "title" : "func labelsHidden() -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/layereffect(_:maxsampleoffset:isenabled:)",
+                    "title" : "func layerEffect(Shader, maxSampleOffset: CGSize, isEnabled: Bool) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/layoutdirectionbehavior(_:)",
+                    "title" : "func layoutDirectionBehavior(LayoutDirectionBehavior) -> some View",
                     "type" : "method"
                   },
                   {
@@ -1432,6 +1741,11 @@
                   {
                     "path" : "\/documentation\/appinformation\/appiconview\/matchedgeometryeffect(id:in:properties:anchor:issource:)",
                     "title" : "func matchedGeometryEffect<ID>(id: ID, in: Namespace.ID, properties: MatchedGeometryProperties, anchor: UnitPoint, isSource: Bool) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/menuactiondismissbehavior(_:)",
+                    "title" : "func menuActionDismissBehavior(MenuActionDismissBehavior) -> some View",
                     "type" : "method"
                   },
                   {
@@ -1543,6 +1857,11 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/appiconview\/navigationdestination(item:destination:)",
+                    "title" : "func navigationDestination<D, C>(item: Binding<Optional<D>>, destination: (D) -> C) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/appinformation\/appiconview\/navigationdocument(_:)",
                     "title" : "func navigationDocument(URL) -> some View",
                     "type" : "method"
@@ -1644,6 +1963,17 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/appiconview\/onchange(of:initial:_:)-30tqn",
+                    "title" : "func onChange<V>(of: V, initial: Bool, (V, V) -> Void) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/onchange(of:initial:_:)-8dv2e",
+                    "title" : "func onChange<V>(of: V, initial: Bool, () -> Void) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "deprecated" : true,
                     "path" : "\/documentation\/appinformation\/appiconview\/onchange(of:perform:)",
                     "title" : "func onChange<V>(of: V, perform: (V) -> Void) -> some View",
                     "type" : "method"
@@ -1659,6 +1989,7 @@
                     "type" : "method"
                   },
                   {
+                    "deprecated" : true,
                     "path" : "\/documentation\/appinformation\/appiconview\/oncontinuoushover(coordinatespace:perform:)",
                     "title" : "func onContinuousHover(coordinateSpace: CoordinateSpace, perform: (HoverPhase) -> Void) -> some View",
                     "type" : "method"
@@ -1737,6 +2068,31 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/appiconview\/onkeypress(_:action:)",
+                    "title" : "func onKeyPress(KeyEquivalent, action: () -> KeyPress.Result) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/onkeypress(_:phases:action:)",
+                    "title" : "func onKeyPress(KeyEquivalent, phases: KeyPress.Phases, action: (KeyPress) -> KeyPress.Result) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/onkeypress(characters:phases:action:)",
+                    "title" : "func onKeyPress(characters: CharacterSet, phases: KeyPress.Phases, action: (KeyPress) -> KeyPress.Result) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/onkeypress(keys:phases:action:)",
+                    "title" : "func onKeyPress(keys: Set<KeyEquivalent>, phases: KeyPress.Phases, action: (KeyPress) -> KeyPress.Result) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/onkeypress(phases:action:)",
+                    "title" : "func onKeyPress(phases: KeyPress.Phases, action: (KeyPress) -> KeyPress.Result) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/appinformation\/appiconview\/onlongpressgesture(minimumduration:maximumdistance:perform:onpressingchanged:)",
                     "title" : "func onLongPressGesture(minimumDuration: Double, maximumDistance: CGFloat, perform: () -> Void, onPressingChanged: ((Bool) -> Void)?) -> some View",
                     "type" : "method"
@@ -1811,6 +2167,7 @@
                     "type" : "method"
                   },
                   {
+                    "deprecated" : true,
                     "path" : "\/documentation\/appinformation\/appiconview\/ontapgesture(count:coordinatespace:perform:)",
                     "title" : "func onTapGesture(count: Int, coordinateSpace: CoordinateSpace, perform: (CGPoint) -> Void) -> some View",
                     "type" : "method"
@@ -1877,6 +2234,11 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/appiconview\/paletteselectioneffect(_:)",
+                    "title" : "func paletteSelectionEffect(PaletteSelectionEffect) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/appinformation\/appiconview\/pastedestination(for:action:validator:)",
                     "title" : "func pasteDestination<T>(for: T.Type, action: ([T]) -> Void, validator: ([T]) -> [T]) -> some View",
                     "type" : "method"
@@ -1884,6 +2246,16 @@
                   {
                     "path" : "\/documentation\/appinformation\/appiconview\/persistentsystemoverlays(_:)",
                     "title" : "func persistentSystemOverlays(Visibility) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/phaseanimator(_:content:animation:)",
+                    "title" : "func phaseAnimator<Phase>(some Sequence, content: (PlaceholderContentView<Self>, Phase) -> some View, animation: (Phase) -> Animation?) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/phaseanimator(_:trigger:content:animation:)",
+                    "title" : "func phaseAnimator<Phase>(some Sequence, trigger: some Equatable, content: (PlaceholderContentView<Self>, Phase) -> some View, animation: (Phase) -> Animation?) -> some View",
                     "type" : "method"
                   },
                   {
@@ -1924,6 +2296,41 @@
                   {
                     "path" : "\/documentation\/appinformation\/appiconview\/prefersdefaultfocus(_:in:)",
                     "title" : "func prefersDefaultFocus(Bool, in: Namespace.ID) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/presentationbackground(_:)",
+                    "title" : "func presentationBackground<S>(S) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/presentationbackground(alignment:content:)",
+                    "title" : "func presentationBackground<V>(alignment: Alignment, content: () -> V) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/presentationbackgroundinteraction(_:)",
+                    "title" : "func presentationBackgroundInteraction(PresentationBackgroundInteraction) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/presentationcompactadaptation(_:)",
+                    "title" : "func presentationCompactAdaptation(PresentationAdaptation) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/presentationcompactadaptation(horizontal:vertical:)",
+                    "title" : "func presentationCompactAdaptation(horizontal: PresentationAdaptation, vertical: PresentationAdaptation) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/presentationcontentinteraction(_:)",
+                    "title" : "func presentationContentInteraction(PresentationContentInteraction) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/presentationcornerradius(_:)",
+                    "title" : "func presentationCornerRadius(CGFloat?) -> some View",
                     "type" : "method"
                   },
                   {
@@ -2032,6 +2439,21 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/appiconview\/safeareapadding(_:)-5961n",
+                    "title" : "func safeAreaPadding(EdgeInsets) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/safeareapadding(_:)-5tlvz",
+                    "title" : "func safeAreaPadding(CGFloat) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/safeareapadding(_:_:)",
+                    "title" : "func safeAreaPadding(Edge.Set, CGFloat?) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/appinformation\/appiconview\/saturation(_:)",
                     "title" : "func saturation(Double) -> some View",
                     "type" : "method"
@@ -2072,6 +2494,16 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/appiconview\/scrollbouncebehavior(_:axes:)",
+                    "title" : "func scrollBounceBehavior(ScrollBounceBehavior, axes: Axis.Set) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/scrollclipdisabled(_:)",
+                    "title" : "func scrollClipDisabled(Bool) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/appinformation\/appiconview\/scrollcontentbackground(_:)",
                     "title" : "func scrollContentBackground(Visibility) -> some View",
                     "type" : "method"
@@ -2092,8 +2524,48 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/appiconview\/scrollindicatorsflash(onappear:)",
+                    "title" : "func scrollIndicatorsFlash(onAppear: Bool) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/scrollindicatorsflash(trigger:)",
+                    "title" : "func scrollIndicatorsFlash(trigger: some Equatable) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/scrollposition(id:anchor:)",
+                    "title" : "func scrollPosition(id: Binding<(some Hashable)?>, anchor: UnitPoint?) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/scrolltargetbehavior(_:)",
+                    "title" : "func scrollTargetBehavior(some ScrollTargetBehavior) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/scrolltargetlayout(isenabled:)",
+                    "title" : "func scrollTargetLayout(isEnabled: Bool) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/scrolltransition(_:axis:transition:)",
+                    "title" : "func scrollTransition(ScrollTransitionConfiguration, axis: Axis?, transition: (EmptyVisualEffect, ScrollTransitionPhase) -> some VisualEffect) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/scrolltransition(topleading:bottomtrailing:axis:transition:)",
+                    "title" : "func scrollTransition(topLeading: ScrollTransitionConfiguration, bottomTrailing: ScrollTransitionConfiguration, axis: Axis?, transition: (EmptyVisualEffect, ScrollTransitionPhase) -> some VisualEffect) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/appinformation\/appiconview\/searchcompletion(_:)",
                     "title" : "func searchCompletion(String) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/searchscopes(_:activation:_:)",
+                    "title" : "func searchScopes<V, S>(Binding<V>, activation: SearchScopeActivation, () -> S) -> some View",
                     "type" : "method"
                   },
                   {
@@ -2109,6 +2581,51 @@
                   {
                     "path" : "\/documentation\/appinformation\/appiconview\/searchsuggestions(_:for:)",
                     "title" : "func searchSuggestions(Visibility, for: SearchSuggestionsPlacement.Set) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/searchable(text:editabletokens:ispresented:placement:prompt:token:)-29pj1",
+                    "title" : "func searchable<C>(text: Binding<String>, editableTokens: Binding<C>, isPresented: Binding<Bool>, placement: SearchFieldPlacement, prompt: Text?, token: (Binding<C.Element>) -> some View) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/searchable(text:editabletokens:ispresented:placement:prompt:token:)-2yatm",
+                    "title" : "func searchable<C>(text: Binding<String>, editableTokens: Binding<C>, isPresented: Binding<Bool>, placement: SearchFieldPlacement, prompt: LocalizedStringKey, token: (Binding<C.Element>) -> some View) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/searchable(text:editabletokens:ispresented:placement:prompt:token:)-8xd65",
+                    "title" : "func searchable<C>(text: Binding<String>, editableTokens: Binding<C>, isPresented: Binding<Bool>, placement: SearchFieldPlacement, prompt: some StringProtocol, token: (Binding<C.Element>) -> some View) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/searchable(text:editabletokens:placement:prompt:token:)-4o61w",
+                    "title" : "func searchable<C>(text: Binding<String>, editableTokens: Binding<C>, placement: SearchFieldPlacement, prompt: Text?, token: (Binding<C.Element>) -> some View) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/searchable(text:editabletokens:placement:prompt:token:)-8jopb",
+                    "title" : "func searchable<C>(text: Binding<String>, editableTokens: Binding<C>, placement: SearchFieldPlacement, prompt: some StringProtocol, token: (Binding<C.Element>) -> some View) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/searchable(text:editabletokens:placement:prompt:token:)-8rzlw",
+                    "title" : "func searchable<C>(text: Binding<String>, editableTokens: Binding<C>, placement: SearchFieldPlacement, prompt: LocalizedStringKey, token: (Binding<C.Element>) -> some View) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/searchable(text:ispresented:placement:prompt:)-13yf2",
+                    "title" : "func searchable(text: Binding<String>, isPresented: Binding<Bool>, placement: SearchFieldPlacement, prompt: Text?) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/searchable(text:ispresented:placement:prompt:)-1b73y",
+                    "title" : "func searchable<S>(text: Binding<String>, isPresented: Binding<Bool>, placement: SearchFieldPlacement, prompt: S) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/searchable(text:ispresented:placement:prompt:)-9ooxf",
+                    "title" : "func searchable(text: Binding<String>, isPresented: Binding<Bool>, placement: SearchFieldPlacement, prompt: LocalizedStringKey) -> some View",
                     "type" : "method"
                   },
                   {
@@ -2145,6 +2662,21 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/appiconview\/searchable(text:tokens:ispresented:placement:prompt:token:)-5ie6k",
+                    "title" : "func searchable<C, T, S>(text: Binding<String>, tokens: Binding<C>, isPresented: Binding<Bool>, placement: SearchFieldPlacement, prompt: S, token: (C.Element) -> T) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/searchable(text:tokens:ispresented:placement:prompt:token:)-7auwk",
+                    "title" : "func searchable<C, T>(text: Binding<String>, tokens: Binding<C>, isPresented: Binding<Bool>, placement: SearchFieldPlacement, prompt: Text?, token: (C.Element) -> T) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/searchable(text:tokens:ispresented:placement:prompt:token:)-7pfr9",
+                    "title" : "func searchable<C, T>(text: Binding<String>, tokens: Binding<C>, isPresented: Binding<Bool>, placement: SearchFieldPlacement, prompt: LocalizedStringKey, token: (C.Element) -> T) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/appinformation\/appiconview\/searchable(text:tokens:placement:prompt:token:)-48vd9",
                     "title" : "func searchable<C, T>(text: Binding<String>, tokens: Binding<C>, placement: SearchFieldPlacement, prompt: LocalizedStringKey, token: (C.Element) -> T) -> some View",
                     "type" : "method"
@@ -2160,6 +2692,21 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/appiconview\/searchable(text:tokens:suggestedtokens:ispresented:placement:prompt:token:)-2iz08",
+                    "title" : "func searchable<C, T>(text: Binding<String>, tokens: Binding<C>, suggestedTokens: Binding<C>, isPresented: Binding<Bool>, placement: SearchFieldPlacement, prompt: Text?, token: (C.Element) -> T) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/searchable(text:tokens:suggestedtokens:ispresented:placement:prompt:token:)-33u8b",
+                    "title" : "func searchable<C, T>(text: Binding<String>, tokens: Binding<C>, suggestedTokens: Binding<C>, isPresented: Binding<Bool>, placement: SearchFieldPlacement, prompt: LocalizedStringKey, token: (C.Element) -> T) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/searchable(text:tokens:suggestedtokens:ispresented:placement:prompt:token:)-9t5kc",
+                    "title" : "func searchable<C, T, S>(text: Binding<String>, tokens: Binding<C>, suggestedTokens: Binding<C>, isPresented: Binding<Bool>, placement: SearchFieldPlacement, prompt: S, token: (C.Element) -> T) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/appinformation\/appiconview\/searchable(text:tokens:suggestedtokens:placement:prompt:token:)-12rff",
                     "title" : "func searchable<C, T>(text: Binding<String>, tokens: Binding<C>, suggestedTokens: Binding<C>, placement: SearchFieldPlacement, prompt: Text?, token: (C.Element) -> T) -> some View",
                     "type" : "method"
@@ -2172,6 +2719,26 @@
                   {
                     "path" : "\/documentation\/appinformation\/appiconview\/searchable(text:tokens:suggestedtokens:placement:prompt:token:)-93k0c",
                     "title" : "func searchable<C, T>(text: Binding<String>, tokens: Binding<C>, suggestedTokens: Binding<C>, placement: SearchFieldPlacement, prompt: LocalizedStringKey, token: (C.Element) -> T) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/selectiondisabled(_:)",
+                    "title" : "func selectionDisabled(Bool) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/sensoryfeedback(_:trigger:)",
+                    "title" : "func sensoryFeedback<T>(SensoryFeedback, trigger: T) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/sensoryfeedback(_:trigger:condition:)",
+                    "title" : "func sensoryFeedback<T>(SensoryFeedback, trigger: T, condition: (T, T) -> Bool) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/sensoryfeedback(trigger:_:)",
+                    "title" : "func sensoryFeedback<T>(trigger: T, (T, T) -> SensoryFeedback?) -> some View",
                     "type" : "method"
                   },
                   {
@@ -2215,6 +2782,11 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/appiconview\/springloadingbehavior(_:)",
+                    "title" : "func springLoadingBehavior(SpringLoadingBehavior) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/appinformation\/appiconview\/strikethrough(_:pattern:color:)",
                     "title" : "func strikethrough(Bool, pattern: Text.LineStyle.Pattern, color: Color?) -> some View",
                     "type" : "method"
@@ -2235,6 +2807,21 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/appiconview\/symboleffect(_:options:isactive:)",
+                    "title" : "func symbolEffect<T>(T, options: SymbolEffectOptions, isActive: Bool) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/symboleffect(_:options:value:)",
+                    "title" : "func symbolEffect<T, U>(T, options: SymbolEffectOptions, value: U) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/symboleffectsremoved(_:)",
+                    "title" : "func symbolEffectsRemoved(Bool) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/appinformation\/appiconview\/symbolrenderingmode(_:)",
                     "title" : "func symbolRenderingMode(SymbolRenderingMode?) -> some View",
                     "type" : "method"
@@ -2252,6 +2839,11 @@
                   {
                     "path" : "\/documentation\/appinformation\/appiconview\/tabviewstyle(_:)",
                     "title" : "func tabViewStyle<S>(S) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/tablecolumnheaders(_:)",
+                    "title" : "func tableColumnHeaders(Visibility) -> some View",
                     "type" : "method"
                   },
                   {
@@ -2285,8 +2877,18 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/appiconview\/texteditorstyle(_:)",
+                    "title" : "func textEditorStyle(some TextEditorStyle) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/appinformation\/appiconview\/textfieldstyle(_:)",
                     "title" : "func textFieldStyle<S>(S) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/textscale(_:isenabled:)",
+                    "title" : "func textScale(Text.Scale, isEnabled: Bool) -> some View",
                     "type" : "method"
                   },
                   {
@@ -2325,6 +2927,11 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/appiconview\/toolbar(removing:)",
+                    "title" : "func toolbar(removing: ToolbarDefaultItemKind?) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/appinformation\/appiconview\/toolbarbackground(_:for:)",
                     "title" : "func toolbarBackground(Visibility, for: ToolbarPlacement...) -> some View",
                     "type" : "method"
@@ -2337,6 +2944,11 @@
                   {
                     "path" : "\/documentation\/appinformation\/appiconview\/toolbarrole(_:)",
                     "title" : "func toolbarRole(ToolbarRole) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/toolbartitledisplaymode(_:)",
+                    "title" : "func toolbarTitleDisplayMode(ToolbarTitleDisplayMode) -> some View",
                     "type" : "method"
                   },
                   {
@@ -2380,6 +2992,16 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/appiconview\/transaction(_:body:)",
+                    "title" : "func transaction<V>((inout Transaction) -> Void, body: (PlaceholderContentView<Self>) -> V) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/transaction(value:_:)",
+                    "title" : "func transaction(value: some Equatable, (inout Transaction) -> Void) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/appinformation\/appiconview\/transformanchorpreference(key:value:transform:)",
                     "title" : "func transformAnchorPreference<A, K>(key: K.Type, value: Anchor<A>.Source, transform: (inout K.Value, Anchor<A>) -> Void) -> some View",
                     "type" : "method"
@@ -2410,6 +3032,31 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/appiconview\/typeselectequivalent(_:)-43y66",
+                    "title" : "func typeSelectEquivalent(Text?) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/typeselectequivalent(_:)-8u5rb",
+                    "title" : "func typeSelectEquivalent<S>(S) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/typeselectequivalent(_:)-92mxj",
+                    "title" : "func typeSelectEquivalent(LocalizedStringKey) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/typesettinglanguage(_:isenabled:)-9mzux",
+                    "title" : "func typesettingLanguage(TypesettingLanguage, isEnabled: Bool) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/typesettinglanguage(_:isenabled:)-9trx0",
+                    "title" : "func typesettingLanguage(Locale.Language, isEnabled: Bool) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/appinformation\/appiconview\/underline(_:pattern:color:)",
                     "title" : "func underline(Bool, pattern: Text.LineStyle.Pattern, color: Color?) -> some View",
                     "type" : "method"
@@ -2427,6 +3074,11 @@
                   {
                     "path" : "\/documentation\/appinformation\/appiconview\/useractivity(_:isactive:_:)",
                     "title" : "func userActivity(String, isActive: Bool, (NSUserActivity) -> ()) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/visualeffect(_:)",
+                    "title" : "func visualEffect((EmptyVisualEffect, GeometryProxy) -> some VisualEffect) -> some View",
                     "type" : "method"
                   },
                   {
@@ -2725,7 +3377,7 @@
                 "type" : "property"
               },
               {
-                "path" : "\/documentation\/appinformation\/appinfo\/id-7m57p",
+                "path" : "\/documentation\/appinformation\/appinfo\/id",
                 "title" : "var id: String",
                 "type" : "property"
               },
@@ -2771,22 +3423,6 @@
                 ],
                 "path" : "\/documentation\/appinformation\/appinfo\/equatable-implementations",
                 "title" : "Equatable Implementations",
-                "type" : "symbol"
-              },
-              {
-                "children" : [
-                  {
-                    "title" : "Instance Properties",
-                    "type" : "groupMarker"
-                  },
-                  {
-                    "path" : "\/documentation\/appinformation\/appinfo\/id-5zalr",
-                    "title" : "var id: ObjectIdentifier",
-                    "type" : "property"
-                  }
-                ],
-                "path" : "\/documentation\/appinformation\/appinfo\/identifiable-implementations",
-                "title" : "Identifiable Implementations",
                 "type" : "symbol"
               }
             ],
@@ -2885,6 +3521,7 @@
                     "type" : "method"
                   },
                   {
+                    "deprecated" : true,
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/accessibility(selectionidentifier:)",
                     "title" : "func accessibility(selectionIdentifier: AnyHashable) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
                     "type" : "method"
@@ -2999,6 +3636,11 @@
                   {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/accessibilitycustomcontent(_:_:importance:)-coqg",
                     "title" : "func accessibilityCustomContent(LocalizedStringKey, Text, importance: AXCustomContent.Importance) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/accessibilitydirecttouch(_:options:)",
+                    "title" : "func accessibilityDirectTouch(Bool, options: AccessibilityDirectTouchOptions) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
                     "type" : "method"
                   },
                   {
@@ -3232,6 +3874,11 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/accessibilityzoomaction(_:)",
+                    "title" : "func accessibilityZoomAction((AccessibilityZoomGestureAction) -> Void) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/alert(_:ispresented:actions:)-3vc9a",
                     "title" : "func alert<A>(Text, isPresented: Binding<Bool>, actions: () -> A) -> some View",
                     "type" : "method"
@@ -3324,6 +3971,11 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/alloweddynamicrange(_:)",
+                    "title" : "func allowedDynamicRange(Image.DynamicRange?) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/allowshittesting(_:)",
                     "title" : "func allowsHitTesting(Bool) -> some View",
                     "type" : "method"
@@ -3331,6 +3983,11 @@
                   {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/allowstightening(_:)",
                     "title" : "func allowsTightening(Bool) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/alternatingrowbackgrounds(_:)",
+                    "title" : "func alternatingRowBackgrounds(AlternatingRowBackgroundBehavior) -> some View",
                     "type" : "method"
                   },
                   {
@@ -3342,6 +3999,11 @@
                     "deprecated" : true,
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/animation(_:)",
                     "title" : "func animation(Animation?) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/animation(_:body:)",
+                    "title" : "func animation<V>(Animation?, body: (PlaceholderContentView<Self>) -> V) -> some View",
                     "type" : "method"
                   },
                   {
@@ -3441,6 +4103,11 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/badgeprominence(_:)",
+                    "title" : "func badgeProminence(BadgeProminence) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/baselineoffset(_:)",
                     "title" : "func baselineOffset(CGFloat) -> some View",
                     "type" : "method"
@@ -3476,6 +4143,11 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/buttonrepeatbehavior(_:)",
+                    "title" : "func buttonRepeatBehavior(ButtonRepeatBehavior) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/buttonstyle(_:)-3bw7y",
                     "title" : "func buttonStyle<S>(S) -> some View",
                     "type" : "method"
@@ -3493,6 +4165,11 @@
                   {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/clipped(antialiased:)",
                     "title" : "func clipped(antialiased: Bool) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/coloreffect(_:isenabled:)",
+                    "title" : "func colorEffect(Shader, isEnabled: Bool) -> some View",
                     "type" : "method"
                   },
                   {
@@ -3577,8 +4254,48 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/containerbackground(_:for:)",
+                    "title" : "func containerBackground<S>(S, for: ContainerBackgroundPlacement) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/containerbackground(for:alignment:content:)",
+                    "title" : "func containerBackground<V>(for: ContainerBackgroundPlacement, alignment: Alignment, content: () -> V) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/containerrelativeframe(_:alignment:)",
+                    "title" : "func containerRelativeFrame(Axis.Set, alignment: Alignment) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/containerrelativeframe(_:alignment:_:)",
+                    "title" : "func containerRelativeFrame(Axis.Set, alignment: Alignment, (CGFloat, Axis) -> CGFloat) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/containerrelativeframe(_:count:span:spacing:alignment:)",
+                    "title" : "func containerRelativeFrame(Axis.Set, count: Int, span: Int, spacing: CGFloat, alignment: Alignment) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/containershape(_:)",
                     "title" : "func containerShape<T>(T) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/contentmargins(_:_:for:)-7bzx0",
+                    "title" : "func contentMargins(Edge.Set, CGFloat?, for: ContentMarginPlacement) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/contentmargins(_:_:for:)-9ayp3",
+                    "title" : "func contentMargins(Edge.Set, EdgeInsets, for: ContentMarginPlacement) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/contentmargins(_:for:)",
+                    "title" : "func contentMargins(CGFloat, for: ContentMarginPlacement) -> some View",
                     "type" : "method"
                   },
                   {
@@ -3634,6 +4351,12 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/coordinatespace(_:)",
+                    "title" : "func coordinateSpace(NamedCoordinateSpace) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "deprecated" : true,
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/coordinatespace(name:)",
                     "title" : "func coordinateSpace<T>(name: T) -> some View",
                     "type" : "method"
@@ -3644,6 +4367,7 @@
                     "type" : "method"
                   },
                   {
+                    "deprecated" : true,
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/cornerradius(_:antialiased:)",
                     "title" : "func cornerRadius(CGFloat, antialiased: Bool) -> some View",
                     "type" : "method"
@@ -3669,8 +4393,43 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/defaultscrollanchor(_:)",
+                    "title" : "func defaultScrollAnchor(UnitPoint?) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/deletedisabled(_:)",
                     "title" : "func deleteDisabled(Bool) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/dialogicon(_:)",
+                    "title" : "func dialogIcon(Image?) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/dialogseverity(_:)",
+                    "title" : "func dialogSeverity(DialogSeverity) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/dialogsuppressiontoggle(_:issuppressed:)-4d9lq",
+                    "title" : "func dialogSuppressionToggle(LocalizedStringKey, isSuppressed: Binding<Bool>) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/dialogsuppressiontoggle(_:issuppressed:)-5cn4u",
+                    "title" : "func dialogSuppressionToggle<S>(S, isSuppressed: Binding<Bool>) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/dialogsuppressiontoggle(_:issuppressed:)-9r2y3",
+                    "title" : "func dialogSuppressionToggle(Text, isSuppressed: Binding<Bool>) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/dialogsuppressiontoggle(issuppressed:)",
+                    "title" : "func dialogSuppressionToggle(isSuppressed: Binding<Bool>) -> some View",
                     "type" : "method"
                   },
                   {
@@ -3687,6 +4446,11 @@
                   {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/disclosuregroupstyle(_:)",
                     "title" : "func disclosureGroupStyle<S>(S) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/distortioneffect(_:maxsampleoffset:isenabled:)",
+                    "title" : "func distortionEffect(Shader, maxSampleOffset: CGSize, isEnabled: Bool) -> some View",
                     "type" : "method"
                   },
                   {
@@ -3721,6 +4485,11 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/environment(_:)",
+                    "title" : "func environment<T>(T?) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/environment(_:_:)",
                     "title" : "func environment<V>(WritableKeyPath<EnvironmentValues, V>, V) -> some View",
                     "type" : "method"
@@ -3751,6 +4520,61 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/filedialogbrowseroptions(_:)",
+                    "title" : "func fileDialogBrowserOptions(FileDialogBrowserOptions) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/filedialogconfirmationlabel(_:)-30aoi",
+                    "title" : "func fileDialogConfirmationLabel(Text?) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/filedialogconfirmationlabel(_:)-4bg25",
+                    "title" : "func fileDialogConfirmationLabel(LocalizedStringKey) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/filedialogconfirmationlabel(_:)-7kjw6",
+                    "title" : "func fileDialogConfirmationLabel<S>(S) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/filedialogcustomizationid(_:)",
+                    "title" : "func fileDialogCustomizationID(String) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/filedialogdefaultdirectory(_:)",
+                    "title" : "func fileDialogDefaultDirectory(URL?) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/filedialogimportsunresolvedaliases(_:)",
+                    "title" : "func fileDialogImportsUnresolvedAliases(Bool) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/filedialogmessage(_:)-67wgd",
+                    "title" : "func fileDialogMessage(Text?) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/filedialogmessage(_:)-8ynes",
+                    "title" : "func fileDialogMessage(LocalizedStringKey) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/filedialogmessage(_:)-qt9y",
+                    "title" : "func fileDialogMessage<S>(S) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/filedialogurlenabled(_:)",
+                    "title" : "func fileDialogURLEnabled(Predicate<URL>) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/fileexporter(ispresented:document:contenttype:defaultfilename:oncompletion:)-2e0n0",
                     "title" : "func fileExporter<D>(isPresented: Binding<Bool>, document: D?, contentType: UTType, defaultFilename: String?, onCompletion: (Result<URL, Error>) -> Void) -> some View",
                     "type" : "method"
@@ -3758,6 +4582,16 @@
                   {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/fileexporter(ispresented:document:contenttype:defaultfilename:oncompletion:)-30o74",
                     "title" : "func fileExporter<D>(isPresented: Binding<Bool>, document: D?, contentType: UTType, defaultFilename: String?, onCompletion: (Result<URL, Error>) -> Void) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/fileexporter(ispresented:document:contenttypes:defaultfilename:oncompletion:oncancellation:)-5dof6",
+                    "title" : "func fileExporter<D>(isPresented: Binding<Bool>, document: D?, contentTypes: [UTType], defaultFilename: String?, onCompletion: (Result<URL, Error>) -> Void, onCancellation: () -> Void) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/fileexporter(ispresented:document:contenttypes:defaultfilename:oncompletion:oncancellation:)-8rktw",
+                    "title" : "func fileExporter<D>(isPresented: Binding<Bool>, document: D?, contentTypes: [UTType], defaultFilename: String?, onCompletion: (Result<URL, Error>) -> Void, onCancellation: () -> Void) -> some View",
                     "type" : "method"
                   },
                   {
@@ -3771,8 +4605,48 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/fileexporter(ispresented:documents:contenttypes:oncompletion:oncancellation:)-45fmu",
+                    "title" : "func fileExporter<C>(isPresented: Binding<Bool>, documents: C, contentTypes: [UTType], onCompletion: (Result<[URL], Error>) -> Void, onCancellation: () -> Void) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/fileexporter(ispresented:documents:contenttypes:oncompletion:oncancellation:)-hblt",
+                    "title" : "func fileExporter<C>(isPresented: Binding<Bool>, documents: C, contentTypes: [UTType], onCompletion: (Result<[URL], Error>) -> Void, onCancellation: () -> Void) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/fileexporter(ispresented:item:contenttypes:defaultfilename:oncompletion:oncancellation:)",
+                    "title" : "func fileExporter<T>(isPresented: Binding<Bool>, item: T?, contentTypes: [UTType], defaultFilename: String?, onCompletion: (Result<URL, Error>) -> Void, onCancellation: () -> Void) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/fileexporter(ispresented:items:contenttypes:oncompletion:oncancellation:)",
+                    "title" : "func fileExporter<C, T>(isPresented: Binding<Bool>, items: C, contentTypes: [UTType], onCompletion: (Result<[URL], Error>) -> Void, onCancellation: () -> Void) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/fileexporterfilenamelabel(_:)-6c4zm",
+                    "title" : "func fileExporterFilenameLabel(LocalizedStringKey) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/fileexporterfilenamelabel(_:)-6es22",
+                    "title" : "func fileExporterFilenameLabel(Text?) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/fileexporterfilenamelabel(_:)-97u69",
+                    "title" : "func fileExporterFilenameLabel<S>(S) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/fileimporter(ispresented:allowedcontenttypes:allowsmultipleselection:oncompletion:)",
                     "title" : "func fileImporter(isPresented: Binding<Bool>, allowedContentTypes: [UTType], allowsMultipleSelection: Bool, onCompletion: (Result<[URL], Error>) -> Void) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/fileimporter(ispresented:allowedcontenttypes:allowsmultipleselection:oncompletion:oncancellation:)",
+                    "title" : "func fileImporter(isPresented: Binding<Bool>, allowedContentTypes: [UTType], allowsMultipleSelection: Bool, onCompletion: (Result<[URL], Error>) -> Void, onCancellation: () -> Void) -> some View",
                     "type" : "method"
                   },
                   {
@@ -3786,8 +4660,18 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/filemover(ispresented:file:oncompletion:oncancellation:)",
+                    "title" : "func fileMover(isPresented: Binding<Bool>, file: URL?, onCompletion: (Result<URL, Error>) -> Void, onCancellation: () -> Void) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/filemover(ispresented:files:oncompletion:)",
                     "title" : "func fileMover<C>(isPresented: Binding<Bool>, files: C, onCompletion: (Result<[URL], Error>) -> Void) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/filemover(ispresented:files:oncompletion:oncancellation:)",
+                    "title" : "func fileMover<C>(isPresented: Binding<Bool>, files: C, onCompletion: (Result<[URL], Error>) -> Void, onCancellation: () -> Void) -> some View",
                     "type" : "method"
                   },
                   {
@@ -3806,6 +4690,11 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/focuseffectdisabled(_:)",
+                    "title" : "func focusEffectDisabled(Bool) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/focusscope(_:)",
                     "title" : "func focusScope(Namespace.ID) -> some View",
                     "type" : "method"
@@ -3818,6 +4707,11 @@
                   {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/focusable(_:)",
                     "title" : "func focusable(Bool) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/focusable(_:interactions:)",
+                    "title" : "func focusable(Bool, interactions: FocusInteractions) -> some View",
                     "type" : "method"
                   },
                   {
@@ -3867,6 +4761,11 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/focusedvalue(_:)",
+                    "title" : "func focusedValue<T>(T?) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/focusedvalue(_:_:)-295bs",
                     "title" : "func focusedValue<Value>(WritableKeyPath<FocusedValues, Value?>, Value?) -> some View",
                     "type" : "method"
@@ -3897,6 +4796,7 @@
                     "type" : "method"
                   },
                   {
+                    "deprecated" : true,
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/foregroundcolor(_:)",
                     "title" : "func foregroundColor(Color?) -> some View",
                     "type" : "method"
@@ -3939,6 +4839,11 @@
                   {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/gaugestyle(_:)",
                     "title" : "func gaugeStyle<S>(S) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/geometrygroup()",
+                    "title" : "func geometryGroup() -> some View",
                     "type" : "method"
                   },
                   {
@@ -4047,6 +4952,21 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/inspector(ispresented:content:)",
+                    "title" : "func inspector<V>(isPresented: Binding<Bool>, content: () -> V) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/inspectorcolumnwidth(_:)",
+                    "title" : "func inspectorColumnWidth(CGFloat) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/inspectorcolumnwidth(min:ideal:max:)",
+                    "title" : "func inspectorColumnWidth(min: CGFloat?, ideal: CGFloat, max: CGFloat?) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/interactionactivitytrackingtag(_:)",
                     "title" : "func interactionActivityTrackingTag(String) -> some View",
                     "type" : "method"
@@ -4054,6 +4974,11 @@
                   {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/interactivedismissdisabled(_:)",
                     "title" : "func interactiveDismissDisabled(Bool) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/invalidatablecontent(_:)",
+                    "title" : "func invalidatableContent(Bool) -> some View",
                     "type" : "method"
                   },
                   {
@@ -4092,6 +5017,16 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/keyframeanimator(initialvalue:repeating:content:keyframes:)",
+                    "title" : "func keyframeAnimator<Value>(initialValue: Value, repeating: Bool, content: (PlaceholderContentView<Self>, Value) -> some View, keyframes: (Value) -> some Keyframes) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/keyframeanimator(initialvalue:trigger:content:keyframes:)",
+                    "title" : "func keyframeAnimator<Value>(initialValue: Value, trigger: some Equatable, content: (PlaceholderContentView<Self>, Value) -> some View, keyframes: (Value) -> some Keyframes) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/labelstyle(_:)",
                     "title" : "func labelStyle<S>(S) -> some View",
                     "type" : "method"
@@ -4104,6 +5039,16 @@
                   {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/labelshidden()",
                     "title" : "func labelsHidden() -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/layereffect(_:maxsampleoffset:isenabled:)",
+                    "title" : "func layerEffect(Shader, maxSampleOffset: CGSize, isEnabled: Bool) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/layoutdirectionbehavior(_:)",
+                    "title" : "func layoutDirectionBehavior(LayoutDirectionBehavior) -> some View",
                     "type" : "method"
                   },
                   {
@@ -4210,6 +5155,11 @@
                   {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/matchedgeometryeffect(id:in:properties:anchor:issource:)",
                     "title" : "func matchedGeometryEffect<ID>(id: ID, in: Namespace.ID, properties: MatchedGeometryProperties, anchor: UnitPoint, isSource: Bool) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/menuactiondismissbehavior(_:)",
+                    "title" : "func menuActionDismissBehavior(MenuActionDismissBehavior) -> some View",
                     "type" : "method"
                   },
                   {
@@ -4321,6 +5271,11 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/navigationdestination(item:destination:)",
+                    "title" : "func navigationDestination<D, C>(item: Binding<Optional<D>>, destination: (D) -> C) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/navigationdocument(_:)",
                     "title" : "func navigationDocument(URL) -> some View",
                     "type" : "method"
@@ -4422,6 +5377,17 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/onchange(of:initial:_:)-3diel",
+                    "title" : "func onChange<V>(of: V, initial: Bool, () -> Void) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/onchange(of:initial:_:)-rn8r",
+                    "title" : "func onChange<V>(of: V, initial: Bool, (V, V) -> Void) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "deprecated" : true,
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/onchange(of:perform:)",
                     "title" : "func onChange<V>(of: V, perform: (V) -> Void) -> some View",
                     "type" : "method"
@@ -4437,6 +5403,7 @@
                     "type" : "method"
                   },
                   {
+                    "deprecated" : true,
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/oncontinuoushover(coordinatespace:perform:)",
                     "title" : "func onContinuousHover(coordinateSpace: CoordinateSpace, perform: (HoverPhase) -> Void) -> some View",
                     "type" : "method"
@@ -4515,6 +5482,31 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/onkeypress(_:action:)",
+                    "title" : "func onKeyPress(KeyEquivalent, action: () -> KeyPress.Result) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/onkeypress(_:phases:action:)",
+                    "title" : "func onKeyPress(KeyEquivalent, phases: KeyPress.Phases, action: (KeyPress) -> KeyPress.Result) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/onkeypress(characters:phases:action:)",
+                    "title" : "func onKeyPress(characters: CharacterSet, phases: KeyPress.Phases, action: (KeyPress) -> KeyPress.Result) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/onkeypress(keys:phases:action:)",
+                    "title" : "func onKeyPress(keys: Set<KeyEquivalent>, phases: KeyPress.Phases, action: (KeyPress) -> KeyPress.Result) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/onkeypress(phases:action:)",
+                    "title" : "func onKeyPress(phases: KeyPress.Phases, action: (KeyPress) -> KeyPress.Result) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/onlongpressgesture(minimumduration:maximumdistance:perform:onpressingchanged:)",
                     "title" : "func onLongPressGesture(minimumDuration: Double, maximumDistance: CGFloat, perform: () -> Void, onPressingChanged: ((Bool) -> Void)?) -> some View",
                     "type" : "method"
@@ -4589,6 +5581,7 @@
                     "type" : "method"
                   },
                   {
+                    "deprecated" : true,
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/ontapgesture(count:coordinatespace:perform:)",
                     "title" : "func onTapGesture(count: Int, coordinateSpace: CoordinateSpace, perform: (CGPoint) -> Void) -> some View",
                     "type" : "method"
@@ -4655,6 +5648,11 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/paletteselectioneffect(_:)",
+                    "title" : "func paletteSelectionEffect(PaletteSelectionEffect) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/pastedestination(for:action:validator:)",
                     "title" : "func pasteDestination<T>(for: T.Type, action: ([T]) -> Void, validator: ([T]) -> [T]) -> some View",
                     "type" : "method"
@@ -4662,6 +5660,16 @@
                   {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/persistentsystemoverlays(_:)",
                     "title" : "func persistentSystemOverlays(Visibility) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/phaseanimator(_:content:animation:)",
+                    "title" : "func phaseAnimator<Phase>(some Sequence, content: (PlaceholderContentView<Self>, Phase) -> some View, animation: (Phase) -> Animation?) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/phaseanimator(_:trigger:content:animation:)",
+                    "title" : "func phaseAnimator<Phase>(some Sequence, trigger: some Equatable, content: (PlaceholderContentView<Self>, Phase) -> some View, animation: (Phase) -> Animation?) -> some View",
                     "type" : "method"
                   },
                   {
@@ -4702,6 +5710,41 @@
                   {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/prefersdefaultfocus(_:in:)",
                     "title" : "func prefersDefaultFocus(Bool, in: Namespace.ID) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/presentationbackground(_:)",
+                    "title" : "func presentationBackground<S>(S) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/presentationbackground(alignment:content:)",
+                    "title" : "func presentationBackground<V>(alignment: Alignment, content: () -> V) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/presentationbackgroundinteraction(_:)",
+                    "title" : "func presentationBackgroundInteraction(PresentationBackgroundInteraction) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/presentationcompactadaptation(_:)",
+                    "title" : "func presentationCompactAdaptation(PresentationAdaptation) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/presentationcompactadaptation(horizontal:vertical:)",
+                    "title" : "func presentationCompactAdaptation(horizontal: PresentationAdaptation, vertical: PresentationAdaptation) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/presentationcontentinteraction(_:)",
+                    "title" : "func presentationContentInteraction(PresentationContentInteraction) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/presentationcornerradius(_:)",
+                    "title" : "func presentationCornerRadius(CGFloat?) -> some View",
                     "type" : "method"
                   },
                   {
@@ -4810,6 +5853,21 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/safeareapadding(_:)-3u8vn",
+                    "title" : "func safeAreaPadding(CGFloat) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/safeareapadding(_:)-8ajz7",
+                    "title" : "func safeAreaPadding(EdgeInsets) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/safeareapadding(_:_:)",
+                    "title" : "func safeAreaPadding(Edge.Set, CGFloat?) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/saturation(_:)",
                     "title" : "func saturation(Double) -> some View",
                     "type" : "method"
@@ -4850,6 +5908,16 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/scrollbouncebehavior(_:axes:)",
+                    "title" : "func scrollBounceBehavior(ScrollBounceBehavior, axes: Axis.Set) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/scrollclipdisabled(_:)",
+                    "title" : "func scrollClipDisabled(Bool) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/scrollcontentbackground(_:)",
                     "title" : "func scrollContentBackground(Visibility) -> some View",
                     "type" : "method"
@@ -4870,8 +5938,48 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/scrollindicatorsflash(onappear:)",
+                    "title" : "func scrollIndicatorsFlash(onAppear: Bool) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/scrollindicatorsflash(trigger:)",
+                    "title" : "func scrollIndicatorsFlash(trigger: some Equatable) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/scrollposition(id:anchor:)",
+                    "title" : "func scrollPosition(id: Binding<(some Hashable)?>, anchor: UnitPoint?) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/scrolltargetbehavior(_:)",
+                    "title" : "func scrollTargetBehavior(some ScrollTargetBehavior) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/scrolltargetlayout(isenabled:)",
+                    "title" : "func scrollTargetLayout(isEnabled: Bool) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/scrolltransition(_:axis:transition:)",
+                    "title" : "func scrollTransition(ScrollTransitionConfiguration, axis: Axis?, transition: (EmptyVisualEffect, ScrollTransitionPhase) -> some VisualEffect) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/scrolltransition(topleading:bottomtrailing:axis:transition:)",
+                    "title" : "func scrollTransition(topLeading: ScrollTransitionConfiguration, bottomTrailing: ScrollTransitionConfiguration, axis: Axis?, transition: (EmptyVisualEffect, ScrollTransitionPhase) -> some VisualEffect) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/searchcompletion(_:)",
                     "title" : "func searchCompletion(String) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/searchscopes(_:activation:_:)",
+                    "title" : "func searchScopes<V, S>(Binding<V>, activation: SearchScopeActivation, () -> S) -> some View",
                     "type" : "method"
                   },
                   {
@@ -4887,6 +5995,51 @@
                   {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/searchsuggestions(_:for:)",
                     "title" : "func searchSuggestions(Visibility, for: SearchSuggestionsPlacement.Set) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/searchable(text:editabletokens:ispresented:placement:prompt:token:)-7wdh4",
+                    "title" : "func searchable<C>(text: Binding<String>, editableTokens: Binding<C>, isPresented: Binding<Bool>, placement: SearchFieldPlacement, prompt: LocalizedStringKey, token: (Binding<C.Element>) -> some View) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/searchable(text:editabletokens:ispresented:placement:prompt:token:)-8u5dm",
+                    "title" : "func searchable<C>(text: Binding<String>, editableTokens: Binding<C>, isPresented: Binding<Bool>, placement: SearchFieldPlacement, prompt: some StringProtocol, token: (Binding<C.Element>) -> some View) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/searchable(text:editabletokens:ispresented:placement:prompt:token:)-8xhil",
+                    "title" : "func searchable<C>(text: Binding<String>, editableTokens: Binding<C>, isPresented: Binding<Bool>, placement: SearchFieldPlacement, prompt: Text?, token: (Binding<C.Element>) -> some View) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/searchable(text:editabletokens:placement:prompt:token:)-59j23",
+                    "title" : "func searchable<C>(text: Binding<String>, editableTokens: Binding<C>, placement: SearchFieldPlacement, prompt: LocalizedStringKey, token: (Binding<C.Element>) -> some View) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/searchable(text:editabletokens:placement:prompt:token:)-5m81f",
+                    "title" : "func searchable<C>(text: Binding<String>, editableTokens: Binding<C>, placement: SearchFieldPlacement, prompt: some StringProtocol, token: (Binding<C.Element>) -> some View) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/searchable(text:editabletokens:placement:prompt:token:)-mk48",
+                    "title" : "func searchable<C>(text: Binding<String>, editableTokens: Binding<C>, placement: SearchFieldPlacement, prompt: Text?, token: (Binding<C.Element>) -> some View) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/searchable(text:ispresented:placement:prompt:)-3vqgj",
+                    "title" : "func searchable(text: Binding<String>, isPresented: Binding<Bool>, placement: SearchFieldPlacement, prompt: Text?) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/searchable(text:ispresented:placement:prompt:)-6yjca",
+                    "title" : "func searchable<S>(text: Binding<String>, isPresented: Binding<Bool>, placement: SearchFieldPlacement, prompt: S) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/searchable(text:ispresented:placement:prompt:)-yaix",
+                    "title" : "func searchable(text: Binding<String>, isPresented: Binding<Bool>, placement: SearchFieldPlacement, prompt: LocalizedStringKey) -> some View",
                     "type" : "method"
                   },
                   {
@@ -4923,6 +6076,21 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/searchable(text:tokens:ispresented:placement:prompt:token:)-14ins",
+                    "title" : "func searchable<C, T, S>(text: Binding<String>, tokens: Binding<C>, isPresented: Binding<Bool>, placement: SearchFieldPlacement, prompt: S, token: (C.Element) -> T) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/searchable(text:tokens:ispresented:placement:prompt:token:)-3ojge",
+                    "title" : "func searchable<C, T>(text: Binding<String>, tokens: Binding<C>, isPresented: Binding<Bool>, placement: SearchFieldPlacement, prompt: LocalizedStringKey, token: (C.Element) -> T) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/searchable(text:tokens:ispresented:placement:prompt:token:)-7hzef",
+                    "title" : "func searchable<C, T>(text: Binding<String>, tokens: Binding<C>, isPresented: Binding<Bool>, placement: SearchFieldPlacement, prompt: Text?, token: (C.Element) -> T) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/searchable(text:tokens:placement:prompt:token:)-1z97n",
                     "title" : "func searchable<C, T>(text: Binding<String>, tokens: Binding<C>, placement: SearchFieldPlacement, prompt: LocalizedStringKey, token: (C.Element) -> T) -> some View",
                     "type" : "method"
@@ -4938,6 +6106,21 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/searchable(text:tokens:suggestedtokens:ispresented:placement:prompt:token:)-1v7lr",
+                    "title" : "func searchable<C, T>(text: Binding<String>, tokens: Binding<C>, suggestedTokens: Binding<C>, isPresented: Binding<Bool>, placement: SearchFieldPlacement, prompt: Text?, token: (C.Element) -> T) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/searchable(text:tokens:suggestedtokens:ispresented:placement:prompt:token:)-3wgyg",
+                    "title" : "func searchable<C, T, S>(text: Binding<String>, tokens: Binding<C>, suggestedTokens: Binding<C>, isPresented: Binding<Bool>, placement: SearchFieldPlacement, prompt: S, token: (C.Element) -> T) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/searchable(text:tokens:suggestedtokens:ispresented:placement:prompt:token:)-ur1q",
+                    "title" : "func searchable<C, T>(text: Binding<String>, tokens: Binding<C>, suggestedTokens: Binding<C>, isPresented: Binding<Bool>, placement: SearchFieldPlacement, prompt: LocalizedStringKey, token: (C.Element) -> T) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/searchable(text:tokens:suggestedtokens:placement:prompt:token:)-1swij",
                     "title" : "func searchable<C, T>(text: Binding<String>, tokens: Binding<C>, suggestedTokens: Binding<C>, placement: SearchFieldPlacement, prompt: LocalizedStringKey, token: (C.Element) -> T) -> some View",
                     "type" : "method"
@@ -4950,6 +6133,26 @@
                   {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/searchable(text:tokens:suggestedtokens:placement:prompt:token:)-ybj7",
                     "title" : "func searchable<C, T, S>(text: Binding<String>, tokens: Binding<C>, suggestedTokens: Binding<C>, placement: SearchFieldPlacement, prompt: S, token: (C.Element) -> T) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/selectiondisabled(_:)",
+                    "title" : "func selectionDisabled(Bool) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/sensoryfeedback(_:trigger:)",
+                    "title" : "func sensoryFeedback<T>(SensoryFeedback, trigger: T) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/sensoryfeedback(_:trigger:condition:)",
+                    "title" : "func sensoryFeedback<T>(SensoryFeedback, trigger: T, condition: (T, T) -> Bool) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/sensoryfeedback(trigger:_:)",
+                    "title" : "func sensoryFeedback<T>(trigger: T, (T, T) -> SensoryFeedback?) -> some View",
                     "type" : "method"
                   },
                   {
@@ -4993,6 +6196,11 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/springloadingbehavior(_:)",
+                    "title" : "func springLoadingBehavior(SpringLoadingBehavior) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/strikethrough(_:pattern:color:)",
                     "title" : "func strikethrough(Bool, pattern: Text.LineStyle.Pattern, color: Color?) -> some View",
                     "type" : "method"
@@ -5013,6 +6221,21 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/symboleffect(_:options:isactive:)",
+                    "title" : "func symbolEffect<T>(T, options: SymbolEffectOptions, isActive: Bool) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/symboleffect(_:options:value:)",
+                    "title" : "func symbolEffect<T, U>(T, options: SymbolEffectOptions, value: U) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/symboleffectsremoved(_:)",
+                    "title" : "func symbolEffectsRemoved(Bool) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/symbolrenderingmode(_:)",
                     "title" : "func symbolRenderingMode(SymbolRenderingMode?) -> some View",
                     "type" : "method"
@@ -5030,6 +6253,11 @@
                   {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/tabviewstyle(_:)",
                     "title" : "func tabViewStyle<S>(S) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/tablecolumnheaders(_:)",
+                    "title" : "func tableColumnHeaders(Visibility) -> some View",
                     "type" : "method"
                   },
                   {
@@ -5063,8 +6291,18 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/texteditorstyle(_:)",
+                    "title" : "func textEditorStyle(some TextEditorStyle) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/textfieldstyle(_:)",
                     "title" : "func textFieldStyle<S>(S) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/textscale(_:isenabled:)",
+                    "title" : "func textScale(Text.Scale, isEnabled: Bool) -> some View",
                     "type" : "method"
                   },
                   {
@@ -5103,6 +6341,11 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/toolbar(removing:)",
+                    "title" : "func toolbar(removing: ToolbarDefaultItemKind?) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/toolbarbackground(_:for:)",
                     "title" : "func toolbarBackground(Visibility, for: ToolbarPlacement...) -> some View",
                     "type" : "method"
@@ -5115,6 +6358,11 @@
                   {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/toolbarrole(_:)",
                     "title" : "func toolbarRole(ToolbarRole) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/toolbartitledisplaymode(_:)",
+                    "title" : "func toolbarTitleDisplayMode(ToolbarTitleDisplayMode) -> some View",
                     "type" : "method"
                   },
                   {
@@ -5158,6 +6406,16 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/transaction(_:body:)",
+                    "title" : "func transaction<V>((inout Transaction) -> Void, body: (PlaceholderContentView<Self>) -> V) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/transaction(value:_:)",
+                    "title" : "func transaction(value: some Equatable, (inout Transaction) -> Void) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/transformanchorpreference(key:value:transform:)",
                     "title" : "func transformAnchorPreference<A, K>(key: K.Type, value: Anchor<A>.Source, transform: (inout K.Value, Anchor<A>) -> Void) -> some View",
                     "type" : "method"
@@ -5188,6 +6446,31 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/typeselectequivalent(_:)-1vw28",
+                    "title" : "func typeSelectEquivalent(Text?) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/typeselectequivalent(_:)-2jjpp",
+                    "title" : "func typeSelectEquivalent(LocalizedStringKey) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/typeselectequivalent(_:)-w4af",
+                    "title" : "func typeSelectEquivalent<S>(S) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/typesettinglanguage(_:isenabled:)-1lf68",
+                    "title" : "func typesettingLanguage(TypesettingLanguage, isEnabled: Bool) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/typesettinglanguage(_:isenabled:)-4rr8f",
+                    "title" : "func typesettingLanguage(Locale.Language, isEnabled: Bool) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/underline(_:pattern:color:)",
                     "title" : "func underline(Bool, pattern: Text.LineStyle.Pattern, color: Color?) -> some View",
                     "type" : "method"
@@ -5205,6 +6488,11 @@
                   {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/useractivity(_:isactive:_:)",
                     "title" : "func userActivity(String, isActive: Bool, (NSUserActivity) -> ()) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/visualeffect(_:)",
+                    "title" : "func visualEffect((EmptyVisualEffect, GeometryProxy) -> some VisualEffect) -> some View",
                     "type" : "method"
                   },
                   {
@@ -5281,6 +6569,42 @@
             "path" : "\/documentation\/appinformation\/appiconmode",
             "title" : "AppIconMode",
             "type" : "enum"
+          },
+          {
+            "title" : "Extended Modules",
+            "type" : "groupMarker"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Extended Structures",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/swiftui\/environmentvalues\/appiconmode",
+                    "title" : "var appIconMode: AppIconMode",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/swiftui\/environmentvalues\/appinfo",
+                    "title" : "var appInfo: AppInfo",
+                    "type" : "property"
+                  }
+                ],
+                "path" : "\/documentation\/appinformation\/swiftui\/environmentvalues",
+                "title" : "EnvironmentValues",
+                "type" : "extension"
+              }
+            ],
+            "path" : "\/documentation\/appinformation\/swiftui",
+            "title" : "SwiftUI",
+            "type" : "extension"
           }
         ],
         "path" : "\/documentation\/appinformation",
@@ -5292,6 +6616,6 @@
   "schemaVersion" : {
     "major" : 0,
     "minor" : 1,
-    "patch" : 0
+    "patch" : 1
   }
 }

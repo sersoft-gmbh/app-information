@@ -1,7 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "Presents a system interface for allowing the user to export an in-memory",
+      "text" : "Presents a system interface for exporting a document that’s stored in",
       "type" : "text"
     },
     {
@@ -9,7 +9,7 @@
       "type" : "text"
     },
     {
-      "text" : "document to a file on disk.",
+      "text" : "a reference type, like a class, to a file on disk.",
       "type" : "text"
     }
   ],
@@ -191,7 +191,10 @@
     ],
     "modules" : [
       {
-        "name" : "AppInformation"
+        "name" : "AppInformation",
+        "relatedModules" : [
+          "SwiftUI"
+        ]
       }
     ],
     "platforms" : [
@@ -836,7 +839,7 @@
 "doc://AppInformation/documentation/AppInformation/AppIconView/fileExporter(isPresented:document:contentType:defaultFilename:onCompletion:)-77xka": {
   "abstract" : [
     {
-      "text" : "Presents a system interface for allowing the user to export an in-memory",
+      "text" : "Presents a system interface for exporting a document that’s stored in",
       "type" : "text"
     },
     {
@@ -844,7 +847,7 @@
       "type" : "text"
     },
     {
-      "text" : "document to a file on disk.",
+      "text" : "a reference type, like a class, to a file on disk.",
       "type" : "text"
     }
   ],

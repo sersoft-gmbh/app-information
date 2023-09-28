@@ -117,7 +117,7 @@
       "identifiers" : [
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/appleID-swift.property",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/copyright",
-        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/id-7m57p",
+        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/id",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/identifier",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/names",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/versioning-swift.property"
@@ -133,8 +133,7 @@
     {
       "generated" : true,
       "identifiers" : [
-        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/Equatable-Implementations",
-        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/Identifiable-Implementations"
+        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/Equatable-Implementations"
       ],
       "title" : "Default Implementations"
     }
@@ -247,17 +246,6 @@
   "title" : "Equatable Implementations",
   "type" : "topic",
   "url" : "\/documentation\/appinformation\/appinfo\/equatable-implementations"
-},
-"doc://AppInformation/documentation/AppInformation/AppInfo/Identifiable-Implementations": {
-  "abstract" : [
-
-  ],
-  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/Identifiable-Implementations",
-  "kind" : "article",
-  "role" : "collectionGroup",
-  "title" : "Identifiable Implementations",
-  "type" : "topic",
-  "url" : "\/documentation\/appinformation\/appinfo\/identifiable-implementations"
 },
 "doc://AppInformation/documentation/AppInformation/AppInfo/Naming": {
   "abstract" : [
@@ -463,7 +451,7 @@
   "type" : "topic",
   "url" : "\/documentation\/appinformation\/appinfo\/current"
 },
-"doc://AppInformation/documentation/AppInformation/AppInfo/id-7m57p": {
+"doc://AppInformation/documentation/AppInformation/AppInfo/id": {
   "abstract" : [
 
   ],
@@ -490,12 +478,12 @@
       "text" : "String"
     }
   ],
-  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/id-7m57p",
+  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/id",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "id",
   "type" : "topic",
-  "url" : "\/documentation\/appinformation\/appinfo\/id-7m57p"
+  "url" : "\/documentation\/appinformation\/appinfo\/id"
 },
 "doc://AppInformation/documentation/AppInformation/AppInfo/identifier": {
   "abstract" : [

@@ -69,7 +69,10 @@
     ],
     "modules" : [
       {
-        "name" : "AppInformation"
+        "name" : "AppInformation",
+        "relatedModules" : [
+          "Swift"
+        ]
       }
     ],
     "role" : "symbol",

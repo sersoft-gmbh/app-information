@@ -45,6 +45,12 @@
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconMode"
       ],
       "title" : "Enumerations"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/AppInformation\/documentation\/AppInformation\/SwiftUI"
+      ],
+      "title" : "Extended Modules"
     }
   ],
   "variants" : [
@@ -224,6 +230,17 @@
   "title" : "ApplicationInfoView",
   "type" : "topic",
   "url" : "\/documentation\/appinformation\/applicationinfoview"
+},
+"doc://AppInformation/documentation/AppInformation/SwiftUI": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/SwiftUI",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "SwiftUI",
+  "type" : "topic",
+  "url" : "\/documentation\/appinformation\/swiftui"
 }
 }
 }

@@ -1,7 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "Presents a system interface for allowing the user to export a collection",
+      "text" : "Presents a system interface for exporting a collection of value type",
       "type" : "text"
     },
     {
@@ -9,7 +9,7 @@
       "type" : "text"
     },
     {
-      "text" : "of in-memory documents to files on disk.",
+      "text" : "documents to files on disk.",
       "type" : "text"
     }
   ],
@@ -174,7 +174,10 @@
     ],
     "modules" : [
       {
-        "name" : "AppInformation"
+        "name" : "AppInformation",
+        "relatedModules" : [
+          "SwiftUI"
+        ]
       }
     ],
     "platforms" : [
@@ -789,7 +792,7 @@
 "doc://AppInformation/documentation/AppInformation/AppIconView/fileExporter(isPresented:documents:contentType:onCompletion:)-47yto": {
   "abstract" : [
     {
-      "text" : "Presents a system interface for allowing the user to export a collection",
+      "text" : "Presents a system interface for exporting a collection of value type",
       "type" : "text"
     },
     {
@@ -797,7 +800,7 @@
       "type" : "text"
     },
     {
-      "text" : "of in-memory documents to files on disk.",
+      "text" : "documents to files on disk.",
       "type" : "text"
     }
   ],

@@ -1,16 +1,12 @@
 {
   "abstract" : [
     {
-      "text" : "The combined version information, formatted as “",
+      "text" : "The combined version information, formatted as ",
       "type" : "text"
     },
     {
-      "text" : " (",
-      "type" : "text"
-    },
-    {
-      "text" : ")”",
-      "type" : "text"
+      "code" : "\"<Version> (<Build>)\"",
+      "type" : "codeVoice"
     }
   ],
   "hierarchy" : {
@@ -216,16 +212,12 @@
 "doc://AppInformation/documentation/AppInformation/AppInfo/Versioning-swift.struct/combined": {
   "abstract" : [
     {
-      "text" : "The combined version information, formatted as “",
+      "text" : "The combined version information, formatted as ",
       "type" : "text"
     },
     {
-      "text" : " (",
-      "type" : "text"
-    },
-    {
-      "text" : ")”",
-      "type" : "text"
+      "code" : "\"<Version> (<Build>)\"",
+      "type" : "codeVoice"
     }
   ],
   "fragments" : [

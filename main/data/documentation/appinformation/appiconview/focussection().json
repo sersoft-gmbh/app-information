@@ -63,7 +63,10 @@
     ],
     "modules" : [
       {
-        "name" : "AppInformation"
+        "name" : "AppInformation",
+        "relatedModules" : [
+          "SwiftUI"
+        ]
       }
     ],
     "platforms" : [
@@ -299,10 +302,7 @@
         },
         {
           "inlineContent" : [
-            {
-              "identifier" : "View-focusSection-tvOS",
-              "type" : "image"
-            }
+
           ],
           "type" : "paragraph"
         },
