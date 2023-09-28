@@ -12,7 +12,7 @@ A simple package for storing as well as showing app infos.
 
 Add the following dependency to your `Package.swift`:
 ```swift
-.package(url: "https://github.com/sersoft-gmbh/app-information.git", from: "1.0.0"),
+.package(url: "https://github.com/sersoft-gmbh/app-information", from: "1.0.0"),
 ```
 
 Or add it via Xcode (as of Xcode 11).

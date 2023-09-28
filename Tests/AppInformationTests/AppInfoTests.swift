@@ -12,11 +12,11 @@ final class AppInfoTests: XCTestCase {
         override var bundleIdentifier: String? { _identifier }
         
         var _infoDict: Dictionary<String, Any>?
-        override var infoDictionary: [String : Any]? { _infoDict }
-        
+        override var infoDictionary: Dictionary<String, Any>? { _infoDict }
+
         var _localizedInfoDict: Dictionary<String, Any>?
-        override var localizedInfoDictionary: [String : Any]? { _localizedInfoDict }
-        
+        override var localizedInfoDictionary: Dictionary<String, Any>? { _localizedInfoDict }
+
         init(path: String,
              identifier: String? = nil,
              infoDict: Dictionary<String, Any>? = nil,
@@ -189,9 +189,8 @@ final class AppInfoTests: XCTestCase {
     func testSwiftUIEnvironment() throws {
 #if arch(arm64) || arch(x86_64)
 #if canImport(SwiftUI) && canImport(Combine)
-        guard #available(macOS 10.15, iOS 13.0, tvOS 13.0, watchOS 6.0, *) else {
-            throw XCTSkip()
-        }
+        guard #available(macOS 10.15, iOS 13.0, tvOS 13.0, watchOS 6.0, *) 
+        else { throw XCTSkip() }
         let info = AppInfo(bundle: FakeBundle(path: bundlePath))
         var env = EnvironmentValues()
         XCTAssertEqual(env.appInfo, .current)
@@ -209,7 +208,7 @@ final class AppInfoTests: XCTestCase {
 fileprivate func XCTAssertEqual<T1: Equatable, T2: Equatable>(_ lhs: @autoclosure () throws -> (T1, T2),
                                                               _ rhs: @autoclosure () throws -> (T1, T2),
                                                               _ message: @autoclosure () -> String = "",
-                                                              file: StaticString = #file,
+                                                              file: StaticString = #filePath,
                                                               line: UInt = #line) {
     XCTAssert(try lhs() == rhs(), message(), file: file, line: line)
 }

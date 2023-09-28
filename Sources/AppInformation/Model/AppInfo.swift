@@ -2,9 +2,9 @@ import class Foundation.Bundle
 import class Foundation.ProcessInfo
 
 /// Contains the information for an application (e.g. naming and versioning).
-public struct AppInfo: Equatable, Identifiable, Sendable {
+public struct AppInfo: Sendable, Equatable, Identifiable {
     /// The naming information.
-    public struct Naming: Equatable, Sendable {
+    public struct Naming: Sendable, Equatable {
         /// The unlocalized set of names.
         public let unlocalized: (base: String, display: String?)
         /// The localized set of names.
@@ -32,13 +32,13 @@ public struct AppInfo: Equatable, Identifiable, Sendable {
     }
 
     /// The versioning information.
-    public struct Versioning: Equatable, Sendable {
+    public struct Versioning: Sendable, Equatable {
         /// The version, e.g. 1.0.0.
         public let version: String
         /// The build, e.g. 42.
         public let build: String
 
-        /// The combined version information, formatted as "<Version> (<Build>)"
+        /// The combined version information, formatted as `"<Version> (<Build>)"`
         public var combined: String { "\(version) (\(build))" }
     }
 
@@ -65,7 +65,7 @@ extension AppInfo {
     /// - Parameter appleID: The appleID to use. Defaults to `nil`, in which case it is attempted to read it
     ///                      from the `AppInformationAppleID` key in the bundle's info dictionary.
     public init(bundle: Bundle, appleID: AppleID? = nil) {
-        let infoDict = bundle.infoDictionary ?? [:]
+        let infoDict = bundle.infoDictionary ?? .init()
         identifier = bundle.bundleIdentifier ?? String(ProcessInfo.processInfo.processIdentifier)
         names = Naming(infoDict: infoDict, localizedInfoDict: bundle.localizedInfoDictionary)
         versioning = Versioning(infoDict: infoDict)
