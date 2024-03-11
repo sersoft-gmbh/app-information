@@ -2564,6 +2564,11 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/appiconview\/searchpresentationtoolbarbehavior(_:)",
+                    "title" : "func searchPresentationToolbarBehavior(SearchPresentationToolbarBehavior) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/appinformation\/appiconview\/searchscopes(_:activation:_:)",
                     "title" : "func searchScopes<V, S>(Binding<V>, activation: SearchScopeActivation, () -> S) -> some View",
                     "type" : "method"
@@ -5975,6 +5980,11 @@
                   {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/searchcompletion(_:)",
                     "title" : "func searchCompletion(String) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/searchpresentationtoolbarbehavior(_:)",
+                    "title" : "func searchPresentationToolbarBehavior(SearchPresentationToolbarBehavior) -> some View",
                     "type" : "method"
                   },
                   {

@@ -1,7 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "Rotates a view’s rendered output in two dimensions around the specified",
+      "text" : "Configures the search toolbar presentation behavior for any",
       "type" : "text"
     },
     {
@@ -9,7 +9,7 @@
       "type" : "text"
     },
     {
-      "text" : "point.",
+      "text" : "searchable modifiers within this view.",
       "type" : "text"
     }
   ],
@@ -24,12 +24,12 @@
   },
   "identifier" : {
     "interfaceLanguage" : "swift",
-    "url" : "doc:\/\/AppInformation\/documentation\/AppInformation\/ApplicationInfoView\/rotationEffect(_:anchor:)"
+    "url" : "doc:\/\/AppInformation\/documentation\/AppInformation\/ApplicationInfoView\/searchPresentationToolbarBehavior(_:)"
   },
   "kind" : "symbol",
   "metadata" : {
     "extendedModule" : "SwiftUI",
-    "externalID" : "s:7SwiftUI4ViewPAAE14rotationEffect_6anchorQrAA5AngleV_AA9UnitPointVtF::SYNTHESIZED::s:14AppInformation19ApplicationInfoViewV",
+    "externalID" : "s:7SwiftUI4ViewPAAE33searchPresentationToolbarBehavioryQrAA06SearchefG0VF::SYNTHESIZED::s:14AppInformation19ApplicationInfoViewV",
     "fragments" : [
       {
         "kind" : "keyword",
@@ -41,7 +41,7 @@
       },
       {
         "kind" : "identifier",
-        "text" : "rotationEffect"
+        "text" : "searchPresentationToolbarBehavior"
       },
       {
         "kind" : "text",
@@ -49,25 +49,8 @@
       },
       {
         "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:7SwiftUI5AngleV",
-        "text" : "Angle"
-      },
-      {
-        "kind" : "text",
-        "text" : ", "
-      },
-      {
-        "kind" : "externalParam",
-        "text" : "anchor"
-      },
-      {
-        "kind" : "text",
-        "text" : ": "
-      },
-      {
-        "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:7SwiftUI9UnitPointV",
-        "text" : "UnitPoint"
+        "preciseIdentifier" : "s:7SwiftUI33SearchPresentationToolbarBehaviorV",
+        "text" : "SearchPresentationToolbarBehavior"
       },
       {
         "kind" : "text",
@@ -99,28 +82,28 @@
       {
         "beta" : false,
         "deprecated" : false,
-        "introducedAt" : "13.0",
+        "introducedAt" : "17.1",
         "name" : "iOS",
         "unavailable" : false
       },
       {
         "beta" : false,
         "deprecated" : false,
-        "introducedAt" : "10.15",
+        "introducedAt" : "14.1",
         "name" : "macOS",
         "unavailable" : false
       },
       {
         "beta" : false,
         "deprecated" : false,
-        "introducedAt" : "13.0",
+        "introducedAt" : "17.1",
         "name" : "tvOS",
         "unavailable" : false
       },
       {
         "beta" : false,
         "deprecated" : false,
-        "introducedAt" : "6.0",
+        "introducedAt" : "10.1",
         "name" : "watchOS",
         "unavailable" : false
       }
@@ -128,7 +111,7 @@
     "role" : "symbol",
     "roleHeading" : "Instance Method",
     "symbolKind" : "method",
-    "title" : "rotationEffect(_:anchor:)"
+    "title" : "searchPresentationToolbarBehavior(_:)"
   },
   "primaryContentSections" : [
     {
@@ -151,7 +134,7 @@
             },
             {
               "kind" : "identifier",
-              "text" : "rotationEffect"
+              "text" : "searchPresentationToolbarBehavior"
             },
             {
               "kind" : "text",
@@ -167,7 +150,7 @@
             },
             {
               "kind" : "internalParam",
-              "text" : "angle"
+              "text" : "behavior"
             },
             {
               "kind" : "text",
@@ -175,29 +158,12 @@
             },
             {
               "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:7SwiftUI5AngleV",
-              "text" : "Angle"
+              "preciseIdentifier" : "s:7SwiftUI33SearchPresentationToolbarBehaviorV",
+              "text" : "SearchPresentationToolbarBehavior"
             },
             {
               "kind" : "text",
-              "text" : ", "
-            },
-            {
-              "kind" : "externalParam",
-              "text" : "anchor"
-            },
-            {
-              "kind" : "text",
-              "text" : ": "
-            },
-            {
-              "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:7SwiftUI9UnitPointV",
-              "text" : "UnitPoint"
-            },
-            {
-              "kind" : "text",
-              "text" : " = .center) -> "
+              "text" : ") -> "
             },
             {
               "kind" : "keyword",
@@ -222,75 +188,6 @@
       "kind" : "declarations"
     },
     {
-      "kind" : "parameters",
-      "parameters" : [
-        {
-          "content" : [
-            {
-              "inlineContent" : [
-                {
-                  "text" : "The angle by which to rotate the view.",
-                  "type" : "text"
-                }
-              ],
-              "type" : "paragraph"
-            }
-          ],
-          "name" : "angle"
-        },
-        {
-          "content" : [
-            {
-              "inlineContent" : [
-                {
-                  "text" : "A unit point within the view about which to",
-                  "type" : "text"
-                },
-                {
-                  "text" : " ",
-                  "type" : "text"
-                },
-                {
-                  "text" : "perform the rotation. The default value is ",
-                  "type" : "text"
-                },
-                {
-                  "code" : "UnitPoint\/center",
-                  "type" : "codeVoice"
-                },
-                {
-                  "text" : ".",
-                  "type" : "text"
-                }
-              ],
-              "type" : "paragraph"
-            }
-          ],
-          "name" : "anchor"
-        }
-      ]
-    },
-    {
-      "content" : [
-        {
-          "anchor" : "return-value",
-          "level" : 2,
-          "text" : "Return Value",
-          "type" : "heading"
-        },
-        {
-          "inlineContent" : [
-            {
-              "text" : "A view with rotated content.",
-              "type" : "text"
-            }
-          ],
-          "type" : "paragraph"
-        }
-      ],
-      "kind" : "content"
-    },
-    {
       "content" : [
         {
           "anchor" : "discussion",
@@ -301,7 +198,7 @@
         {
           "inlineContent" : [
             {
-              "text" : "This modifier rotates the view’s content around the axis that points",
+              "text" : "By default on iOS, a toolbar may hide parts of its content when",
               "type" : "text"
             },
             {
@@ -309,7 +206,7 @@
               "type" : "text"
             },
             {
-              "text" : "out of the xy-plane. It has no effect on the view’s frame.",
+              "text" : "presenting search to focus on searching. You can override",
               "type" : "text"
             },
             {
@@ -317,7 +214,7 @@
               "type" : "text"
             },
             {
-              "text" : "The following code rotates text by 22˚ and then draws a border around",
+              "text" : "this behavior by providing a value of",
               "type" : "text"
             },
             {
@@ -325,15 +222,15 @@
               "type" : "text"
             },
             {
-              "text" : "the modified view to show that the frame remains unchanged by the",
-              "type" : "text"
+              "code" : "SearchPresentationToolbarBehavior\/avoidHidingContent",
+              "type" : "codeVoice"
             },
             {
               "text" : " ",
               "type" : "text"
             },
             {
-              "text" : "rotation modifier:",
+              "text" : "to this modifer.",
               "type" : "text"
             }
           ],
@@ -341,18 +238,16 @@
         },
         {
           "code" : [
-            "Text(\"Rotation by passing an angle in degrees\")",
-            "    .rotationEffect(.degrees(22))",
-            "    .border(Color.gray)"
+            "@State private var searchText = \"\"",
+            "",
+            "List {",
+            "    \/\/ ... content",
+            "}",
+            ".searchable(text: $searchText)",
+            ".searchPresentationToolbarBehavior(.avoidHidingContent)"
           ],
           "syntax" : null,
           "type" : "codeListing"
-        },
-        {
-          "inlineContent" : [
-
-          ],
-          "type" : "paragraph"
         }
       ],
       "kind" : "content"
@@ -369,7 +264,7 @@
   "variants" : [
     {
       "paths" : [
-        "\/documentation\/appinformation\/applicationinfoview\/rotationeffect(_:anchor:)"
+        "\/documentation\/appinformation\/applicationinfoview\/searchpresentationtoolbarbehavior(_:)"
       ],
       "traits" : [
         {
@@ -444,10 +339,10 @@
   "type" : "topic",
   "url" : "\/documentation\/appinformation\/applicationinfoview\/view-implementations"
 },
-"doc://AppInformation/documentation/AppInformation/ApplicationInfoView/rotationEffect(_:anchor:)": {
+"doc://AppInformation/documentation/AppInformation/ApplicationInfoView/searchPresentationToolbarBehavior(_:)": {
   "abstract" : [
     {
-      "text" : "Rotates a view’s rendered output in two dimensions around the specified",
+      "text" : "Configures the search toolbar presentation behavior for any",
       "type" : "text"
     },
     {
@@ -455,7 +350,7 @@
       "type" : "text"
     },
     {
-      "text" : "point.",
+      "text" : "searchable modifiers within this view.",
       "type" : "text"
     }
   ],
@@ -470,7 +365,7 @@
     },
     {
       "kind" : "identifier",
-      "text" : "rotationEffect"
+      "text" : "searchPresentationToolbarBehavior"
     },
     {
       "kind" : "text",
@@ -478,25 +373,8 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:7SwiftUI5AngleV",
-      "text" : "Angle"
-    },
-    {
-      "kind" : "text",
-      "text" : ", "
-    },
-    {
-      "kind" : "externalParam",
-      "text" : "anchor"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:7SwiftUI9UnitPointV",
-      "text" : "UnitPoint"
+      "preciseIdentifier" : "s:7SwiftUI33SearchPresentationToolbarBehaviorV",
+      "text" : "SearchPresentationToolbarBehavior"
     },
     {
       "kind" : "text",
@@ -516,12 +394,12 @@
       "text" : "View"
     }
   ],
-  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/ApplicationInfoView\/rotationEffect(_:anchor:)",
+  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/ApplicationInfoView\/searchPresentationToolbarBehavior(_:)",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "rotationEffect(_:anchor:)",
+  "title" : "searchPresentationToolbarBehavior(_:)",
   "type" : "topic",
-  "url" : "\/documentation\/appinformation\/applicationinfoview\/rotationeffect(_:anchor:)"
+  "url" : "\/documentation\/appinformation\/applicationinfoview\/searchpresentationtoolbarbehavior(_:)"
 }
 }
 }

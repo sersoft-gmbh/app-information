@@ -527,6 +527,7 @@
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/scrollTransition(_:axis:transition:)",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/scrollTransition(topLeading:bottomTrailing:axis:transition:)",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/searchCompletion(_:)",
+        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/searchPresentationToolbarBehavior(_:)",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/searchScopes(_:activation:_:)",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/searchScopes(_:scopes:)",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/searchSuggestions(_:)",
@@ -19119,7 +19120,7 @@
 "doc://AppInformation/documentation/AppInformation/AppIconView/environment(_:)": {
   "abstract" : [
     {
-      "text" : "Sets an observable object of the environment to the given value.",
+      "text" : "Places an observable object in the view’s environment.",
       "type" : "text"
     }
   ],
@@ -29869,7 +29870,7 @@
 "doc://AppInformation/documentation/AppInformation/AppIconView/listItemTint(_:)-1fddk": {
   "abstract" : [
     {
-      "text" : "Sets a fixed tint color associated with specific content in a list.",
+      "text" : "Sets a fixed tint color for content in a list.",
       "type" : "text"
     }
   ],
@@ -29923,7 +29924,7 @@
 "doc://AppInformation/documentation/AppInformation/AppIconView/listItemTint(_:)-1oar5": {
   "abstract" : [
     {
-      "text" : "Sets the tint effect associated with specific content in a list.",
+      "text" : "Sets the tint effect for content in a list.",
       "type" : "text"
     }
   ],
@@ -38998,7 +38999,7 @@
 "doc://AppInformation/documentation/AppInformation/AppIconView/phaseAnimator(_:content:animation:)": {
   "abstract" : [
     {
-      "text" : "Cycles through the given phases continuously, updating the content",
+      "text" : "Animates effects that you apply to a view over a sequence of phases",
       "type" : "text"
     },
     {
@@ -39006,7 +39007,7 @@
       "type" : "text"
     },
     {
-      "text" : "using the view builder closure that you supply.",
+      "text" : "that change continuously.",
       "type" : "text"
     }
   ],
@@ -39135,7 +39136,7 @@
 "doc://AppInformation/documentation/AppInformation/AppIconView/phaseAnimator(_:trigger:content:animation:)": {
   "abstract" : [
     {
-      "text" : "Cycles through the given phases when the trigger value changes,",
+      "text" : "Animates effects that you apply to a view over a sequence of phases",
       "type" : "text"
     },
     {
@@ -39143,15 +39144,7 @@
       "type" : "text"
     },
     {
-      "text" : "updating the view using the modifiers you apply in ",
-      "type" : "text"
-    },
-    {
-      "code" : "body",
-      "type" : "codeVoice"
-    },
-    {
-      "text" : ".",
+      "text" : "that change based on a trigger.",
       "type" : "text"
     }
   ],
@@ -41545,7 +41538,7 @@
 "doc://AppInformation/documentation/AppInformation/AppIconView/rotation3DEffect(_:axis:anchor:anchorZ:perspective:)": {
   "abstract" : [
     {
-      "text" : "Rotates this view’s rendered output in three dimensions around the given",
+      "text" : "Renders a view’s content as if it’s rotated in three dimensions around",
       "type" : "text"
     },
     {
@@ -41553,7 +41546,7 @@
       "type" : "text"
     },
     {
-      "text" : "axis of rotation.",
+      "text" : "the specified axis.",
       "type" : "text"
     }
   ],
@@ -41705,7 +41698,15 @@
 "doc://AppInformation/documentation/AppInformation/AppIconView/rotationEffect(_:anchor:)": {
   "abstract" : [
     {
-      "text" : "Rotates this view’s rendered output around the specified point.",
+      "text" : "Rotates a view’s rendered output in two dimensions around the specified",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "point.",
       "type" : "text"
     }
   ],
@@ -43848,6 +43849,68 @@
   "title" : "searchCompletion(_:)",
   "type" : "topic",
   "url" : "\/documentation\/appinformation\/appiconview\/searchcompletion(_:)"
+},
+"doc://AppInformation/documentation/AppInformation/AppIconView/searchPresentationToolbarBehavior(_:)": {
+  "abstract" : [
+    {
+      "text" : "Configures the search toolbar presentation behavior for any",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "searchable modifiers within this view.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "searchPresentationToolbarBehavior"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI33SearchPresentationToolbarBehaviorV",
+      "text" : "SearchPresentationToolbarBehavior"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/searchPresentationToolbarBehavior(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "searchPresentationToolbarBehavior(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/appinformation\/appiconview\/searchpresentationtoolbarbehavior(_:)"
 },
 "doc://AppInformation/documentation/AppInformation/AppIconView/searchScopes(_:activation:_:)": {
   "abstract" : [
@@ -54592,7 +54655,7 @@
 "doc://AppInformation/documentation/AppInformation/AppIconView/visualEffect(_:)": {
   "abstract" : [
     {
-      "text" : "Applies effects to this view, while providing access to layout information",
+      "text" : "Applies effects to this view, while providing access to layout",
       "type" : "text"
     },
     {
@@ -54600,15 +54663,7 @@
       "type" : "text"
     },
     {
-      "text" : "via ",
-      "type" : "text"
-    },
-    {
-      "code" : "GeometryProxy",
-      "type" : "codeVoice"
-    },
-    {
-      "text" : ".",
+      "text" : "information through a geometry proxy.",
       "type" : "text"
     }
   ],
