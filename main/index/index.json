@@ -1162,52 +1162,52 @@
                   },
                   {
                     "path" : "\/documentation\/appinformation\/appiconview\/fileexporter(ispresented:document:contenttype:defaultfilename:oncompletion:)-1vmrk",
-                    "title" : "func fileExporter<D>(isPresented: Binding<Bool>, document: D?, contentType: UTType, defaultFilename: String?, onCompletion: (Result<URL, Error>) -> Void) -> some View",
+                    "title" : "func fileExporter<D>(isPresented: Binding<Bool>, document: D?, contentType: UTType, defaultFilename: String?, onCompletion: (Result<URL, any Error>) -> Void) -> some View",
                     "type" : "method"
                   },
                   {
                     "path" : "\/documentation\/appinformation\/appiconview\/fileexporter(ispresented:document:contenttype:defaultfilename:oncompletion:)-77xka",
-                    "title" : "func fileExporter<D>(isPresented: Binding<Bool>, document: D?, contentType: UTType, defaultFilename: String?, onCompletion: (Result<URL, Error>) -> Void) -> some View",
+                    "title" : "func fileExporter<D>(isPresented: Binding<Bool>, document: D?, contentType: UTType, defaultFilename: String?, onCompletion: (Result<URL, any Error>) -> Void) -> some View",
                     "type" : "method"
                   },
                   {
                     "path" : "\/documentation\/appinformation\/appiconview\/fileexporter(ispresented:document:contenttypes:defaultfilename:oncompletion:oncancellation:)-7qusv",
-                    "title" : "func fileExporter<D>(isPresented: Binding<Bool>, document: D?, contentTypes: [UTType], defaultFilename: String?, onCompletion: (Result<URL, Error>) -> Void, onCancellation: () -> Void) -> some View",
+                    "title" : "func fileExporter<D>(isPresented: Binding<Bool>, document: D?, contentTypes: [UTType], defaultFilename: String?, onCompletion: (Result<URL, any Error>) -> Void, onCancellation: () -> Void) -> some View",
                     "type" : "method"
                   },
                   {
                     "path" : "\/documentation\/appinformation\/appiconview\/fileexporter(ispresented:document:contenttypes:defaultfilename:oncompletion:oncancellation:)-au9z",
-                    "title" : "func fileExporter<D>(isPresented: Binding<Bool>, document: D?, contentTypes: [UTType], defaultFilename: String?, onCompletion: (Result<URL, Error>) -> Void, onCancellation: () -> Void) -> some View",
+                    "title" : "func fileExporter<D>(isPresented: Binding<Bool>, document: D?, contentTypes: [UTType], defaultFilename: String?, onCompletion: (Result<URL, any Error>) -> Void, onCancellation: () -> Void) -> some View",
                     "type" : "method"
                   },
                   {
                     "path" : "\/documentation\/appinformation\/appiconview\/fileexporter(ispresented:documents:contenttype:oncompletion:)-47yto",
-                    "title" : "func fileExporter<C>(isPresented: Binding<Bool>, documents: C, contentType: UTType, onCompletion: (Result<[URL], Error>) -> Void) -> some View",
+                    "title" : "func fileExporter<C>(isPresented: Binding<Bool>, documents: C, contentType: UTType, onCompletion: (Result<[URL], any Error>) -> Void) -> some View",
                     "type" : "method"
                   },
                   {
                     "path" : "\/documentation\/appinformation\/appiconview\/fileexporter(ispresented:documents:contenttype:oncompletion:)-7q418",
-                    "title" : "func fileExporter<C>(isPresented: Binding<Bool>, documents: C, contentType: UTType, onCompletion: (Result<[URL], Error>) -> Void) -> some View",
+                    "title" : "func fileExporter<C>(isPresented: Binding<Bool>, documents: C, contentType: UTType, onCompletion: (Result<[URL], any Error>) -> Void) -> some View",
                     "type" : "method"
                   },
                   {
                     "path" : "\/documentation\/appinformation\/appiconview\/fileexporter(ispresented:documents:contenttypes:oncompletion:oncancellation:)-68jdj",
-                    "title" : "func fileExporter<C>(isPresented: Binding<Bool>, documents: C, contentTypes: [UTType], onCompletion: (Result<[URL], Error>) -> Void, onCancellation: () -> Void) -> some View",
+                    "title" : "func fileExporter<C>(isPresented: Binding<Bool>, documents: C, contentTypes: [UTType], onCompletion: (Result<[URL], any Error>) -> Void, onCancellation: () -> Void) -> some View",
                     "type" : "method"
                   },
                   {
                     "path" : "\/documentation\/appinformation\/appiconview\/fileexporter(ispresented:documents:contenttypes:oncompletion:oncancellation:)-92qln",
-                    "title" : "func fileExporter<C>(isPresented: Binding<Bool>, documents: C, contentTypes: [UTType], onCompletion: (Result<[URL], Error>) -> Void, onCancellation: () -> Void) -> some View",
+                    "title" : "func fileExporter<C>(isPresented: Binding<Bool>, documents: C, contentTypes: [UTType], onCompletion: (Result<[URL], any Error>) -> Void, onCancellation: () -> Void) -> some View",
                     "type" : "method"
                   },
                   {
                     "path" : "\/documentation\/appinformation\/appiconview\/fileexporter(ispresented:item:contenttypes:defaultfilename:oncompletion:oncancellation:)",
-                    "title" : "func fileExporter<T>(isPresented: Binding<Bool>, item: T?, contentTypes: [UTType], defaultFilename: String?, onCompletion: (Result<URL, Error>) -> Void, onCancellation: () -> Void) -> some View",
+                    "title" : "func fileExporter<T>(isPresented: Binding<Bool>, item: T?, contentTypes: [UTType], defaultFilename: String?, onCompletion: (Result<URL, any Error>) -> Void, onCancellation: () -> Void) -> some View",
                     "type" : "method"
                   },
                   {
                     "path" : "\/documentation\/appinformation\/appiconview\/fileexporter(ispresented:items:contenttypes:oncompletion:oncancellation:)",
-                    "title" : "func fileExporter<C, T>(isPresented: Binding<Bool>, items: C, contentTypes: [UTType], onCompletion: (Result<[URL], Error>) -> Void, onCancellation: () -> Void) -> some View",
+                    "title" : "func fileExporter<C, T>(isPresented: Binding<Bool>, items: C, contentTypes: [UTType], onCompletion: (Result<[URL], any Error>) -> Void, onCancellation: () -> Void) -> some View",
                     "type" : "method"
                   },
                   {
@@ -1227,37 +1227,37 @@
                   },
                   {
                     "path" : "\/documentation\/appinformation\/appiconview\/fileimporter(ispresented:allowedcontenttypes:allowsmultipleselection:oncompletion:)",
-                    "title" : "func fileImporter(isPresented: Binding<Bool>, allowedContentTypes: [UTType], allowsMultipleSelection: Bool, onCompletion: (Result<[URL], Error>) -> Void) -> some View",
+                    "title" : "func fileImporter(isPresented: Binding<Bool>, allowedContentTypes: [UTType], allowsMultipleSelection: Bool, onCompletion: (Result<[URL], any Error>) -> Void) -> some View",
                     "type" : "method"
                   },
                   {
                     "path" : "\/documentation\/appinformation\/appiconview\/fileimporter(ispresented:allowedcontenttypes:allowsmultipleselection:oncompletion:oncancellation:)",
-                    "title" : "func fileImporter(isPresented: Binding<Bool>, allowedContentTypes: [UTType], allowsMultipleSelection: Bool, onCompletion: (Result<[URL], Error>) -> Void, onCancellation: () -> Void) -> some View",
+                    "title" : "func fileImporter(isPresented: Binding<Bool>, allowedContentTypes: [UTType], allowsMultipleSelection: Bool, onCompletion: (Result<[URL], any Error>) -> Void, onCancellation: () -> Void) -> some View",
                     "type" : "method"
                   },
                   {
                     "path" : "\/documentation\/appinformation\/appiconview\/fileimporter(ispresented:allowedcontenttypes:oncompletion:)",
-                    "title" : "func fileImporter(isPresented: Binding<Bool>, allowedContentTypes: [UTType], onCompletion: (Result<URL, Error>) -> Void) -> some View",
+                    "title" : "func fileImporter(isPresented: Binding<Bool>, allowedContentTypes: [UTType], onCompletion: (Result<URL, any Error>) -> Void) -> some View",
                     "type" : "method"
                   },
                   {
                     "path" : "\/documentation\/appinformation\/appiconview\/filemover(ispresented:file:oncompletion:)",
-                    "title" : "func fileMover(isPresented: Binding<Bool>, file: URL?, onCompletion: (Result<URL, Error>) -> Void) -> some View",
+                    "title" : "func fileMover(isPresented: Binding<Bool>, file: URL?, onCompletion: (Result<URL, any Error>) -> Void) -> some View",
                     "type" : "method"
                   },
                   {
                     "path" : "\/documentation\/appinformation\/appiconview\/filemover(ispresented:file:oncompletion:oncancellation:)",
-                    "title" : "func fileMover(isPresented: Binding<Bool>, file: URL?, onCompletion: (Result<URL, Error>) -> Void, onCancellation: () -> Void) -> some View",
+                    "title" : "func fileMover(isPresented: Binding<Bool>, file: URL?, onCompletion: (Result<URL, any Error>) -> Void, onCancellation: () -> Void) -> some View",
                     "type" : "method"
                   },
                   {
                     "path" : "\/documentation\/appinformation\/appiconview\/filemover(ispresented:files:oncompletion:)",
-                    "title" : "func fileMover<C>(isPresented: Binding<Bool>, files: C, onCompletion: (Result<[URL], Error>) -> Void) -> some View",
+                    "title" : "func fileMover<C>(isPresented: Binding<Bool>, files: C, onCompletion: (Result<[URL], any Error>) -> Void) -> some View",
                     "type" : "method"
                   },
                   {
                     "path" : "\/documentation\/appinformation\/appiconview\/filemover(ispresented:files:oncompletion:oncancellation:)",
-                    "title" : "func fileMover<C>(isPresented: Binding<Bool>, files: C, onCompletion: (Result<[URL], Error>) -> Void, onCancellation: () -> Void) -> some View",
+                    "title" : "func fileMover<C>(isPresented: Binding<Bool>, files: C, onCompletion: (Result<[URL], any Error>) -> Void, onCancellation: () -> Void) -> some View",
                     "type" : "method"
                   },
                   {
@@ -2027,12 +2027,12 @@
                   {
                     "deprecated" : true,
                     "path" : "\/documentation\/appinformation\/appiconview\/ondrop(of:delegate:)-2aazj",
-                    "title" : "func onDrop(of: [String], delegate: DropDelegate) -> some View",
+                    "title" : "func onDrop(of: [String], delegate: any DropDelegate) -> some View",
                     "type" : "method"
                   },
                   {
                     "path" : "\/documentation\/appinformation\/appiconview\/ondrop(of:delegate:)-5w0ip",
-                    "title" : "func onDrop(of: [UTType], delegate: DropDelegate) -> some View",
+                    "title" : "func onDrop(of: [UTType], delegate: any DropDelegate) -> some View",
                     "type" : "method"
                   },
                   {
@@ -3216,7 +3216,7 @@
                       },
                       {
                         "path" : "\/documentation\/appinformation\/appinfo\/appleid-swift.struct\/init(from:)",
-                        "title" : "init(from: Decoder) throws",
+                        "title" : "init(from: any Decoder) throws",
                         "type" : "init"
                       },
                       {
@@ -3234,7 +3234,7 @@
                       },
                       {
                         "path" : "\/documentation\/appinformation\/appinfo\/appleid-swift.struct\/encode(to:)",
-                        "title" : "func encode(to: Encoder) throws",
+                        "title" : "func encode(to: any Encoder) throws",
                         "type" : "method"
                       },
                       {
@@ -4581,52 +4581,52 @@
                   },
                   {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/fileexporter(ispresented:document:contenttype:defaultfilename:oncompletion:)-2e0n0",
-                    "title" : "func fileExporter<D>(isPresented: Binding<Bool>, document: D?, contentType: UTType, defaultFilename: String?, onCompletion: (Result<URL, Error>) -> Void) -> some View",
+                    "title" : "func fileExporter<D>(isPresented: Binding<Bool>, document: D?, contentType: UTType, defaultFilename: String?, onCompletion: (Result<URL, any Error>) -> Void) -> some View",
                     "type" : "method"
                   },
                   {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/fileexporter(ispresented:document:contenttype:defaultfilename:oncompletion:)-30o74",
-                    "title" : "func fileExporter<D>(isPresented: Binding<Bool>, document: D?, contentType: UTType, defaultFilename: String?, onCompletion: (Result<URL, Error>) -> Void) -> some View",
+                    "title" : "func fileExporter<D>(isPresented: Binding<Bool>, document: D?, contentType: UTType, defaultFilename: String?, onCompletion: (Result<URL, any Error>) -> Void) -> some View",
                     "type" : "method"
                   },
                   {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/fileexporter(ispresented:document:contenttypes:defaultfilename:oncompletion:oncancellation:)-5dof6",
-                    "title" : "func fileExporter<D>(isPresented: Binding<Bool>, document: D?, contentTypes: [UTType], defaultFilename: String?, onCompletion: (Result<URL, Error>) -> Void, onCancellation: () -> Void) -> some View",
+                    "title" : "func fileExporter<D>(isPresented: Binding<Bool>, document: D?, contentTypes: [UTType], defaultFilename: String?, onCompletion: (Result<URL, any Error>) -> Void, onCancellation: () -> Void) -> some View",
                     "type" : "method"
                   },
                   {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/fileexporter(ispresented:document:contenttypes:defaultfilename:oncompletion:oncancellation:)-8rktw",
-                    "title" : "func fileExporter<D>(isPresented: Binding<Bool>, document: D?, contentTypes: [UTType], defaultFilename: String?, onCompletion: (Result<URL, Error>) -> Void, onCancellation: () -> Void) -> some View",
+                    "title" : "func fileExporter<D>(isPresented: Binding<Bool>, document: D?, contentTypes: [UTType], defaultFilename: String?, onCompletion: (Result<URL, any Error>) -> Void, onCancellation: () -> Void) -> some View",
                     "type" : "method"
                   },
                   {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/fileexporter(ispresented:documents:contenttype:oncompletion:)-8a0hh",
-                    "title" : "func fileExporter<C>(isPresented: Binding<Bool>, documents: C, contentType: UTType, onCompletion: (Result<[URL], Error>) -> Void) -> some View",
+                    "title" : "func fileExporter<C>(isPresented: Binding<Bool>, documents: C, contentType: UTType, onCompletion: (Result<[URL], any Error>) -> Void) -> some View",
                     "type" : "method"
                   },
                   {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/fileexporter(ispresented:documents:contenttype:oncompletion:)-9po33",
-                    "title" : "func fileExporter<C>(isPresented: Binding<Bool>, documents: C, contentType: UTType, onCompletion: (Result<[URL], Error>) -> Void) -> some View",
+                    "title" : "func fileExporter<C>(isPresented: Binding<Bool>, documents: C, contentType: UTType, onCompletion: (Result<[URL], any Error>) -> Void) -> some View",
                     "type" : "method"
                   },
                   {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/fileexporter(ispresented:documents:contenttypes:oncompletion:oncancellation:)-45fmu",
-                    "title" : "func fileExporter<C>(isPresented: Binding<Bool>, documents: C, contentTypes: [UTType], onCompletion: (Result<[URL], Error>) -> Void, onCancellation: () -> Void) -> some View",
+                    "title" : "func fileExporter<C>(isPresented: Binding<Bool>, documents: C, contentTypes: [UTType], onCompletion: (Result<[URL], any Error>) -> Void, onCancellation: () -> Void) -> some View",
                     "type" : "method"
                   },
                   {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/fileexporter(ispresented:documents:contenttypes:oncompletion:oncancellation:)-hblt",
-                    "title" : "func fileExporter<C>(isPresented: Binding<Bool>, documents: C, contentTypes: [UTType], onCompletion: (Result<[URL], Error>) -> Void, onCancellation: () -> Void) -> some View",
+                    "title" : "func fileExporter<C>(isPresented: Binding<Bool>, documents: C, contentTypes: [UTType], onCompletion: (Result<[URL], any Error>) -> Void, onCancellation: () -> Void) -> some View",
                     "type" : "method"
                   },
                   {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/fileexporter(ispresented:item:contenttypes:defaultfilename:oncompletion:oncancellation:)",
-                    "title" : "func fileExporter<T>(isPresented: Binding<Bool>, item: T?, contentTypes: [UTType], defaultFilename: String?, onCompletion: (Result<URL, Error>) -> Void, onCancellation: () -> Void) -> some View",
+                    "title" : "func fileExporter<T>(isPresented: Binding<Bool>, item: T?, contentTypes: [UTType], defaultFilename: String?, onCompletion: (Result<URL, any Error>) -> Void, onCancellation: () -> Void) -> some View",
                     "type" : "method"
                   },
                   {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/fileexporter(ispresented:items:contenttypes:oncompletion:oncancellation:)",
-                    "title" : "func fileExporter<C, T>(isPresented: Binding<Bool>, items: C, contentTypes: [UTType], onCompletion: (Result<[URL], Error>) -> Void, onCancellation: () -> Void) -> some View",
+                    "title" : "func fileExporter<C, T>(isPresented: Binding<Bool>, items: C, contentTypes: [UTType], onCompletion: (Result<[URL], any Error>) -> Void, onCancellation: () -> Void) -> some View",
                     "type" : "method"
                   },
                   {
@@ -4646,37 +4646,37 @@
                   },
                   {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/fileimporter(ispresented:allowedcontenttypes:allowsmultipleselection:oncompletion:)",
-                    "title" : "func fileImporter(isPresented: Binding<Bool>, allowedContentTypes: [UTType], allowsMultipleSelection: Bool, onCompletion: (Result<[URL], Error>) -> Void) -> some View",
+                    "title" : "func fileImporter(isPresented: Binding<Bool>, allowedContentTypes: [UTType], allowsMultipleSelection: Bool, onCompletion: (Result<[URL], any Error>) -> Void) -> some View",
                     "type" : "method"
                   },
                   {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/fileimporter(ispresented:allowedcontenttypes:allowsmultipleselection:oncompletion:oncancellation:)",
-                    "title" : "func fileImporter(isPresented: Binding<Bool>, allowedContentTypes: [UTType], allowsMultipleSelection: Bool, onCompletion: (Result<[URL], Error>) -> Void, onCancellation: () -> Void) -> some View",
+                    "title" : "func fileImporter(isPresented: Binding<Bool>, allowedContentTypes: [UTType], allowsMultipleSelection: Bool, onCompletion: (Result<[URL], any Error>) -> Void, onCancellation: () -> Void) -> some View",
                     "type" : "method"
                   },
                   {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/fileimporter(ispresented:allowedcontenttypes:oncompletion:)",
-                    "title" : "func fileImporter(isPresented: Binding<Bool>, allowedContentTypes: [UTType], onCompletion: (Result<URL, Error>) -> Void) -> some View",
+                    "title" : "func fileImporter(isPresented: Binding<Bool>, allowedContentTypes: [UTType], onCompletion: (Result<URL, any Error>) -> Void) -> some View",
                     "type" : "method"
                   },
                   {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/filemover(ispresented:file:oncompletion:)",
-                    "title" : "func fileMover(isPresented: Binding<Bool>, file: URL?, onCompletion: (Result<URL, Error>) -> Void) -> some View",
+                    "title" : "func fileMover(isPresented: Binding<Bool>, file: URL?, onCompletion: (Result<URL, any Error>) -> Void) -> some View",
                     "type" : "method"
                   },
                   {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/filemover(ispresented:file:oncompletion:oncancellation:)",
-                    "title" : "func fileMover(isPresented: Binding<Bool>, file: URL?, onCompletion: (Result<URL, Error>) -> Void, onCancellation: () -> Void) -> some View",
+                    "title" : "func fileMover(isPresented: Binding<Bool>, file: URL?, onCompletion: (Result<URL, any Error>) -> Void, onCancellation: () -> Void) -> some View",
                     "type" : "method"
                   },
                   {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/filemover(ispresented:files:oncompletion:)",
-                    "title" : "func fileMover<C>(isPresented: Binding<Bool>, files: C, onCompletion: (Result<[URL], Error>) -> Void) -> some View",
+                    "title" : "func fileMover<C>(isPresented: Binding<Bool>, files: C, onCompletion: (Result<[URL], any Error>) -> Void) -> some View",
                     "type" : "method"
                   },
                   {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/filemover(ispresented:files:oncompletion:oncancellation:)",
-                    "title" : "func fileMover<C>(isPresented: Binding<Bool>, files: C, onCompletion: (Result<[URL], Error>) -> Void, onCancellation: () -> Void) -> some View",
+                    "title" : "func fileMover<C>(isPresented: Binding<Bool>, files: C, onCompletion: (Result<[URL], any Error>) -> Void, onCancellation: () -> Void) -> some View",
                     "type" : "method"
                   },
                   {
@@ -5446,12 +5446,12 @@
                   {
                     "deprecated" : true,
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/ondrop(of:delegate:)-14eps",
-                    "title" : "func onDrop(of: [String], delegate: DropDelegate) -> some View",
+                    "title" : "func onDrop(of: [String], delegate: any DropDelegate) -> some View",
                     "type" : "method"
                   },
                   {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/ondrop(of:delegate:)-44gsz",
-                    "title" : "func onDrop(of: [UTType], delegate: DropDelegate) -> some View",
+                    "title" : "func onDrop(of: [UTType], delegate: any DropDelegate) -> some View",
                     "type" : "method"
                   },
                   {
