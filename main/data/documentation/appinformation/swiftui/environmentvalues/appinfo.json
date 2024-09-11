@@ -112,6 +112,10 @@
         "unavailable" : false
       }
     ],
+    "remoteSource" : {
+      "fileName" : "AppInfo.swift",
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/app-information\/Sources\/AppInformation\/Model\/AppInfo.swift#L142"
+    },
     "role" : "symbol",
     "roleHeading" : "Instance Property",
     "symbolKind" : "property",

@@ -80,6 +80,10 @@
         "unavailable" : false
       }
     ],
+    "remoteSource" : {
+      "fileName" : "AppInfoView.swift",
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/app-information\/Sources\/AppInformation\/UI\/AppInfoView.swift#L15"
+    },
     "role" : "symbol",
     "roleHeading" : "Instance Property",
     "symbolKind" : "property",

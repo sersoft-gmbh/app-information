@@ -40,6 +40,10 @@
         "text" : "StringLiteralType"
       }
     ],
+    "remoteSource" : {
+      "fileName" : "AppInfo+AppleID.swift",
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/app-information\/Sources\/AppInformation\/Model\/AppInfo+AppleID.swift#L10"
+    },
     "role" : "symbol",
     "roleHeading" : "Type Alias",
     "symbolKind" : "typealias",

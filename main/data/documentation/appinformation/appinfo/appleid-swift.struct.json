@@ -46,6 +46,10 @@
         "text" : "AppleID"
       }
     ],
+    "remoteSource" : {
+      "fileName" : "AppInfo+AppleID.swift",
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/app-information\/Sources\/AppInformation\/Model\/AppInfo+AppleID.swift#L8"
+    },
     "role" : "symbol",
     "roleHeading" : "Structure",
     "symbolKind" : "struct",

@@ -74,6 +74,10 @@
         "unavailable" : false
       }
     ],
+    "remoteSource" : {
+      "fileName" : "AppInfoView.swift",
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/app-information\/Sources\/AppInformation\/UI\/AppInfoView.swift#L32"
+    },
     "role" : "symbol",
     "roleHeading" : "Initializer",
     "symbolKind" : "init",

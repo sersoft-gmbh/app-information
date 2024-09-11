@@ -87,6 +87,10 @@
         "unavailable" : false
       }
     ],
+    "remoteSource" : {
+      "fileName" : "AppIconView.swift",
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/app-information\/Sources\/AppInformation\/UI\/AppIconView.swift#L13"
+    },
     "role" : "symbol",
     "roleHeading" : "Case",
     "symbolKind" : "case",
