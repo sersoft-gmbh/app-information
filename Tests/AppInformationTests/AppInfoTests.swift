@@ -30,17 +30,22 @@ final class AppInfoTests: XCTestCase {
         let data = try PropertyListSerialization.data(fromPropertyList: infoDict, format: .xml, options: 0)
         try data.write(to: infoPlistURL, options: .atomic)
         if let localizedInfoDict {
-            let locale = Locale.current.identifier
+            let lprojName: String
+#if canImport(Darwin)
+            lprojName = Locale.current.identifier
+#else
+            lprojName = Locale.current.languageCode ?? Locale.current.identifier
+#endif
             let lprojFolderURL = contentsURL
                 .appendingPathComponent("Resources", isDirectory: true)
-                .appendingPathComponent("\(locale).lproj", isDirectory: true)
+                .appendingPathComponent("\(lprojName).lproj", isDirectory: true)
             try FileManager.default.createDirectory(at: lprojFolderURL, withIntermediateDirectories: true)
             let stringsFile = lprojFolderURL.appendingPathComponent("InfoPlist.strings", isDirectory: false)
             try localizedInfoDict
                 .lazy
                 .map { #""\#($0.key)" = "\#($0.value)";"# }
                 .joined(separator: "\n")
-                .write(to: stringsFile, atomically: true, encoding: .utf16)
+                .write(to: stringsFile, atomically: true, encoding: .utf8)
         }
     }
 
