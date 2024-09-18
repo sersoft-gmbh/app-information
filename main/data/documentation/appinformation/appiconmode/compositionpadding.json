@@ -123,6 +123,8 @@
   ],
   "topicSections" : [
     {
+      "anchor" : "Enumeration-Cases",
+      "generated" : true,
       "identifiers" : [
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconMode\/CompositionPadding\/edges(_:value:)",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconMode\/CompositionPadding\/insets(_:)",

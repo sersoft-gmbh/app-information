@@ -122,6 +122,8 @@
   ],
   "topicSections" : [
     {
+      "anchor" : "Enumeration-Cases",
+      "generated" : true,
       "identifiers" : [
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconMode\/composed(logoImage:logoColor:logoPadding:backgroundColor:)",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconMode\/prerendered(_:)",
@@ -130,6 +132,8 @@
       "title" : "Enumeration Cases"
     },
     {
+      "anchor" : "Enumerations",
+      "generated" : true,
       "identifiers" : [
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconMode\/CompositionPadding"
       ],

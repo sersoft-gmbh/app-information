@@ -103,6 +103,19 @@
           ],
           "tokens" : [
             {
+              "kind" : "attribute",
+              "text" : "@"
+            },
+            {
+              "kind" : "attribute",
+              "preciseIdentifier" : "s:ScM",
+              "text" : "MainActor"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
               "kind" : "keyword",
               "text" : "struct"
             },
@@ -155,6 +168,7 @@
   "relationshipsSections" : [
     {
       "identifiers" : [
+        "doc:\/\/AppInformation\/s8SendableP",
         "doc:\/\/AppInformation\/7SwiftUI4ViewP"
       ],
       "kind" : "relationships",
@@ -172,18 +186,23 @@
   ],
   "topicSections" : [
     {
+      "anchor" : "Initializers",
+      "generated" : true,
       "identifiers" : [
         "doc:\/\/AppInformation\/documentation\/AppInformation\/ApplicationInfoView\/init()"
       ],
       "title" : "Initializers"
     },
     {
+      "anchor" : "Instance-Properties",
+      "generated" : true,
       "identifiers" : [
         "doc:\/\/AppInformation\/documentation\/AppInformation\/ApplicationInfoView\/body"
       ],
       "title" : "Instance Properties"
     },
     {
+      "anchor" : "Default-Implementations",
       "generated" : true,
       "identifiers" : [
         "doc:\/\/AppInformation\/documentation\/AppInformation\/ApplicationInfoView\/View-Implementations"
@@ -207,7 +226,7 @@
 "references": {
 "doc://AppInformation/7SwiftUI4ViewP": {
   "identifier" : "doc:\/\/AppInformation\/7SwiftUI4ViewP",
-  "title" : "SwiftUI.View",
+  "title" : "SwiftUICore.View",
   "type" : "unresolvable"
 },
 "doc://AppInformation/documentation/AppInformation": {
@@ -425,6 +444,11 @@
   "title" : "init()",
   "type" : "topic",
   "url" : "\/documentation\/appinformation\/applicationinfoview\/init()"
+},
+"doc://AppInformation/s8SendableP": {
+  "identifier" : "doc:\/\/AppInformation\/s8SendableP",
+  "title" : "Swift.Sendable",
+  "type" : "unresolvable"
 }
 }
 }

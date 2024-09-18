@@ -1,4 +1,7 @@
 {
+  "includedArchiveIdentifiers" : [
+    "AppInformation"
+  ],
   "interfaceLanguages" : {
     "swift" : [
       {
@@ -155,6 +158,11 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/appiconview\/accessibilityactions(category:_:)",
+                    "title" : "func accessibilityActions<Content>(category: AccessibilityActionCategory, () -> Content) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/appinformation\/appiconview\/accessibilityactivationpoint(_:)-4y0md",
                     "title" : "func accessibilityActivationPoint(CGPoint) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
                     "type" : "method"
@@ -162,6 +170,16 @@
                   {
                     "path" : "\/documentation\/appinformation\/appiconview\/accessibilityactivationpoint(_:)-8cyht",
                     "title" : "func accessibilityActivationPoint(UnitPoint) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/accessibilityactivationpoint(_:isenabled:)-6grye",
+                    "title" : "func accessibilityActivationPoint(UnitPoint, isEnabled: Bool) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/accessibilityactivationpoint(_:isenabled:)-9dbmf",
+                    "title" : "func accessibilityActivationPoint(CGPoint, isEnabled: Bool) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
                     "type" : "method"
                   },
                   {
@@ -230,6 +248,66 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/appiconview\/accessibilitydragpoint(_:description:)-1um1q",
+                    "title" : "func accessibilityDragPoint(UnitPoint, description: LocalizedStringKey) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/accessibilitydragpoint(_:description:)-1vvzn",
+                    "title" : "func accessibilityDragPoint(UnitPoint, description: Text) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/accessibilitydragpoint(_:description:)-2ti15",
+                    "title" : "func accessibilityDragPoint<S>(UnitPoint, description: S) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/accessibilitydragpoint(_:description:isenabled:)-18wuf",
+                    "title" : "func accessibilityDragPoint<S>(UnitPoint, description: S, isEnabled: Bool) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/accessibilitydragpoint(_:description:isenabled:)-5wby0",
+                    "title" : "func accessibilityDragPoint(UnitPoint, description: LocalizedStringKey, isEnabled: Bool) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/accessibilitydragpoint(_:description:isenabled:)-wzyv",
+                    "title" : "func accessibilityDragPoint(UnitPoint, description: Text, isEnabled: Bool) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/accessibilitydroppoint(_:description:)-3nu6c",
+                    "title" : "func accessibilityDropPoint<S>(UnitPoint, description: S) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/accessibilitydroppoint(_:description:)-3tu7g",
+                    "title" : "func accessibilityDropPoint(UnitPoint, description: LocalizedStringKey) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/accessibilitydroppoint(_:description:)-8x9i3",
+                    "title" : "func accessibilityDropPoint(UnitPoint, description: Text) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/accessibilitydroppoint(_:description:isenabled:)-3atdj",
+                    "title" : "func accessibilityDropPoint<S>(UnitPoint, description: S, isEnabled: Bool) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/accessibilitydroppoint(_:description:isenabled:)-3sgxh",
+                    "title" : "func accessibilityDropPoint(UnitPoint, description: LocalizedStringKey, isEnabled: Bool) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/accessibilitydroppoint(_:description:isenabled:)-4indl",
+                    "title" : "func accessibilityDropPoint(UnitPoint, description: Text, isEnabled: Bool) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/appinformation\/appiconview\/accessibilityelement(children:)",
                     "title" : "func accessibilityElement(children: AccessibilityChildBehavior) -> some View",
                     "type" : "method"
@@ -255,6 +333,11 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/appiconview\/accessibilityhidden(_:isenabled:)",
+                    "title" : "func accessibilityHidden(Bool, isEnabled: Bool) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/appinformation\/appiconview\/accessibilityhint(_:)-1uph4",
                     "title" : "func accessibilityHint<S>(S) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
                     "type" : "method"
@@ -270,8 +353,28 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/appiconview\/accessibilityhint(_:isenabled:)-37h2",
+                    "title" : "func accessibilityHint(LocalizedStringKey, isEnabled: Bool) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/accessibilityhint(_:isenabled:)-m0e0",
+                    "title" : "func accessibilityHint<S>(S, isEnabled: Bool) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/accessibilityhint(_:isenabled:)-uuk8",
+                    "title" : "func accessibilityHint(Text, isEnabled: Bool) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/appinformation\/appiconview\/accessibilityidentifier(_:)",
                     "title" : "func accessibilityIdentifier(String) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/accessibilityidentifier(_:isenabled:)",
+                    "title" : "func accessibilityIdentifier(String, isEnabled: Bool) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
                     "type" : "method"
                   },
                   {
@@ -295,6 +398,21 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/appiconview\/accessibilityinputlabels(_:isenabled:)-34pj3",
+                    "title" : "func accessibilityInputLabels([Text], isEnabled: Bool) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/accessibilityinputlabels(_:isenabled:)-5umdw",
+                    "title" : "func accessibilityInputLabels([LocalizedStringKey], isEnabled: Bool) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/accessibilityinputlabels(_:isenabled:)-9qwd8",
+                    "title" : "func accessibilityInputLabels<S>([S], isEnabled: Bool) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/appinformation\/appiconview\/accessibilitylabel(_:)-17lq2",
                     "title" : "func accessibilityLabel(Text) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
                     "type" : "method"
@@ -307,6 +425,26 @@
                   {
                     "path" : "\/documentation\/appinformation\/appiconview\/accessibilitylabel(_:)-tpe4",
                     "title" : "func accessibilityLabel<S>(S) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/accessibilitylabel(_:isenabled:)-23hds",
+                    "title" : "func accessibilityLabel<S>(S, isEnabled: Bool) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/accessibilitylabel(_:isenabled:)-38kxk",
+                    "title" : "func accessibilityLabel(Text, isEnabled: Bool) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/accessibilitylabel(_:isenabled:)-4myc8",
+                    "title" : "func accessibilityLabel(LocalizedStringKey, isEnabled: Bool) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/accessibilitylabel(content:)",
+                    "title" : "func accessibilityLabel<V>(content: (PlaceholderContentView<Self>) -> V) -> some View",
                     "type" : "method"
                   },
                   {
@@ -332,6 +470,11 @@
                   {
                     "path" : "\/documentation\/appinformation\/appiconview\/accessibilityrespondstouserinteraction(_:)",
                     "title" : "func accessibilityRespondsToUserInteraction(Bool) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/accessibilityrespondstouserinteraction(_:isenabled:)",
+                    "title" : "func accessibilityRespondsToUserInteraction(Bool, isEnabled: Bool) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
                     "type" : "method"
                   },
                   {
@@ -460,6 +603,21 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/appiconview\/accessibilityvalue(_:isenabled:)-4gsur",
+                    "title" : "func accessibilityValue(Text, isEnabled: Bool) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/accessibilityvalue(_:isenabled:)-79jwa",
+                    "title" : "func accessibilityValue(LocalizedStringKey, isEnabled: Bool) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/accessibilityvalue(_:isenabled:)-96ftt",
+                    "title" : "func accessibilityValue<S>(S, isEnabled: Bool) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/appinformation\/appiconview\/accessibilityzoomaction(_:)",
                     "title" : "func accessibilityZoomAction((AccessibilityZoomGestureAction) -> Void) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
                     "type" : "method"
@@ -569,6 +727,11 @@
                   {
                     "path" : "\/documentation\/appinformation\/appiconview\/allowstightening(_:)",
                     "title" : "func allowsTightening(Bool) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/allowswindowactivationevents(_:)",
+                    "title" : "func allowsWindowActivationEvents(Bool?) -> some View",
                     "type" : "method"
                   },
                   {
@@ -870,6 +1033,11 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/appiconview\/containervalue(_:_:)",
+                    "title" : "func containerValue<V>(WritableKeyPath<ContainerValues, V>, V) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/appinformation\/appiconview\/contentmargins(_:_:for:)-3m1n0",
                     "title" : "func contentMargins(Edge.Set, CGFloat?, for: ContentMarginPlacement) -> some View",
                     "type" : "method"
@@ -949,7 +1117,7 @@
                   },
                   {
                     "path" : "\/documentation\/appinformation\/appiconview\/copyable(_:)",
-                    "title" : "func copyable<T>(() -> [T]) -> some View",
+                    "title" : "func copyable<T>(@autoclosure () -> [T]) -> some View",
                     "type" : "method"
                   },
                   {
@@ -981,6 +1149,11 @@
                   {
                     "path" : "\/documentation\/appinformation\/appiconview\/defaultscrollanchor(_:)",
                     "title" : "func defaultScrollAnchor(UnitPoint?) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/defaultscrollanchor(_:for:)",
+                    "title" : "func defaultScrollAnchor(UnitPoint?, for: ScrollAnchorRole) -> some View",
                     "type" : "method"
                   },
                   {
@@ -1035,18 +1208,48 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/appiconview\/dismissalconfirmationdialog(_:shouldpresent:actions:)-517ub",
+                    "title" : "func dismissalConfirmationDialog<A>(Text, shouldPresent: Bool, actions: () -> A) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/dismissalconfirmationdialog(_:shouldpresent:actions:)-73fip",
+                    "title" : "func dismissalConfirmationDialog<S, A>(S, shouldPresent: Bool, actions: () -> A) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/dismissalconfirmationdialog(_:shouldpresent:actions:)-8hlyr",
+                    "title" : "func dismissalConfirmationDialog<A>(LocalizedStringKey, shouldPresent: Bool, actions: () -> A) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/dismissalconfirmationdialog(_:shouldpresent:actions:message:)-1kav7",
+                    "title" : "func dismissalConfirmationDialog<A, M>(Text, shouldPresent: Bool, actions: () -> A, message: () -> M) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/dismissalconfirmationdialog(_:shouldpresent:actions:message:)-6gvm6",
+                    "title" : "func dismissalConfirmationDialog<S, A, M>(S, shouldPresent: Bool, actions: () -> A, message: () -> M) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/dismissalconfirmationdialog(_:shouldpresent:actions:message:)-7tlxp",
+                    "title" : "func dismissalConfirmationDialog<A, M>(LocalizedStringKey, shouldPresent: Bool, actions: () -> A, message: () -> M) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/appinformation\/appiconview\/distortioneffect(_:maxsampleoffset:isenabled:)",
                     "title" : "func distortionEffect(Shader, maxSampleOffset: CGSize, isEnabled: Bool) -> some View",
                     "type" : "method"
                   },
                   {
                     "path" : "\/documentation\/appinformation\/appiconview\/draggable(_:)",
-                    "title" : "func draggable<T>(() -> T) -> some View",
+                    "title" : "func draggable<T>(@autoclosure () -> T) -> some View",
                     "type" : "method"
                   },
                   {
                     "path" : "\/documentation\/appinformation\/appiconview\/draggable(_:preview:)",
-                    "title" : "func draggable<V, T>(() -> T, preview: () -> V) -> some View",
+                    "title" : "func draggable<V, T>(@autoclosure () -> T, preview: () -> V) -> some View",
                     "type" : "method"
                   },
                   {
@@ -1087,12 +1290,12 @@
                   },
                   {
                     "path" : "\/documentation\/appinformation\/appiconview\/exportabletoservices(_:)",
-                    "title" : "func exportableToServices<T>(() -> [T]) -> some View",
+                    "title" : "func exportableToServices<T>(@autoclosure () -> [T]) -> some View",
                     "type" : "method"
                   },
                   {
                     "path" : "\/documentation\/appinformation\/appiconview\/exportabletoservices(_:onedit:)",
-                    "title" : "func exportableToServices<T>(() -> [T], onEdit: ([T]) -> Bool) -> some View",
+                    "title" : "func exportableToServices<T>(@autoclosure () -> [T], onEdit: ([T]) -> Bool) -> some View",
                     "type" : "method"
                   },
                   {
@@ -1337,6 +1540,11 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/appiconview\/focusedscenevalue(_:)",
+                    "title" : "func focusedSceneValue<T>(T?) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/appinformation\/appiconview\/focusedscenevalue(_:_:)-7y6r4",
                     "title" : "func focusedSceneValue<T>(WritableKeyPath<FocusedValues, T?>, T) -> some View",
                     "type" : "method"
@@ -1438,6 +1646,16 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/appiconview\/gesture(_:isenabled:)",
+                    "title" : "func gesture<T>(T, isEnabled: Bool) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/gesture(_:name:isenabled:)",
+                    "title" : "func gesture<T>(T, name: String, isEnabled: Bool) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/appinformation\/appiconview\/grayscale(_:)",
                     "title" : "func grayscale(Double) -> some View",
                     "type" : "method"
@@ -1465,6 +1683,11 @@
                   {
                     "path" : "\/documentation\/appinformation\/appiconview\/groupboxstyle(_:)",
                     "title" : "func groupBoxStyle<S>(S) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/handgestureshortcut(_:isenabled:)",
+                    "title" : "func handGestureShortcut(HandGestureShortcut, isEnabled: Bool) -> some View",
                     "type" : "method"
                   },
                   {
@@ -1500,6 +1723,16 @@
                   {
                     "path" : "\/documentation\/appinformation\/appiconview\/highprioritygesture(_:including:)",
                     "title" : "func highPriorityGesture<T>(T, including: GestureMask) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/highprioritygesture(_:isenabled:)",
+                    "title" : "func highPriorityGesture<T>(T, isEnabled: Bool) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/highprioritygesture(_:name:isenabled:)",
+                    "title" : "func highPriorityGesture<T>(T, name: String, isEnabled: Bool) -> some View",
                     "type" : "method"
                   },
                   {
@@ -1628,6 +1861,11 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/appiconview\/labelsvisibility(_:)",
+                    "title" : "func labelsVisibility(Visibility) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/appinformation\/appiconview\/layereffect(_:maxsampleoffset:isenabled:)",
                     "title" : "func layerEffect(Shader, maxSampleOffset: CGSize, isEnabled: Bool) -> some View",
                     "type" : "method"
@@ -1744,6 +1982,21 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/appiconview\/matchedtransitionsource(id:in:)",
+                    "title" : "func matchedTransitionSource(id: some Hashable, in: Namespace.ID) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/matchedtransitionsource(id:in:configuration:)",
+                    "title" : "func matchedTransitionSource(id: some Hashable, in: Namespace.ID, configuration: (EmptyMatchedTransitionSourceConfiguration) -> some MatchedTransitionSourceConfiguration) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/materialactiveappearance(_:)",
+                    "title" : "func materialActiveAppearance(MaterialActiveAppearance) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/appinformation\/appiconview\/menuactiondismissbehavior(_:)",
                     "title" : "func menuActionDismissBehavior(MenuActionDismissBehavior) -> some View",
                     "type" : "method"
@@ -1777,6 +2030,11 @@
                   {
                     "path" : "\/documentation\/appinformation\/appiconview\/modifier(_:)",
                     "title" : "func modifier<T>(T) -> ModifiedContent<Self, T>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/modifierkeyalternate(_:_:)",
+                    "title" : "func modifierKeyAlternate<V>(EventModifiers, () -> V) -> some View",
                     "type" : "method"
                   },
                   {
@@ -1942,6 +2200,11 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/appiconview\/navigationtransition(_:)",
+                    "title" : "func navigationTransition(some NavigationTransition) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "deprecated" : true,
                     "path" : "\/documentation\/appinformation\/appiconview\/navigationviewstyle(_:)",
                     "title" : "func navigationViewStyle<S>(S) -> some View",
@@ -2063,6 +2326,16 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/appiconview\/ongeometrychange(for:of:action:)-5y5fg",
+                    "title" : "func onGeometryChange<T>(for: T.Type, of: (GeometryProxy) -> T, action: (T) -> Void) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/ongeometrychange(for:of:action:)-nvxr",
+                    "title" : "func onGeometryChange<T>(for: T.Type, of: (GeometryProxy) -> T, action: (T, T) -> Void) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/appinformation\/appiconview\/onhover(perform:)",
                     "title" : "func onHover(perform: (Bool) -> Void) -> some View",
                     "type" : "method"
@@ -2115,6 +2388,11 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/appiconview\/onmodifierkeyschanged(mask:initial:_:)",
+                    "title" : "func onModifierKeysChanged(mask: EventModifiers, initial: Bool, (EventModifiers, EventModifiers) -> Void) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/appinformation\/appiconview\/onmovecommand(perform:)",
                     "title" : "func onMoveCommand(perform: ((MoveCommandDirection) -> Void)?) -> some View",
                     "type" : "method"
@@ -2147,6 +2425,16 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/appiconview\/onpencildoubletap(perform:)",
+                    "title" : "func onPencilDoubleTap(perform: (PencilDoubleTapGestureValue) -> Void) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/onpencilsqueeze(perform:)",
+                    "title" : "func onPencilSqueeze(perform: (PencilSqueezeGesturePhase) -> Void) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/appinformation\/appiconview\/onplaypausecommand(perform:)",
                     "title" : "func onPlayPauseCommand(perform: (() -> Void)?) -> some View",
                     "type" : "method"
@@ -2159,6 +2447,31 @@
                   {
                     "path" : "\/documentation\/appinformation\/appiconview\/onreceive(_:perform:)",
                     "title" : "func onReceive<P>(P, perform: (P.Output) -> Void) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/onscrollgeometrychange(for:of:action:)",
+                    "title" : "func onScrollGeometryChange<T>(for: T.Type, of: (ScrollGeometry) -> T, action: (T, T) -> Void) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/onscrollphasechange(_:)-4184z",
+                    "title" : "func onScrollPhaseChange((ScrollPhase, ScrollPhase) -> Void) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/onscrollphasechange(_:)-4jpho",
+                    "title" : "func onScrollPhaseChange((ScrollPhase, ScrollPhase, ScrollPhaseChangeContext) -> Void) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/onscrolltargetvisibilitychange(idtype:threshold:_:)",
+                    "title" : "func onScrollTargetVisibilityChange<ID>(idType: ID.Type, threshold: Double, ([ID]) -> Void) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/onscrollvisibilitychange(threshold:_:)",
+                    "title" : "func onScrollVisibilityChange(threshold: Double, (Bool) -> Void) -> some View",
                     "type" : "method"
                   },
                   {
@@ -2264,13 +2577,33 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/appiconview\/pointerstyle(_:)",
+                    "title" : "func pointerStyle(PointerStyle?) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/pointervisibility(_:)",
+                    "title" : "func pointerVisibility(Visibility) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/appinformation\/appiconview\/popover(ispresented:attachmentanchor:arrowedge:content:)",
                     "title" : "func popover<Content>(isPresented: Binding<Bool>, attachmentAnchor: PopoverAttachmentAnchor, arrowEdge: Edge, content: () -> Content) -> some View",
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/appiconview\/popover(ispresented:attachmentanchor:content:)",
+                    "title" : "func popover<Content>(isPresented: Binding<Bool>, attachmentAnchor: PopoverAttachmentAnchor, content: () -> Content) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/appinformation\/appiconview\/popover(item:attachmentanchor:arrowedge:content:)",
                     "title" : "func popover<Item, Content>(item: Binding<Item?>, attachmentAnchor: PopoverAttachmentAnchor, arrowEdge: Edge, content: (Item) -> Content) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/popover(item:attachmentanchor:content:)",
+                    "title" : "func popover<Item, Content>(item: Binding<Item?>, attachmentAnchor: PopoverAttachmentAnchor, content: (Item) -> Content) -> some View",
                     "type" : "method"
                   },
                   {
@@ -2346,6 +2679,11 @@
                   {
                     "path" : "\/documentation\/appinformation\/appiconview\/presentationdragindicator(_:)",
                     "title" : "func presentationDragIndicator(Visibility) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/presentationsizing(_:)",
+                    "title" : "func presentationSizing(some PresentationSizing) -> some View",
                     "type" : "method"
                   },
                   {
@@ -2534,6 +2872,16 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/appiconview\/scrollinputbehavior(_:for:)",
+                    "title" : "func scrollInputBehavior(ScrollInputBehavior, for: ScrollInputKind) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/scrollposition(_:anchor:)",
+                    "title" : "func scrollPosition(Binding<ScrollPosition>, anchor: UnitPoint?) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/appinformation\/appiconview\/scrollposition(id:anchor:)",
                     "title" : "func scrollPosition(id: Binding<(some Hashable)?>, anchor: UnitPoint?) -> some View",
                     "type" : "method"
@@ -2561,6 +2909,16 @@
                   {
                     "path" : "\/documentation\/appinformation\/appiconview\/searchcompletion(_:)",
                     "title" : "func searchCompletion(String) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/searchfocused(_:)",
+                    "title" : "func searchFocused(FocusState<Bool>.Binding) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/searchfocused(_:equals:)",
+                    "title" : "func searchFocused<V>(FocusState<V>.Binding, equals: V) -> some View",
                     "type" : "method"
                   },
                   {
@@ -2727,6 +3085,11 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/appiconview\/sectionactions(content:)",
+                    "title" : "func sectionActions<Content>(content: () -> Content) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/appinformation\/appiconview\/selectiondisabled(_:)",
                     "title" : "func selectionDisabled(Bool) -> some View",
                     "type" : "method"
@@ -2764,6 +3127,16 @@
                   {
                     "path" : "\/documentation\/appinformation\/appiconview\/simultaneousgesture(_:including:)",
                     "title" : "func simultaneousGesture<T>(T, including: GestureMask) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/simultaneousgesture(_:isenabled:)",
+                    "title" : "func simultaneousGesture<T>(T, isEnabled: Bool) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/simultaneousgesture(_:name:isenabled:)",
+                    "title" : "func simultaneousGesture<T>(T, name: String, isEnabled: Bool) -> some View",
                     "type" : "method"
                   },
                   {
@@ -2837,8 +3210,29 @@
                     "type" : "method"
                   },
                   {
+                    "deprecated" : true,
                     "path" : "\/documentation\/appinformation\/appiconview\/tabitem(_:)",
                     "title" : "func tabItem<V>(() -> V) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/tabviewcustomization(_:)",
+                    "title" : "func tabViewCustomization(Binding<TabViewCustomization>?) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/tabviewsidebarbottombar(content:)",
+                    "title" : "func tabViewSidebarBottomBar<Content>(content: () -> Content) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/tabviewsidebarfooter(content:)",
+                    "title" : "func tabViewSidebarFooter<Content>(content: () -> Content) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/tabviewsidebarheader(content:)",
+                    "title" : "func tabViewSidebarHeader<Content>(content: () -> Content) -> some View",
                     "type" : "method"
                   },
                   {
@@ -2857,8 +3251,8 @@
                     "type" : "method"
                   },
                   {
-                    "path" : "\/documentation\/appinformation\/appiconview\/tag(_:)",
-                    "title" : "func tag<V>(V) -> some View",
+                    "path" : "\/documentation\/appinformation\/appiconview\/tag(_:includeoptional:)",
+                    "title" : "func tag<V>(V, includeOptional: Bool) -> some View",
                     "type" : "method"
                   },
                   {
@@ -2892,6 +3286,31 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/appiconview\/textinputcompletion(_:)",
+                    "title" : "func textInputCompletion(String) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/textinputsuggestions(_:)",
+                    "title" : "func textInputSuggestions<S>(() -> S) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/textinputsuggestions(_:content:)",
+                    "title" : "func textInputSuggestions<Data, Content>(Data, content: (Data.Element) -> Content) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/textinputsuggestions(_:id:content:)",
+                    "title" : "func textInputSuggestions<Data, ID, Content>(Data, id: KeyPath<Data.Element, ID>, content: (Data.Element) -> Content) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/textrenderer(_:)",
+                    "title" : "func textRenderer<T>(T) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/appinformation\/appiconview\/textscale(_:isenabled:)",
                     "title" : "func textScale(Text.Scale, isEnabled: Bool) -> some View",
                     "type" : "method"
@@ -2899,6 +3318,11 @@
                   {
                     "path" : "\/documentation\/appinformation\/appiconview\/textselection(_:)",
                     "title" : "func textSelection<S>(S) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/textselectionaffinity(_:)",
+                    "title" : "func textSelectionAffinity(TextSelectionAffinity) -> some View",
                     "type" : "method"
                   },
                   {
@@ -2912,6 +3336,7 @@
                     "type" : "method"
                   },
                   {
+                    "deprecated" : true,
                     "path" : "\/documentation\/appinformation\/appiconview\/toolbar(_:for:)",
                     "title" : "func toolbar(Visibility, for: ToolbarPlacement...) -> some View",
                     "type" : "method"
@@ -2937,13 +3362,24 @@
                     "type" : "method"
                   },
                   {
+                    "deprecated" : true,
                     "path" : "\/documentation\/appinformation\/appiconview\/toolbarbackground(_:for:)",
                     "title" : "func toolbarBackground(Visibility, for: ToolbarPlacement...) -> some View",
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/appiconview\/toolbarbackgroundvisibility(_:for:)",
+                    "title" : "func toolbarBackgroundVisibility(Visibility, for: ToolbarPlacement...) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/appinformation\/appiconview\/toolbarcolorscheme(_:for:)",
                     "title" : "func toolbarColorScheme(ColorScheme?, for: ToolbarPlacement...) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/toolbaritemhidden(_:)",
+                    "title" : "func toolbarItemHidden(Bool) -> some View",
                     "type" : "method"
                   },
                   {
@@ -2959,6 +3395,11 @@
                   {
                     "path" : "\/documentation\/appinformation\/appiconview\/toolbartitlemenu(content:)",
                     "title" : "func toolbarTitleMenu<C>(content: () -> C) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/toolbarvisibility(_:for:)",
+                    "title" : "func toolbarVisibility(Visibility, for: ToolbarPlacement...) -> some View",
                     "type" : "method"
                   },
                   {
@@ -3084,6 +3525,36 @@
                   {
                     "path" : "\/documentation\/appinformation\/appiconview\/visualeffect(_:)",
                     "title" : "func visualEffect((EmptyVisualEffect, GeometryProxy) -> some VisualEffect) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/windowdismissbehavior(_:)",
+                    "title" : "func windowDismissBehavior(WindowInteractionBehavior) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/windowfullscreenbehavior(_:)",
+                    "title" : "func windowFullScreenBehavior(WindowInteractionBehavior) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/windowminimizebehavior(_:)",
+                    "title" : "func windowMinimizeBehavior(WindowInteractionBehavior) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/windowresizebehavior(_:)",
+                    "title" : "func windowResizeBehavior(WindowInteractionBehavior) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/windowtoolbarfullscreenvisibility(_:)",
+                    "title" : "func windowToolbarFullScreenVisibility(WindowToolbarFullScreenVisibility) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/appiconview\/writingtoolsbehavior(_:)",
+                    "title" : "func writingToolsBehavior(WritingToolsBehavior) -> some View",
                     "type" : "method"
                   },
                   {
@@ -3574,6 +4045,11 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/accessibilityactions(category:_:)",
+                    "title" : "func accessibilityActions<Content>(category: AccessibilityActionCategory, () -> Content) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/accessibilityactivationpoint(_:)-15704",
                     "title" : "func accessibilityActivationPoint(UnitPoint) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
                     "type" : "method"
@@ -3581,6 +4057,16 @@
                   {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/accessibilityactivationpoint(_:)-224su",
                     "title" : "func accessibilityActivationPoint(CGPoint) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/accessibilityactivationpoint(_:isenabled:)-8gleb",
+                    "title" : "func accessibilityActivationPoint(CGPoint, isEnabled: Bool) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/accessibilityactivationpoint(_:isenabled:)-9nxte",
+                    "title" : "func accessibilityActivationPoint(UnitPoint, isEnabled: Bool) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
                     "type" : "method"
                   },
                   {
@@ -3649,6 +4135,66 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/accessibilitydragpoint(_:description:)-2xp7e",
+                    "title" : "func accessibilityDragPoint(UnitPoint, description: LocalizedStringKey) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/accessibilitydragpoint(_:description:)-5yjy5",
+                    "title" : "func accessibilityDragPoint<S>(UnitPoint, description: S) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/accessibilitydragpoint(_:description:)-70ina",
+                    "title" : "func accessibilityDragPoint(UnitPoint, description: Text) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/accessibilitydragpoint(_:description:isenabled:)-131be",
+                    "title" : "func accessibilityDragPoint(UnitPoint, description: LocalizedStringKey, isEnabled: Bool) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/accessibilitydragpoint(_:description:isenabled:)-1mj5",
+                    "title" : "func accessibilityDragPoint<S>(UnitPoint, description: S, isEnabled: Bool) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/accessibilitydragpoint(_:description:isenabled:)-5fsl7",
+                    "title" : "func accessibilityDragPoint(UnitPoint, description: Text, isEnabled: Bool) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/accessibilitydroppoint(_:description:)-6dazl",
+                    "title" : "func accessibilityDropPoint<S>(UnitPoint, description: S) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/accessibilitydroppoint(_:description:)-6s23q",
+                    "title" : "func accessibilityDropPoint(UnitPoint, description: Text) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/accessibilitydroppoint(_:description:)-7wggn",
+                    "title" : "func accessibilityDropPoint(UnitPoint, description: LocalizedStringKey) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/accessibilitydroppoint(_:description:isenabled:)-6oaji",
+                    "title" : "func accessibilityDropPoint<S>(UnitPoint, description: S, isEnabled: Bool) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/accessibilitydroppoint(_:description:isenabled:)-7eht5",
+                    "title" : "func accessibilityDropPoint(UnitPoint, description: Text, isEnabled: Bool) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/accessibilitydroppoint(_:description:isenabled:)-8z4mf",
+                    "title" : "func accessibilityDropPoint(UnitPoint, description: LocalizedStringKey, isEnabled: Bool) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/accessibilityelement(children:)",
                     "title" : "func accessibilityElement(children: AccessibilityChildBehavior) -> some View",
                     "type" : "method"
@@ -3674,6 +4220,11 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/accessibilityhidden(_:isenabled:)",
+                    "title" : "func accessibilityHidden(Bool, isEnabled: Bool) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/accessibilityhint(_:)-1wgz5",
                     "title" : "func accessibilityHint(Text) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
                     "type" : "method"
@@ -3689,8 +4240,28 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/accessibilityhint(_:isenabled:)-18w2r",
+                    "title" : "func accessibilityHint(LocalizedStringKey, isEnabled: Bool) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/accessibilityhint(_:isenabled:)-1c1sd",
+                    "title" : "func accessibilityHint<S>(S, isEnabled: Bool) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/accessibilityhint(_:isenabled:)-2fkuk",
+                    "title" : "func accessibilityHint(Text, isEnabled: Bool) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/accessibilityidentifier(_:)",
                     "title" : "func accessibilityIdentifier(String) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/accessibilityidentifier(_:isenabled:)",
+                    "title" : "func accessibilityIdentifier(String, isEnabled: Bool) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
                     "type" : "method"
                   },
                   {
@@ -3714,6 +4285,21 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/accessibilityinputlabels(_:isenabled:)-38fvo",
+                    "title" : "func accessibilityInputLabels([Text], isEnabled: Bool) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/accessibilityinputlabels(_:isenabled:)-6fiwp",
+                    "title" : "func accessibilityInputLabels([LocalizedStringKey], isEnabled: Bool) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/accessibilityinputlabels(_:isenabled:)-6gkhj",
+                    "title" : "func accessibilityInputLabels<S>([S], isEnabled: Bool) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/accessibilitylabel(_:)-2vbf0",
                     "title" : "func accessibilityLabel(Text) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
                     "type" : "method"
@@ -3726,6 +4312,26 @@
                   {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/accessibilitylabel(_:)-8vc8a",
                     "title" : "func accessibilityLabel<S>(S) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/accessibilitylabel(_:isenabled:)-10pa",
+                    "title" : "func accessibilityLabel(Text, isEnabled: Bool) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/accessibilitylabel(_:isenabled:)-3hsdr",
+                    "title" : "func accessibilityLabel(LocalizedStringKey, isEnabled: Bool) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/accessibilitylabel(_:isenabled:)-9k22z",
+                    "title" : "func accessibilityLabel<S>(S, isEnabled: Bool) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/accessibilitylabel(content:)",
+                    "title" : "func accessibilityLabel<V>(content: (PlaceholderContentView<Self>) -> V) -> some View",
                     "type" : "method"
                   },
                   {
@@ -3751,6 +4357,11 @@
                   {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/accessibilityrespondstouserinteraction(_:)",
                     "title" : "func accessibilityRespondsToUserInteraction(Bool) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/accessibilityrespondstouserinteraction(_:isenabled:)",
+                    "title" : "func accessibilityRespondsToUserInteraction(Bool, isEnabled: Bool) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
                     "type" : "method"
                   },
                   {
@@ -3879,6 +4490,21 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/accessibilityvalue(_:isenabled:)-5eb5k",
+                    "title" : "func accessibilityValue(Text, isEnabled: Bool) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/accessibilityvalue(_:isenabled:)-803ug",
+                    "title" : "func accessibilityValue(LocalizedStringKey, isEnabled: Bool) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/accessibilityvalue(_:isenabled:)-8mxpd",
+                    "title" : "func accessibilityValue<S>(S, isEnabled: Bool) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/accessibilityzoomaction(_:)",
                     "title" : "func accessibilityZoomAction((AccessibilityZoomGestureAction) -> Void) -> ModifiedContent<Self, AccessibilityAttachmentModifier>",
                     "type" : "method"
@@ -3988,6 +4614,11 @@
                   {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/allowstightening(_:)",
                     "title" : "func allowsTightening(Bool) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/allowswindowactivationevents(_:)",
+                    "title" : "func allowsWindowActivationEvents(Bool?) -> some View",
                     "type" : "method"
                   },
                   {
@@ -4289,6 +4920,11 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/containervalue(_:_:)",
+                    "title" : "func containerValue<V>(WritableKeyPath<ContainerValues, V>, V) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/contentmargins(_:_:for:)-7bzx0",
                     "title" : "func contentMargins(Edge.Set, CGFloat?, for: ContentMarginPlacement) -> some View",
                     "type" : "method"
@@ -4368,7 +5004,7 @@
                   },
                   {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/copyable(_:)",
-                    "title" : "func copyable<T>(() -> [T]) -> some View",
+                    "title" : "func copyable<T>(@autoclosure () -> [T]) -> some View",
                     "type" : "method"
                   },
                   {
@@ -4400,6 +5036,11 @@
                   {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/defaultscrollanchor(_:)",
                     "title" : "func defaultScrollAnchor(UnitPoint?) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/defaultscrollanchor(_:for:)",
+                    "title" : "func defaultScrollAnchor(UnitPoint?, for: ScrollAnchorRole) -> some View",
                     "type" : "method"
                   },
                   {
@@ -4454,18 +5095,48 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/dismissalconfirmationdialog(_:shouldpresent:actions:)-14ray",
+                    "title" : "func dismissalConfirmationDialog<A>(Text, shouldPresent: Bool, actions: () -> A) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/dismissalconfirmationdialog(_:shouldpresent:actions:)-2m0tz",
+                    "title" : "func dismissalConfirmationDialog<A>(LocalizedStringKey, shouldPresent: Bool, actions: () -> A) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/dismissalconfirmationdialog(_:shouldpresent:actions:)-4zae6",
+                    "title" : "func dismissalConfirmationDialog<S, A>(S, shouldPresent: Bool, actions: () -> A) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/dismissalconfirmationdialog(_:shouldpresent:actions:message:)-1ay96",
+                    "title" : "func dismissalConfirmationDialog<A, M>(Text, shouldPresent: Bool, actions: () -> A, message: () -> M) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/dismissalconfirmationdialog(_:shouldpresent:actions:message:)-4rclv",
+                    "title" : "func dismissalConfirmationDialog<S, A, M>(S, shouldPresent: Bool, actions: () -> A, message: () -> M) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/dismissalconfirmationdialog(_:shouldpresent:actions:message:)-8595",
+                    "title" : "func dismissalConfirmationDialog<A, M>(LocalizedStringKey, shouldPresent: Bool, actions: () -> A, message: () -> M) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/distortioneffect(_:maxsampleoffset:isenabled:)",
                     "title" : "func distortionEffect(Shader, maxSampleOffset: CGSize, isEnabled: Bool) -> some View",
                     "type" : "method"
                   },
                   {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/draggable(_:)",
-                    "title" : "func draggable<T>(() -> T) -> some View",
+                    "title" : "func draggable<T>(@autoclosure () -> T) -> some View",
                     "type" : "method"
                   },
                   {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/draggable(_:preview:)",
-                    "title" : "func draggable<V, T>(() -> T, preview: () -> V) -> some View",
+                    "title" : "func draggable<V, T>(@autoclosure () -> T, preview: () -> V) -> some View",
                     "type" : "method"
                   },
                   {
@@ -4506,12 +5177,12 @@
                   },
                   {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/exportabletoservices(_:)",
-                    "title" : "func exportableToServices<T>(() -> [T]) -> some View",
+                    "title" : "func exportableToServices<T>(@autoclosure () -> [T]) -> some View",
                     "type" : "method"
                   },
                   {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/exportabletoservices(_:onedit:)",
-                    "title" : "func exportableToServices<T>(() -> [T], onEdit: ([T]) -> Bool) -> some View",
+                    "title" : "func exportableToServices<T>(@autoclosure () -> [T], onEdit: ([T]) -> Bool) -> some View",
                     "type" : "method"
                   },
                   {
@@ -4756,6 +5427,11 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/focusedscenevalue(_:)",
+                    "title" : "func focusedSceneValue<T>(T?) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/focusedscenevalue(_:_:)-2brig",
                     "title" : "func focusedSceneValue<T>(WritableKeyPath<FocusedValues, T?>, T) -> some View",
                     "type" : "method"
@@ -4857,6 +5533,16 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/gesture(_:isenabled:)",
+                    "title" : "func gesture<T>(T, isEnabled: Bool) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/gesture(_:name:isenabled:)",
+                    "title" : "func gesture<T>(T, name: String, isEnabled: Bool) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/grayscale(_:)",
                     "title" : "func grayscale(Double) -> some View",
                     "type" : "method"
@@ -4884,6 +5570,11 @@
                   {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/groupboxstyle(_:)",
                     "title" : "func groupBoxStyle<S>(S) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/handgestureshortcut(_:isenabled:)",
+                    "title" : "func handGestureShortcut(HandGestureShortcut, isEnabled: Bool) -> some View",
                     "type" : "method"
                   },
                   {
@@ -4919,6 +5610,16 @@
                   {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/highprioritygesture(_:including:)",
                     "title" : "func highPriorityGesture<T>(T, including: GestureMask) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/highprioritygesture(_:isenabled:)",
+                    "title" : "func highPriorityGesture<T>(T, isEnabled: Bool) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/highprioritygesture(_:name:isenabled:)",
+                    "title" : "func highPriorityGesture<T>(T, name: String, isEnabled: Bool) -> some View",
                     "type" : "method"
                   },
                   {
@@ -5047,6 +5748,11 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/labelsvisibility(_:)",
+                    "title" : "func labelsVisibility(Visibility) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/layereffect(_:maxsampleoffset:isenabled:)",
                     "title" : "func layerEffect(Shader, maxSampleOffset: CGSize, isEnabled: Bool) -> some View",
                     "type" : "method"
@@ -5163,6 +5869,21 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/matchedtransitionsource(id:in:)",
+                    "title" : "func matchedTransitionSource(id: some Hashable, in: Namespace.ID) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/matchedtransitionsource(id:in:configuration:)",
+                    "title" : "func matchedTransitionSource(id: some Hashable, in: Namespace.ID, configuration: (EmptyMatchedTransitionSourceConfiguration) -> some MatchedTransitionSourceConfiguration) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/materialactiveappearance(_:)",
+                    "title" : "func materialActiveAppearance(MaterialActiveAppearance) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/menuactiondismissbehavior(_:)",
                     "title" : "func menuActionDismissBehavior(MenuActionDismissBehavior) -> some View",
                     "type" : "method"
@@ -5196,6 +5917,11 @@
                   {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/modifier(_:)",
                     "title" : "func modifier<T>(T) -> ModifiedContent<Self, T>",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/modifierkeyalternate(_:_:)",
+                    "title" : "func modifierKeyAlternate<V>(EventModifiers, () -> V) -> some View",
                     "type" : "method"
                   },
                   {
@@ -5361,6 +6087,11 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/navigationtransition(_:)",
+                    "title" : "func navigationTransition(some NavigationTransition) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "deprecated" : true,
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/navigationviewstyle(_:)",
                     "title" : "func navigationViewStyle<S>(S) -> some View",
@@ -5482,6 +6213,16 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/ongeometrychange(for:of:action:)-1ei2y",
+                    "title" : "func onGeometryChange<T>(for: T.Type, of: (GeometryProxy) -> T, action: (T) -> Void) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/ongeometrychange(for:of:action:)-7zk5i",
+                    "title" : "func onGeometryChange<T>(for: T.Type, of: (GeometryProxy) -> T, action: (T, T) -> Void) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/onhover(perform:)",
                     "title" : "func onHover(perform: (Bool) -> Void) -> some View",
                     "type" : "method"
@@ -5534,6 +6275,11 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/onmodifierkeyschanged(mask:initial:_:)",
+                    "title" : "func onModifierKeysChanged(mask: EventModifiers, initial: Bool, (EventModifiers, EventModifiers) -> Void) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/onmovecommand(perform:)",
                     "title" : "func onMoveCommand(perform: ((MoveCommandDirection) -> Void)?) -> some View",
                     "type" : "method"
@@ -5566,6 +6312,16 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/onpencildoubletap(perform:)",
+                    "title" : "func onPencilDoubleTap(perform: (PencilDoubleTapGestureValue) -> Void) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/onpencilsqueeze(perform:)",
+                    "title" : "func onPencilSqueeze(perform: (PencilSqueezeGesturePhase) -> Void) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/onplaypausecommand(perform:)",
                     "title" : "func onPlayPauseCommand(perform: (() -> Void)?) -> some View",
                     "type" : "method"
@@ -5578,6 +6334,31 @@
                   {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/onreceive(_:perform:)",
                     "title" : "func onReceive<P>(P, perform: (P.Output) -> Void) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/onscrollgeometrychange(for:of:action:)",
+                    "title" : "func onScrollGeometryChange<T>(for: T.Type, of: (ScrollGeometry) -> T, action: (T, T) -> Void) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/onscrollphasechange(_:)-65xe1",
+                    "title" : "func onScrollPhaseChange((ScrollPhase, ScrollPhase, ScrollPhaseChangeContext) -> Void) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/onscrollphasechange(_:)-7v1ag",
+                    "title" : "func onScrollPhaseChange((ScrollPhase, ScrollPhase) -> Void) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/onscrolltargetvisibilitychange(idtype:threshold:_:)",
+                    "title" : "func onScrollTargetVisibilityChange<ID>(idType: ID.Type, threshold: Double, ([ID]) -> Void) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/onscrollvisibilitychange(threshold:_:)",
+                    "title" : "func onScrollVisibilityChange(threshold: Double, (Bool) -> Void) -> some View",
                     "type" : "method"
                   },
                   {
@@ -5683,13 +6464,33 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/pointerstyle(_:)",
+                    "title" : "func pointerStyle(PointerStyle?) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/pointervisibility(_:)",
+                    "title" : "func pointerVisibility(Visibility) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/popover(ispresented:attachmentanchor:arrowedge:content:)",
                     "title" : "func popover<Content>(isPresented: Binding<Bool>, attachmentAnchor: PopoverAttachmentAnchor, arrowEdge: Edge, content: () -> Content) -> some View",
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/popover(ispresented:attachmentanchor:content:)",
+                    "title" : "func popover<Content>(isPresented: Binding<Bool>, attachmentAnchor: PopoverAttachmentAnchor, content: () -> Content) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/popover(item:attachmentanchor:arrowedge:content:)",
                     "title" : "func popover<Item, Content>(item: Binding<Item?>, attachmentAnchor: PopoverAttachmentAnchor, arrowEdge: Edge, content: (Item) -> Content) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/popover(item:attachmentanchor:content:)",
+                    "title" : "func popover<Item, Content>(item: Binding<Item?>, attachmentAnchor: PopoverAttachmentAnchor, content: (Item) -> Content) -> some View",
                     "type" : "method"
                   },
                   {
@@ -5765,6 +6566,11 @@
                   {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/presentationdragindicator(_:)",
                     "title" : "func presentationDragIndicator(Visibility) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/presentationsizing(_:)",
+                    "title" : "func presentationSizing(some PresentationSizing) -> some View",
                     "type" : "method"
                   },
                   {
@@ -5953,6 +6759,16 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/scrollinputbehavior(_:for:)",
+                    "title" : "func scrollInputBehavior(ScrollInputBehavior, for: ScrollInputKind) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/scrollposition(_:anchor:)",
+                    "title" : "func scrollPosition(Binding<ScrollPosition>, anchor: UnitPoint?) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/scrollposition(id:anchor:)",
                     "title" : "func scrollPosition(id: Binding<(some Hashable)?>, anchor: UnitPoint?) -> some View",
                     "type" : "method"
@@ -5980,6 +6796,16 @@
                   {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/searchcompletion(_:)",
                     "title" : "func searchCompletion(String) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/searchfocused(_:)",
+                    "title" : "func searchFocused(FocusState<Bool>.Binding) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/searchfocused(_:equals:)",
+                    "title" : "func searchFocused<V>(FocusState<V>.Binding, equals: V) -> some View",
                     "type" : "method"
                   },
                   {
@@ -6146,6 +6972,11 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/sectionactions(content:)",
+                    "title" : "func sectionActions<Content>(content: () -> Content) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/selectiondisabled(_:)",
                     "title" : "func selectionDisabled(Bool) -> some View",
                     "type" : "method"
@@ -6183,6 +7014,16 @@
                   {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/simultaneousgesture(_:including:)",
                     "title" : "func simultaneousGesture<T>(T, including: GestureMask) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/simultaneousgesture(_:isenabled:)",
+                    "title" : "func simultaneousGesture<T>(T, isEnabled: Bool) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/simultaneousgesture(_:name:isenabled:)",
+                    "title" : "func simultaneousGesture<T>(T, name: String, isEnabled: Bool) -> some View",
                     "type" : "method"
                   },
                   {
@@ -6256,8 +7097,29 @@
                     "type" : "method"
                   },
                   {
+                    "deprecated" : true,
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/tabitem(_:)",
                     "title" : "func tabItem<V>(() -> V) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/tabviewcustomization(_:)",
+                    "title" : "func tabViewCustomization(Binding<TabViewCustomization>?) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/tabviewsidebarbottombar(content:)",
+                    "title" : "func tabViewSidebarBottomBar<Content>(content: () -> Content) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/tabviewsidebarfooter(content:)",
+                    "title" : "func tabViewSidebarFooter<Content>(content: () -> Content) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/tabviewsidebarheader(content:)",
+                    "title" : "func tabViewSidebarHeader<Content>(content: () -> Content) -> some View",
                     "type" : "method"
                   },
                   {
@@ -6276,8 +7138,8 @@
                     "type" : "method"
                   },
                   {
-                    "path" : "\/documentation\/appinformation\/applicationinfoview\/tag(_:)",
-                    "title" : "func tag<V>(V) -> some View",
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/tag(_:includeoptional:)",
+                    "title" : "func tag<V>(V, includeOptional: Bool) -> some View",
                     "type" : "method"
                   },
                   {
@@ -6311,6 +7173,31 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/textinputcompletion(_:)",
+                    "title" : "func textInputCompletion(String) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/textinputsuggestions(_:)",
+                    "title" : "func textInputSuggestions<S>(() -> S) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/textinputsuggestions(_:content:)",
+                    "title" : "func textInputSuggestions<Data, Content>(Data, content: (Data.Element) -> Content) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/textinputsuggestions(_:id:content:)",
+                    "title" : "func textInputSuggestions<Data, ID, Content>(Data, id: KeyPath<Data.Element, ID>, content: (Data.Element) -> Content) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/textrenderer(_:)",
+                    "title" : "func textRenderer<T>(T) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/textscale(_:isenabled:)",
                     "title" : "func textScale(Text.Scale, isEnabled: Bool) -> some View",
                     "type" : "method"
@@ -6318,6 +7205,11 @@
                   {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/textselection(_:)",
                     "title" : "func textSelection<S>(S) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/textselectionaffinity(_:)",
+                    "title" : "func textSelectionAffinity(TextSelectionAffinity) -> some View",
                     "type" : "method"
                   },
                   {
@@ -6331,6 +7223,7 @@
                     "type" : "method"
                   },
                   {
+                    "deprecated" : true,
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/toolbar(_:for:)",
                     "title" : "func toolbar(Visibility, for: ToolbarPlacement...) -> some View",
                     "type" : "method"
@@ -6356,13 +7249,24 @@
                     "type" : "method"
                   },
                   {
+                    "deprecated" : true,
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/toolbarbackground(_:for:)",
                     "title" : "func toolbarBackground(Visibility, for: ToolbarPlacement...) -> some View",
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/toolbarbackgroundvisibility(_:for:)",
+                    "title" : "func toolbarBackgroundVisibility(Visibility, for: ToolbarPlacement...) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/toolbarcolorscheme(_:for:)",
                     "title" : "func toolbarColorScheme(ColorScheme?, for: ToolbarPlacement...) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/toolbaritemhidden(_:)",
+                    "title" : "func toolbarItemHidden(Bool) -> some View",
                     "type" : "method"
                   },
                   {
@@ -6378,6 +7282,11 @@
                   {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/toolbartitlemenu(content:)",
                     "title" : "func toolbarTitleMenu<C>(content: () -> C) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/toolbarvisibility(_:for:)",
+                    "title" : "func toolbarVisibility(Visibility, for: ToolbarPlacement...) -> some View",
                     "type" : "method"
                   },
                   {
@@ -6506,6 +7415,36 @@
                     "type" : "method"
                   },
                   {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/windowdismissbehavior(_:)",
+                    "title" : "func windowDismissBehavior(WindowInteractionBehavior) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/windowfullscreenbehavior(_:)",
+                    "title" : "func windowFullScreenBehavior(WindowInteractionBehavior) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/windowminimizebehavior(_:)",
+                    "title" : "func windowMinimizeBehavior(WindowInteractionBehavior) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/windowresizebehavior(_:)",
+                    "title" : "func windowResizeBehavior(WindowInteractionBehavior) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/windowtoolbarfullscreenvisibility(_:)",
+                    "title" : "func windowToolbarFullScreenVisibility(WindowToolbarFullScreenVisibility) -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/appinformation\/applicationinfoview\/writingtoolsbehavior(_:)",
+                    "title" : "func writingToolsBehavior(WritingToolsBehavior) -> some View",
+                    "type" : "method"
+                  },
+                  {
                     "path" : "\/documentation\/appinformation\/applicationinfoview\/zindex(_:)",
                     "title" : "func zIndex(Double) -> some View",
                     "type" : "method"
@@ -6597,23 +7536,23 @@
                     "type" : "groupMarker"
                   },
                   {
-                    "path" : "\/documentation\/appinformation\/swiftui\/environmentvalues\/appiconmode",
+                    "path" : "\/documentation\/appinformation\/swiftuicore\/environmentvalues\/appiconmode",
                     "title" : "var appIconMode: AppIconMode",
                     "type" : "property"
                   },
                   {
-                    "path" : "\/documentation\/appinformation\/swiftui\/environmentvalues\/appinfo",
+                    "path" : "\/documentation\/appinformation\/swiftuicore\/environmentvalues\/appinfo",
                     "title" : "var appInfo: AppInfo",
                     "type" : "property"
                   }
                 ],
-                "path" : "\/documentation\/appinformation\/swiftui\/environmentvalues",
+                "path" : "\/documentation\/appinformation\/swiftuicore\/environmentvalues",
                 "title" : "EnvironmentValues",
                 "type" : "extension"
               }
             ],
-            "path" : "\/documentation\/appinformation\/swiftui",
-            "title" : "SwiftUI",
+            "path" : "\/documentation\/appinformation\/swiftuicore",
+            "title" : "SwiftUICore",
             "type" : "extension"
           }
         ],
@@ -6626,6 +7565,6 @@
   "schemaVersion" : {
     "major" : 0,
     "minor" : 1,
-    "patch" : 1
+    "patch" : 2
   }
 }

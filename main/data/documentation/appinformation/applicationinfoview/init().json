@@ -76,7 +76,7 @@
     ],
     "remoteSource" : {
       "fileName" : "AppInfoView.swift",
-      "url" : "https:\/\/github.com\/sersoft-gmbh\/app-information\/Sources\/AppInformation\/UI\/AppInfoView.swift#L32"
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/app-information\/Sources\/AppInformation\/UI\/AppInfoView.swift#L34"
     },
     "role" : "symbol",
     "roleHeading" : "Initializer",
@@ -94,6 +94,19 @@
             "macOS"
           ],
           "tokens" : [
+            {
+              "kind" : "attribute",
+              "text" : "@"
+            },
+            {
+              "kind" : "attribute",
+              "preciseIdentifier" : "s:ScM",
+              "text" : "MainActor"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
             {
               "kind" : "keyword",
               "text" : "init"

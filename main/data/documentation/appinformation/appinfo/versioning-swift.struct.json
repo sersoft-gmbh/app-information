@@ -104,6 +104,8 @@
   ],
   "topicSections" : [
     {
+      "anchor" : "Instance-Properties",
+      "generated" : true,
       "identifiers" : [
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/Versioning-swift.struct\/build",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/Versioning-swift.struct\/combined",
@@ -112,6 +114,7 @@
       "title" : "Instance Properties"
     },
     {
+      "anchor" : "Default-Implementations",
       "generated" : true,
       "identifiers" : [
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/Versioning-swift.struct\/Equatable-Implementations"

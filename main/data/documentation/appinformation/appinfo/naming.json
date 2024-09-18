@@ -104,12 +104,16 @@
   ],
   "topicSections" : [
     {
+      "anchor" : "Operators",
+      "generated" : true,
       "identifiers" : [
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/Naming\/==(_:_:)"
       ],
       "title" : "Operators"
     },
     {
+      "anchor" : "Instance-Properties",
+      "generated" : true,
       "identifiers" : [
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/Naming\/effective",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/Naming\/effectiveName",
@@ -119,6 +123,7 @@
       "title" : "Instance Properties"
     },
     {
+      "anchor" : "Default-Implementations",
       "generated" : true,
       "identifiers" : [
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/Naming\/Equatable-Implementations"

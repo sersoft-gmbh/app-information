@@ -33,6 +33,8 @@
   ],
   "topicSections" : [
     {
+      "anchor" : "Structures",
+      "generated" : true,
       "identifiers" : [
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo",
@@ -41,14 +43,18 @@
       "title" : "Structures"
     },
     {
+      "anchor" : "Enumerations",
+      "generated" : true,
       "identifiers" : [
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconMode"
       ],
       "title" : "Enumerations"
     },
     {
+      "anchor" : "Extended-Modules",
+      "generated" : true,
       "identifiers" : [
-        "doc:\/\/AppInformation\/documentation\/AppInformation\/SwiftUI"
+        "doc:\/\/AppInformation\/documentation\/AppInformation\/SwiftUICore"
       ],
       "title" : "Extended Modules"
     }
@@ -231,16 +237,16 @@
   "type" : "topic",
   "url" : "\/documentation\/appinformation\/applicationinfoview"
 },
-"doc://AppInformation/documentation/AppInformation/SwiftUI": {
+"doc://AppInformation/documentation/AppInformation/SwiftUICore": {
   "abstract" : [
 
   ],
-  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/SwiftUI",
+  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/SwiftUICore",
   "kind" : "symbol",
   "role" : "collection",
-  "title" : "SwiftUI",
+  "title" : "SwiftUICore",
   "type" : "topic",
-  "url" : "\/documentation\/appinformation\/swiftui"
+  "url" : "\/documentation\/appinformation\/swiftuicore"
 }
 }
 }
