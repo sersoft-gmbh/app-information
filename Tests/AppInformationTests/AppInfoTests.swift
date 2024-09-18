@@ -31,8 +31,12 @@ final class AppInfoTests: XCTestCase {
         try data.write(to: infoPlistURL, options: .atomic)
         if let localizedInfoDict {
             let lprojName: String
-#if canImport(Darwin)
-            lprojName = Locale.current.identifier
+#if canImport(Darwin) || swift(>=6.0)
+            if #available(macOS 13, iOS 16, tvOS 16, watchOS 9, *) {
+                lprojName = Locale.current.language.languageCode?.identifier ?? Locale.current.identifier
+            } else {
+                lprojName = Locale.current.languageCode ?? Locale.current.identifier
+            }
 #else
             lprojName = Locale.current.languageCode ?? Locale.current.identifier
 #endif
