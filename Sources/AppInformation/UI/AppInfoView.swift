@@ -1,6 +1,6 @@
 #if arch(arm64) || arch(x86_64)
 #if canImport(Combine) && canImport(SwiftUI)
-import SwiftUI
+public import SwiftUI
 
 /// A view that shows an application icon next to the application details (name and version).
 /// The application info is read from the environment.
@@ -20,8 +20,10 @@ public struct ApplicationInfoView: View {
                 .padding(.horizontal)
             Spacer()
             VStack(spacing: 10) {
-                Text(appInfo.names.effectiveName).font(.appName)
-                Text(appInfo.versioning.combined).font(.version)
+                Text(appInfo.names.effectiveName)
+                    .font(.appName)
+                Text(appInfo.versioning.combined)
+                    .font(.version)
             }
             .padding(.horizontal)
             Spacer()

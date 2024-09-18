@@ -1,5 +1,5 @@
-import class Foundation.Bundle
-import class Foundation.ProcessInfo
+public import class Foundation.Bundle
+public import class Foundation.ProcessInfo
 
 /// Contains the information for an application (e.g. naming and versioning).
 public struct AppInfo: Sendable, Equatable, Identifiable {
@@ -118,7 +118,7 @@ extension AppInfo {
 
 #if arch(arm64) || arch(x86_64)
 #if canImport(Combine) && canImport(SwiftUI)
-import SwiftUI
+public import SwiftUI
 
 @available(macOS 10.15, iOS 13.0, tvOS 13.0, watchOS 6.0, *)
 extension AppInfo {

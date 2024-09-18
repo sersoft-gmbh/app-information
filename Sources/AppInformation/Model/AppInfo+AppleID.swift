@@ -1,6 +1,6 @@
-import struct Foundation.URL
-import struct Foundation.URLQueryItem
-import struct Foundation.URLComponents
+public import struct Foundation.URL
+public import struct Foundation.URLQueryItem
+public import struct Foundation.URLComponents
 
 extension AppInfo {
     /// Represents an AppleID of an application (usually a numerical value).

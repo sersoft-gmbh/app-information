@@ -1,6 +1,6 @@
 #if arch(arm64) || arch(x86_64)
 #if canImport(Combine) && canImport(SwiftUI)
-import SwiftUI
+public import SwiftUI
 
 /// Describes the mode how the app icon should be displayed.
 @available(macOS 11.0, iOS 13.0, tvOS 13.0, watchOS 6.0, *)
@@ -95,7 +95,7 @@ public struct AppIconView: View {
     /// - Parameter height: The height this icon should be displayed in.
     public func rounded(withHeight height: CGFloat) -> some View {
         frame(height: height)
-        .clipShape(RoundedRectangle(cornerRadius: (10 / 57) * height))
+            .clipShape(RoundedRectangle(cornerRadius: (10 / 57) * height))
     }
 }
 
