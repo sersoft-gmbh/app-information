@@ -65,7 +65,7 @@ extension AppInfo {
     /// - Parameter appleID: The appleID to use. Defaults to `nil`, in which case it is attempted to read it
     ///                      from the `AppInformationAppleID` key in the bundle's info dictionary.
     public init(bundle: Bundle, appleID: AppleID? = nil) {
-        let infoDict = bundle.infoDictionary ?? .init()
+        let infoDict = bundle.infoDictionary
         identifier = bundle.bundleIdentifier ?? String(ProcessInfo.processInfo.processIdentifier)
         names = Naming(infoDict: infoDict, localizedInfoDict: bundle.localizedInfoDictionary)
         versioning = Versioning(infoDict: infoDict)
@@ -75,20 +75,20 @@ extension AppInfo {
         }
         copyright = readCopyright(from: bundle.localizedInfoDictionary) ?? readCopyright(from: infoDict)
 
-        self.appleID = appleID ?? (infoDict["AppInformationAppleID"] as? String).map { AppleID(rawValue: $0) }
+        self.appleID = appleID ?? (infoDict?["AppInformationAppleID"] as? String).map { AppleID(rawValue: $0) }
     }
 }
 
 extension AppInfo.Naming {
-    private static func readBaseName(from infoDict: Dictionary<String, Any>) -> String? {
-        infoDict["CFBundleName"] as? String
+    private static func readBaseName(from infoDict: Dictionary<String, Any>?) -> String? {
+        infoDict?["CFBundleName"] as? String
     }
 
-    private static func readDisplayName(from infoDict: Dictionary<String, Any>) -> String? {
-        infoDict["CFBundleDisplayName"] as? String
+    private static func readDisplayName(from infoDict: Dictionary<String, Any>?) -> String? {
+        infoDict?["CFBundleDisplayName"] as? String
     }
 
-    init(infoDict: Dictionary<String, Any>, localizedInfoDict: Dictionary<String, Any>?) {
+    init(infoDict: Dictionary<String, Any>?, localizedInfoDict: Dictionary<String, Any>?) {
         self.init(
             unlocalized: (
                 base: Self.readBaseName(from: infoDict) ?? ProcessInfo.processInfo.processName,
@@ -105,9 +105,9 @@ extension AppInfo.Naming {
 }
 
 extension AppInfo.Versioning {
-    init(infoDict: Dictionary<String, Any>) {
-        version = infoDict["CFBundleShortVersionString"] as? String ?? "1.0.0"
-        build = infoDict["CFBundleVersion"] as? String ?? "1"
+    init(infoDict: Dictionary<String, Any>?) {
+        version = infoDict?["CFBundleShortVersionString"] as? String ?? "1.0.0"
+        build = infoDict?["CFBundleVersion"] as? String ?? "1"
     }
 }
 

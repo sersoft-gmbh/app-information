@@ -7,29 +7,9 @@ import SwiftUI
 #endif
 
 final class AppInfoTests: XCTestCase {
-    private final class FakeBundle: Bundle {
-        var _identifier: String?
-        override var bundleIdentifier: String? { _identifier }
-        
-        var _infoDict: Dictionary<String, Any>?
-        override var infoDictionary: Dictionary<String, Any>? { _infoDict }
+    private var bundleURL: URL!
+    private var bundlePath: String { bundleURL.path }
 
-        var _localizedInfoDict: Dictionary<String, Any>?
-        override var localizedInfoDictionary: Dictionary<String, Any>? { _localizedInfoDict }
-
-        init(path: String,
-             identifier: String? = nil,
-             infoDict: Dictionary<String, Any>? = nil,
-             localizedInfoDict: Dictionary<String, Any>? = nil) {
-            _identifier = identifier
-            _infoDict = infoDict
-            _localizedInfoDict = localizedInfoDict
-            super.init(path: path)!
-        }
-    }
-    
-    private var bundlePath: String!
-    
     private func tempDir() -> URL {
         if #available(iOS 10, tvOS 10, watchOS 3.0, *) {
             return FileManager.default.temporaryDirectory
@@ -37,25 +17,52 @@ final class AppInfoTests: XCTestCase {
             return URL(fileURLWithPath: NSTemporaryDirectory())
         }
     }
-    
+
+    private func fillBundle(identifier: String? = nil,
+                            infoDict: Dictionary<String, Any>? = nil,
+                            localizedInfoDict: Dictionary<String, Any>? = nil) throws {
+        var infoDict = infoDict ?? [:]
+        if let identifier {
+            infoDict["CFBundleIdentifier"] = identifier
+        }
+        let contentsURL = bundleURL.appendingPathComponent("Contents", isDirectory: true)
+        let infoPlistURL = contentsURL.appendingPathComponent("Info.plist", isDirectory: false)
+        let data = try PropertyListSerialization.data(fromPropertyList: infoDict, format: .xml, options: 0)
+        try data.write(to: infoPlistURL, options: .atomic)
+        if let localizedInfoDict {
+            let locale = Locale.current.identifier
+            let lprojFolderURL = contentsURL
+                .appendingPathComponent("Resources", isDirectory: true)
+                .appendingPathComponent("\(locale).lproj", isDirectory: true)
+            try FileManager.default.createDirectory(at: lprojFolderURL, withIntermediateDirectories: true)
+            let stringsFile = lprojFolderURL.appendingPathComponent("InfoPlist.strings", isDirectory: false)
+            try localizedInfoDict
+                .lazy
+                .map { #""\#($0.key)" = "\#($0.value)";"# }
+                .joined(separator: "\n")
+                .write(to: stringsFile, atomically: true, encoding: .utf16)
+        }
+    }
+
     override func setUpWithError() throws {
         try super.setUpWithError()
-        bundlePath = tempDir()
+        bundleURL = tempDir()
             .appendingPathComponent(UUID().uuidString, isDirectory: true)
             .appendingPathExtension("bundle")
-            .path
-        try FileManager.default.createDirectory(atPath: bundlePath, withIntermediateDirectories: true, attributes: nil)
+        let contentsDir = bundleURL.appendingPathComponent("Contents", isDirectory: true)
+        try FileManager.default.createDirectory(at: contentsDir, withIntermediateDirectories: true)
     }
-    
+
     override func tearDownWithError() throws {
-        try FileManager.default.removeItem(atPath: bundlePath)
-        bundlePath = nil
+        try FileManager.default.removeItem(at: bundleURL)
+        bundleURL = nil
         try super.tearDownWithError()
     }
-    
-    func testCreationFromEmptyBundle() {
-        let info = AppInfo(bundle: FakeBundle(path: bundlePath))
-        
+
+    func testCreationFromEmptyBundle() throws {
+        try fillBundle()
+        let info = try AppInfo(bundle: XCTUnwrap(Bundle(path: bundlePath)))
+
         XCTAssertEqual(info.identifier, String(ProcessInfo.processInfo.processIdentifier))
         XCTAssertEqual(info.names.unlocalized.base, ProcessInfo.processInfo.processName)
         XCTAssertNil(info.names.unlocalized.display)
@@ -66,10 +73,11 @@ final class AppInfoTests: XCTestCase {
         XCTAssertNil(info.copyright)
         XCTAssertNil(info.appleID)
     }
-    
-    func testCreationFromEmptyBundleAndAppleID() {
-        let info = AppInfo(bundle: FakeBundle(path: bundlePath), appleID: "12345")
-        
+
+    func testCreationFromEmptyBundleAndAppleID() throws {
+        try fillBundle()
+        let info = try AppInfo(bundle: XCTUnwrap(Bundle(path: bundlePath)), appleID: "12345")
+
         XCTAssertEqual(info.identifier, String(ProcessInfo.processInfo.processIdentifier))
         XCTAssertEqual(info.names.unlocalized.base, ProcessInfo.processInfo.processName)
         XCTAssertNil(info.names.unlocalized.display)
@@ -80,20 +88,20 @@ final class AppInfoTests: XCTestCase {
         XCTAssertNil(info.copyright)
         XCTAssertEqual(info.appleID, "12345")
     }
-    
-    func testCreationFromUnlocalizedBundle() {
-        let bundle = FakeBundle(path: bundlePath,
-                                identifier: "test-identifier",
-                                infoDict: [
-                                    "CFBundleShortVersionString": "1.2.3",
-                                    "CFBundleVersion": "42",
-                                    "CFBundleName": "TestName",
-                                    "CFBundleDisplayName": "Test Display Name",
-                                    "NSHumanReadableCopyright": "Some Copyright",
-                                    "AppInformationAppleID": "54321",
-                                ])
+
+    func testCreationFromUnlocalizedBundle() throws {
+        try fillBundle(identifier: "test-identifier",
+                       infoDict: [
+                        "CFBundleShortVersionString": "1.2.3",
+                        "CFBundleVersion": "42",
+                        "CFBundleName": "TestName",
+                        "CFBundleDisplayName": "Test Display Name",
+                        "NSHumanReadableCopyright": "Some Copyright",
+                        "AppInformationAppleID": "54321",
+                       ])
+        let bundle = try XCTUnwrap(Bundle(path: bundlePath))
         let info = AppInfo(bundle: bundle)
-        
+
         XCTAssertEqual(info.identifier, "test-identifier")
         XCTAssertEqual(info.names.unlocalized.base, "TestName")
         XCTAssertEqual(info.names.unlocalized.display, "Test Display Name")
@@ -104,28 +112,28 @@ final class AppInfoTests: XCTestCase {
         XCTAssertEqual(info.copyright, "Some Copyright")
         XCTAssertEqual(info.appleID, "54321")
     }
-    
-    func testCreationFromLocalizedBundle() {
-        let bundle = FakeBundle(path: bundlePath,
-                                identifier: "test-identifier",
-                                infoDict: [
-                                    "CFBundleShortVersionString": "1.2.3",
-                                    "CFBundleVersion": "42",
-                                    "CFBundleName": "TestName",
-                                    "CFBundleDisplayName": "Test Display Name",
-                                    "NSHumanReadableCopyright": "Some Copyright",
-                                    "AppInformationAppleID": "54321",
-                                ],
-                                localizedInfoDict: [
-                                    "CFBundleShortVersionString": "irrelevant",
-                                    "CFBundleVersion": "more-irrelevant",
-                                    "CFBundleName": "LocalizedTestName",
-                                    "CFBundleDisplayName": "Localized Test Display Name",
-                                    "NSHumanReadableCopyright": "Some Localized Copyright",
-                                    "AppInformationAppleID": "most-irrelevant",
-                                ])
+
+    func testCreationFromLocalizedBundle() throws {
+        try fillBundle(identifier: "test-identifier",
+                       infoDict: [
+                        "CFBundleShortVersionString": "1.2.3",
+                        "CFBundleVersion": "42",
+                        "CFBundleName": "TestName",
+                        "CFBundleDisplayName": "Test Display Name",
+                        "NSHumanReadableCopyright": "Some Copyright",
+                        "AppInformationAppleID": "54321",
+                       ],
+                       localizedInfoDict: [
+                        "CFBundleShortVersionString": "irrelevant",
+                        "CFBundleVersion": "more-irrelevant",
+                        "CFBundleName": "LocalizedTestName",
+                        "CFBundleDisplayName": "Localized Test Display Name",
+                        "NSHumanReadableCopyright": "Some Localized Copyright",
+                        "AppInformationAppleID": "most-irrelevant",
+                       ])
+        let bundle = try XCTUnwrap(Bundle(path: bundlePath))
         let info = AppInfo(bundle: bundle)
-        
+
         XCTAssertEqual(info.identifier, "test-identifier")
         XCTAssertEqual(info.names.unlocalized.base, "TestName")
         XCTAssertEqual(info.names.unlocalized.display, "Test Display Name")
@@ -136,12 +144,13 @@ final class AppInfoTests: XCTestCase {
         XCTAssertEqual(info.copyright, "Some Localized Copyright")
         XCTAssertEqual(info.appleID, "54321")
     }
-    
-    func testIdentifiableConformance() {
-        let info = AppInfo(bundle: FakeBundle(path: bundlePath))
+
+    func testIdentifiableConformance() throws {
+        try fillBundle()
+        let info = try AppInfo(bundle: XCTUnwrap(Bundle(path: bundlePath)))
         XCTAssertEqual(info.id, info.identifier)
     }
-    
+
     func testNamingAccessors() {
         XCTAssertEqual(AppInfo.Naming(unlocalized: (base: "relevant", display: nil),
                                       localized: (nil, nil)).effectiveName,
@@ -171,7 +180,7 @@ final class AppInfoTests: XCTestCase {
                                       localized: ("relevant", "also-relevant")).effective,
                        ("relevant", "also-relevant"))
     }
-    
+
     func testNamingEquatableConformance() {
         let naming1 = AppInfo.Naming(unlocalized: ("base-name", "display-name"), localized: (nil, nil))
         let naming2 = AppInfo.Naming(unlocalized: ("base-name", "display-name"), localized: ("loc-base", nil))
@@ -180,18 +189,18 @@ final class AppInfoTests: XCTestCase {
         XCTAssertNotEqual(naming1, naming2)
         XCTAssertNotEqual(naming2, naming3)
     }
-    
+
     func testVersioningAccessors() {
         let versioning = AppInfo.Versioning(version: "1.2.3", build: "42")
         XCTAssertEqual(versioning.combined, "1.2.3 (42)")
     }
-    
+
     func testSwiftUIEnvironment() throws {
 #if arch(arm64) || arch(x86_64)
 #if canImport(SwiftUI) && canImport(Combine)
-        guard #available(macOS 10.15, iOS 13.0, tvOS 13.0, watchOS 6.0, *) 
+        guard #available(macOS 10.15, iOS 13.0, tvOS 13.0, watchOS 6.0, *)
         else { throw XCTSkip() }
-        let info = AppInfo(bundle: FakeBundle(path: bundlePath))
+        let info = try AppInfo(bundle: XCTUnwrap(Bundle(path: bundlePath)))
         var env = EnvironmentValues()
         XCTAssertEqual(env.appInfo, .current)
         env.appInfo = info
