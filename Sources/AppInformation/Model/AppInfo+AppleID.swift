@@ -16,7 +16,7 @@ extension AppInfo {
         /// The app store url for this AppleID.
         public var appStoreURL: URL {
             let component = "id\(rawValue)"
-#if canImport(Darwin)
+#if swift(>=6.0) || canImport(Darwin)
             if #available(macOS 13, iOS 16, tvOS 16, watchOS 9, *) {
                 return Self.appStoreBaseURL.appending(component: component)
             } else {
@@ -35,7 +35,7 @@ extension AppInfo {
                 comps.queryItems = (comps.queryItems ?? []) + CollectionOfOne(queryItem)
                 return comps.url!
             }
-#if canImport(Darwin)
+#if swift(>=6.0) || canImport(Darwin)
             if #available(macOS 13, iOS 16, tvOS 16, watchOS 9, *) {
                 return appStoreURL.appending(queryItems: [queryItem])
             } else {
