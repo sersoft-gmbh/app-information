@@ -9,8 +9,7 @@
     "paths" : [
       [
         "doc:\/\/AppInformation\/documentation\/AppInformation",
-        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView",
-        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/View-Implementations"
+        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView"
       ]
     ]
   },
@@ -303,6 +302,36 @@
             {
               "inlineContent" : [
                 {
+                  "text" : "Localized text describing to the user what",
+                  "type" : "text"
+                },
+                {
+                  "text" : " ",
+                  "type" : "text"
+                },
+                {
+                  "text" : "is contained in this additional information entry. For example:",
+                  "type" : "text"
+                },
+                {
+                  "text" : " ",
+                  "type" : "text"
+                },
+                {
+                  "text" : "“orientation”.",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "label"
+        },
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
                   "text" : "Text value for the additional accessibility",
                   "type" : "text"
                 },
@@ -582,17 +611,6 @@
   "title" : "AppIconView",
   "type" : "topic",
   "url" : "\/documentation\/appinformation\/appiconview"
-},
-"doc://AppInformation/documentation/AppInformation/AppIconView/View-Implementations": {
-  "abstract" : [
-
-  ],
-  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/View-Implementations",
-  "kind" : "article",
-  "role" : "collectionGroup",
-  "title" : "View Implementations",
-  "type" : "topic",
-  "url" : "\/documentation\/appinformation\/appiconview\/view-implementations"
 },
 "doc://AppInformation/documentation/AppInformation/AppIconView/accessibilityCustomContent(_:_:importance:)-9gcjn": {
   "abstract" : [

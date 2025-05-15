@@ -9,8 +9,7 @@
     "paths" : [
       [
         "doc:\/\/AppInformation\/documentation\/AppInformation",
-        "doc:\/\/AppInformation\/documentation\/AppInformation\/ApplicationInfoView",
-        "doc:\/\/AppInformation\/documentation\/AppInformation\/ApplicationInfoView\/View-Implementations"
+        "doc:\/\/AppInformation\/documentation\/AppInformation\/ApplicationInfoView"
       ]
     ]
   },
@@ -223,6 +222,23 @@
         {
           "inlineContent" : [
             {
+              "text" : "Refer to ",
+              "type" : "text"
+            },
+            {
+              "code" : "PointerStyle",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " for a list of available pointer styles.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "inlineContent" : [
+            {
               "text" : "For guidance on choosing an appropriate pointer style, refer to",
               "type" : "text"
             },
@@ -367,17 +383,6 @@
   "title" : "ApplicationInfoView",
   "type" : "topic",
   "url" : "\/documentation\/appinformation\/applicationinfoview"
-},
-"doc://AppInformation/documentation/AppInformation/ApplicationInfoView/View-Implementations": {
-  "abstract" : [
-
-  ],
-  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/ApplicationInfoView\/View-Implementations",
-  "kind" : "article",
-  "role" : "collectionGroup",
-  "title" : "View Implementations",
-  "type" : "topic",
-  "url" : "\/documentation\/appinformation\/applicationinfoview\/view-implementations"
 },
 "doc://AppInformation/documentation/AppInformation/ApplicationInfoView/pointerStyle(_:)": {
   "abstract" : [

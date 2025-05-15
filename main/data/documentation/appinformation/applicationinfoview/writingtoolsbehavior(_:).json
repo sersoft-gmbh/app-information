@@ -17,8 +17,7 @@
     "paths" : [
       [
         "doc:\/\/AppInformation\/documentation\/AppInformation",
-        "doc:\/\/AppInformation\/documentation\/AppInformation\/ApplicationInfoView",
-        "doc:\/\/AppInformation\/documentation\/AppInformation\/ApplicationInfoView\/View-Implementations"
+        "doc:\/\/AppInformation\/documentation\/AppInformation\/ApplicationInfoView"
       ]
     ]
   },
@@ -91,6 +90,13 @@
         "deprecated" : false,
         "introducedAt" : "15.0",
         "name" : "macOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "2.4",
+        "name" : "visionOS",
         "unavailable" : false
       }
     ],
@@ -293,15 +299,6 @@
             }
           ],
           "type" : "paragraph"
-        },
-        {
-          "inlineContent" : [
-            {
-              "text" : "Parameters:",
-              "type" : "text"
-            }
-          ],
-          "type" : "paragraph"
         }
       ],
       "kind" : "content"
@@ -381,17 +378,6 @@
   "title" : "ApplicationInfoView",
   "type" : "topic",
   "url" : "\/documentation\/appinformation\/applicationinfoview"
-},
-"doc://AppInformation/documentation/AppInformation/ApplicationInfoView/View-Implementations": {
-  "abstract" : [
-
-  ],
-  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/ApplicationInfoView\/View-Implementations",
-  "kind" : "article",
-  "role" : "collectionGroup",
-  "title" : "View Implementations",
-  "type" : "topic",
-  "url" : "\/documentation\/appinformation\/applicationinfoview\/view-implementations"
 },
 "doc://AppInformation/documentation/AppInformation/ApplicationInfoView/writingToolsBehavior(_:)": {
   "abstract" : [

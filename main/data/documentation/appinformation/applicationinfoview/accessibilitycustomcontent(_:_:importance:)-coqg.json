@@ -9,8 +9,7 @@
     "paths" : [
       [
         "doc:\/\/AppInformation\/documentation\/AppInformation",
-        "doc:\/\/AppInformation\/documentation\/AppInformation\/ApplicationInfoView",
-        "doc:\/\/AppInformation\/documentation\/AppInformation\/ApplicationInfoView\/View-Implementations"
+        "doc:\/\/AppInformation\/documentation\/AppInformation\/ApplicationInfoView"
       ]
     ]
   },
@@ -303,6 +302,36 @@
             {
               "inlineContent" : [
                 {
+                  "text" : "Localized text describing to the user what",
+                  "type" : "text"
+                },
+                {
+                  "text" : " ",
+                  "type" : "text"
+                },
+                {
+                  "text" : "is contained in this additional information entry. For example:",
+                  "type" : "text"
+                },
+                {
+                  "text" : " ",
+                  "type" : "text"
+                },
+                {
+                  "text" : "“orientation”.",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "label"
+        },
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
                   "text" : "Text value for the additional accessibility",
                   "type" : "text"
                 },
@@ -547,17 +576,6 @@
   "title" : "ApplicationInfoView",
   "type" : "topic",
   "url" : "\/documentation\/appinformation\/applicationinfoview"
-},
-"doc://AppInformation/documentation/AppInformation/ApplicationInfoView/View-Implementations": {
-  "abstract" : [
-
-  ],
-  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/ApplicationInfoView\/View-Implementations",
-  "kind" : "article",
-  "role" : "collectionGroup",
-  "title" : "View Implementations",
-  "type" : "topic",
-  "url" : "\/documentation\/appinformation\/applicationinfoview\/view-implementations"
 },
 "doc://AppInformation/documentation/AppInformation/ApplicationInfoView/accessibilityCustomContent(_:_:importance:)-coqg": {
   "abstract" : [

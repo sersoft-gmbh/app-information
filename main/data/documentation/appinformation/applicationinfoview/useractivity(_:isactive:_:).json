@@ -9,8 +9,7 @@
     "paths" : [
       [
         "doc:\/\/AppInformation\/documentation\/AppInformation",
-        "doc:\/\/AppInformation\/documentation\/AppInformation\/ApplicationInfoView",
-        "doc:\/\/AppInformation\/documentation\/AppInformation\/ApplicationInfoView\/View-Implementations"
+        "doc:\/\/AppInformation\/documentation\/AppInformation\/ApplicationInfoView"
       ]
     ]
   },
@@ -470,17 +469,6 @@
   "title" : "ApplicationInfoView",
   "type" : "topic",
   "url" : "\/documentation\/appinformation\/applicationinfoview"
-},
-"doc://AppInformation/documentation/AppInformation/ApplicationInfoView/View-Implementations": {
-  "abstract" : [
-
-  ],
-  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/ApplicationInfoView\/View-Implementations",
-  "kind" : "article",
-  "role" : "collectionGroup",
-  "title" : "View Implementations",
-  "type" : "topic",
-  "url" : "\/documentation\/appinformation\/applicationinfoview\/view-implementations"
 },
 "doc://AppInformation/documentation/AppInformation/ApplicationInfoView/userActivity(_:isActive:_:)": {
   "abstract" : [

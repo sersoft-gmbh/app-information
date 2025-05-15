@@ -9,8 +9,7 @@
     "paths" : [
       [
         "doc:\/\/AppInformation\/documentation\/AppInformation",
-        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView",
-        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/View-Implementations"
+        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView"
       ]
     ]
   },
@@ -322,17 +321,6 @@
   "title" : "AppIconView",
   "type" : "topic",
   "url" : "\/documentation\/appinformation\/appiconview"
-},
-"doc://AppInformation/documentation/AppInformation/AppIconView/View-Implementations": {
-  "abstract" : [
-
-  ],
-  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/View-Implementations",
-  "kind" : "article",
-  "role" : "collectionGroup",
-  "title" : "View Implementations",
-  "type" : "topic",
-  "url" : "\/documentation\/appinformation\/appiconview\/view-implementations"
 },
 "doc://AppInformation/documentation/AppInformation/AppIconView/tableStyle(_:)": {
   "abstract" : [

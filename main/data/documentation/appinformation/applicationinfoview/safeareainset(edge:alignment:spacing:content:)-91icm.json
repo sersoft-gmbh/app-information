@@ -9,8 +9,7 @@
     "paths" : [
       [
         "doc:\/\/AppInformation\/documentation\/AppInformation",
-        "doc:\/\/AppInformation\/documentation\/AppInformation\/ApplicationInfoView",
-        "doc:\/\/AppInformation\/documentation\/AppInformation\/ApplicationInfoView\/View-Implementations"
+        "doc:\/\/AppInformation\/documentation\/AppInformation\/ApplicationInfoView"
       ]
     ]
   },
@@ -383,6 +382,28 @@
             {
               "inlineContent" : [
                 {
+                  "text" : "Extra distance placed between the two views, or",
+                  "type" : "text"
+                },
+                {
+                  "text" : " ",
+                  "type" : "text"
+                },
+                {
+                  "text" : "nil to use the default amount of spacing.",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "spacing"
+        },
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
                   "text" : "The alignment guide used to position ",
                   "type" : "text"
                 },
@@ -403,28 +424,6 @@
             }
           ],
           "name" : "alignment"
-        },
-        {
-          "content" : [
-            {
-              "inlineContent" : [
-                {
-                  "text" : "Extra distance placed between the two views, or",
-                  "type" : "text"
-                },
-                {
-                  "text" : " ",
-                  "type" : "text"
-                },
-                {
-                  "text" : "nil to use the default amount of spacing.",
-                  "type" : "text"
-                }
-              ],
-              "type" : "paragraph"
-            }
-          ],
-          "name" : "spacing"
         },
         {
           "content" : [
@@ -677,17 +676,6 @@
   "title" : "ApplicationInfoView",
   "type" : "topic",
   "url" : "\/documentation\/appinformation\/applicationinfoview"
-},
-"doc://AppInformation/documentation/AppInformation/ApplicationInfoView/View-Implementations": {
-  "abstract" : [
-
-  ],
-  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/ApplicationInfoView\/View-Implementations",
-  "kind" : "article",
-  "role" : "collectionGroup",
-  "title" : "View Implementations",
-  "type" : "topic",
-  "url" : "\/documentation\/appinformation\/applicationinfoview\/view-implementations"
 },
 "doc://AppInformation/documentation/AppInformation/ApplicationInfoView/safeAreaInset(edge:alignment:spacing:content:)-91icm": {
   "abstract" : [

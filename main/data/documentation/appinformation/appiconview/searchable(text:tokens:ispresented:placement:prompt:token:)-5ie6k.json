@@ -17,8 +17,7 @@
     "paths" : [
       [
         "doc:\/\/AppInformation\/documentation\/AppInformation",
-        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView",
-        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/View-Implementations"
+        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView"
       ]
     ]
   },
@@ -648,6 +647,36 @@
             {
               "inlineContent" : [
                 {
+                  "text" : "A ",
+                  "type" : "text"
+                },
+                {
+                  "code" : "Binding",
+                  "type" : "codeVoice"
+                },
+                {
+                  "text" : " that controls the presented state",
+                  "type" : "text"
+                },
+                {
+                  "text" : " ",
+                  "type" : "text"
+                },
+                {
+                  "text" : "of search.",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "isPresenting"
+        },
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
                   "text" : "The preferred placement of the search field within the",
                   "type" : "text"
                 },
@@ -873,17 +902,6 @@
   "title" : "AppIconView",
   "type" : "topic",
   "url" : "\/documentation\/appinformation\/appiconview"
-},
-"doc://AppInformation/documentation/AppInformation/AppIconView/View-Implementations": {
-  "abstract" : [
-
-  ],
-  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/View-Implementations",
-  "kind" : "article",
-  "role" : "collectionGroup",
-  "title" : "View Implementations",
-  "type" : "topic",
-  "url" : "\/documentation\/appinformation\/appiconview\/view-implementations"
 },
 "doc://AppInformation/documentation/AppInformation/AppIconView/searchable(text:tokens:isPresented:placement:prompt:token:)-5ie6k": {
   "abstract" : [

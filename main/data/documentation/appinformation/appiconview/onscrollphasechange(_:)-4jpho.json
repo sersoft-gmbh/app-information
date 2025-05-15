@@ -17,8 +17,7 @@
     "paths" : [
       [
         "doc:\/\/AppInformation\/documentation\/AppInformation",
-        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView",
-        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/View-Implementations"
+        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView"
       ]
     ]
   },
@@ -280,6 +279,56 @@
             }
           ],
           "name" : "action"
+        },
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "The old scroll phase.",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "oldPhase"
+        },
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "The new scroll phase.",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "newPhase"
+        },
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "The phase context at the time of the scroll",
+                  "type" : "text"
+                },
+                {
+                  "text" : " ",
+                  "type" : "text"
+                },
+                {
+                  "text" : "phase change.",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "context"
         }
       ]
     },
@@ -639,17 +688,6 @@
   "title" : "AppIconView",
   "type" : "topic",
   "url" : "\/documentation\/appinformation\/appiconview"
-},
-"doc://AppInformation/documentation/AppInformation/AppIconView/View-Implementations": {
-  "abstract" : [
-
-  ],
-  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/View-Implementations",
-  "kind" : "article",
-  "role" : "collectionGroup",
-  "title" : "View Implementations",
-  "type" : "topic",
-  "url" : "\/documentation\/appinformation\/appiconview\/view-implementations"
 },
 "doc://AppInformation/documentation/AppInformation/AppIconView/onScrollPhaseChange(_:)-4jpho": {
   "abstract" : [

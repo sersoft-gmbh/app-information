@@ -9,8 +9,7 @@
     "paths" : [
       [
         "doc:\/\/AppInformation\/documentation\/AppInformation",
-        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo",
-        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/Equatable-Implementations"
+        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo"
       ]
     ]
   },
@@ -429,17 +428,6 @@
   "title" : "!=(_:_:)",
   "type" : "topic",
   "url" : "\/documentation\/appinformation\/appinfo\/!=(_:_:)"
-},
-"doc://AppInformation/documentation/AppInformation/AppInfo/Equatable-Implementations": {
-  "abstract" : [
-
-  ],
-  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/Equatable-Implementations",
-  "kind" : "article",
-  "role" : "collectionGroup",
-  "title" : "Equatable Implementations",
-  "type" : "topic",
-  "url" : "\/documentation\/appinformation\/appinfo\/equatable-implementations"
 }
 }
 }

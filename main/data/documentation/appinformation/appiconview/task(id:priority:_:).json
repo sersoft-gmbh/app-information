@@ -17,8 +17,7 @@
     "paths" : [
       [
         "doc:\/\/AppInformation\/documentation\/AppInformation",
-        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView",
-        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/View-Implementations"
+        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView"
       ]
     ]
   },
@@ -337,6 +336,40 @@
     {
       "kind" : "parameters",
       "parameters" : [
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "The value to observe for changes. The value must conform",
+                  "type" : "text"
+                },
+                {
+                  "text" : " ",
+                  "type" : "text"
+                },
+                {
+                  "text" : "to the ",
+                  "type" : "text"
+                },
+                {
+                  "text" : "doc:\/\/com.apple.documentation\/documentation\/Swift\/Equatable",
+                  "type" : "text"
+                },
+                {
+                  "text" : " ",
+                  "type" : "text"
+                },
+                {
+                  "text" : "protocol.",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "id"
+        },
         {
           "content" : [
             {
@@ -888,17 +921,6 @@
   "title" : "AppIconView",
   "type" : "topic",
   "url" : "\/documentation\/appinformation\/appiconview"
-},
-"doc://AppInformation/documentation/AppInformation/AppIconView/View-Implementations": {
-  "abstract" : [
-
-  ],
-  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/View-Implementations",
-  "kind" : "article",
-  "role" : "collectionGroup",
-  "title" : "View Implementations",
-  "type" : "topic",
-  "url" : "\/documentation\/appinformation\/appiconview\/view-implementations"
 },
 "doc://AppInformation/documentation/AppInformation/AppIconView/task(id:priority:_:)": {
   "abstract" : [

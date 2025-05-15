@@ -50,7 +50,7 @@
     ],
     "remoteSource" : {
       "fileName" : "AppInfo.swift",
-      "url" : "https:\/\/github.com\/sersoft-gmbh\/app-information\/Sources\/AppInformation\/Model\/AppInfo.swift#L46"
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/app-information\/blob\/refs\/heads\/main\/Sources\/AppInformation\/Model\/AppInfo.swift#L46"
     },
     "role" : "symbol",
     "roleHeading" : "Instance Property",

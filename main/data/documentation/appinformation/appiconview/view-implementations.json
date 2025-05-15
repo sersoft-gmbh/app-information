@@ -234,6 +234,8 @@
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/contentMargins(_:for:)",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/contentShape(_:_:eoFill:)",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/contentShape(_:eoFill:)",
+        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/contentToolbar(for:content:)-3qrf6",
+        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/contentToolbar(for:content:)-9m9zq",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/contentTransition(_:)",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/contextMenu(_:)",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/contextMenu(forSelectionType:menu:primaryAction:)",
@@ -254,6 +256,7 @@
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/defaultScrollAnchor(_:for:)",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/deleteDisabled(_:)",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/dialogIcon(_:)",
+        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/dialogPreventsAppTermination(_:)",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/dialogSeverity(_:)",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/dialogSuppressionToggle(_:isSuppressed:)-1vtvq",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/dialogSuppressionToggle(_:isSuppressed:)-3bi3i",
@@ -273,7 +276,8 @@
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/draggable(_:preview:)",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/drawingGroup(opaque:colorMode:)",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/dropDestination(for:action:isTargeted:)",
-        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/dynamicTypeSize(_:)",
+        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/dynamicTypeSize(_:)-4en50",
+        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/dynamicTypeSize(_:)-960d7",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/edgesIgnoringSafeArea(_:)",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/environment(_:)",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/environment(_:_:)",
@@ -442,7 +446,8 @@
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/navigationDestination(for:destination:)",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/navigationDestination(isPresented:destination:)",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/navigationDestination(item:destination:)",
-        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/navigationDocument(_:)",
+        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/navigationDocument(_:)-4yxiv",
+        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/navigationDocument(_:)-71iay",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/navigationDocument(_:preview:)-1buo0",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/navigationDocument(_:preview:)-2e14y",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/navigationDocument(_:preview:)-3nhz4",
@@ -468,7 +473,8 @@
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/onChange(of:perform:)",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/onCommand(_:perform:)",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/onContinueUserActivity(_:perform:)",
-        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/onContinuousHover(coordinateSpace:perform:)",
+        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/onContinuousHover(coordinateSpace:perform:)-2sy7p",
+        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/onContinuousHover(coordinateSpace:perform:)-jboi",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/onCopyCommand(perform:)",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/onCutCommand(perform:)",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/onDeleteCommand(perform:)",
@@ -512,7 +518,8 @@
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/onScrollTargetVisibilityChange(idType:threshold:_:)",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/onScrollVisibilityChange(threshold:_:)",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/onSubmit(of:_:)",
-        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/onTapGesture(count:coordinateSpace:perform:)",
+        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/onTapGesture(count:coordinateSpace:perform:)-70srh",
+        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/onTapGesture(count:coordinateSpace:perform:)-9xikb",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/onTapGesture(count:perform:)",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/opacity(_:)",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/overlay(_:alignment:)",
@@ -534,9 +541,7 @@
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/pointerStyle(_:)",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/pointerVisibility(_:)",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/popover(isPresented:attachmentAnchor:arrowEdge:content:)",
-        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/popover(isPresented:attachmentAnchor:content:)",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/popover(item:attachmentAnchor:arrowEdge:content:)",
-        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/popover(item:attachmentAnchor:content:)",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/position(_:)",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/position(x:y:)",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/preference(key:value:)",
@@ -552,6 +557,7 @@
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/presentationDetents(_:)",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/presentationDetents(_:selection:)",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/presentationDragIndicator(_:)",
+        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/presentationPreventsAppTermination(_:)",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/presentationSizing(_:)",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/presentedWindowStyle(_:)",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/presentedWindowToolbarStyle(_:)",
@@ -597,7 +603,8 @@
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/scrollTargetLayout(isEnabled:)",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/scrollTransition(_:axis:transition:)",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/scrollTransition(topLeading:bottomTrailing:axis:transition:)",
-        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/searchCompletion(_:)",
+        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/searchCompletion(_:)-1w13o",
+        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/searchCompletion(_:)-5m4rm",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/searchFocused(_:)",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/searchFocused(_:equals:)",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/searchPresentationToolbarBehavior(_:)",
@@ -680,16 +687,19 @@
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/textScale(_:isEnabled:)",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/textSelection(_:)",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/textSelectionAffinity(_:)",
-        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/tint(_:)",
+        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/tint(_:)-4ilo8",
+        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/tint(_:)-86hmr",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/toggleStyle(_:)",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/toolbar(_:for:)",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/toolbar(content:)-1n2gg",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/toolbar(content:)-66jrf",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/toolbar(id:content:)",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/toolbar(removing:)",
-        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/toolbarBackground(_:for:)",
+        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/toolbarBackground(_:for:)-59axt",
+        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/toolbarBackground(_:for:)-7sx6g",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/toolbarBackgroundVisibility(_:for:)",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/toolbarColorScheme(_:for:)",
+        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/toolbarForegroundStyle(_:for:)",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/toolbarItemHidden(_:)",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/toolbarRole(_:)",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/toolbarTitleDisplayMode(_:)",
@@ -708,7 +718,8 @@
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/transformEffect(_:)",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/transformEnvironment(_:transform:)",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/transformPreference(_:_:)",
-        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/transition(_:)",
+        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/transition(_:)-2arjg",
+        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/transition(_:)-301bh",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/truncationMode(_:)",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/typeSelectEquivalent(_:)-43y66",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/typeSelectEquivalent(_:)-8u5rb",
@@ -725,6 +736,7 @@
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/windowMinimizeBehavior(_:)",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/windowResizeBehavior(_:)",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/windowToolbarFullScreenVisibility(_:)",
+        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/writingToolsAffordanceVisibility(_:)",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/writingToolsBehavior(_:)",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/zIndex(_:)"
       ],
@@ -19604,6 +19616,194 @@
   "type" : "topic",
   "url" : "\/documentation\/appinformation\/appiconview\/contentshape(_:eofill:)"
 },
+"doc://AppInformation/documentation/AppInformation/AppIconView/contentToolbar(for:content:)-3qrf6": {
+  "abstract" : [
+    {
+      "text" : "Populates the toolbar of the specified content view type with",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "the views you provide.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "contentToolbar"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "Content"
+    },
+    {
+      "kind" : "text",
+      "text" : ">("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "for"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI23ContentToolbarPlacementV",
+      "text" : "ContentToolbarPlacement"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "content"
+    },
+    {
+      "kind" : "text",
+      "text" : ": () -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Content"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/contentToolbar(for:content:)-3qrf6",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "contentToolbar(for:content:)",
+  "type" : "topic",
+  "url" : "\/documentation\/appinformation\/appiconview\/contenttoolbar(for:content:)-3qrf6"
+},
+"doc://AppInformation/documentation/AppInformation/AppIconView/contentToolbar(for:content:)-9m9zq": {
+  "abstract" : [
+    {
+      "text" : "Populates the toolbar of the specified content view type with",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "the views you provide.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "contentToolbar"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "Content"
+    },
+    {
+      "kind" : "text",
+      "text" : ">("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "for"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI23ContentToolbarPlacementV",
+      "text" : "ContentToolbarPlacement"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "content"
+    },
+    {
+      "kind" : "text",
+      "text" : ": () -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Content"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/contentToolbar(for:content:)-9m9zq",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "contentToolbar(for:content:)",
+  "type" : "topic",
+  "url" : "\/documentation\/appinformation\/appiconview\/contenttoolbar(for:content:)-9m9zq"
+},
 "doc://AppInformation/documentation/AppInformation/AppIconView/contentTransition(_:)": {
   "abstract" : [
     {
@@ -21077,6 +21277,68 @@
   "title" : "dialogIcon(_:)",
   "type" : "topic",
   "url" : "\/documentation\/appinformation\/appiconview\/dialogicon(_:)"
+},
+"doc://AppInformation/documentation/AppInformation/AppIconView/dialogPreventsAppTermination(_:)": {
+  "abstract" : [
+    {
+      "text" : "Whether the alert or confirmation dialog prevents the app",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "from being quit\/terminated by the system or app termination menu item.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "dialogPreventsAppTermination"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : "?) -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/dialogPreventsAppTermination(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "dialogPreventsAppTermination(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/appinformation\/appiconview\/dialogpreventsapptermination(_:)"
 },
 "doc://AppInformation/documentation/AppInformation/AppIconView/dialogSeverity(_:)": {
   "abstract" : [
@@ -22843,7 +23105,7 @@
   "type" : "topic",
   "url" : "\/documentation\/appinformation\/appiconview\/dropdestination(for:action:istargeted:)"
 },
-"doc://AppInformation/documentation/AppInformation/AppIconView/dynamicTypeSize(_:)": {
+"doc://AppInformation/documentation/AppInformation/AppIconView/dynamicTypeSize(_:)-4en50": {
   "abstract" : [
     {
       "text" : "Sets the Dynamic Type size within the view to the given value.",
@@ -22890,12 +23152,73 @@
       "text" : "View"
     }
   ],
-  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/dynamicTypeSize(_:)",
+  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/dynamicTypeSize(_:)-4en50",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "dynamicTypeSize(_:)",
   "type" : "topic",
-  "url" : "\/documentation\/appinformation\/appiconview\/dynamictypesize(_:)"
+  "url" : "\/documentation\/appinformation\/appiconview\/dynamictypesize(_:)-4en50"
+},
+"doc://AppInformation/documentation/AppInformation/AppIconView/dynamicTypeSize(_:)-960d7": {
+  "abstract" : [
+    {
+      "text" : "Limits the Dynamic Type size within the view to the given range.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "dynamicTypeSize"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : ">("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/dynamicTypeSize(_:)-960d7",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "dynamicTypeSize(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/appinformation\/appiconview\/dynamictypesize(_:)-960d7"
 },
 "doc://AppInformation/documentation/AppInformation/AppIconView/edgesIgnoringSafeArea(_:)": {
   "abstract" : [
@@ -33131,7 +33454,15 @@
     },
     {
       "kind" : "text",
-      "text" : ") -> some "
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
     },
     {
       "kind" : "typeIdentifier",
@@ -33156,7 +33487,15 @@
     },
     {
       "kind" : "text",
-      "text" : ") -> some "
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
     },
     {
       "kind" : "typeIdentifier",
@@ -33258,7 +33597,15 @@
     },
     {
       "kind" : "text",
-      "text" : ": some "
+      "text" : ": "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
     },
     {
       "kind" : "typeIdentifier",
@@ -33300,7 +33647,15 @@
     },
     {
       "kind" : "text",
-      "text" : ") -> some "
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
     },
     {
       "kind" : "typeIdentifier",
@@ -33325,7 +33680,15 @@
     },
     {
       "kind" : "text",
-      "text" : ") -> some "
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
     },
     {
       "kind" : "typeIdentifier",
@@ -35289,7 +35652,15 @@
     },
     {
       "kind" : "text",
-      "text" : ": some "
+      "text" : ": "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
     },
     {
       "kind" : "typeIdentifier",
@@ -35385,7 +35756,15 @@
     },
     {
       "kind" : "text",
-      "text" : ": some "
+      "text" : ": "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
     },
     {
       "kind" : "typeIdentifier",
@@ -35437,7 +35816,15 @@
     },
     {
       "kind" : "text",
-      "text" : ") -> some "
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
     },
     {
       "kind" : "typeIdentifier",
@@ -37122,7 +37509,7 @@
   "type" : "topic",
   "url" : "\/documentation\/appinformation\/appiconview\/navigationdestination(item:destination:)"
 },
-"doc://AppInformation/documentation/AppInformation/AppIconView/navigationDocument(_:)": {
+"doc://AppInformation/documentation/AppInformation/AppIconView/navigationDocument(_:)-4yxiv": {
   "abstract" : [
     {
       "text" : "Configures the view’s document for purposes of navigation.",
@@ -37169,12 +37556,73 @@
       "text" : "View"
     }
   ],
-  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/navigationDocument(_:)",
+  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/navigationDocument(_:)-4yxiv",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "navigationDocument(_:)",
   "type" : "topic",
-  "url" : "\/documentation\/appinformation\/appiconview\/navigationdocument(_:)"
+  "url" : "\/documentation\/appinformation\/appiconview\/navigationdocument(_:)-4yxiv"
+},
+"doc://AppInformation/documentation/AppInformation/AppIconView/navigationDocument(_:)-71iay": {
+  "abstract" : [
+    {
+      "text" : "Configures the view’s document for purposes of navigation.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "navigationDocument"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "D"
+    },
+    {
+      "kind" : "text",
+      "text" : ">("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "D"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/navigationDocument(_:)-71iay",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "navigationDocument(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/appinformation\/appiconview\/navigationdocument(_:)-71iay"
 },
 "doc://AppInformation/documentation/AppInformation/AppIconView/navigationDocument(_:preview:)-1buo0": {
   "abstract" : [
@@ -38323,7 +38771,15 @@
     },
     {
       "kind" : "text",
-      "text" : "(some "
+      "text" : "("
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
     },
     {
       "kind" : "typeIdentifier",
@@ -39087,7 +39543,111 @@
   "type" : "topic",
   "url" : "\/documentation\/appinformation\/appiconview\/oncontinueuseractivity(_:perform:)"
 },
-"doc://AppInformation/documentation/AppInformation/AppIconView/onContinuousHover(coordinateSpace:perform:)": {
+"doc://AppInformation/documentation/AppInformation/AppIconView/onContinuousHover(coordinateSpace:perform:)-2sy7p": {
+  "abstract" : [
+    {
+      "text" : "Adds an action to perform when the pointer enters, moves within, and",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "exits the view’s bounds.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "onContinuousHover"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "coordinateSpace"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI23CoordinateSpaceProtocolP",
+      "text" : "CoordinateSpaceProtocol"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "perform"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI10HoverPhaseO",
+      "text" : "HoverPhase"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s4Voida",
+      "text" : "Void"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/onContinuousHover(coordinateSpace:perform:)-2sy7p",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "onContinuousHover(coordinateSpace:perform:)",
+  "type" : "topic",
+  "url" : "\/documentation\/appinformation\/appiconview\/oncontinuoushover(coordinatespace:perform:)-2sy7p"
+},
+"doc://AppInformation/documentation/AppInformation/AppIconView/onContinuousHover(coordinateSpace:perform:)-jboi": {
   "abstract" : [
     {
       "text" : "Adds an action to perform when the pointer enters, moves within, and",
@@ -39177,12 +39737,12 @@
       "text" : "View"
     }
   ],
-  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/onContinuousHover(coordinateSpace:perform:)",
+  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/onContinuousHover(coordinateSpace:perform:)-jboi",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "onContinuousHover(coordinateSpace:perform:)",
   "type" : "topic",
-  "url" : "\/documentation\/appinformation\/appiconview\/oncontinuoushover(coordinatespace:perform:)"
+  "url" : "\/documentation\/appinformation\/appiconview\/oncontinuoushover(coordinatespace:perform:)-jboi"
 },
 "doc://AppInformation/documentation/AppInformation/AppIconView/onCopyCommand(perform:)": {
   "abstract" : [
@@ -43439,7 +43999,7 @@
     },
     {
       "kind" : "text",
-      "text" : ", (() -> "
+      "text" : ", () -> "
     },
     {
       "kind" : "typeIdentifier",
@@ -43448,7 +44008,7 @@
     },
     {
       "kind" : "text",
-      "text" : ")) -> "
+      "text" : ") -> "
     },
     {
       "kind" : "keyword",
@@ -43471,7 +44031,128 @@
   "type" : "topic",
   "url" : "\/documentation\/appinformation\/appiconview\/onsubmit(of:_:)"
 },
-"doc://AppInformation/documentation/AppInformation/AppIconView/onTapGesture(count:coordinateSpace:perform:)": {
+"doc://AppInformation/documentation/AppInformation/AppIconView/onTapGesture(count:coordinateSpace:perform:)-70srh": {
+  "abstract" : [
+    {
+      "text" : "Adds an action to perform when this view recognizes a tap gesture,",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "and provides the action with the location of the interaction.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "onTapGesture"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "count"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "coordinateSpace"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI23CoordinateSpaceProtocolP",
+      "text" : "CoordinateSpaceProtocol"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "perform"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:@S@CGPoint",
+      "text" : "CGPoint"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s4Voida",
+      "text" : "Void"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/onTapGesture(count:coordinateSpace:perform:)-70srh",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "onTapGesture(count:coordinateSpace:perform:)",
+  "type" : "topic",
+  "url" : "\/documentation\/appinformation\/appiconview\/ontapgesture(count:coordinatespace:perform:)-70srh"
+},
+"doc://AppInformation/documentation/AppInformation/AppIconView/onTapGesture(count:coordinateSpace:perform:)-9xikb": {
   "abstract" : [
     {
       "text" : "Adds an action to perform when this view recognizes a tap gesture,",
@@ -43578,12 +44259,12 @@
       "text" : "View"
     }
   ],
-  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/onTapGesture(count:coordinateSpace:perform:)",
+  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/onTapGesture(count:coordinateSpace:perform:)-9xikb",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "onTapGesture(count:coordinateSpace:perform:)",
   "type" : "topic",
-  "url" : "\/documentation\/appinformation\/appiconview\/ontapgesture(count:coordinatespace:perform:)"
+  "url" : "\/documentation\/appinformation\/appiconview\/ontapgesture(count:coordinatespace:perform:)-9xikb"
 },
 "doc://AppInformation/documentation/AppInformation/AppIconView/onTapGesture(count:perform:)": {
   "abstract" : [
@@ -44896,7 +45577,15 @@
     },
     {
       "kind" : "text",
-      "text" : ">(some "
+      "text" : ">("
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
     },
     {
       "kind" : "typeIdentifier",
@@ -44938,7 +45627,15 @@
     },
     {
       "kind" : "text",
-      "text" : ") -> some "
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
     },
     {
       "kind" : "typeIdentifier",
@@ -45033,7 +45730,15 @@
     },
     {
       "kind" : "text",
-      "text" : ">(some "
+      "text" : ">("
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
     },
     {
       "kind" : "typeIdentifier",
@@ -45050,7 +45755,15 @@
     },
     {
       "kind" : "text",
-      "text" : ": some "
+      "text" : ": "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
     },
     {
       "kind" : "typeIdentifier",
@@ -45092,7 +45805,15 @@
     },
     {
       "kind" : "text",
-      "text" : ") -> some "
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
     },
     {
       "kind" : "typeIdentifier",
@@ -45408,7 +46129,7 @@
     },
     {
       "kind" : "text",
-      "text" : ", "
+      "text" : "?, "
     },
     {
       "kind" : "externalParam",
@@ -45446,118 +46167,6 @@
   "title" : "popover(isPresented:attachmentAnchor:arrowEdge:content:)",
   "type" : "topic",
   "url" : "\/documentation\/appinformation\/appiconview\/popover(ispresented:attachmentanchor:arrowedge:content:)"
-},
-"doc://AppInformation/documentation/AppInformation/AppIconView/popover(isPresented:attachmentAnchor:content:)": {
-  "abstract" : [
-    {
-      "text" : "Presents a popover when a given condition is true.",
-      "type" : "text"
-    }
-  ],
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "func"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "popover"
-    },
-    {
-      "kind" : "text",
-      "text" : "<"
-    },
-    {
-      "kind" : "genericParameter",
-      "text" : "Content"
-    },
-    {
-      "kind" : "text",
-      "text" : ">("
-    },
-    {
-      "kind" : "externalParam",
-      "text" : "isPresented"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:7SwiftUI7BindingV",
-      "text" : "Binding"
-    },
-    {
-      "kind" : "text",
-      "text" : "<"
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:Sb",
-      "text" : "Bool"
-    },
-    {
-      "kind" : "text",
-      "text" : ">, "
-    },
-    {
-      "kind" : "externalParam",
-      "text" : "attachmentAnchor"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:7SwiftUI23PopoverAttachmentAnchorO",
-      "text" : "PopoverAttachmentAnchor"
-    },
-    {
-      "kind" : "text",
-      "text" : ", "
-    },
-    {
-      "kind" : "externalParam",
-      "text" : "content"
-    },
-    {
-      "kind" : "text",
-      "text" : ": () -> "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "text" : "Content"
-    },
-    {
-      "kind" : "text",
-      "text" : ") -> "
-    },
-    {
-      "kind" : "keyword",
-      "text" : "some"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:7SwiftUI4ViewP",
-      "text" : "View"
-    }
-  ],
-  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/popover(isPresented:attachmentAnchor:content:)",
-  "kind" : "symbol",
-  "role" : "symbol",
-  "title" : "popover(isPresented:attachmentAnchor:content:)",
-  "type" : "topic",
-  "url" : "\/documentation\/appinformation\/appiconview\/popover(ispresented:attachmentanchor:content:)"
 },
 "doc://AppInformation/documentation/AppInformation/AppIconView/popover(item:attachmentAnchor:arrowEdge:content:)": {
   "abstract" : [
@@ -45664,7 +46273,7 @@
     },
     {
       "kind" : "text",
-      "text" : ", "
+      "text" : "?, "
     },
     {
       "kind" : "externalParam",
@@ -45710,141 +46319,6 @@
   "title" : "popover(item:attachmentAnchor:arrowEdge:content:)",
   "type" : "topic",
   "url" : "\/documentation\/appinformation\/appiconview\/popover(item:attachmentanchor:arrowedge:content:)"
-},
-"doc://AppInformation/documentation/AppInformation/AppIconView/popover(item:attachmentAnchor:content:)": {
-  "abstract" : [
-    {
-      "text" : "Presents a popover using the given item as a data source for the",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "popover’s content.",
-      "type" : "text"
-    }
-  ],
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "func"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "popover"
-    },
-    {
-      "kind" : "text",
-      "text" : "<"
-    },
-    {
-      "kind" : "genericParameter",
-      "text" : "Item"
-    },
-    {
-      "kind" : "text",
-      "text" : ", "
-    },
-    {
-      "kind" : "genericParameter",
-      "text" : "Content"
-    },
-    {
-      "kind" : "text",
-      "text" : ">("
-    },
-    {
-      "kind" : "externalParam",
-      "text" : "item"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:7SwiftUI7BindingV",
-      "text" : "Binding"
-    },
-    {
-      "kind" : "text",
-      "text" : "<"
-    },
-    {
-      "kind" : "typeIdentifier",
-      "text" : "Item"
-    },
-    {
-      "kind" : "text",
-      "text" : "?>, "
-    },
-    {
-      "kind" : "externalParam",
-      "text" : "attachmentAnchor"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:7SwiftUI23PopoverAttachmentAnchorO",
-      "text" : "PopoverAttachmentAnchor"
-    },
-    {
-      "kind" : "text",
-      "text" : ", "
-    },
-    {
-      "kind" : "externalParam",
-      "text" : "content"
-    },
-    {
-      "kind" : "text",
-      "text" : ": ("
-    },
-    {
-      "kind" : "typeIdentifier",
-      "text" : "Item"
-    },
-    {
-      "kind" : "text",
-      "text" : ") -> "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "text" : "Content"
-    },
-    {
-      "kind" : "text",
-      "text" : ") -> "
-    },
-    {
-      "kind" : "keyword",
-      "text" : "some"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:7SwiftUI4ViewP",
-      "text" : "View"
-    }
-  ],
-  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/popover(item:attachmentAnchor:content:)",
-  "kind" : "symbol",
-  "role" : "symbol",
-  "title" : "popover(item:attachmentAnchor:content:)",
-  "type" : "topic",
-  "url" : "\/documentation\/appinformation\/appiconview\/popover(item:attachmentanchor:content:)"
 },
 "doc://AppInformation/documentation/AppInformation/AppIconView/position(_:)": {
   "abstract" : [
@@ -46919,6 +47393,68 @@
   "type" : "topic",
   "url" : "\/documentation\/appinformation\/appiconview\/presentationdragindicator(_:)"
 },
+"doc://AppInformation/documentation/AppInformation/AppIconView/presentationPreventsAppTermination(_:)": {
+  "abstract" : [
+    {
+      "text" : "Whether a presentation prevents the app from being terminated\/quit",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "by the system or app termination menu item.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "presentationPreventsAppTermination"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : "?) -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/presentationPreventsAppTermination(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "presentationPreventsAppTermination(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/appinformation\/appiconview\/presentationpreventsapptermination(_:)"
+},
 "doc://AppInformation/documentation/AppInformation/AppIconView/presentationSizing(_:)": {
   "abstract" : [
     {
@@ -46941,7 +47477,15 @@
     },
     {
       "kind" : "text",
-      "text" : "(some "
+      "text" : "("
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
     },
     {
       "kind" : "typeIdentifier",
@@ -49523,7 +50067,15 @@
     },
     {
       "kind" : "text",
-      "text" : ": some "
+      "text" : ": "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
     },
     {
       "kind" : "typeIdentifier",
@@ -49769,7 +50321,15 @@
     },
     {
       "kind" : "text",
-      "text" : "<(some "
+      "text" : "<("
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
     },
     {
       "kind" : "typeIdentifier",
@@ -49840,7 +50400,15 @@
     },
     {
       "kind" : "text",
-      "text" : "(some "
+      "text" : "("
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
     },
     {
       "kind" : "typeIdentifier",
@@ -50040,7 +50608,15 @@
     },
     {
       "kind" : "text",
-      "text" : ") -> some "
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
     },
     {
       "kind" : "typeIdentifier",
@@ -50203,7 +50779,15 @@
     },
     {
       "kind" : "text",
-      "text" : ") -> some "
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
     },
     {
       "kind" : "typeIdentifier",
@@ -50235,7 +50819,7 @@
   "type" : "topic",
   "url" : "\/documentation\/appinformation\/appiconview\/scrolltransition(topleading:bottomtrailing:axis:transition:)"
 },
-"doc://AppInformation/documentation/AppInformation/AppIconView/searchCompletion(_:)": {
+"doc://AppInformation/documentation/AppInformation/AppIconView/searchCompletion(_:)-1w13o": {
   "abstract" : [
     {
       "text" : "Associates a fully formed string with the value of this view when used",
@@ -50290,12 +50874,81 @@
       "text" : "View"
     }
   ],
-  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/searchCompletion(_:)",
+  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/searchCompletion(_:)-1w13o",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "searchCompletion(_:)",
   "type" : "topic",
-  "url" : "\/documentation\/appinformation\/appiconview\/searchcompletion(_:)"
+  "url" : "\/documentation\/appinformation\/appiconview\/searchcompletion(_:)-1w13o"
+},
+"doc://AppInformation/documentation/AppInformation/AppIconView/searchCompletion(_:)-5m4rm": {
+  "abstract" : [
+    {
+      "text" : "Associates a search token with the value of this view when used",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "as a search suggestion.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "searchCompletion"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : ">("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/searchCompletion(_:)-5m4rm",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "searchCompletion(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/appinformation\/appiconview\/searchcompletion(_:)-5m4rm"
 },
 "doc://AppInformation/documentation/AppInformation/AppIconView/searchFocused(_:)": {
   "abstract" : [
@@ -51079,7 +51732,15 @@
     },
     {
       "kind" : "text",
-      "text" : ">) -> some "
+      "text" : ">) -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
     },
     {
       "kind" : "typeIdentifier",
@@ -51294,7 +51955,15 @@
     },
     {
       "kind" : "text",
-      "text" : ">) -> some "
+      "text" : ">) -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
     },
     {
       "kind" : "typeIdentifier",
@@ -51466,7 +52135,15 @@
     },
     {
       "kind" : "text",
-      "text" : ": some "
+      "text" : ": "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
     },
     {
       "kind" : "typeIdentifier",
@@ -51509,7 +52186,15 @@
     },
     {
       "kind" : "text",
-      "text" : ">) -> some "
+      "text" : ">) -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
     },
     {
       "kind" : "typeIdentifier",
@@ -51698,7 +52383,15 @@
     },
     {
       "kind" : "text",
-      "text" : ">) -> some "
+      "text" : ">) -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
     },
     {
       "kind" : "typeIdentifier",
@@ -51844,7 +52537,15 @@
     },
     {
       "kind" : "text",
-      "text" : ": some "
+      "text" : ": "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
     },
     {
       "kind" : "typeIdentifier",
@@ -51887,7 +52588,15 @@
     },
     {
       "kind" : "text",
-      "text" : ">) -> some "
+      "text" : ">) -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
     },
     {
       "kind" : "typeIdentifier",
@@ -52076,7 +52785,15 @@
     },
     {
       "kind" : "text",
-      "text" : ">) -> some "
+      "text" : ">) -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
     },
     {
       "kind" : "typeIdentifier",
@@ -55831,7 +56548,10 @@
 },
 "doc://AppInformation/documentation/AppInformation/AppIconView/sectionActions(content:)": {
   "abstract" : [
-
+    {
+      "text" : "Adds custom actions to a section.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -58904,7 +59624,15 @@
     },
     {
       "kind" : "text",
-      "text" : "(some "
+      "text" : "("
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
     },
     {
       "kind" : "typeIdentifier",
@@ -59642,7 +60370,68 @@
   "type" : "topic",
   "url" : "\/documentation\/appinformation\/appiconview\/textselectionaffinity(_:)"
 },
-"doc://AppInformation/documentation/AppInformation/AppIconView/tint(_:)": {
+"doc://AppInformation/documentation/AppInformation/AppIconView/tint(_:)-4ilo8": {
+  "abstract" : [
+    {
+      "text" : "Sets the tint within this view.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "tint"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "S"
+    },
+    {
+      "kind" : "text",
+      "text" : ">("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "S"
+    },
+    {
+      "kind" : "text",
+      "text" : "?) -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/tint(_:)-4ilo8",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "tint(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/appinformation\/appiconview\/tint(_:)-4ilo8"
+},
+"doc://AppInformation/documentation/AppInformation/AppIconView/tint(_:)-86hmr": {
   "abstract" : [
     {
       "text" : "Sets the tint color within this view.",
@@ -59689,12 +60478,12 @@
       "text" : "View"
     }
   ],
-  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/tint(_:)",
+  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/tint(_:)-86hmr",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "tint(_:)",
   "type" : "topic",
-  "url" : "\/documentation\/appinformation\/appiconview\/tint(_:)"
+  "url" : "\/documentation\/appinformation\/appiconview\/tint(_:)-86hmr"
 },
 "doc://AppInformation/documentation/AppInformation/AppIconView/toggleStyle(_:)": {
   "abstract" : [
@@ -60123,7 +60912,93 @@
   "type" : "topic",
   "url" : "\/documentation\/appinformation\/appiconview\/toolbar(removing:)"
 },
-"doc://AppInformation/documentation/AppInformation/AppIconView/toolbarBackground(_:for:)": {
+"doc://AppInformation/documentation/AppInformation/AppIconView/toolbarBackground(_:for:)-59axt": {
+  "abstract" : [
+    {
+      "text" : "Specifies the preferred shape style of the background of a bar managed",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "by SwiftUI.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "toolbarBackground"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "S"
+    },
+    {
+      "kind" : "text",
+      "text" : ">("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "S"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "for"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI16ToolbarPlacementV",
+      "text" : "ToolbarPlacement"
+    },
+    {
+      "kind" : "text",
+      "text" : "...) -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/toolbarBackground(_:for:)-59axt",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "toolbarBackground(_:for:)",
+  "type" : "topic",
+  "url" : "\/documentation\/appinformation\/appiconview\/toolbarbackground(_:for:)-59axt"
+},
+"doc://AppInformation/documentation/AppInformation/AppIconView/toolbarBackground(_:for:)-7sx6g": {
   "abstract" : [
     {
       "text" : "Specifies the preferred visibility of backgrounds on a bar managed by",
@@ -60196,12 +61071,12 @@
       "text" : "View"
     }
   ],
-  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/toolbarBackground(_:for:)",
+  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/toolbarBackground(_:for:)-7sx6g",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "toolbarBackground(_:for:)",
   "type" : "topic",
-  "url" : "\/documentation\/appinformation\/appiconview\/toolbarbackground(_:for:)"
+  "url" : "\/documentation\/appinformation\/appiconview\/toolbarbackground(_:for:)-7sx6g"
 },
 "doc://AppInformation/documentation/AppInformation/AppIconView/toolbarBackgroundVisibility(_:for:)": {
   "abstract" : [
@@ -60352,6 +61227,84 @@
   "title" : "toolbarColorScheme(_:for:)",
   "type" : "topic",
   "url" : "\/documentation\/appinformation\/appiconview\/toolbarcolorscheme(_:for:)"
+},
+"doc://AppInformation/documentation/AppInformation/AppIconView/toolbarForegroundStyle(_:for:)": {
+  "abstract" : [
+    {
+      "text" : "Specifies the preferred foreground style of bars managed by SwiftUI.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "toolbarForegroundStyle"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "S"
+    },
+    {
+      "kind" : "text",
+      "text" : ">("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "S"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "for"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI16ToolbarPlacementV",
+      "text" : "ToolbarPlacement"
+    },
+    {
+      "kind" : "text",
+      "text" : "...) -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/toolbarForegroundStyle(_:for:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "toolbarForegroundStyle(_:for:)",
+  "type" : "topic",
+  "url" : "\/documentation\/appinformation\/appiconview\/toolbarforegroundstyle(_:for:)"
 },
 "doc://AppInformation/documentation/AppInformation/AppIconView/toolbarItemHidden(_:)": {
   "abstract" : [
@@ -61255,7 +62208,15 @@
     },
     {
       "kind" : "text",
-      "text" : ": some "
+      "text" : ": "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
     },
     {
       "kind" : "typeIdentifier",
@@ -61776,7 +62737,68 @@
   "type" : "topic",
   "url" : "\/documentation\/appinformation\/appiconview\/transformpreference(_:_:)"
 },
-"doc://AppInformation/documentation/AppInformation/AppIconView/transition(_:)": {
+"doc://AppInformation/documentation/AppInformation/AppIconView/transition(_:)-2arjg": {
+  "abstract" : [
+    {
+      "text" : "Associates a transition with the view.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "transition"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : ">("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/transition(_:)-2arjg",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "transition(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/appinformation\/appiconview\/transition(_:)-2arjg"
+},
+"doc://AppInformation/documentation/AppInformation/AppIconView/transition(_:)-301bh": {
   "abstract" : [
     {
       "text" : "Associates a transition with the view.",
@@ -61823,12 +62845,12 @@
       "text" : "View"
     }
   ],
-  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/transition(_:)",
+  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/transition(_:)-301bh",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "transition(_:)",
   "type" : "topic",
-  "url" : "\/documentation\/appinformation\/appiconview\/transition(_:)"
+  "url" : "\/documentation\/appinformation\/appiconview\/transition(_:)-301bh"
 },
 "doc://AppInformation/documentation/AppInformation/AppIconView/truncationMode(_:)": {
   "abstract" : [
@@ -62619,7 +63641,15 @@
     },
     {
       "kind" : "text",
-      "text" : ") -> some "
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
     },
     {
       "kind" : "typeIdentifier",
@@ -62960,6 +63990,68 @@
   "title" : "windowToolbarFullScreenVisibility(_:)",
   "type" : "topic",
   "url" : "\/documentation\/appinformation\/appiconview\/windowtoolbarfullscreenvisibility(_:)"
+},
+"doc://AppInformation/documentation/AppInformation/AppIconView/writingToolsAffordanceVisibility(_:)": {
+  "abstract" : [
+    {
+      "text" : "Specifies whether the system should show the Writing Tools affordance",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "for text input views affected by the environment.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "writingToolsAffordanceVisibility"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI10VisibilityO",
+      "text" : "Visibility"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView\/writingToolsAffordanceVisibility(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "writingToolsAffordanceVisibility(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/appinformation\/appiconview\/writingtoolsaffordancevisibility(_:)"
 },
 "doc://AppInformation/documentation/AppInformation/AppIconView/writingToolsBehavior(_:)": {
   "abstract" : [

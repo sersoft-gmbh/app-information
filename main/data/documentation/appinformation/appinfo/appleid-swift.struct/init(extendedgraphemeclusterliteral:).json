@@ -4,8 +4,7 @@
       [
         "doc:\/\/AppInformation\/documentation\/AppInformation",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo",
-        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/AppleID-swift.struct",
-        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/AppleID-swift.struct\/ExpressibleByExtendedGraphemeClusterLiteral-Implementations"
+        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/AppleID-swift.struct"
       ]
     ]
   },
@@ -255,17 +254,6 @@
   "title" : "AppInfo.AppleID",
   "type" : "topic",
   "url" : "\/documentation\/appinformation\/appinfo\/appleid-swift.struct"
-},
-"doc://AppInformation/documentation/AppInformation/AppInfo/AppleID-swift.struct/ExpressibleByExtendedGraphemeClusterLiteral-Implementations": {
-  "abstract" : [
-
-  ],
-  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/AppleID-swift.struct\/ExpressibleByExtendedGraphemeClusterLiteral-Implementations",
-  "kind" : "article",
-  "role" : "collectionGroup",
-  "title" : "ExpressibleByExtendedGraphemeClusterLiteral Implementations",
-  "type" : "topic",
-  "url" : "\/documentation\/appinformation\/appinfo\/appleid-swift.struct\/expressiblebyextendedgraphemeclusterliteral-implementations"
 },
 "doc://AppInformation/documentation/AppInformation/AppInfo/AppleID-swift.struct/init(extendedGraphemeClusterLiteral:)": {
   "abstract" : [

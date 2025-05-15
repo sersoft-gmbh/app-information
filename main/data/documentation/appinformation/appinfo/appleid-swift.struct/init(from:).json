@@ -34,8 +34,7 @@
       [
         "doc:\/\/AppInformation\/documentation\/AppInformation",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo",
-        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/AppleID-swift.struct",
-        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/AppleID-swift.struct\/RawRepresentable-Implementations"
+        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/AppleID-swift.struct"
       ]
     ]
   },
@@ -340,17 +339,6 @@
   "title" : "AppInfo.AppleID",
   "type" : "topic",
   "url" : "\/documentation\/appinformation\/appinfo\/appleid-swift.struct"
-},
-"doc://AppInformation/documentation/AppInformation/AppInfo/AppleID-swift.struct/RawRepresentable-Implementations": {
-  "abstract" : [
-
-  ],
-  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/AppleID-swift.struct\/RawRepresentable-Implementations",
-  "kind" : "article",
-  "role" : "collectionGroup",
-  "title" : "RawRepresentable Implementations",
-  "type" : "topic",
-  "url" : "\/documentation\/appinformation\/appinfo\/appleid-swift.struct\/rawrepresentable-implementations"
 },
 "doc://AppInformation/documentation/AppInformation/AppInfo/AppleID-swift.struct/init(from:)": {
   "abstract" : [

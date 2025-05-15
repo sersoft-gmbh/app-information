@@ -4,8 +4,7 @@
       [
         "doc:\/\/AppInformation\/documentation\/AppInformation",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo",
-        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/AppleID-swift.struct",
-        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/AppleID-swift.struct\/ExpressibleByUnicodeScalarLiteral-Implementations"
+        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/AppleID-swift.struct"
       ]
     ]
   },
@@ -255,17 +254,6 @@
   "title" : "AppInfo.AppleID",
   "type" : "topic",
   "url" : "\/documentation\/appinformation\/appinfo\/appleid-swift.struct"
-},
-"doc://AppInformation/documentation/AppInformation/AppInfo/AppleID-swift.struct/ExpressibleByUnicodeScalarLiteral-Implementations": {
-  "abstract" : [
-
-  ],
-  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/AppleID-swift.struct\/ExpressibleByUnicodeScalarLiteral-Implementations",
-  "kind" : "article",
-  "role" : "collectionGroup",
-  "title" : "ExpressibleByUnicodeScalarLiteral Implementations",
-  "type" : "topic",
-  "url" : "\/documentation\/appinformation\/appinfo\/appleid-swift.struct\/expressiblebyunicodescalarliteral-implementations"
 },
 "doc://AppInformation/documentation/AppInformation/AppInfo/AppleID-swift.struct/init(unicodeScalarLiteral:)": {
   "abstract" : [

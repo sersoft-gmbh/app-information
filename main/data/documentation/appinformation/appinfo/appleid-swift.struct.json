@@ -48,7 +48,7 @@
     ],
     "remoteSource" : {
       "fileName" : "AppInfo+AppleID.swift",
-      "url" : "https:\/\/github.com\/sersoft-gmbh\/app-information\/Sources\/AppInformation\/Model\/AppInfo+AppleID.swift#L8"
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/app-information\/blob\/refs\/heads\/main\/Sources\/AppInformation\/Model\/AppInfo+AppleID.swift#L8"
     },
     "role" : "symbol",
     "roleHeading" : "Structure",
@@ -153,7 +153,7 @@
       "identifiers" : [
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/AppleID-swift.struct\/Equatable-Implementations",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/AppleID-swift.struct\/ExpressibleByExtendedGraphemeClusterLiteral-Implementations",
-        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/AppleID-swift.struct\/ExpressibleByUnicodeScalarLiteral-Implementations",
+        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/AppleID-swift.struct\/ExpressibleByStringLiteral-Implementations",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/AppleID-swift.struct\/RawRepresentable-Implementations"
       ],
       "title" : "Default Implementations"
@@ -299,16 +299,16 @@
   "type" : "topic",
   "url" : "\/documentation\/appinformation\/appinfo\/appleid-swift.struct\/expressiblebyextendedgraphemeclusterliteral-implementations"
 },
-"doc://AppInformation/documentation/AppInformation/AppInfo/AppleID-swift.struct/ExpressibleByUnicodeScalarLiteral-Implementations": {
+"doc://AppInformation/documentation/AppInformation/AppInfo/AppleID-swift.struct/ExpressibleByStringLiteral-Implementations": {
   "abstract" : [
 
   ],
-  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/AppleID-swift.struct\/ExpressibleByUnicodeScalarLiteral-Implementations",
+  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/AppleID-swift.struct\/ExpressibleByStringLiteral-Implementations",
   "kind" : "article",
   "role" : "collectionGroup",
-  "title" : "ExpressibleByUnicodeScalarLiteral Implementations",
+  "title" : "ExpressibleByStringLiteral Implementations",
   "type" : "topic",
-  "url" : "\/documentation\/appinformation\/appinfo\/appleid-swift.struct\/expressiblebyunicodescalarliteral-implementations"
+  "url" : "\/documentation\/appinformation\/appinfo\/appleid-swift.struct\/expressiblebystringliteral-implementations"
 },
 "doc://AppInformation/documentation/AppInformation/AppInfo/AppleID-swift.struct/RawRepresentable-Implementations": {
   "abstract" : [
