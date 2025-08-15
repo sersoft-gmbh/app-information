@@ -86,6 +86,7 @@
     {
       "identifiers" : [
         "doc:\/\/AppInformation\/SQ",
+        "doc:\/\/AppInformation\/SH",
         "doc:\/\/AppInformation\/s12IdentifiableP",
         "doc:\/\/AppInformation\/s8SendableP"
       ],
@@ -165,6 +166,11 @@
   ]
 , 
 "references": {
+"doc://AppInformation/SH": {
+  "identifier" : "doc:\/\/AppInformation\/SH",
+  "title" : "Swift.Hashable",
+  "type" : "unresolvable"
+},
 "doc://AppInformation/SQ": {
   "identifier" : "doc:\/\/AppInformation\/SQ",
   "title" : "Swift.Equatable",

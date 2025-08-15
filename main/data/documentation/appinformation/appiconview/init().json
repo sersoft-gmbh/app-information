@@ -1,7 +1,16 @@
 {
   "abstract" : [
     {
-      "text" : "Creates a new app icon mode.",
+      "text" : "Creates a new ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : ".",
       "type" : "text"
     }
   ],
@@ -67,7 +76,7 @@
     ],
     "remoteSource" : {
       "fileName" : "AppIconView.swift",
-      "url" : "https:\/\/github.com\/sersoft-gmbh\/app-information\/blob\/refs\/heads\/main\/Sources\/AppInformation\/UI\/AppIconView.swift#L91"
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/app-information\/blob\/refs\/heads\/main\/Sources\/AppInformation\/UI\/AppIconView.swift#L101"
     },
     "role" : "symbol",
     "roleHeading" : "Initializer",
@@ -225,7 +234,16 @@
 "doc://AppInformation/documentation/AppInformation/AppIconView/init()": {
   "abstract" : [
     {
-      "text" : "Creates a new app icon mode.",
+      "text" : "Creates a new ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : ".",
       "type" : "text"
     }
   ],

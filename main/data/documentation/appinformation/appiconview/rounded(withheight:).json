@@ -21,6 +21,17 @@
       "type" : "text"
     }
   ],
+  "deprecationSummary" : [
+    {
+      "inlineContent" : [
+        {
+          "text" : "Use `frame(height:)` instead.",
+          "type" : "text"
+        }
+      ],
+      "type" : "paragraph"
+    }
+  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -117,11 +128,17 @@
         "introducedAt" : "6.0",
         "name" : "watchOS",
         "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : true,
+        "message" : "Use `frame(height:)` instead.",
+        "unavailable" : false
       }
     ],
     "remoteSource" : {
       "fileName" : "AppIconView.swift",
-      "url" : "https:\/\/github.com\/sersoft-gmbh\/app-information\/blob\/refs\/heads\/main\/Sources\/AppInformation\/UI\/AppIconView.swift#L96"
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/app-information\/blob\/refs\/heads\/main\/Sources\/AppInformation\/UI\/AppIconView.swift#L107"
     },
     "role" : "symbol",
     "roleHeading" : "Instance Method",
@@ -368,6 +385,7 @@
       "type" : "text"
     }
   ],
+  "deprecated" : true,
   "fragments" : [
     {
       "kind" : "keyword",

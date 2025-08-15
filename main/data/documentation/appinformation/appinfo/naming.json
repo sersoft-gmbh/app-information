@@ -87,6 +87,7 @@
     {
       "identifiers" : [
         "doc:\/\/AppInformation\/SQ",
+        "doc:\/\/AppInformation\/SH",
         "doc:\/\/AppInformation\/s8SendableP"
       ],
       "kind" : "relationships",
@@ -123,6 +124,14 @@
       "title" : "Instance Properties"
     },
     {
+      "anchor" : "Instance-Methods",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/Naming\/hash(into:)"
+      ],
+      "title" : "Instance Methods"
+    },
+    {
       "anchor" : "Default-Implementations",
       "generated" : true,
       "identifiers" : [
@@ -145,6 +154,11 @@
   ]
 , 
 "references": {
+"doc://AppInformation/SH": {
+  "identifier" : "doc:\/\/AppInformation\/SH",
+  "title" : "Swift.Hashable",
+  "type" : "unresolvable"
+},
 "doc://AppInformation/SQ": {
   "identifier" : "doc:\/\/AppInformation\/SQ",
   "title" : "Swift.Equatable",
@@ -442,6 +456,60 @@
   "title" : "effectiveName",
   "type" : "topic",
   "url" : "\/documentation\/appinformation\/appinfo\/naming\/effectivename"
+},
+"doc://AppInformation/documentation/AppInformation/AppInfo/Naming/hash(into:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "hash"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "into"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "inout"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s6HasherV",
+      "text" : "Hasher"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/Naming\/hash(into:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "hash(into:)",
+  "type" : "topic",
+  "url" : "\/documentation\/appinformation\/appinfo\/naming\/hash(into:)"
 },
 "doc://AppInformation/documentation/AppInformation/AppInfo/Naming/localized": {
   "abstract" : [

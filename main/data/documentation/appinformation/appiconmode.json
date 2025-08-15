@@ -76,7 +76,7 @@
     ],
     "remoteSource" : {
       "fileName" : "AppIconView.swift",
-      "url" : "https:\/\/github.com\/sersoft-gmbh\/app-information\/blob\/refs\/heads\/main\/Sources\/AppInformation\/UI\/AppIconView.swift#L7"
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/app-information\/blob\/refs\/heads\/main\/Sources\/AppInformation\/UI\/AppIconView.swift#L6"
     },
     "role" : "symbol",
     "roleHeading" : "Enumeration",
@@ -112,6 +112,17 @@
       "kind" : "declarations"
     }
   ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/AppInformation\/SQ",
+        "doc:\/\/AppInformation\/s8SendableP"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
   "schemaVersion" : {
     "major" : 0,
     "minor" : 3,
@@ -138,6 +149,14 @@
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconMode\/CompositionPadding"
       ],
       "title" : "Enumerations"
+    },
+    {
+      "anchor" : "Default-Implementations",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconMode\/Equatable-Implementations"
+      ],
+      "title" : "Default Implementations"
     }
   ],
   "variants" : [
@@ -154,6 +173,11 @@
   ]
 , 
 "references": {
+"doc://AppInformation/SQ": {
+  "identifier" : "doc:\/\/AppInformation\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
 "doc://AppInformation/documentation/AppInformation": {
   "abstract" : [
 
@@ -232,6 +256,17 @@
   "title" : "AppIconMode.CompositionPadding",
   "type" : "topic",
   "url" : "\/documentation\/appinformation\/appiconmode\/compositionpadding"
+},
+"doc://AppInformation/documentation/AppInformation/AppIconMode/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconMode\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/appinformation\/appiconmode\/equatable-implementations"
 },
 "doc://AppInformation/documentation/AppInformation/AppIconMode/composed(logoImage:logoColor:logoPadding:backgroundColor:)": {
   "abstract" : [
@@ -462,6 +497,11 @@
   "title" : "AppIconMode.template",
   "type" : "topic",
   "url" : "\/documentation\/appinformation\/appiconmode\/template"
+},
+"doc://AppInformation/s8SendableP": {
+  "identifier" : "doc:\/\/AppInformation\/s8SendableP",
+  "title" : "Swift.Sendable",
+  "type" : "unresolvable"
 }
 }
 }

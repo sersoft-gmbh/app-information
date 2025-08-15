@@ -47,7 +47,7 @@
     ],
     "remoteSource" : {
       "fileName" : "AppInfo.swift",
-      "url" : "https:\/\/github.com\/sersoft-gmbh\/app-information\/blob\/refs\/heads\/main\/Sources\/AppInformation\/Model\/AppInfo.swift#L35"
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/app-information\/blob\/refs\/heads\/main\/Sources\/AppInformation\/Model\/AppInfo.swift#L42"
     },
     "role" : "symbol",
     "roleHeading" : "Structure",
@@ -87,6 +87,7 @@
     {
       "identifiers" : [
         "doc:\/\/AppInformation\/SQ",
+        "doc:\/\/AppInformation\/SH",
         "doc:\/\/AppInformation\/s8SendableP"
       ],
       "kind" : "relationships",
@@ -136,6 +137,11 @@
   ]
 , 
 "references": {
+"doc://AppInformation/SH": {
+  "identifier" : "doc:\/\/AppInformation\/SH",
+  "title" : "Swift.Hashable",
+  "type" : "unresolvable"
+},
 "doc://AppInformation/SQ": {
   "identifier" : "doc:\/\/AppInformation\/SQ",
   "title" : "Swift.Equatable",

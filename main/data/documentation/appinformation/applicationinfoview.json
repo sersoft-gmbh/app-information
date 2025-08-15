@@ -152,6 +152,31 @@
                   "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView",
                   "isActive" : true,
                   "type" : "reference"
+                },
+                {
+                  "text" : ",",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "See Also",
+          "style" : "note",
+          "type" : "aside"
+        },
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "",
+                  "type" : "text"
+                },
+                {
+                  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/ApplicationDetailsView",
+                  "isActive" : true,
+                  "type" : "reference"
                 }
               ],
               "type" : "paragraph"
@@ -316,6 +341,48 @@
   "title" : "AppIconView",
   "type" : "topic",
   "url" : "\/documentation\/appinformation\/appiconview"
+},
+"doc://AppInformation/documentation/AppInformation/ApplicationDetailsView": {
+  "abstract" : [
+    {
+      "text" : "A view that shows the application details (name and version).",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "The application info is read from the environment.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ApplicationDetailsView"
+    }
+  ],
+  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/ApplicationDetailsView",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ApplicationDetailsView"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ApplicationDetailsView",
+  "type" : "topic",
+  "url" : "\/documentation\/appinformation\/applicationdetailsview"
 },
 "doc://AppInformation/documentation/AppInformation/ApplicationInfoView": {
   "abstract" : [

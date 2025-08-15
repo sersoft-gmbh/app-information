@@ -36,8 +36,10 @@
       "anchor" : "Structures",
       "generated" : true,
       "identifiers" : [
+        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconShape",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo",
+        "doc:\/\/AppInformation\/documentation\/AppInformation\/ApplicationDetailsView",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/ApplicationInfoView"
       ],
       "title" : "Structures"
@@ -118,6 +120,48 @@
   "type" : "topic",
   "url" : "\/documentation\/appinformation\/appiconmode"
 },
+"doc://AppInformation/documentation/AppInformation/AppIconShape": {
+  "abstract" : [
+    {
+      "text" : "A shape that represents the application icon shape, which is typically a rounded rectangle with a specific corner radius.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "This shape is platform specific. On visionOS and watchOS, it is a circle.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "AppIconShape"
+    }
+  ],
+  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconShape",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "AppIconShape"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "AppIconShape",
+  "type" : "topic",
+  "url" : "\/documentation\/appinformation\/appiconshape"
+},
 "doc://AppInformation/documentation/AppInformation/AppIconView": {
   "abstract" : [
     {
@@ -194,6 +238,48 @@
   "title" : "AppInfo",
   "type" : "topic",
   "url" : "\/documentation\/appinformation\/appinfo"
+},
+"doc://AppInformation/documentation/AppInformation/ApplicationDetailsView": {
+  "abstract" : [
+    {
+      "text" : "A view that shows the application details (name and version).",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "The application info is read from the environment.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ApplicationDetailsView"
+    }
+  ],
+  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/ApplicationDetailsView",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ApplicationDetailsView"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ApplicationDetailsView",
+  "type" : "topic",
+  "url" : "\/documentation\/appinformation\/applicationdetailsview"
 },
 "doc://AppInformation/documentation/AppInformation/ApplicationInfoView": {
   "abstract" : [
