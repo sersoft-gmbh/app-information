@@ -1,9 +1,7 @@
 import XCTest
 @testable import AppInformation
-#if arch(arm64) || arch(x86_64)
-#if canImport(SwiftUI) && canImport(Combine)
+#if canImport(SwiftUI)
 import SwiftUI
-#endif
 #endif
 
 final class AppInfoTests: XCTestCase {
@@ -205,8 +203,7 @@ final class AppInfoTests: XCTestCase {
     }
 
     func testSwiftUIEnvironment() throws {
-#if arch(arm64) || arch(x86_64)
-#if canImport(SwiftUI) && canImport(Combine)
+#if canImport(SwiftUI)
         guard #available(macOS 10.15, iOS 13.0, tvOS 13.0, watchOS 6.0, *)
         else { throw XCTSkip() }
         let info = try AppInfo(bundle: XCTUnwrap(Bundle(path: bundlePath)))
@@ -214,9 +211,6 @@ final class AppInfoTests: XCTestCase {
         XCTAssertEqual(env.appInfo, .current)
         env.appInfo = info
         XCTAssertEqual(env.appInfo, info)
-#else
-        throw XCTSkip()
-#endif
 #else
         throw XCTSkip()
 #endif

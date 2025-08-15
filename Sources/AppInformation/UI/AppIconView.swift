@@ -1,12 +1,11 @@
-#if arch(arm64) || arch(x86_64)
-#if canImport(Combine) && canImport(SwiftUI)
+#if canImport(SwiftUI)
 public import SwiftUI
 
 /// Describes the mode how the app icon should be displayed.
 @available(macOS 11.0, iOS 13.0, tvOS 13.0, watchOS 6.0, *)
-public enum AppIconMode {
+public enum AppIconMode: Sendable, Equatable {
     /// Describes how a composed app icon should be padded.
-    public enum CompositionPadding {
+    public enum CompositionPadding: Sendable, Equatable {
         /// Apply default padding. Calls `padding()`.
         case standard
         /// Apply custom insets. Calls `padding(insets)`
@@ -27,6 +26,7 @@ public enum AppIconMode {
     case template
 }
 
+#if compiler(<6)
 @available(macOS 11.0, iOS 13.0, tvOS 13.0, watchOS 6.0, *)
 extension AppIconMode {
     @frozen
@@ -39,15 +39,22 @@ extension AppIconMode {
         static var defaultValue: Value { .template }
     }
 }
+#endif
 
 @available(macOS 11.0, iOS 13.0, tvOS 13.0, watchOS 6.0, *)
 extension EnvironmentValues {
+#if compiler(>=6)
+    /// The app icon mode. Defaults to ``AppIconMode/template``.
+    @Entry
+    public var appIconMode: AppIconMode = .template
+#else
     /// The app icon mode. Defaults to ``AppIconMode/template``.
     @inlinable
     public var appIconMode: AppIconMode {
         get { self[AppIconMode.EnvKey.self] }
         set { self[AppIconMode.EnvKey.self] = newValue }
     }
+#endif
 }
 
 /// A simple view showing the app icon using the ``AppIconMode`` of the environment.
@@ -57,54 +64,56 @@ public struct AppIconView: View {
     private var mode
 
     public var body: some View {
-        switch mode {
-        case .prerendered(let img):
-            img
-                .resizable()
-                .aspectRatio(contentMode: .fit)
-        case .composed(let logoImage,
-                       let logoColor,
-                       let logoPadding,
-                       let logoBackgroundColor):
-            logoImage
-                .resizable()
-                .aspectRatio(contentMode: .fit)
-                .foregroundColor(logoColor)
-                .padding(logoPadding)
-                .background(logoBackgroundColor)
-        case .template:
-            Image(systemName: "app")
-                .resizable()
-                .aspectRatio(contentMode: .fit)
-                .foregroundColor(.accentColor)
-                .overlay(
-                    Image(systemName: "a.circle.fill")
-                        .resizable()
-                        .aspectRatio(contentMode: .fit)
-                        .foregroundColor(.accentColor)
-                        .padding()
-                )
+        Group {
+            switch mode {
+            case .prerendered(let img):
+                img
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+            case .composed(let logoImage,
+                           let logoColor,
+                           let logoPadding,
+                           let logoBackgroundColor):
+                logoImage
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .foregroundColor(logoColor)
+                    .padding(logoPadding)
+                    .background(logoBackgroundColor)
+            case .template:
+                Image(systemName: "app")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .foregroundColor(.accentColor)
+                    .overlay(
+                        Image(systemName: "a.circle.fill")
+                            .resizable()
+                            .aspectRatio(contentMode: .fit)
+                            .foregroundColor(.accentColor)
+                            .padding()
+                    )
+            }
         }
+        .clipShape(AppIconShape())
     }
 
-    /// Creates a new app icon mode.
+    /// Creates a new ``AppIconView``.
     public init() {}
 
     /// Applies the given height as `frame(height: height)` and calculates
     /// the correct rounding for this height.
     /// - Parameter height: The height this icon should be displayed in.
+    @available(*, deprecated, message: "Use `frame(height:)` instead.")
     public func rounded(withHeight height: CGFloat) -> some View {
         frame(height: height)
-            .clipShape(RoundedRectangle(cornerRadius: (10 / 57) * height))
     }
 }
 
 @available(macOS 11.0, iOS 13.0, tvOS 13.0, watchOS 6.0, *)
 fileprivate extension AppIconMode.CompositionPadding {
-    struct Modifier: ViewModifier {
+    struct Modifier: Sendable, Equatable, ViewModifier {
         let padding: AppIconMode.CompositionPadding?
 
-        @ViewBuilder
         func body(content: Content) -> some View {
             switch padding {
             case .none: content
@@ -129,5 +138,4 @@ struct AppIconView_Previews: PreviewProvider {
         AppIconView()
     }
 }
-#endif
 #endif

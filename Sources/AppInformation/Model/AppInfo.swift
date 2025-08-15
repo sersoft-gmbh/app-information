@@ -2,9 +2,9 @@ public import class Foundation.Bundle
 public import class Foundation.ProcessInfo
 
 /// Contains the information for an application (e.g. naming and versioning).
-public struct AppInfo: Sendable, Equatable, Identifiable {
+public struct AppInfo: Sendable, Hashable, Identifiable {
     /// The naming information.
-    public struct Naming: Sendable, Equatable {
+    public struct Naming: Sendable, Hashable {
         /// The unlocalized set of names.
         public let unlocalized: (base: String, display: String?)
         /// The localized set of names.
@@ -26,13 +26,20 @@ public struct AppInfo: Sendable, Equatable, Identifiable {
             localized.display ?? localized.base ?? unlocalized.display ?? unlocalized.base
         }
 
+        public func hash(into hasher: inout Hasher) {
+            hasher.combine(unlocalized.base)
+            hasher.combine(unlocalized.display)
+            hasher.combine(localized.base)
+            hasher.combine(localized.display)
+        }
+
         public static func ==(lhs: Self, rhs: Self) -> Bool {
             lhs.unlocalized == rhs.unlocalized && lhs.localized == rhs.localized
         }
     }
 
     /// The versioning information.
-    public struct Versioning: Sendable, Equatable {
+    public struct Versioning: Sendable, Hashable {
         /// The version, e.g. 1.0.0.
         public let version: String
         /// The build, e.g. 42.
@@ -116,10 +123,10 @@ extension AppInfo {
     public static let current = AppInfo(bundle: .main)
 }
 
-#if arch(arm64) || arch(x86_64)
-#if canImport(Combine) && canImport(SwiftUI)
+#if canImport(SwiftUI)
 public import SwiftUI
 
+#if compiler(<6)
 @available(macOS 10.15, iOS 13.0, tvOS 13.0, watchOS 6.0, *)
 extension AppInfo {
     @frozen
@@ -128,13 +135,21 @@ extension AppInfo {
         @usableFromInline
         typealias Value = AppInfo
 
-        @usableFromInline
+        @inlinable
         static var defaultValue: Value { .current }
     }
 }
+#endif
 
 @available(macOS 10.15, iOS 13.0, tvOS 13.0, watchOS 6.0, *)
 extension EnvironmentValues {
+#if compiler(>=6)
+    /// The environment's application information. Defaults to the current application's information.
+    /// Note that if you want to specify the app's AppleID in code, you can use ``View/transformEnvironment``
+    /// to be able to modify the current app info and for example set the ``AppInfo/appleID`` property.
+    @Entry
+    public var appInfo = AppInfo.current
+#else
     /// The environment's application information. Defaults to the current application's information.
     /// Note that if you want to specify the app's AppleID in code, you can use ``View/transformEnvironment``
     /// to be able to modify the current app info and for example set the ``AppInfo/appleID`` property.
@@ -143,6 +158,6 @@ extension EnvironmentValues {
         get { self[AppInfo.EnvKey.self] }
         set { self[AppInfo.EnvKey.self] = newValue }
     }
-}
 #endif
+}
 #endif
