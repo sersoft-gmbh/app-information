@@ -184,13 +184,13 @@ struct AppInfoTests: ~Copyable {
         #expect(versioning.combined == "1.2.3 (42)")
     }
 
-    @Test(.enabled {
+    @Test(.enabled(if: {
 #if canImport(SwiftUI)
         true
 #else
         false
 #endif
-    })
+    }()))
     @available(macOS 10.15, iOS 13.0, tvOS 13.0, watchOS 6.0, *)
     func swiftUIEnvironment() throws {
 #if canImport(SwiftUI)
@@ -202,4 +202,3 @@ struct AppInfoTests: ~Copyable {
 #endif
     }
 }
-
