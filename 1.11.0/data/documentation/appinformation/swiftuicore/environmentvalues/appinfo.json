@@ -1,0 +1,413 @@
+{
+  "abstract" : [
+    {
+      "text" : "The environment’s application information. Defaults to the current application’s information.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Note that if you want to specify the app’s AppleID in code, you can use ",
+      "type" : "text"
+    },
+    {
+      "code" : "View\/transformEnvironment",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "to be able to modify the current app info and for example set the ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/appleID-swift.property",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " property.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/AppInformation\/documentation\/AppInformation",
+        "doc:\/\/AppInformation\/documentation\/AppInformation\/SwiftUICore",
+        "doc:\/\/AppInformation\/documentation\/AppInformation\/SwiftUICore\/EnvironmentValues"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/AppInformation\/documentation\/AppInformation\/SwiftUICore\/EnvironmentValues\/appInfo"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "extendedModule" : "SwiftUICore",
+    "externalID" : "s:7SwiftUI17EnvironmentValuesV14AppInformationE7appInfoAD0eH0Vvp",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "var"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "appInfo"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:14AppInformation0A4InfoV",
+        "text" : "AppInfo"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "AppInformation",
+        "relatedModules" : [
+          "SwiftUICore"
+        ]
+      }
+    ],
+    "platforms" : [
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "13.0",
+        "name" : "iOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "10.15",
+        "name" : "macOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "13.0",
+        "name" : "tvOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "6.0",
+        "name" : "watchOS",
+        "unavailable" : false
+      }
+    ],
+    "remoteSource" : {
+      "fileName" : "AppInfo.swift",
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/app-information\/blob\/refs\/tags\/1.11.0\/Sources\/AppInformation\/Model\/AppInfo.swift#L135"
+    },
+    "role" : "symbol",
+    "roleHeading" : "Instance Property",
+    "symbolKind" : "property",
+    "title" : "appInfo"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "var"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "appInfo"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:14AppInformation0A4InfoV",
+              "text" : "AppInfo"
+            },
+            {
+              "kind" : "text",
+              "text" : " { "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "get"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "set"
+            },
+            {
+              "kind" : "text",
+              "text" : " }"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/appinformation\/swiftuicore\/environmentvalues\/appinfo"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://AppInformation/documentation/AppInformation": {
+  "abstract" : [
+    {
+      "text" : "A simple package for storing as well as showing app infos.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "AppInformation",
+  "type" : "topic",
+  "url" : "\/documentation\/appinformation"
+},
+"doc://AppInformation/documentation/AppInformation/AppInfo": {
+  "abstract" : [
+    {
+      "text" : "Contains the information for an application (e.g. naming and versioning).",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "AppInfo"
+    }
+  ],
+  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "AppInfo"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "AppInfo",
+  "type" : "topic",
+  "url" : "\/documentation\/appinformation\/appinfo"
+},
+"doc://AppInformation/documentation/AppInformation/AppInfo/appleID-swift.property": {
+  "abstract" : [
+    {
+      "text" : "The appleID of the application.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "appleID"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14AppInformation0A4InfoV",
+      "text" : "AppInfo"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14AppInformation0A4InfoV7AppleIDV",
+      "text" : "AppleID"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/appleID-swift.property",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "appleID",
+  "type" : "topic",
+  "url" : "\/documentation\/appinformation\/appinfo\/appleid-swift.property"
+},
+"doc://AppInformation/documentation/AppInformation/SwiftUICore": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/SwiftUICore",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "SwiftUICore",
+  "type" : "topic",
+  "url" : "\/documentation\/appinformation\/swiftuicore"
+},
+"doc://AppInformation/documentation/AppInformation/SwiftUICore/EnvironmentValues": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "extension"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "preciseIdentifier" : "s:7SwiftUI17EnvironmentValuesV",
+      "text" : "EnvironmentValues"
+    }
+  ],
+  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/SwiftUICore\/EnvironmentValues",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "EnvironmentValues"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "EnvironmentValues",
+  "type" : "topic",
+  "url" : "\/documentation\/appinformation\/swiftuicore\/environmentvalues"
+},
+"doc://AppInformation/documentation/AppInformation/SwiftUICore/EnvironmentValues/appInfo": {
+  "abstract" : [
+    {
+      "text" : "The environment’s application information. Defaults to the current application’s information.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Note that if you want to specify the app’s AppleID in code, you can use ",
+      "type" : "text"
+    },
+    {
+      "code" : "View\/transformEnvironment",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "to be able to modify the current app info and for example set the ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/appleID-swift.property",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " property.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "appInfo"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14AppInformation0A4InfoV",
+      "text" : "AppInfo"
+    }
+  ],
+  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/SwiftUICore\/EnvironmentValues\/appInfo",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "appInfo",
+  "type" : "topic",
+  "url" : "\/documentation\/appinformation\/swiftuicore\/environmentvalues\/appinfo"
+}
+}
+}

@@ -1,0 +1,1324 @@
+{
+  "abstract" : [
+    {
+      "text" : "A simple package for storing as well as showing app infos.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/AppInformation\/documentation\/AppInformation"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "AppInformation",
+    "modules" : [
+      {
+        "name" : "AppInformation"
+      }
+    ],
+    "role" : "collection",
+    "roleHeading" : "Framework",
+    "symbolKind" : "module",
+    "title" : "AppInformation"
+  },
+  "primaryContentSections" : [
+    {
+      "content" : [
+        {
+          "anchor" : "Installation",
+          "level" : 2,
+          "text" : "Installation",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "Add the following dependency to your ",
+              "type" : "text"
+            },
+            {
+              "code" : "Package.swift",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : ":",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "code" : [
+            ".package(url: \"https:\/\/github.com\/sersoft-gmbh\/app-information\", from: \"1.0.0\"),"
+          ],
+          "syntax" : "swift",
+          "type" : "codeListing"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "Or add it via Xcode (as of Xcode 11).",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "anchor" : "Usage",
+          "level" : 2,
+          "text" : "Usage",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "To use this package, you can use the ",
+              "type" : "text"
+            },
+            {
+              "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo",
+              "isActive" : true,
+              "type" : "reference"
+            },
+            {
+              "text" : " and ",
+              "type" : "text"
+            },
+            {
+              "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/AppleID-swift.struct",
+              "isActive" : true,
+              "type" : "reference"
+            },
+            {
+              "text" : " models to store app information.",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "For SwiftUI applications, there’s an environment value ",
+              "type" : "text"
+            },
+            {
+              "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/SwiftUICore\/EnvironmentValues\/appInfo",
+              "isActive" : true,
+              "type" : "reference"
+            },
+            {
+              "text" : " that by default returns the current app’s information.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "The following information is stored in the ",
+              "type" : "text"
+            },
+            {
+              "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo",
+              "isActive" : true,
+              "type" : "reference"
+            },
+            {
+              "text" : " (incl. where it’s read from):",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "items" : [
+            {
+              "content" : [
+                {
+                  "inlineContent" : [
+                    {
+                      "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/identifier",
+                      "isActive" : true,
+                      "type" : "reference"
+                    },
+                    {
+                      "text" : ": ",
+                      "type" : "text"
+                    },
+                    {
+                      "code" : "Bundle.bundleIdentifier",
+                      "type" : "codeVoice"
+                    },
+                    {
+                      "text" : " or ",
+                      "type" : "text"
+                    },
+                    {
+                      "code" : "ProcessInfo.processIdentifier",
+                      "type" : "codeVoice"
+                    }
+                  ],
+                  "type" : "paragraph"
+                }
+              ]
+            },
+            {
+              "content" : [
+                {
+                  "inlineContent" : [
+                    {
+                      "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/names",
+                      "isActive" : true,
+                      "type" : "reference"
+                    },
+                    {
+                      "text" : ":",
+                      "type" : "text"
+                    }
+                  ],
+                  "type" : "paragraph"
+                },
+                {
+                  "items" : [
+                    {
+                      "content" : [
+                        {
+                          "inlineContent" : [
+                            {
+                              "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/Naming\/unlocalized",
+                              "isActive" : true,
+                              "type" : "reference"
+                            },
+                            {
+                              "text" : ":",
+                              "type" : "text"
+                            }
+                          ],
+                          "type" : "paragraph"
+                        },
+                        {
+                          "items" : [
+                            {
+                              "content" : [
+                                {
+                                  "inlineContent" : [
+                                    {
+                                      "code" : "base",
+                                      "type" : "codeVoice"
+                                    },
+                                    {
+                                      "text" : ": ",
+                                      "type" : "text"
+                                    },
+                                    {
+                                      "code" : "Bundle.infoDictionary[\"CFBundleName\"]",
+                                      "type" : "codeVoice"
+                                    },
+                                    {
+                                      "text" : " or ",
+                                      "type" : "text"
+                                    },
+                                    {
+                                      "code" : "ProcessInfo.processName",
+                                      "type" : "codeVoice"
+                                    }
+                                  ],
+                                  "type" : "paragraph"
+                                }
+                              ]
+                            },
+                            {
+                              "content" : [
+                                {
+                                  "inlineContent" : [
+                                    {
+                                      "code" : "display",
+                                      "type" : "codeVoice"
+                                    },
+                                    {
+                                      "text" : ": ",
+                                      "type" : "text"
+                                    },
+                                    {
+                                      "code" : "Bundle.infoDictionary[\"CFBundleDisplayName\"]",
+                                      "type" : "codeVoice"
+                                    }
+                                  ],
+                                  "type" : "paragraph"
+                                }
+                              ]
+                            }
+                          ],
+                          "type" : "unorderedList"
+                        }
+                      ]
+                    },
+                    {
+                      "content" : [
+                        {
+                          "inlineContent" : [
+                            {
+                              "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/Naming\/localized",
+                              "isActive" : true,
+                              "type" : "reference"
+                            },
+                            {
+                              "text" : ":",
+                              "type" : "text"
+                            }
+                          ],
+                          "type" : "paragraph"
+                        },
+                        {
+                          "items" : [
+                            {
+                              "content" : [
+                                {
+                                  "inlineContent" : [
+                                    {
+                                      "code" : "base",
+                                      "type" : "codeVoice"
+                                    },
+                                    {
+                                      "text" : ": ",
+                                      "type" : "text"
+                                    },
+                                    {
+                                      "code" : "Bundle.localizedInfoDictionary[\"CFBundleName\"]",
+                                      "type" : "codeVoice"
+                                    }
+                                  ],
+                                  "type" : "paragraph"
+                                }
+                              ]
+                            },
+                            {
+                              "content" : [
+                                {
+                                  "inlineContent" : [
+                                    {
+                                      "code" : "display",
+                                      "type" : "codeVoice"
+                                    },
+                                    {
+                                      "text" : ": ",
+                                      "type" : "text"
+                                    },
+                                    {
+                                      "code" : "Bundle.localizedInfoDictionary[\"CFBundleDisplayName\"]",
+                                      "type" : "codeVoice"
+                                    }
+                                  ],
+                                  "type" : "paragraph"
+                                }
+                              ]
+                            }
+                          ],
+                          "type" : "unorderedList"
+                        }
+                      ]
+                    }
+                  ],
+                  "type" : "unorderedList"
+                }
+              ]
+            },
+            {
+              "content" : [
+                {
+                  "inlineContent" : [
+                    {
+                      "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/versioning-swift.property",
+                      "isActive" : true,
+                      "type" : "reference"
+                    },
+                    {
+                      "text" : ":",
+                      "type" : "text"
+                    }
+                  ],
+                  "type" : "paragraph"
+                },
+                {
+                  "items" : [
+                    {
+                      "content" : [
+                        {
+                          "inlineContent" : [
+                            {
+                              "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/Versioning-swift.struct\/version",
+                              "isActive" : true,
+                              "type" : "reference"
+                            },
+                            {
+                              "text" : ": ",
+                              "type" : "text"
+                            },
+                            {
+                              "code" : "Bundle.infoDictionary[\"CFBundleShortVersionString\"]",
+                              "type" : "codeVoice"
+                            },
+                            {
+                              "text" : " or ",
+                              "type" : "text"
+                            },
+                            {
+                              "code" : "\"1.0.0\"",
+                              "type" : "codeVoice"
+                            }
+                          ],
+                          "type" : "paragraph"
+                        }
+                      ]
+                    },
+                    {
+                      "content" : [
+                        {
+                          "inlineContent" : [
+                            {
+                              "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/Versioning-swift.struct\/build",
+                              "isActive" : true,
+                              "type" : "reference"
+                            },
+                            {
+                              "text" : ": ",
+                              "type" : "text"
+                            },
+                            {
+                              "code" : "Bundle.infoDictionary[\"CFBundleVersion\"]",
+                              "type" : "codeVoice"
+                            },
+                            {
+                              "text" : " or ",
+                              "type" : "text"
+                            },
+                            {
+                              "code" : "\"1\"",
+                              "type" : "codeVoice"
+                            }
+                          ],
+                          "type" : "paragraph"
+                        }
+                      ]
+                    }
+                  ],
+                  "type" : "unorderedList"
+                }
+              ]
+            },
+            {
+              "content" : [
+                {
+                  "inlineContent" : [
+                    {
+                      "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/copyright",
+                      "isActive" : true,
+                      "type" : "reference"
+                    },
+                    {
+                      "text" : ": ",
+                      "type" : "text"
+                    },
+                    {
+                      "code" : "\"NSHumanReadableCopyright\"",
+                      "type" : "codeVoice"
+                    },
+                    {
+                      "text" : " in either the localized or unlocalized info dictionary of the ",
+                      "type" : "text"
+                    },
+                    {
+                      "code" : "Bundle",
+                      "type" : "codeVoice"
+                    },
+                    {
+                      "text" : ".",
+                      "type" : "text"
+                    }
+                  ],
+                  "type" : "paragraph"
+                }
+              ]
+            },
+            {
+              "content" : [
+                {
+                  "inlineContent" : [
+                    {
+                      "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/appleID-swift.property",
+                      "isActive" : true,
+                      "type" : "reference"
+                    },
+                    {
+                      "text" : ": ",
+                      "type" : "text"
+                    },
+                    {
+                      "code" : "Bundle.infoDictionary[\"AppInformationAppleID\"]",
+                      "type" : "codeVoice"
+                    }
+                  ],
+                  "type" : "paragraph"
+                }
+              ]
+            }
+          ],
+          "type" : "unorderedList"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "The ",
+              "type" : "text"
+            },
+            {
+              "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/AppleID-swift.struct",
+              "isActive" : true,
+              "type" : "reference"
+            },
+            {
+              "text" : " model can be used to e.g. generate app store page urls for showing the app in the app store or directly linking to the page where the user can write a review.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        }
+      ],
+      "kind" : "content"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Structures",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconShape",
+        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView",
+        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo",
+        "doc:\/\/AppInformation\/documentation\/AppInformation\/ApplicationDetailsView",
+        "doc:\/\/AppInformation\/documentation\/AppInformation\/ApplicationInfoView"
+      ],
+      "title" : "Structures"
+    },
+    {
+      "anchor" : "Enumerations",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconMode"
+      ],
+      "title" : "Enumerations"
+    },
+    {
+      "anchor" : "Extended-Modules",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/AppInformation\/documentation\/AppInformation\/SwiftUICore"
+      ],
+      "title" : "Extended Modules"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/appinformation"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://AppInformation/documentation/AppInformation": {
+  "abstract" : [
+    {
+      "text" : "A simple package for storing as well as showing app infos.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "AppInformation",
+  "type" : "topic",
+  "url" : "\/documentation\/appinformation"
+},
+"doc://AppInformation/documentation/AppInformation/AppIconMode": {
+  "abstract" : [
+    {
+      "text" : "Describes the mode how the app icon should be displayed.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "AppIconMode"
+    }
+  ],
+  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconMode",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "AppIconMode"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "AppIconMode",
+  "type" : "topic",
+  "url" : "\/documentation\/appinformation\/appiconmode"
+},
+"doc://AppInformation/documentation/AppInformation/AppIconShape": {
+  "abstract" : [
+    {
+      "text" : "A shape that represents the application icon shape, which is typically a rounded rectangle with a specific corner radius.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "This shape is platform specific. On visionOS and watchOS, it is a circle.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "AppIconShape"
+    }
+  ],
+  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconShape",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "AppIconShape"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "AppIconShape",
+  "type" : "topic",
+  "url" : "\/documentation\/appinformation\/appiconshape"
+},
+"doc://AppInformation/documentation/AppInformation/AppIconView": {
+  "abstract" : [
+    {
+      "text" : "A simple view showing the app icon using the ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconMode",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " of the environment.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "AppIconView"
+    }
+  ],
+  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconView",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "AppIconView"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "AppIconView",
+  "type" : "topic",
+  "url" : "\/documentation\/appinformation\/appiconview"
+},
+"doc://AppInformation/documentation/AppInformation/AppInfo": {
+  "abstract" : [
+    {
+      "text" : "Contains the information for an application (e.g. naming and versioning).",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "AppInfo"
+    }
+  ],
+  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "AppInfo"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "AppInfo",
+  "type" : "topic",
+  "url" : "\/documentation\/appinformation\/appinfo"
+},
+"doc://AppInformation/documentation/AppInformation/AppInfo/AppleID-swift.struct": {
+  "abstract" : [
+    {
+      "text" : "Represents an AppleID of an application (usually a numerical value).",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "AppleID"
+    }
+  ],
+  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/AppleID-swift.struct",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "AppleID"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "AppInfo.AppleID",
+  "type" : "topic",
+  "url" : "\/documentation\/appinformation\/appinfo\/appleid-swift.struct"
+},
+"doc://AppInformation/documentation/AppInformation/AppInfo/Naming/localized": {
+  "abstract" : [
+    {
+      "text" : "The localized set of names.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "localized"
+    },
+    {
+      "kind" : "text",
+      "text" : ": (base"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, display"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?)"
+    }
+  ],
+  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/Naming\/localized",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "localized",
+  "type" : "topic",
+  "url" : "\/documentation\/appinformation\/appinfo\/naming\/localized"
+},
+"doc://AppInformation/documentation/AppInformation/AppInfo/Naming/unlocalized": {
+  "abstract" : [
+    {
+      "text" : "The unlocalized set of names.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "unlocalized"
+    },
+    {
+      "kind" : "text",
+      "text" : ": (base"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ", display"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?)"
+    }
+  ],
+  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/Naming\/unlocalized",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "unlocalized",
+  "type" : "topic",
+  "url" : "\/documentation\/appinformation\/appinfo\/naming\/unlocalized"
+},
+"doc://AppInformation/documentation/AppInformation/AppInfo/Versioning-swift.struct/build": {
+  "abstract" : [
+    {
+      "text" : "The build, e.g. 42.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "build"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/Versioning-swift.struct\/build",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "build",
+  "type" : "topic",
+  "url" : "\/documentation\/appinformation\/appinfo\/versioning-swift.struct\/build"
+},
+"doc://AppInformation/documentation/AppInformation/AppInfo/Versioning-swift.struct/version": {
+  "abstract" : [
+    {
+      "text" : "The version, e.g. 1.0.0.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "version"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/Versioning-swift.struct\/version",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "version",
+  "type" : "topic",
+  "url" : "\/documentation\/appinformation\/appinfo\/versioning-swift.struct\/version"
+},
+"doc://AppInformation/documentation/AppInformation/AppInfo/appleID-swift.property": {
+  "abstract" : [
+    {
+      "text" : "The appleID of the application.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "appleID"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14AppInformation0A4InfoV",
+      "text" : "AppInfo"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14AppInformation0A4InfoV7AppleIDV",
+      "text" : "AppleID"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/appleID-swift.property",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "appleID",
+  "type" : "topic",
+  "url" : "\/documentation\/appinformation\/appinfo\/appleid-swift.property"
+},
+"doc://AppInformation/documentation/AppInformation/AppInfo/copyright": {
+  "abstract" : [
+    {
+      "text" : "The copyright information.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "copyright"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/copyright",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "copyright",
+  "type" : "topic",
+  "url" : "\/documentation\/appinformation\/appinfo\/copyright"
+},
+"doc://AppInformation/documentation/AppInformation/AppInfo/identifier": {
+  "abstract" : [
+    {
+      "text" : "The identifier of this application.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "identifier"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/identifier",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "identifier",
+  "type" : "topic",
+  "url" : "\/documentation\/appinformation\/appinfo\/identifier"
+},
+"doc://AppInformation/documentation/AppInformation/AppInfo/names": {
+  "abstract" : [
+    {
+      "text" : "The naming information.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "names"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14AppInformation0A4InfoV",
+      "text" : "AppInfo"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14AppInformation0A4InfoV6NamingV",
+      "text" : "Naming"
+    }
+  ],
+  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/names",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "names",
+  "type" : "topic",
+  "url" : "\/documentation\/appinformation\/appinfo\/names"
+},
+"doc://AppInformation/documentation/AppInformation/AppInfo/versioning-swift.property": {
+  "abstract" : [
+    {
+      "text" : "The versioning information.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "versioning"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14AppInformation0A4InfoV",
+      "text" : "AppInfo"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14AppInformation0A4InfoV10VersioningV",
+      "text" : "Versioning"
+    }
+  ],
+  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/versioning-swift.property",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "versioning",
+  "type" : "topic",
+  "url" : "\/documentation\/appinformation\/appinfo\/versioning-swift.property"
+},
+"doc://AppInformation/documentation/AppInformation/ApplicationDetailsView": {
+  "abstract" : [
+    {
+      "text" : "A view that shows the application details (name and version).",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "The application info is read from the environment.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ApplicationDetailsView"
+    }
+  ],
+  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/ApplicationDetailsView",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ApplicationDetailsView"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ApplicationDetailsView",
+  "type" : "topic",
+  "url" : "\/documentation\/appinformation\/applicationdetailsview"
+},
+"doc://AppInformation/documentation/AppInformation/ApplicationInfoView": {
+  "abstract" : [
+    {
+      "text" : "A view that shows an application icon next to the application details (name and version).",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "The application info is read from the environment.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ApplicationInfoView"
+    }
+  ],
+  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/ApplicationInfoView",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ApplicationInfoView"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ApplicationInfoView",
+  "type" : "topic",
+  "url" : "\/documentation\/appinformation\/applicationinfoview"
+},
+"doc://AppInformation/documentation/AppInformation/SwiftUICore": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/SwiftUICore",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "SwiftUICore",
+  "type" : "topic",
+  "url" : "\/documentation\/appinformation\/swiftuicore"
+},
+"doc://AppInformation/documentation/AppInformation/SwiftUICore/EnvironmentValues/appInfo": {
+  "abstract" : [
+    {
+      "text" : "The environment’s application information. Defaults to the current application’s information.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Note that if you want to specify the app’s AppleID in code, you can use ",
+      "type" : "text"
+    },
+    {
+      "code" : "View\/transformEnvironment",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "to be able to modify the current app info and for example set the ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/appleID-swift.property",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " property.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "appInfo"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14AppInformation0A4InfoV",
+      "text" : "AppInfo"
+    }
+  ],
+  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/SwiftUICore\/EnvironmentValues\/appInfo",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "appInfo",
+  "type" : "topic",
+  "url" : "\/documentation\/appinformation\/swiftuicore\/environmentvalues\/appinfo"
+}
+}
+}
