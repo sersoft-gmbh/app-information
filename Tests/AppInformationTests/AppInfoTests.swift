@@ -1,19 +1,30 @@
-import XCTest
+import Foundation
+import Testing
 @testable import AppInformation
 #if canImport(SwiftUI)
 import SwiftUI
 #endif
 
-final class AppInfoTests: XCTestCase {
-    private var bundleURL: URL!
+@Suite
+struct AppInfoTests: ~Copyable {
+    private let bundleURL: URL
     private var bundlePath: String { bundleURL.path }
 
-    private func tempDir() -> URL {
-        if #available(iOS 10, tvOS 10, watchOS 3.0, *) {
-            return FileManager.default.temporaryDirectory
+    init() throws {
+        let tempDir = if #available(iOS 10, tvOS 10, watchOS 3.0, *) {
+            FileManager.default.temporaryDirectory
         } else {
-            return URL(fileURLWithPath: NSTemporaryDirectory())
+            URL(fileURLWithPath: NSTemporaryDirectory())
         }
+        bundleURL = tempDir
+            .appendingPathComponent(UUID().uuidString, isDirectory: true)
+            .appendingPathExtension("bundle")
+        let contentsDir = bundleURL.appendingPathComponent("Contents", isDirectory: true)
+        try FileManager.default.createDirectory(at: contentsDir, withIntermediateDirectories: true)
+    }
+
+    deinit {
+        try? FileManager.default.removeItem(at: bundleURL)
     }
 
     private func fillBundle(identifier: String? = nil,
@@ -29,15 +40,11 @@ final class AppInfoTests: XCTestCase {
         try data.write(to: infoPlistURL, options: .atomic)
         if let localizedInfoDict {
             let lprojName: String
-#if swift(>=6.0) || canImport(Darwin)
             if #available(macOS 13, iOS 16, tvOS 16, watchOS 9, *) {
                 lprojName = Locale.current.language.languageCode?.identifier ?? Locale.current.identifier
             } else {
                 lprojName = Locale.current.languageCode ?? Locale.current.identifier
             }
-#else
-            lprojName = Locale.current.languageCode ?? Locale.current.identifier
-#endif
             let lprojFolderURL = contentsURL
                 .appendingPathComponent("Resources", isDirectory: true)
                 .appendingPathComponent("\(lprojName).lproj", isDirectory: true)
@@ -51,52 +58,40 @@ final class AppInfoTests: XCTestCase {
         }
     }
 
-    override func setUpWithError() throws {
-        try super.setUpWithError()
-        bundleURL = tempDir()
-            .appendingPathComponent(UUID().uuidString, isDirectory: true)
-            .appendingPathExtension("bundle")
-        let contentsDir = bundleURL.appendingPathComponent("Contents", isDirectory: true)
-        try FileManager.default.createDirectory(at: contentsDir, withIntermediateDirectories: true)
-    }
-
-    override func tearDownWithError() throws {
-        try FileManager.default.removeItem(at: bundleURL)
-        bundleURL = nil
-        try super.tearDownWithError()
-    }
-
-    func testCreationFromEmptyBundle() throws {
+    @Test
+    func creationFromEmptyBundle() throws {
         try fillBundle()
-        let info = try AppInfo(bundle: XCTUnwrap(Bundle(path: bundlePath)))
+        let info = try AppInfo(bundle: #require(Bundle(path: bundlePath)))
 
-        XCTAssertEqual(info.identifier, String(ProcessInfo.processInfo.processIdentifier))
-        XCTAssertEqual(info.names.unlocalized.base, ProcessInfo.processInfo.processName)
-        XCTAssertNil(info.names.unlocalized.display)
-        XCTAssertNil(info.names.localized.base)
-        XCTAssertNil(info.names.localized.display)
-        XCTAssertEqual(info.versioning.version, "1.0.0")
-        XCTAssertEqual(info.versioning.build, "1")
-        XCTAssertNil(info.copyright)
-        XCTAssertNil(info.appleID)
+        #expect(info.identifier == String(ProcessInfo.processInfo.processIdentifier))
+        #expect(info.names.unlocalized.base == ProcessInfo.processInfo.processName)
+        #expect(info.names.unlocalized.display == nil)
+        #expect(info.names.localized.base == nil)
+        #expect(info.names.localized.display == nil)
+        #expect(info.versioning.version == "1.0.0")
+        #expect(info.versioning.build == "1")
+        #expect(info.copyright == nil)
+        #expect(info.appleID == nil)
     }
 
-    func testCreationFromEmptyBundleAndAppleID() throws {
+    @Test
+    func creationFromEmptyBundleAndAppleID() throws {
         try fillBundle()
-        let info = try AppInfo(bundle: XCTUnwrap(Bundle(path: bundlePath)), appleID: "12345")
+        let info = try AppInfo(bundle: #require(Bundle(path: bundlePath)), appleID: "12345")
 
-        XCTAssertEqual(info.identifier, String(ProcessInfo.processInfo.processIdentifier))
-        XCTAssertEqual(info.names.unlocalized.base, ProcessInfo.processInfo.processName)
-        XCTAssertNil(info.names.unlocalized.display)
-        XCTAssertNil(info.names.localized.base)
-        XCTAssertNil(info.names.localized.display)
-        XCTAssertEqual(info.versioning.version, "1.0.0")
-        XCTAssertEqual(info.versioning.build, "1")
-        XCTAssertNil(info.copyright)
-        XCTAssertEqual(info.appleID, "12345")
+        #expect(info.identifier == String(ProcessInfo.processInfo.processIdentifier))
+        #expect(info.names.unlocalized.base == ProcessInfo.processInfo.processName)
+        #expect(info.names.unlocalized.display == nil)
+        #expect(info.names.localized.base == nil)
+        #expect(info.names.localized.display == nil)
+        #expect(info.versioning.version == "1.0.0")
+        #expect(info.versioning.build == "1")
+        #expect(info.copyright == nil)
+        #expect(info.appleID == "12345")
     }
 
-    func testCreationFromUnlocalizedBundle() throws {
+    @Test
+    func creationFromUnlocalizedBundle() throws {
         try fillBundle(identifier: "test-identifier",
                        infoDict: [
                         "CFBundleShortVersionString": "1.2.3",
@@ -106,21 +101,22 @@ final class AppInfoTests: XCTestCase {
                         "NSHumanReadableCopyright": "Some Copyright",
                         "AppInformationAppleID": "54321",
                        ])
-        let bundle = try XCTUnwrap(Bundle(path: bundlePath))
+        let bundle = try #require(Bundle(path: bundlePath))
         let info = AppInfo(bundle: bundle)
 
-        XCTAssertEqual(info.identifier, "test-identifier")
-        XCTAssertEqual(info.names.unlocalized.base, "TestName")
-        XCTAssertEqual(info.names.unlocalized.display, "Test Display Name")
-        XCTAssertNil(info.names.localized.base)
-        XCTAssertNil(info.names.localized.display)
-        XCTAssertEqual(info.versioning.version, "1.2.3")
-        XCTAssertEqual(info.versioning.build, "42")
-        XCTAssertEqual(info.copyright, "Some Copyright")
-        XCTAssertEqual(info.appleID, "54321")
+        #expect(info.identifier == "test-identifier")
+        #expect(info.names.unlocalized.base == "TestName")
+        #expect(info.names.unlocalized.display == "Test Display Name")
+        #expect(info.names.localized.base == nil)
+        #expect(info.names.localized.display == nil)
+        #expect(info.versioning.version == "1.2.3")
+        #expect(info.versioning.build == "42")
+        #expect(info.copyright == "Some Copyright")
+        #expect(info.appleID == "54321")
     }
 
-    func testCreationFromLocalizedBundle() throws {
+    @Test
+    func creationFromLocalizedBundle() throws {
         try fillBundle(identifier: "test-identifier",
                        infoDict: [
                         "CFBundleShortVersionString": "1.2.3",
@@ -138,90 +134,72 @@ final class AppInfoTests: XCTestCase {
                         "NSHumanReadableCopyright": "Some Localized Copyright",
                         "AppInformationAppleID": "most-irrelevant",
                        ])
-        let bundle = try XCTUnwrap(Bundle(path: bundlePath))
+        let bundle = try #require(Bundle(path: bundlePath))
         let info = AppInfo(bundle: bundle)
 
-        XCTAssertEqual(info.identifier, "test-identifier")
-        XCTAssertEqual(info.names.unlocalized.base, "TestName")
-        XCTAssertEqual(info.names.unlocalized.display, "Test Display Name")
-        XCTAssertEqual(info.names.localized.base, "LocalizedTestName")
-        XCTAssertEqual(info.names.localized.display, "Localized Test Display Name")
-        XCTAssertEqual(info.versioning.version, "1.2.3")
-        XCTAssertEqual(info.versioning.build, "42")
-        XCTAssertEqual(info.copyright, "Some Localized Copyright")
-        XCTAssertEqual(info.appleID, "54321")
+        #expect(info.identifier == "test-identifier")
+        #expect(info.names.unlocalized.base == "TestName")
+        #expect(info.names.unlocalized.display == "Test Display Name")
+        #expect(info.names.localized.base == "LocalizedTestName")
+        #expect(info.names.localized.display == "Localized Test Display Name")
+        #expect(info.versioning.version == "1.2.3")
+        #expect(info.versioning.build == "42")
+        #expect(info.copyright == "Some Localized Copyright")
+        #expect(info.appleID == "54321")
     }
 
-    func testIdentifiableConformance() throws {
+    @Test
+    func identifiableConformance() throws {
         try fillBundle()
-        let info = try AppInfo(bundle: XCTUnwrap(Bundle(path: bundlePath)))
-        XCTAssertEqual(info.id, info.identifier)
+        let info = try AppInfo(bundle: #require(Bundle(path: bundlePath)))
+        #expect(info.id == info.identifier)
     }
 
-    func testNamingAccessors() {
-        XCTAssertEqual(AppInfo.Naming(unlocalized: (base: "relevant", display: nil),
-                                      localized: (nil, nil)).effectiveName,
-                       "relevant")
-        XCTAssertEqual(AppInfo.Naming(unlocalized: (base: "not-relevant", display: "relevant"),
-                                      localized: (nil, nil)).effectiveName,
-                       "relevant")
-        XCTAssertEqual(AppInfo.Naming(unlocalized: (base: "not-relevant", display: "not-relevant"),
-                                      localized: ("relevant", nil)).effectiveName,
-                       "relevant")
-        XCTAssertEqual(AppInfo.Naming(unlocalized: (base: "not-relevant", display: "not-relevant"),
-                                      localized: ("not-relevant", "relevant")).effectiveName,
-                       "relevant")
-        XCTAssertEqual(AppInfo.Naming(unlocalized: (base: "relevant", display: nil),
-                                      localized: (nil, nil)).effective,
-                       ("relevant", nil))
-        XCTAssertEqual(AppInfo.Naming(unlocalized: (base: "relevant", display: "also-relevant"),
-                                      localized: (nil, nil)).effective,
-                       ("relevant", "also-relevant"))
-        XCTAssertEqual(AppInfo.Naming(unlocalized: (base: "relevant", display: "not-relevant"),
-                                      localized: (nil, "also-relevant")).effective,
-                       ("relevant", "also-relevant"))
-        XCTAssertEqual(AppInfo.Naming(unlocalized: (base: "not-relevant", display: "also-relevant"),
-                                      localized: ("relevant", nil)).effective,
-                       ("relevant", "also-relevant"))
-        XCTAssertEqual(AppInfo.Naming(unlocalized: (base: "not-relevant", display: "not-relevant"),
-                                      localized: ("relevant", "also-relevant")).effective,
-                       ("relevant", "also-relevant"))
+    @Test
+    func namingAccessors() {
+        #expect(AppInfo.Naming(unlocalized: (base: "relevant", display: nil), localized: (nil, nil)).effectiveName == "relevant")
+        #expect(AppInfo.Naming(unlocalized: (base: "not-relevant", display: "relevant"), localized: (nil, nil)).effectiveName == "relevant")
+        #expect(AppInfo.Naming(unlocalized: (base: "not-relevant", display: "not-relevant"), localized: ("relevant", nil)).effectiveName == "relevant")
+        #expect(AppInfo.Naming(unlocalized: (base: "not-relevant", display: "not-relevant"), localized: ("not-relevant", "relevant")).effectiveName == "relevant")
+        #expect(AppInfo.Naming(unlocalized: (base: "relevant", display: nil), localized: (nil, nil)).effective == ("relevant", nil))
+        #expect(AppInfo.Naming(unlocalized: (base: "relevant", display: "also-relevant"),localized: (nil, nil)).effective == ("relevant", "also-relevant"))
+        #expect(AppInfo.Naming(unlocalized: (base: "relevant", display: "not-relevant"), localized: (nil, "also-relevant")).effective == ("relevant", "also-relevant"))
+        #expect(AppInfo.Naming(unlocalized: (base: "not-relevant", display: "also-relevant"), localized: ("relevant", nil)).effective == ("relevant", "also-relevant"))
+        #expect(AppInfo.Naming(unlocalized: (base: "not-relevant", display: "not-relevant"), localized: ("relevant", "also-relevant")).effective == ("relevant", "also-relevant"))
     }
 
-    func testNamingEquatableConformance() {
+    @Test
+    func namingEquatableConformance() {
         let naming1 = AppInfo.Naming(unlocalized: ("base-name", "display-name"), localized: (nil, nil))
         let naming2 = AppInfo.Naming(unlocalized: ("base-name", "display-name"), localized: ("loc-base", nil))
         let naming3 = AppInfo.Naming(unlocalized: ("base-name", "display-name"), localized: (nil, nil))
-        XCTAssertEqual(naming1, naming3)
-        XCTAssertNotEqual(naming1, naming2)
-        XCTAssertNotEqual(naming2, naming3)
+        #expect(naming1 == naming3)
+        #expect(naming1 != naming2)
+        #expect(naming2 != naming3)
     }
 
-    func testVersioningAccessors() {
+    @Test
+    func versioningAccessors() {
         let versioning = AppInfo.Versioning(version: "1.2.3", build: "42")
-        XCTAssertEqual(versioning.combined, "1.2.3 (42)")
+        #expect(versioning.combined == "1.2.3 (42)")
     }
 
-    func testSwiftUIEnvironment() throws {
+    @Test(.enabled {
 #if canImport(SwiftUI)
-        guard #available(macOS 10.15, iOS 13.0, tvOS 13.0, watchOS 6.0, *)
-        else { throw XCTSkip() }
-        let info = try AppInfo(bundle: XCTUnwrap(Bundle(path: bundlePath)))
-        var env = EnvironmentValues()
-        XCTAssertEqual(env.appInfo, .current)
-        env.appInfo = info
-        XCTAssertEqual(env.appInfo, info)
+        true
 #else
-        throw XCTSkip()
+        false
+#endif
+    })
+    @available(macOS 10.15, iOS 13.0, tvOS 13.0, watchOS 6.0, *)
+    func swiftUIEnvironment() throws {
+#if canImport(SwiftUI)
+        let info = try AppInfo(bundle: #require(Bundle(path: bundlePath)))
+        var env = EnvironmentValues()
+        #expect(env.appInfo == .current)
+        env.appInfo = info
+        #expect(env.appInfo == info)
 #endif
     }
-}
-
-fileprivate func XCTAssertEqual<T1: Equatable, T2: Equatable>(_ lhs: @autoclosure () throws -> (T1, T2),
-                                                              _ rhs: @autoclosure () throws -> (T1, T2),
-                                                              _ message: @autoclosure () -> String = "",
-                                                              file: StaticString = #filePath,
-                                                              line: UInt = #line) {
-    XCTAssert(try lhs() == rhs(), message(), file: file, line: line)
 }
 

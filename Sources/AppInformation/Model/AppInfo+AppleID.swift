@@ -16,34 +16,23 @@ extension AppInfo {
         /// The app store url for this AppleID.
         public var appStoreURL: URL {
             let component = "id\(rawValue)"
-#if swift(>=6.0) || canImport(Darwin)
             if #available(macOS 13, iOS 16, tvOS 16, watchOS 9, *) {
                 return Self.appStoreBaseURL.appending(component: component)
             } else {
                 return Self.appStoreBaseURL.appendingPathComponent(component)
             }
-#else
-            return Self.appStoreBaseURL.appendingPathComponent(component)
-#endif
         }
 
         /// The review url for this AppleID.
         public var reviewURL: URL {
             let queryItem = URLQueryItem(name: "action", value: "write-review")
-            func _legacy() -> URL {
+            if #available(macOS 13, iOS 16, tvOS 16, watchOS 9, *) {
+                return appStoreURL.appending(queryItems: [queryItem])
+            } else {
                 var comps = URLComponents(url: appStoreURL, resolvingAgainstBaseURL: false)!
                 comps.queryItems = (comps.queryItems ?? []) + CollectionOfOne(queryItem)
                 return comps.url!
             }
-#if swift(>=6.0) || canImport(Darwin)
-            if #available(macOS 13, iOS 16, tvOS 16, watchOS 9, *) {
-                return appStoreURL.appending(queryItems: [queryItem])
-            } else {
-                return _legacy()
-            }
-#else
-            return _legacy()
-#endif
         }
 
         public init(rawValue: RawValue) {

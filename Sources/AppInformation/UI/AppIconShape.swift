@@ -10,10 +10,13 @@ public struct AppIconShape: Shape {
 
     public func path(in rect: CGRect) -> Path {
         let minSize = min(rect.width, rect.height)
+#if !os(tvOS)
+        let minRect = CGRect(origin: rect.origin,
+                             size: .init(width: minSize,
+                                         height: minSize))
+#endif
 #if os(visionOS) || os(watchOS)
-        return Path(ellipseIn: .init(origin: rect.origin,
-                                     size: .init(width: minSize,
-                                                 height: minSize)))
+        return Path(ellipseIn: minRect)
 #else
         let radius: CGFloat
         if #available(macOS 26, iOS 26, tvOS 26, *) {
@@ -21,10 +24,21 @@ public struct AppIconShape: Shape {
         } else {
             radius = minSize / 2 * 0.4453125
         }
-        return Path(roundedRect: rect,
+#if os(tvOS)
+        let shapeRect = rect
+#else
+        let shapeRect = minRect
+#endif
+        return Path(roundedRect: shapeRect,
                     cornerRadius: radius,
                     style: .continuous)
 #endif
     }
+}
+
+@available(macOS 11.0, iOS 13.0, tvOS 13.0, watchOS 6.0, *)
+#Preview {
+    AppIconShape()
+        .fill(Color.accentColor)
 }
 #endif

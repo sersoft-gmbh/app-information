@@ -1,20 +1,25 @@
-import XCTest
+import Foundation
+import Testing
 @testable import AppInformation
 
-final class AppInfo_AppleIDTests: XCTestCase {
-    func testCreation() {
+@Suite
+struct AppInfoAppleIDTests {
+    @Test
+    func creation() {
         let appleID = AppInfo.AppleID(rawValue: "test-creation")
-        XCTAssertEqual(appleID.rawValue, "test-creation")
+        #expect(appleID.rawValue == "test-creation")
     }
 
-    func testCreationFromStringLiteral() {
+    @Test
+    func creationFromStringLiteral() {
         let appleID: AppInfo.AppleID = "test"
-        XCTAssertEqual(appleID.rawValue, "test")
+        #expect(appleID.rawValue == "test")
     }
 
-    func testURLAccessors() {
+    @Test
+    func urlAccessors() {
         let appleID = AppInfo.AppleID("12345")
-        XCTAssertEqual(appleID.appStoreURL, URL(string: "https://apps.apple.com/app/id12345"))
-        XCTAssertEqual(appleID.reviewURL, URL(string: "https://apps.apple.com/app/id12345?action=write-review"))
+        #expect(appleID.appStoreURL == URL(string: "https://apps.apple.com/app/id12345"))
+        #expect(appleID.reviewURL == URL(string: "https://apps.apple.com/app/id12345?action=write-review"))
     }
 }

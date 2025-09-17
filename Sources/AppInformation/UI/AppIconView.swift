@@ -26,35 +26,11 @@ public enum AppIconMode: Sendable, Equatable {
     case template
 }
 
-#if compiler(<6)
-@available(macOS 11.0, iOS 13.0, tvOS 13.0, watchOS 6.0, *)
-extension AppIconMode {
-    @frozen
-    @usableFromInline
-    enum EnvKey: EnvironmentKey {
-        @usableFromInline
-        typealias Value = AppIconMode
-
-        @usableFromInline
-        static var defaultValue: Value { .template }
-    }
-}
-#endif
-
 @available(macOS 11.0, iOS 13.0, tvOS 13.0, watchOS 6.0, *)
 extension EnvironmentValues {
-#if compiler(>=6)
     /// The app icon mode. Defaults to ``AppIconMode/template``.
     @Entry
     public var appIconMode: AppIconMode = .template
-#else
-    /// The app icon mode. Defaults to ``AppIconMode/template``.
-    @inlinable
-    public var appIconMode: AppIconMode {
-        get { self[AppIconMode.EnvKey.self] }
-        set { self[AppIconMode.EnvKey.self] = newValue }
-    }
-#endif
 }
 
 /// A simple view showing the app icon using the ``AppIconMode`` of the environment.
@@ -133,9 +109,7 @@ fileprivate extension View {
 }
 
 @available(macOS 11.0, iOS 13.0, tvOS 13.0, watchOS 6.0, *)
-struct AppIconView_Previews: PreviewProvider {
-    static var previews: some View {
-        AppIconView()
-    }
+#Preview {
+    AppIconView()
 }
 #endif

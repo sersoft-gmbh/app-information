@@ -6,8 +6,6 @@
 [![codecov](https://codecov.io/gh/sersoft-gmbh/app-information/branch/main/graph/badge.svg?token=YG42CV07HM)](https://codecov.io/gh/sersoft-gmbh/app-information)
 [![Docs](https://img.shields.io/badge/-documentation-informational)](https://sersoft-gmbh.github.io/app-information)
 
-A simple package for storing as well as showing app infos.
-
 ## Installation
 
 Add the following dependency to your `Package.swift`:
@@ -16,31 +14,6 @@ Add the following dependency to your `Package.swift`:
 ```
 
 Or add it via Xcode (as of Xcode 11).
-
-## Usage
-
-To use this package, you can use the `AppInfo` and `AppInfo.AppleID` models to store app information.
-For SwiftUI applications, there's an environment value `appInfo` that by default returns the current app's information.
-
-The following information is stored in the `AppInfo` (incl. where it's read from):
-
--   `identifier`: -> `Bundle.bundleIdentifier` or `ProcessInfo.processIdentifier`
--   `names.unlocalized.base` -> `Bundle.infoDictionary["CFBundleName"]` or `ProcessInfo.processName`
--   `names.unlocalized.display` -> `Bundle.infoDictionary["CFBundleDisplayName"]`
--   `names.localized.base` -> `Bundle.localizedInfoDictionary["CFBundleName"]`
--   `names.localized.display` -> `Bundle.localizedInfoDictionary["CFBundleDisplayName"]`
--   `versioning.version` -> `Bundle.infoDictionary["CFBundleShortVersionString"]` or `"1.0.0"`
--   `versioning.build` -> `Bundle.infoDictionary["CFBundleVersion"]` or `"1"`
--   `copyright` -> `"NSHumanReadableCopyright"` in either the localized or unlocalized info dictionary of the `Bundle`.
--   `appleID` -> `Bundle.infoDictionary["AppInformationAppleID"]`
-
-The `AppInfo.AppleID` model can be used to e.g. generate app store page urls for showing the app in the app store or directly linking to the page where the user can write a review.
-
-## Possible Features
-
-While not yet integrated, the following features might provide added value and could make it into this package in the future:
-
--   Potentially read more values.
 
 ## Documentation
 

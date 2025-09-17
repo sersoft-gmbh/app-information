@@ -95,7 +95,7 @@ extension AppInfo.Naming {
         infoDict?["CFBundleDisplayName"] as? String
     }
 
-    init(infoDict: Dictionary<String, Any>?, localizedInfoDict: Dictionary<String, Any>?) {
+    internal init(infoDict: Dictionary<String, Any>?, localizedInfoDict: Dictionary<String, Any>?) {
         self.init(
             unlocalized: (
                 base: Self.readBaseName(from: infoDict) ?? ProcessInfo.processInfo.processName,
@@ -112,7 +112,7 @@ extension AppInfo.Naming {
 }
 
 extension AppInfo.Versioning {
-    init(infoDict: Dictionary<String, Any>?) {
+    internal init(infoDict: Dictionary<String, Any>?) {
         version = infoDict?["CFBundleShortVersionString"] as? String ?? "1.0.0"
         build = infoDict?["CFBundleVersion"] as? String ?? "1"
     }
@@ -126,38 +126,12 @@ extension AppInfo {
 #if canImport(SwiftUI)
 public import SwiftUI
 
-#if compiler(<6)
-@available(macOS 10.15, iOS 13.0, tvOS 13.0, watchOS 6.0, *)
-extension AppInfo {
-    @frozen
-    @usableFromInline
-    enum EnvKey: EnvironmentKey {
-        @usableFromInline
-        typealias Value = AppInfo
-
-        @inlinable
-        static var defaultValue: Value { .current }
-    }
-}
-#endif
-
 @available(macOS 10.15, iOS 13.0, tvOS 13.0, watchOS 6.0, *)
 extension EnvironmentValues {
-#if compiler(>=6)
     /// The environment's application information. Defaults to the current application's information.
     /// Note that if you want to specify the app's AppleID in code, you can use ``View/transformEnvironment``
     /// to be able to modify the current app info and for example set the ``AppInfo/appleID`` property.
     @Entry
     public var appInfo = AppInfo.current
-#else
-    /// The environment's application information. Defaults to the current application's information.
-    /// Note that if you want to specify the app's AppleID in code, you can use ``View/transformEnvironment``
-    /// to be able to modify the current app info and for example set the ``AppInfo/appleID`` property.
-    @inlinable
-    public var appInfo: AppInfo {
-        get { self[AppInfo.EnvKey.self] }
-        set { self[AppInfo.EnvKey.self] = newValue }
-    }
-#endif
 }
 #endif

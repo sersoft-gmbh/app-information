@@ -35,16 +35,14 @@ fileprivate extension Font {
 }
 
 @available(macOS 11.0, iOS 13.0, tvOS 13.0, watchOS 6.0, *)
-struct ApplicationDetailsView_Previews: PreviewProvider {
-    static var previews: some View {
-        ApplicationDetailsView()
-            .environment(\.appInfo,
-                          .init(identifier: "de.sersoft.testapp",
-                                names: .init(unlocalized: (base: "TestApp",
-                                                           display: "Test App"),
-                                             localized: (nil, nil)),
-                                versioning: .init(version: "1.0.0", build: "1")
-                               ))
-    }
+#Preview {
+    ApplicationDetailsView()
+        .environment(\.appInfo,
+                      .init(identifier: "de.sersoft.testapp",
+                            names: .init(unlocalized: (base: "TestApp",
+                                                       display: "Test App"),
+                                         localized: (nil, nil)),
+                            versioning: .init(version: "1.0.0", build: "1")
+                           ))
 }
 #endif
