@@ -9,7 +9,7 @@ fileprivate let swiftUIAvailable = false
 #endif
 
 @Suite
-struct AppInfoTests: ~Copyable {
+final class AppInfoTests {
     private let bundleURL: URL
     private var bundlePath: String { bundleURL.path }
 
