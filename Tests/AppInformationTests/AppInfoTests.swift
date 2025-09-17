@@ -3,6 +3,9 @@ import Testing
 @testable import AppInformation
 #if canImport(SwiftUI)
 import SwiftUI
+fileprivate let swiftUIAvailable = true
+#else
+fileprivate let swiftUIAvailable = false
 #endif
 
 @Suite
@@ -184,13 +187,7 @@ struct AppInfoTests: ~Copyable {
         #expect(versioning.combined == "1.2.3 (42)")
     }
 
-    @Test(.enabled(if: {
-#if canImport(SwiftUI)
-        true
-#else
-        false
-#endif
-    }()))
+    @Test(.enabled(if: swiftUIAvailable))
     @available(macOS 10.15, iOS 13.0, tvOS 13.0, watchOS 6.0, *)
     func swiftUIEnvironment() throws {
 #if canImport(SwiftUI)
