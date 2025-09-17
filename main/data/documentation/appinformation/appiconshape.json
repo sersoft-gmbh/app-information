@@ -124,6 +124,7 @@
     {
       "identifiers" : [
         "doc:\/\/AppInformation\/s8SendableP",
+        "doc:\/\/AppInformation\/s16SendableMetatypeP",
         "doc:\/\/AppInformation\/7SwiftUI10AnimatableP",
         "doc:\/\/AppInformation\/7SwiftUI5ShapeP",
         "doc:\/\/AppInformation\/7SwiftUI4ViewP"
@@ -200,7 +201,10 @@
 },
 "doc://AppInformation/documentation/AppInformation": {
   "abstract" : [
-
+    {
+      "text" : "A simple package for storing as well as showing app infos.",
+      "type" : "text"
+    }
   ],
   "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation",
   "kind" : "symbol",
@@ -367,6 +371,11 @@
   "title" : "path(in:)",
   "type" : "topic",
   "url" : "\/documentation\/appinformation\/appiconshape\/path(in:)"
+},
+"doc://AppInformation/s16SendableMetatypeP": {
+  "identifier" : "doc:\/\/AppInformation\/s16SendableMetatypeP",
+  "title" : "Swift.SendableMetatype",
+  "type" : "unresolvable"
 },
 "doc://AppInformation/s8SendableP": {
   "identifier" : "doc:\/\/AppInformation\/s8SendableP",

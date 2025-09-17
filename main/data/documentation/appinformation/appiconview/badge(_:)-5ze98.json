@@ -234,7 +234,7 @@
               "type" : "text"
             },
             {
-              "text" : "appear only in list rows, tab bars, and menus.",
+              "text" : "appear in list rows, tab bars, toolbar items, and menus.",
               "type" : "text"
             }
           ],
@@ -344,7 +344,10 @@
 "references": {
 "doc://AppInformation/documentation/AppInformation": {
   "abstract" : [
-
+    {
+      "text" : "A simple package for storing as well as showing app infos.",
+      "type" : "text"
+    }
   ],
   "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation",
   "kind" : "symbol",

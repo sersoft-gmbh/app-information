@@ -85,7 +85,7 @@
     ],
     "remoteSource" : {
       "fileName" : "AppIconView.swift",
-      "url" : "https:\/\/github.com\/sersoft-gmbh\/app-information\/blob\/refs\/heads\/main\/Sources\/AppInformation\/UI\/AppIconView.swift#L62"
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/app-information\/blob\/refs\/heads\/main\/Sources\/AppInformation\/UI\/AppIconView.swift#L38"
     },
     "role" : "symbol",
     "roleHeading" : "Structure",
@@ -138,6 +138,7 @@
     {
       "identifiers" : [
         "doc:\/\/AppInformation\/s8SendableP",
+        "doc:\/\/AppInformation\/s16SendableMetatypeP",
         "doc:\/\/AppInformation\/7SwiftUI4ViewP"
       ],
       "kind" : "relationships",
@@ -208,7 +209,10 @@
 },
 "doc://AppInformation/documentation/AppInformation": {
   "abstract" : [
-
+    {
+      "text" : "A simple package for storing as well as showing app infos.",
+      "type" : "text"
+    }
   ],
   "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation",
   "kind" : "symbol",
@@ -458,6 +462,11 @@
   "title" : "rounded(withHeight:)",
   "type" : "topic",
   "url" : "\/documentation\/appinformation\/appiconview\/rounded(withheight:)"
+},
+"doc://AppInformation/s16SendableMetatypeP": {
+  "identifier" : "doc:\/\/AppInformation\/s16SendableMetatypeP",
+  "title" : "Swift.SendableMetatype",
+  "type" : "unresolvable"
 },
 "doc://AppInformation/s8SendableP": {
   "identifier" : "doc:\/\/AppInformation\/s8SendableP",

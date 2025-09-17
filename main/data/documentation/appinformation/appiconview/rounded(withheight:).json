@@ -138,7 +138,7 @@
     ],
     "remoteSource" : {
       "fileName" : "AppIconView.swift",
-      "url" : "https:\/\/github.com\/sersoft-gmbh\/app-information\/blob\/refs\/heads\/main\/Sources\/AppInformation\/UI\/AppIconView.swift#L107"
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/app-information\/blob\/refs\/heads\/main\/Sources\/AppInformation\/UI\/AppIconView.swift#L83"
     },
     "role" : "symbol",
     "roleHeading" : "Instance Method",
@@ -276,7 +276,10 @@
 "references": {
 "doc://AppInformation/documentation/AppInformation": {
   "abstract" : [
-
+    {
+      "text" : "A simple package for storing as well as showing app infos.",
+      "type" : "text"
+    }
   ],
   "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation",
   "kind" : "symbol",

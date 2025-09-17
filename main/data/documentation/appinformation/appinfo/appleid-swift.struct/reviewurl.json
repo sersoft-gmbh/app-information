@@ -51,7 +51,7 @@
     ],
     "remoteSource" : {
       "fileName" : "AppInfo+AppleID.swift",
-      "url" : "https:\/\/github.com\/sersoft-gmbh\/app-information\/blob\/refs\/heads\/main\/Sources\/AppInformation\/Model\/AppInfo+AppleID.swift#L31"
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/app-information\/blob\/refs\/heads\/main\/Sources\/AppInformation\/Model\/AppInfo+AppleID.swift#L27"
     },
     "role" : "symbol",
     "roleHeading" : "Instance Property",
@@ -132,7 +132,10 @@
 "references": {
 "doc://AppInformation/documentation/AppInformation": {
   "abstract" : [
-
+    {
+      "text" : "A simple package for storing as well as showing app infos.",
+      "type" : "text"
+    }
   ],
   "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation",
   "kind" : "symbol",

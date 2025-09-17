@@ -88,7 +88,8 @@
       "identifiers" : [
         "doc:\/\/AppInformation\/SQ",
         "doc:\/\/AppInformation\/SH",
-        "doc:\/\/AppInformation\/s8SendableP"
+        "doc:\/\/AppInformation\/s8SendableP",
+        "doc:\/\/AppInformation\/s16SendableMetatypeP"
       ],
       "kind" : "relationships",
       "title" : "Conforms To",
@@ -149,7 +150,10 @@
 },
 "doc://AppInformation/documentation/AppInformation": {
   "abstract" : [
-
+    {
+      "text" : "A simple package for storing as well as showing app infos.",
+      "type" : "text"
+    }
   ],
   "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation",
   "kind" : "symbol",
@@ -351,6 +355,11 @@
   "title" : "version",
   "type" : "topic",
   "url" : "\/documentation\/appinformation\/appinfo\/versioning-swift.struct\/version"
+},
+"doc://AppInformation/s16SendableMetatypeP": {
+  "identifier" : "doc:\/\/AppInformation\/s16SendableMetatypeP",
+  "title" : "Swift.SendableMetatype",
+  "type" : "unresolvable"
 },
 "doc://AppInformation/s8SendableP": {
   "identifier" : "doc:\/\/AppInformation\/s8SendableP",
