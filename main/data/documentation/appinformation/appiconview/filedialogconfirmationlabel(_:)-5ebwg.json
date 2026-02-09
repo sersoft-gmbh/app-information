@@ -1,7 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "On macOS, configures the the ",
+      "text" : "On macOS, configures the ",
       "type" : "text"
     },
     {
@@ -379,7 +379,7 @@
 "doc://AppInformation/documentation/AppInformation/AppIconView/fileDialogConfirmationLabel(_:)-5ebwg": {
   "abstract" : [
     {
-      "text" : "On macOS, configures the the ",
+      "text" : "On macOS, configures the ",
       "type" : "text"
     },
     {

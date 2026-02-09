@@ -1,7 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "On macOS, configures the the ",
+      "text" : "On macOS, configures the ",
       "type" : "text"
     },
     {
@@ -313,7 +313,7 @@
 "doc://AppInformation/documentation/AppInformation/ApplicationInfoView/fileDialogMessage(_:)-4qdrs": {
   "abstract" : [
     {
-      "text" : "On macOS, configures the the ",
+      "text" : "On macOS, configures the ",
       "type" : "text"
     },
     {

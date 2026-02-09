@@ -1,7 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "On macOS, configures the the ",
+      "text" : "On macOS, configures the ",
       "type" : "text"
     },
     {
@@ -387,7 +387,7 @@
 "doc://AppInformation/documentation/AppInformation/AppIconView/fileDialogMessage(_:)-2d1v8": {
   "abstract" : [
     {
-      "text" : "On macOS, configures the the ",
+      "text" : "On macOS, configures the ",
       "type" : "text"
     },
     {

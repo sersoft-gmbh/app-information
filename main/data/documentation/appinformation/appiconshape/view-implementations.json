@@ -782,6 +782,7 @@
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconShape\/tableColumnHeaders(_:)",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconShape\/tableStyle(_:)",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconShape\/tag(_:includeOptional:)",
+        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconShape\/task(id:name:executorPreference:priority:file:line:_:)",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconShape\/task(id:priority:_:)",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconShape\/task(priority:_:)",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconShape\/textCase(_:)",
@@ -30482,7 +30483,7 @@
 "doc://AppInformation/documentation/AppInformation/AppIconShape/fileDialogConfirmationLabel(_:)-102y4": {
   "abstract" : [
     {
-      "text" : "On macOS, configures the the ",
+      "text" : "On macOS, configures the ",
       "type" : "text"
     },
     {
@@ -30568,7 +30569,7 @@
 "doc://AppInformation/documentation/AppInformation/AppIconShape/fileDialogConfirmationLabel(_:)-23ah7": {
   "abstract" : [
     {
-      "text" : "On macOS, configures the the ",
+      "text" : "On macOS, configures the ",
       "type" : "text"
     },
     {
@@ -30654,7 +30655,7 @@
 "doc://AppInformation/documentation/AppInformation/AppIconShape/fileDialogConfirmationLabel(_:)-6bew9": {
   "abstract" : [
     {
-      "text" : "On macOS, configures the the ",
+      "text" : "On macOS, configures the ",
       "type" : "text"
     },
     {
@@ -30740,7 +30741,7 @@
 "doc://AppInformation/documentation/AppInformation/AppIconShape/fileDialogConfirmationLabel(_:)-6lp13": {
   "abstract" : [
     {
-      "text" : "On macOS, configures the the ",
+      "text" : "On macOS, configures the ",
       "type" : "text"
     },
     {
@@ -31091,7 +31092,7 @@
 "doc://AppInformation/documentation/AppInformation/AppIconShape/fileDialogMessage(_:)-4v7t8": {
   "abstract" : [
     {
-      "text" : "On macOS, configures the the ",
+      "text" : "On macOS, configures the ",
       "type" : "text"
     },
     {
@@ -31185,7 +31186,7 @@
 "doc://AppInformation/documentation/AppInformation/AppIconShape/fileDialogMessage(_:)-6gy59": {
   "abstract" : [
     {
-      "text" : "On macOS, configures the the ",
+      "text" : "On macOS, configures the ",
       "type" : "text"
     },
     {
@@ -31275,7 +31276,7 @@
 "doc://AppInformation/documentation/AppInformation/AppIconShape/fileDialogMessage(_:)-6pq3q": {
   "abstract" : [
     {
-      "text" : "On macOS, configures the the ",
+      "text" : "On macOS, configures the ",
       "type" : "text"
     },
     {
@@ -31376,7 +31377,7 @@
 "doc://AppInformation/documentation/AppInformation/AppIconShape/fileDialogMessage(_:)-88o15": {
   "abstract" : [
     {
-      "text" : "On macOS, configures the the ",
+      "text" : "On macOS, configures the ",
       "type" : "text"
     },
     {
@@ -31470,7 +31471,7 @@
 "doc://AppInformation/documentation/AppInformation/AppIconShape/fileDialogURLEnabled(_:)": {
   "abstract" : [
     {
-      "text" : "On macOS, configures the the ",
+      "text" : "On macOS, configures the ",
       "type" : "text"
     },
     {
@@ -70086,6 +70087,193 @@
   "title" : "tag(_:includeOptional:)",
   "type" : "topic",
   "url" : "\/documentation\/appinformation\/appiconshape\/tag(_:includeoptional:)"
+},
+"doc://AppInformation/documentation/AppInformation/AppIconShape/task(id:name:executorPreference:priority:file:line:_:)": {
+  "abstract" : [
+    {
+      "text" : "Adds a task to perform before this view appears or when a specified",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "value changes.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "task"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : ">("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "id"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "name"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "executorPreference"
+    },
+    {
+      "kind" : "text",
+      "text" : ": any "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sch",
+      "text" : "TaskExecutor"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "priority"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:ScP",
+      "text" : "TaskPriority"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "file"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "line"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "sending"
+    },
+    {
+      "kind" : "text",
+      "text" : " () "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "async"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s4Voida",
+      "text" : "Void"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconShape\/task(id:name:executorPreference:priority:file:line:_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "task(id:name:executorPreference:priority:file:line:_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/appinformation\/appiconshape\/task(id:name:executorpreference:priority:file:line:_:)"
 },
 "doc://AppInformation/documentation/AppInformation/AppIconShape/task(id:priority:_:)": {
   "abstract" : [
