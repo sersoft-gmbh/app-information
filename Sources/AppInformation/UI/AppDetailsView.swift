@@ -27,9 +27,9 @@ public struct ApplicationDetailsView: View {
 fileprivate extension Font {
     static var appName: Font {
         if #available(iOS 14.0, tvOS 14.0, watchOS 7.0, *) {
-            return .title2
+            .title2
         } else {
-            return .title
+            .title
         }
     }
 }
