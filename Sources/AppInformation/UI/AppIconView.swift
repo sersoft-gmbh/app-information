@@ -40,37 +40,35 @@ public struct AppIconView: View {
     private var mode
 
     public var body: some View {
-        Group {
-            switch mode {
-            case .prerendered(let img):
-                img
+        switch mode {
+        case .prerendered(let img):
+            img
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+                .clipShape(AppIconShape())
+        case .composed(let logoImage,
+                       let logoColor,
+                       let logoPadding,
+                       let logoBackgroundColor):
+            logoImage
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+                .foregroundColor(logoColor)
+                .padding(logoPadding)
+                .background(logoBackgroundColor)
+                .clipShape(AppIconShape())
+        case .template:
+            ZStack {
+                AppIconShape()
+                    .fill(Color.accentColor)
+                    .scaledToFit()
+                Image(systemName: "a")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
-            case .composed(let logoImage,
-                           let logoColor,
-                           let logoPadding,
-                           let logoBackgroundColor):
-                logoImage
-                    .resizable()
-                    .aspectRatio(contentMode: .fit)
-                    .foregroundColor(logoColor)
-                    .padding(logoPadding)
-                    .background(logoBackgroundColor)
-            case .template:
-                Image(systemName: "app")
-                    .resizable()
-                    .aspectRatio(contentMode: .fit)
-                    .foregroundColor(.accentColor)
-                    .overlay(
-                        Image(systemName: "a.circle.fill")
-                            .resizable()
-                            .aspectRatio(contentMode: .fit)
-                            .foregroundColor(.accentColor)
-                            .padding()
-                    )
+                    .foregroundStyle(.background)
+                    .padding()
             }
         }
-        .clipShape(AppIconShape())
     }
 
     /// Creates a new ``AppIconView``.
@@ -111,5 +109,13 @@ fileprivate extension View {
 @available(macOS 11.0, iOS 13.0, tvOS 13.0, watchOS 6.0, *)
 #Preview {
     AppIconView()
+    AppIconView()
+        .environment(\.appIconMode, .composed(logoImage: Image(systemName: "a.circle"),
+                                              logoColor: .yellow,
+                                              logoPadding: .standard,
+                                              backgroundColor: .blue))
+    AppIconView()
+        // The square shape is not centered. That's why it's cut off
+        .environment(\.appIconMode, .prerendered(Image(systemName: "squareshape.fill")))
 }
 #endif

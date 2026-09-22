@@ -38,6 +38,10 @@ public struct ApplicationInfoView: View {
                             versioning: .init(version: "1.0.0", build: "1")
                            ))
         .environment(\.appIconMode,
+                      // The squareshape is not centered... That's why it's cut off
                       .prerendered(Image(systemName: "squareshape.fill")))
+#if os(macOS)
+        .padding()
+#endif
 }
 #endif

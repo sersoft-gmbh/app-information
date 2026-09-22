@@ -44,5 +44,8 @@ fileprivate extension Font {
                                          localized: (nil, nil)),
                             versioning: .init(version: "1.0.0", build: "1")
                            ))
+#if os(macOS)
+        .padding()
+#endif
 }
 #endif
