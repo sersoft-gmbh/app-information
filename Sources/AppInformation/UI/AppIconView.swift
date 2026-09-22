@@ -92,6 +92,7 @@ public struct AppIconView: View {
 }
 
 #if swift(<6.4) && (canImport(AppKit) || canImport(UIKit))
+@available(macOS 11.0, iOS 13.0, tvOS 13.0, watchOS 6.0, *)
 fileprivate extension Color {
     static var _systemBackground: Color {
 #if canImport(AppKit)
