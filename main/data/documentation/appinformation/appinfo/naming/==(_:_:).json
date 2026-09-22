@@ -42,39 +42,11 @@
       },
       {
         "kind" : "text",
-        "text" : "("
-      },
-      {
-        "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:14AppInformation0A4InfoV",
-        "text" : "AppInfo"
+        "text" : "(`Self`"
       },
       {
         "kind" : "text",
-        "text" : "."
-      },
-      {
-        "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:14AppInformation0A4InfoV6NamingV",
-        "text" : "Naming"
-      },
-      {
-        "kind" : "text",
-        "text" : ", "
-      },
-      {
-        "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:14AppInformation0A4InfoV",
-        "text" : "AppInfo"
-      },
-      {
-        "kind" : "text",
-        "text" : "."
-      },
-      {
-        "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:14AppInformation0A4InfoV6NamingV",
-        "text" : "Naming"
+        "text" : ", `Self`"
       },
       {
         "kind" : "text",
@@ -145,23 +117,7 @@
             },
             {
               "kind" : "text",
-              "text" : ": "
-            },
-            {
-              "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo",
-              "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:14AppInformation0A4InfoV",
-              "text" : "AppInfo"
-            },
-            {
-              "kind" : "text",
-              "text" : "."
-            },
-            {
-              "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/Naming",
-              "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:14AppInformation0A4InfoV6NamingV",
-              "text" : "Naming"
+              "text" : ": `Self`"
             },
             {
               "kind" : "text",
@@ -173,23 +129,7 @@
             },
             {
               "kind" : "text",
-              "text" : ": "
-            },
-            {
-              "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo",
-              "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:14AppInformation0A4InfoV",
-              "text" : "AppInfo"
-            },
-            {
-              "kind" : "text",
-              "text" : "."
-            },
-            {
-              "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/Naming",
-              "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:14AppInformation0A4InfoV6NamingV",
-              "text" : "Naming"
+              "text" : ": `Self`"
             },
             {
               "kind" : "text",
@@ -341,39 +281,11 @@
     },
     {
       "kind" : "text",
-      "text" : "("
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:14AppInformation0A4InfoV",
-      "text" : "AppInfo"
+      "text" : "(`Self`"
     },
     {
       "kind" : "text",
-      "text" : "."
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:14AppInformation0A4InfoV6NamingV",
-      "text" : "Naming"
-    },
-    {
-      "kind" : "text",
-      "text" : ", "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:14AppInformation0A4InfoV",
-      "text" : "AppInfo"
-    },
-    {
-      "kind" : "text",
-      "text" : "."
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:14AppInformation0A4InfoV6NamingV",
-      "text" : "Naming"
+      "text" : ", `Self`"
     },
     {
       "kind" : "text",

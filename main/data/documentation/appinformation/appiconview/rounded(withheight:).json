@@ -111,6 +111,20 @@
       {
         "beta" : false,
         "deprecated" : false,
+        "introducedAt" : "13.0",
+        "name" : "iPadOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "13.0",
+        "name" : "Mac Catalyst",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
         "introducedAt" : "11.0",
         "name" : "macOS",
         "unavailable" : false
@@ -128,17 +142,11 @@
         "introducedAt" : "6.0",
         "name" : "watchOS",
         "unavailable" : false
-      },
-      {
-        "beta" : false,
-        "deprecated" : true,
-        "message" : "Use `frame(height:)` instead.",
-        "unavailable" : false
       }
     ],
     "remoteSource" : {
       "fileName" : "AppIconView.swift",
-      "url" : "https:\/\/github.com\/sersoft-gmbh\/app-information\/blob\/refs\/heads\/main\/Sources\/AppInformation\/UI\/AppIconView.swift#L83"
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/app-information\/blob\/refs\/heads\/main\/Sources\/AppInformation\/UI\/AppIconView.swift#L81"
     },
     "role" : "symbol",
     "roleHeading" : "Instance Method",

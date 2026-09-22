@@ -64,6 +64,20 @@
       {
         "beta" : false,
         "deprecated" : false,
+        "introducedAt" : "13.0",
+        "name" : "iPadOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "13.0",
+        "name" : "Mac Catalyst",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
         "introducedAt" : "11.0",
         "name" : "macOS",
         "unavailable" : false
@@ -138,7 +152,6 @@
     {
       "identifiers" : [
         "doc:\/\/AppInformation\/s8SendableP",
-        "doc:\/\/AppInformation\/s16SendableMetatypeP",
         "doc:\/\/AppInformation\/7SwiftUI4ViewP"
       ],
       "kind" : "relationships",
@@ -462,11 +475,6 @@
   "title" : "rounded(withHeight:)",
   "type" : "topic",
   "url" : "\/documentation\/appinformation\/appiconview\/rounded(withheight:)"
-},
-"doc://AppInformation/s16SendableMetatypeP": {
-  "identifier" : "doc:\/\/AppInformation\/s16SendableMetatypeP",
-  "title" : "Swift.SendableMetatype",
-  "type" : "unresolvable"
 },
 "doc://AppInformation/s8SendableP": {
   "identifier" : "doc:\/\/AppInformation\/s8SendableP",

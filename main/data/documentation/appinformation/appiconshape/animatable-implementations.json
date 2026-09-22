@@ -112,10 +112,7 @@
 },
 "doc://AppInformation/documentation/AppInformation/AppIconShape/animatableData": {
   "abstract" : [
-    {
-      "text" : "The data to animate.",
-      "type" : "text"
-    }
+
   ],
   "conformance" : {
     "availabilityPrefix" : [

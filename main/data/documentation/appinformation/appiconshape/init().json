@@ -55,6 +55,20 @@
       {
         "beta" : false,
         "deprecated" : false,
+        "introducedAt" : "13.0",
+        "name" : "iPadOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "13.0",
+        "name" : "Mac Catalyst",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
         "introducedAt" : "11.0",
         "name" : "macOS",
         "unavailable" : false
@@ -76,7 +90,7 @@
     ],
     "remoteSource" : {
       "fileName" : "AppIconShape.swift",
-      "url" : "https:\/\/github.com\/sersoft-gmbh\/app-information\/blob\/refs\/heads\/main\/Sources\/AppInformation\/UI\/AppIconShape.swift#L9"
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/app-information\/blob\/refs\/heads\/main\/Sources\/AppInformation\/UI\/AppIconShape.swift#L13"
     },
     "role" : "symbol",
     "roleHeading" : "Initializer",

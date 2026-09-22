@@ -1,34 +1,4 @@
 {
-  "abstract" : [
-    {
-      "text" : "Returns a new shape that is a stroked copy of ",
-      "type" : "text"
-    },
-    {
-      "code" : "self",
-      "type" : "codeVoice"
-    },
-    {
-      "text" : ", using the",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "contents of ",
-      "type" : "text"
-    },
-    {
-      "code" : "style",
-      "type" : "codeVoice"
-    },
-    {
-      "text" : " to define the stroke characteristics.",
-      "type" : "text"
-    }
-  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -107,6 +77,20 @@
         "deprecated" : false,
         "introducedAt" : "13.0",
         "name" : "iOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "13.0",
+        "name" : "iPadOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "13.0",
+        "name" : "Mac Catalyst",
         "unavailable" : false
       },
       {
@@ -291,34 +275,7 @@
 },
 "doc://AppInformation/documentation/AppInformation/AppIconShape/stroke(style:)": {
   "abstract" : [
-    {
-      "text" : "Returns a new shape that is a stroked copy of ",
-      "type" : "text"
-    },
-    {
-      "code" : "self",
-      "type" : "codeVoice"
-    },
-    {
-      "text" : ", using the",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "contents of ",
-      "type" : "text"
-    },
-    {
-      "code" : "style",
-      "type" : "codeVoice"
-    },
-    {
-      "text" : " to define the stroke characteristics.",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {

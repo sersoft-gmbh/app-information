@@ -1,18 +1,4 @@
 {
-  "abstract" : [
-    {
-      "text" : "Returns the original proposal, with nil components replaced by",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "a small positive value.",
-      "type" : "text"
-    }
-  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -75,6 +61,20 @@
         "deprecated" : false,
         "introducedAt" : "16.0",
         "name" : "iOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "16.0",
+        "name" : "iPadOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "16.0",
+        "name" : "Mac Catalyst",
         "unavailable" : false
       },
       {
@@ -255,18 +255,7 @@
 },
 "doc://AppInformation/documentation/AppInformation/AppIconShape/sizeThatFits(_:)": {
   "abstract" : [
-    {
-      "text" : "Returns the original proposal, with nil components replaced by",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "a small positive value.",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {

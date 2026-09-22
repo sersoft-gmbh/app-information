@@ -44,7 +44,8 @@
       "anchor" : "Instance-Properties",
       "generated" : true,
       "identifiers" : [
-        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/AppleID-swift.struct\/hashValue"
+        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/AppleID-swift.struct\/hashValue",
+        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/AppleID-swift.struct\/rawAttachmentValueRepresentation"
       ],
       "title" : "Instance Properties"
     },
@@ -56,6 +57,14 @@
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/AppleID-swift.struct\/hash(into:)"
       ],
       "title" : "Instance Methods"
+    },
+    {
+      "anchor" : "Type-Methods",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/AppleID-swift.struct\/makeFromRawAttachmentValue(_:)"
+      ],
+      "title" : "Type Methods"
     }
   ],
   "variants" : [
@@ -156,30 +165,7 @@
 },
 "doc://AppInformation/documentation/AppInformation/AppInfo/AppleID-swift.struct/encode(to:)": {
   "abstract" : [
-    {
-      "text" : "Encodes this value into the given encoder, when the type’s ",
-      "type" : "text"
-    },
-    {
-      "code" : "RawValue",
-      "type" : "codeVoice"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "is ",
-      "type" : "text"
-    },
-    {
-      "code" : "String",
-      "type" : "codeVoice"
-    },
-    {
-      "text" : ".",
-      "type" : "text"
-    }
+
   ],
   "conformance" : {
     "availabilityPrefix" : [
@@ -461,34 +447,7 @@
 },
 "doc://AppInformation/documentation/AppInformation/AppInfo/AppleID-swift.struct/init(from:)": {
   "abstract" : [
-    {
-      "text" : "Creates a new instance by decoding from the given decoder, when the",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "type’s ",
-      "type" : "text"
-    },
-    {
-      "code" : "RawValue",
-      "type" : "codeVoice"
-    },
-    {
-      "text" : " is ",
-      "type" : "text"
-    },
-    {
-      "code" : "String",
-      "type" : "codeVoice"
-    },
-    {
-      "text" : ".",
-      "type" : "text"
-    }
+
   ],
   "conformance" : {
     "availabilityPrefix" : [
@@ -575,6 +534,158 @@
   "title" : "init(from:)",
   "type" : "topic",
   "url" : "\/documentation\/appinformation\/appinfo\/appleid-swift.struct\/init(from:)"
+},
+"doc://AppInformation/documentation/AppInformation/AppInfo/AppleID-swift.struct/makeFromRawAttachmentValue(_:)": {
+  "abstract" : [
+
+  ],
+  "conformance" : {
+    "availabilityPrefix" : [
+      {
+        "text" : "Available when",
+        "type" : "text"
+      }
+    ],
+    "conformancePrefix" : [
+      {
+        "text" : "Conforms when",
+        "type" : "text"
+      }
+    ],
+    "constraints" : [
+      {
+        "code" : "RawValue",
+        "type" : "codeVoice"
+      },
+      {
+        "text" : " conforms to ",
+        "type" : "text"
+      },
+      {
+        "code" : "CVAttachmentValueRepresentable",
+        "type" : "codeVoice"
+      },
+      {
+        "text" : ".",
+        "type" : "text"
+      }
+    ]
+  },
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "makeFromRawAttachmentValue"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:9CoreVideo20CVAttachmentRawValueV",
+      "text" : "CVAttachmentRawValue"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Self"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/AppleID-swift.struct\/makeFromRawAttachmentValue(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "makeFromRawAttachmentValue(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/appinformation\/appinfo\/appleid-swift.struct\/makefromrawattachmentvalue(_:)"
+},
+"doc://AppInformation/documentation/AppInformation/AppInfo/AppleID-swift.struct/rawAttachmentValueRepresentation": {
+  "abstract" : [
+
+  ],
+  "conformance" : {
+    "availabilityPrefix" : [
+      {
+        "text" : "Available when",
+        "type" : "text"
+      }
+    ],
+    "conformancePrefix" : [
+      {
+        "text" : "Conforms when",
+        "type" : "text"
+      }
+    ],
+    "constraints" : [
+      {
+        "code" : "RawValue",
+        "type" : "codeVoice"
+      },
+      {
+        "text" : " conforms to ",
+        "type" : "text"
+      },
+      {
+        "code" : "CVAttachmentValueRepresentable",
+        "type" : "codeVoice"
+      },
+      {
+        "text" : ".",
+        "type" : "text"
+      }
+    ]
+  },
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "rawAttachmentValueRepresentation"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:9CoreVideo20CVAttachmentRawValueV",
+      "text" : "CVAttachmentRawValue"
+    }
+  ],
+  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/AppleID-swift.struct\/rawAttachmentValueRepresentation",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "rawAttachmentValueRepresentation",
+  "type" : "topic",
+  "url" : "\/documentation\/appinformation\/appinfo\/appleid-swift.struct\/rawattachmentvaluerepresentation"
 }
 }
 }

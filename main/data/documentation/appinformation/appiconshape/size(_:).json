@@ -1,42 +1,4 @@
 {
-  "abstract" : [
-    {
-      "text" : "Returns a new version of self representing the same shape, but",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "that will ask it to create its path from a rect of ",
-      "type" : "text"
-    },
-    {
-      "code" : "size",
-      "type" : "codeVoice"
-    },
-    {
-      "text" : ". This",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "does not affect the layout properties of any views created from",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "the shape (e.g. by filling it).",
-      "type" : "text"
-    }
-  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -107,6 +69,20 @@
         "deprecated" : false,
         "introducedAt" : "13.0",
         "name" : "iOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "13.0",
+        "name" : "iPadOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "13.0",
+        "name" : "Mac Catalyst",
         "unavailable" : false
       },
       {
@@ -299,42 +275,7 @@
 },
 "doc://AppInformation/documentation/AppInformation/AppIconShape/size(_:)": {
   "abstract" : [
-    {
-      "text" : "Returns a new version of self representing the same shape, but",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "that will ask it to create its path from a rect of ",
-      "type" : "text"
-    },
-    {
-      "code" : "size",
-      "type" : "codeVoice"
-    },
-    {
-      "text" : ". This",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "does not affect the layout properties of any views created from",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "the shape (e.g. by filling it).",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {

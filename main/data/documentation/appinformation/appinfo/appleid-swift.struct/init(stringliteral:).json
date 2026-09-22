@@ -34,24 +34,6 @@
       },
       {
         "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:14AppInformation0A4InfoV",
-        "text" : "AppInfo"
-      },
-      {
-        "kind" : "text",
-        "text" : "."
-      },
-      {
-        "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:14AppInformation0A4InfoV7AppleIDV",
-        "text" : "AppleID"
-      },
-      {
-        "kind" : "text",
-        "text" : "."
-      },
-      {
-        "kind" : "typeIdentifier",
         "preciseIdentifier" : "s:14AppInformation0A4InfoV7AppleIDV17StringLiteralTypea",
         "text" : "StringLiteralType"
       },
@@ -108,26 +90,6 @@
             {
               "kind" : "text",
               "text" : ": "
-            },
-            {
-              "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo",
-              "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:14AppInformation0A4InfoV",
-              "text" : "AppInfo"
-            },
-            {
-              "kind" : "text",
-              "text" : "."
-            },
-            {
-              "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/AppleID-swift.struct",
-              "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:14AppInformation0A4InfoV7AppleIDV",
-              "text" : "AppleID"
-            },
-            {
-              "kind" : "text",
-              "text" : "."
             },
             {
               "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppInfo\/AppleID-swift.struct\/StringLiteralType",
@@ -300,24 +262,6 @@
     {
       "kind" : "text",
       "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:14AppInformation0A4InfoV",
-      "text" : "AppInfo"
-    },
-    {
-      "kind" : "text",
-      "text" : "."
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:14AppInformation0A4InfoV7AppleIDV",
-      "text" : "AppleID"
-    },
-    {
-      "kind" : "text",
-      "text" : "."
     },
     {
       "kind" : "typeIdentifier",

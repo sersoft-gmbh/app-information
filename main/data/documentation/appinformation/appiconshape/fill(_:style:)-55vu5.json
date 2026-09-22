@@ -1,10 +1,4 @@
 {
-  "abstract" : [
-    {
-      "text" : "Fills this shape with a color or gradient.",
-      "type" : "text"
-    }
-  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -115,6 +109,20 @@
       {
         "beta" : false,
         "deprecated" : false,
+        "introducedAt" : "17.0",
+        "name" : "iPadOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "17.0",
+        "name" : "Mac Catalyst",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
         "introducedAt" : "14.0",
         "name" : "macOS",
         "unavailable" : false
@@ -150,6 +158,14 @@
             "macOS"
           ],
           "tokens" : [
+            {
+              "kind" : "attribute",
+              "text" : "@export(implementation)"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
             {
               "kind" : "attribute",
               "text" : "nonisolated"
@@ -272,59 +288,6 @@
         }
       ],
       "kind" : "declarations"
-    },
-    {
-      "kind" : "parameters",
-      "parameters" : [
-        {
-          "content" : [
-            {
-              "inlineContent" : [
-                {
-                  "text" : "The color or gradient to use when filling this shape.",
-                  "type" : "text"
-                }
-              ],
-              "type" : "paragraph"
-            }
-          ],
-          "name" : "content"
-        },
-        {
-          "content" : [
-            {
-              "inlineContent" : [
-                {
-                  "text" : "The style options that determine how the fill renders.",
-                  "type" : "text"
-                }
-              ],
-              "type" : "paragraph"
-            }
-          ],
-          "name" : "style"
-        }
-      ]
-    },
-    {
-      "content" : [
-        {
-          "anchor" : "return-value",
-          "level" : 2,
-          "text" : "Return Value",
-          "type" : "heading"
-        },
-        {
-          "inlineContent" : [
-            {
-              "text" : "A shape filled with the color or gradient you supply.",
-              "type" : "text"
-            }
-          ],
-          "type" : "paragraph"
-        }
-      ],
-      "kind" : "content"
     }
   ],
   "schemaVersion" : {
@@ -407,10 +370,7 @@
 },
 "doc://AppInformation/documentation/AppInformation/AppIconShape/fill(_:style:)-55vu5": {
   "abstract" : [
-    {
-      "text" : "Fills this shape with a color or gradient.",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {

@@ -965,15 +965,6 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:14AppInformation0A4InfoV",
-      "text" : "AppInfo"
-    },
-    {
-      "kind" : "text",
-      "text" : "."
-    },
-    {
-      "kind" : "typeIdentifier",
       "preciseIdentifier" : "s:14AppInformation0A4InfoV7AppleIDV",
       "text" : "AppleID"
     },
@@ -1093,15 +1084,6 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:14AppInformation0A4InfoV",
-      "text" : "AppInfo"
-    },
-    {
-      "kind" : "text",
-      "text" : "."
-    },
-    {
-      "kind" : "typeIdentifier",
       "preciseIdentifier" : "s:14AppInformation0A4InfoV6NamingV",
       "text" : "Naming"
     }
@@ -1136,15 +1118,6 @@
     {
       "kind" : "text",
       "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:14AppInformation0A4InfoV",
-      "text" : "AppInfo"
-    },
-    {
-      "kind" : "text",
-      "text" : "."
     },
     {
       "kind" : "typeIdentifier",

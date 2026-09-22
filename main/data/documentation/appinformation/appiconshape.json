@@ -63,6 +63,20 @@
       {
         "beta" : false,
         "deprecated" : false,
+        "introducedAt" : "13.0",
+        "name" : "iPadOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "13.0",
+        "name" : "Mac Catalyst",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
         "introducedAt" : "11.0",
         "name" : "macOS",
         "unavailable" : false
@@ -126,6 +140,7 @@
         "doc:\/\/AppInformation\/s8SendableP",
         "doc:\/\/AppInformation\/s16SendableMetatypeP",
         "doc:\/\/AppInformation\/7SwiftUI10AnimatableP",
+        "doc:\/\/AppInformation\/7SwiftUI15InsettableShapeP",
         "doc:\/\/AppInformation\/7SwiftUI5ShapeP",
         "doc:\/\/AppInformation\/7SwiftUI4ViewP"
       ],
@@ -155,15 +170,25 @@
       "anchor" : "Instance-Methods",
       "generated" : true,
       "identifiers" : [
+        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconShape\/inset(by:)",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconShape\/path(in:)"
       ],
       "title" : "Instance Methods"
+    },
+    {
+      "anchor" : "Type-Aliases",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconShape\/InsetShape"
+      ],
+      "title" : "Type Aliases"
     },
     {
       "anchor" : "Default-Implementations",
       "generated" : true,
       "identifiers" : [
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconShape\/Animatable-Implementations",
+        "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconShape\/InsettableShape-Implementations",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconShape\/Shape-Implementations",
         "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconShape\/View-Implementations"
       ],
@@ -187,6 +212,11 @@
 "doc://AppInformation/7SwiftUI10AnimatableP": {
   "identifier" : "doc:\/\/AppInformation\/7SwiftUI10AnimatableP",
   "title" : "SwiftUICore.Animatable",
+  "type" : "unresolvable"
+},
+"doc://AppInformation/7SwiftUI15InsettableShapeP": {
+  "identifier" : "doc:\/\/AppInformation\/7SwiftUI15InsettableShapeP",
+  "title" : "SwiftUICore.InsettableShape",
   "type" : "unresolvable"
 },
 "doc://AppInformation/7SwiftUI4ViewP": {
@@ -266,6 +296,48 @@
   "type" : "topic",
   "url" : "\/documentation\/appinformation\/appiconshape\/animatable-implementations"
 },
+"doc://AppInformation/documentation/AppInformation/AppIconShape/InsetShape": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "InsetShape"
+    }
+  ],
+  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconShape\/InsetShape",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "InsetShape"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "AppIconShape.InsetShape",
+  "type" : "topic",
+  "url" : "\/documentation\/appinformation\/appiconshape\/insetshape"
+},
+"doc://AppInformation/documentation/AppInformation/AppIconShape/InsettableShape-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconShape\/InsettableShape-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "InsettableShape Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/appinformation\/appiconshape\/insettableshape-implementations"
+},
 "doc://AppInformation/documentation/AppInformation/AppIconShape/Shape-Implementations": {
   "abstract" : [
 
@@ -320,6 +392,57 @@
   "title" : "init()",
   "type" : "topic",
   "url" : "\/documentation\/appinformation\/appiconshape\/init()"
+},
+"doc://AppInformation/documentation/AppInformation/AppIconShape/inset(by:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "inset"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "by"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14CoreFoundation7CGFloatV",
+      "text" : "CGFloat"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:14AppInformation0A9IconShapeV",
+      "text" : "AppIconShape"
+    }
+  ],
+  "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconShape\/inset(by:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "inset(by:)",
+  "type" : "topic",
+  "url" : "\/documentation\/appinformation\/appiconshape\/inset(by:)"
 },
 "doc://AppInformation/documentation/AppInformation/AppIconShape/path(in:)": {
   "abstract" : [

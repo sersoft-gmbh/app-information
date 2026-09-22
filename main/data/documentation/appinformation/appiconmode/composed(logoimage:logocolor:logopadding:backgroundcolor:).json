@@ -125,15 +125,6 @@
       },
       {
         "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:14AppInformation0A8IconModeO",
-        "text" : "AppIconMode"
-      },
-      {
-        "kind" : "text",
-        "text" : "."
-      },
-      {
-        "kind" : "typeIdentifier",
         "preciseIdentifier" : "s:14AppInformation0A8IconModeO18CompositionPaddingO",
         "text" : "CompositionPadding"
       },
@@ -170,6 +161,20 @@
         "deprecated" : false,
         "introducedAt" : "13.0",
         "name" : "iOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "13.0",
+        "name" : "iPadOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "13.0",
+        "name" : "Mac Catalyst",
         "unavailable" : false
       },
       {
@@ -271,16 +276,6 @@
             {
               "kind" : "text",
               "text" : ": "
-            },
-            {
-              "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconMode",
-              "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:14AppInformation0A8IconModeO",
-              "text" : "AppIconMode"
-            },
-            {
-              "kind" : "text",
-              "text" : "."
             },
             {
               "identifier" : "doc:\/\/AppInformation\/documentation\/AppInformation\/AppIconMode\/CompositionPadding",
@@ -528,15 +523,6 @@
     {
       "kind" : "text",
       "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:14AppInformation0A8IconModeO",
-      "text" : "AppIconMode"
-    },
-    {
-      "kind" : "text",
-      "text" : "."
     },
     {
       "kind" : "typeIdentifier",

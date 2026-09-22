@@ -1,10 +1,4 @@
 {
-  "abstract" : [
-    {
-      "text" : "Describes the way previews for a drop are composed.",
-      "type" : "text"
-    }
-  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -281,10 +275,7 @@
 },
 "doc://AppInformation/documentation/AppInformation/AppIconView/dropPreviewsFormation(_:)": {
   "abstract" : [
-    {
-      "text" : "Describes the way previews for a drop are composed.",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {

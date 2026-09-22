@@ -1,10 +1,4 @@
 {
-  "abstract" : [
-    {
-      "text" : "Sets the style for windows created by interacting with this view.",
-      "type" : "text"
-    }
-  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -285,10 +279,7 @@
 },
 "doc://AppInformation/documentation/AppInformation/ApplicationDetailsView/presentedWindowStyle(_:)": {
   "abstract" : [
-    {
-      "text" : "Sets the style for windows created by interacting with this view.",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {
