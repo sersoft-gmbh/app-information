@@ -102,12 +102,14 @@ fileprivate extension Color {
             return Color(.underPageBackgroundColor)
         }
 #elseif canImport(UIKit)
-#if !os(tvOS)
-        if #available(iOS 15.0, watchOS 8.0, *) {
+#if !os(tvOS) && !os(watchOS)
+        if #available(iOS 15.0, *) {
             return Color(uiColor: .systemBackground)
         } else {
             return Color(.systemBackground)
         }
+#elseif os(watchOS)
+        return .black // all out of luck on watchOS
 #else
         let color = UIColor(dynamicProvider: {
             $0.userInterfaceStyle == .dark ? .white : .black
