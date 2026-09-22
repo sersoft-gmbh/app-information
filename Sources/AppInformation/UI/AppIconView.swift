@@ -53,7 +53,11 @@ public struct AppIconView: View {
             logoImage
                 .resizable()
                 .aspectRatio(contentMode: .fit)
+#if swift(>=6.4)
+                .foregroundStyle(logoColor.map(AnyShapeStyle.init) ?? AnyShapeStyle(.foreground))
+#else
                 .foregroundColor(logoColor)
+#endif
                 .padding(logoPadding)
                 .background(logoBackgroundColor)
                 .clipShape(AppIconShape())
@@ -65,7 +69,15 @@ public struct AppIconView: View {
                 Image(systemName: "a")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
+#if swift(>=6.4)
                     .foregroundStyle(.background)
+#else
+#if canImport(AppKit)
+                    .foregroundColor(Color(nsColor: .underPageBackgroundColor))
+#elseif canImport(UIKit)
+                    .foregroundColor(Color(uiColor: .systemBackground))
+#endif
+#endif
                     .padding()
             }
         }
