@@ -102,11 +102,22 @@ fileprivate extension Color {
             return Color(.underPageBackgroundColor)
         }
 #elseif canImport(UIKit)
-        if #available(iOS 15.0, tvOS 15.0, watchOS 8.0, *) {
+#if !os(tvOS)
+        if #available(iOS 15.0, watchOS 8.0, *) {
             return Color(uiColor: .systemBackground)
         } else {
             return Color(.systemBackground)
         }
+#else
+        let color = UIColor(dynamicProvider: {
+            $0.userInterfaceStyle == .dark ? .white : .black
+        })
+        if #available(tvOS 15.0, *) {
+            return Color(uiColor: color)
+        } else {
+            return Color(color)
+        }
+#endif
 #endif
     }
 }
