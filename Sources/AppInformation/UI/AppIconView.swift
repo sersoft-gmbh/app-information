@@ -71,12 +71,8 @@ public struct AppIconView: View {
                     .aspectRatio(contentMode: .fit)
 #if swift(>=6.4)
                     .foregroundStyle(.background)
-#else
-#if canImport(AppKit)
-                    .foregroundColor(Color(nsColor: .underPageBackgroundColor))
-#elseif canImport(UIKit)
-                    .foregroundColor(Color(uiColor: .systemBackground))
-#endif
+#elseif canImport(AppKit) || canImport(UIKit)
+                    .foregroundColor(._systemBackground)
 #endif
                     .padding()
             }
@@ -94,6 +90,26 @@ public struct AppIconView: View {
         frame(height: height)
     }
 }
+
+#if swift(<6.4) && (canImport(AppKit) || canImport(UIKit))
+fileprivate extension Color {
+    static var _systemBackground: Color {
+#if canImport(AppKit)
+        if #available(macOS 12.0, *) {
+            return Color(nsColor: .underPageBackgroundColor)
+        } else {
+            return Color(.underPageBackgroundColor)
+        }
+#elseif canImport(UIKit)
+        if #available(iOS 15.0, tvOS 15.0, watchOS 8.0, *) {
+            return Color(uiColor: .systemBackground)
+        } else {
+            return Color(.systemBackground)
+        }
+#endif
+    }
+}
+#endif
 
 @available(macOS 11.0, iOS 13.0, tvOS 13.0, watchOS 6.0, *)
 fileprivate extension AppIconMode.CompositionPadding {
